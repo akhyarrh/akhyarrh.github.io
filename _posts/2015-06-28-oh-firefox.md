@@ -12,7 +12,8 @@ Sebelum mulai, ada beberapa hal yang harus kalian perhatikan sebelum baca lebih 
 6. Tes yang dilakukan adalah tes dukungan terhadap **HTML5** dan **CSS3**.
 7. Tes dilakukan dengan mengunjungi [HTML5test][html5test] dan [CSS3test][css3test]
 
-<!--more-->
+[html5test]: https://html5test.com
+[css3test]: http://css3test.com
 
 ![Chrome version used](/assets/img/oh-firefox/chrome-version-tested.png)
 
