@@ -26,7 +26,7 @@ Lalu drag file tersebut ke browser dan itu udah jadi. Simple kan ?
 > <cite>Dave Skylark</cite>
 
 Begitu juga html, dan css, dan javascript, atau web lebih tepatnya.
-Sekedar info bagi kalian yang lebih suka baca dan lupakan, blog yang sementara ini masih simple memiliki banyak baris kode hanya untuk tampilannya. Pernah mikir berapa baris kode HTML yang dimiliki situs-situs kompleks macam [Github](https://github.com/"Github"), [Twitter](https://twitter.com/"Twitter"), [Google](https://google.com/"Google"), atau yang lain ?
+Sekedar info bagi kalian yang lebih suka baca dan lupakan, blog yang sementara ini masih simple memiliki banyak baris kode hanya untuk tampilannya. Pernah mikir berapa baris kode HTML yang dimiliki situs-situs kompleks macam [Github](https://github.com), [Twitter](https://twitter.com), [Google](https://google.com), atau yang lain ?
 
 Disinilah Jekyll berguna. Coba pikir aja, kalo misalnya kita ingin membuat web yang *responsive*, maka paling engga untuk sebaris menu di header untuk di laptop, lalu jadi horizontal di tablet/smartphone, kodenya kan panjang. Kalo menggunakan Jekyll, bikin aja file bernama `navbar.html` di folder `_includes` lalu masukkan di default layout dengan cara `(% include navbar.html %)`, Selesai.
 Simple kan ?

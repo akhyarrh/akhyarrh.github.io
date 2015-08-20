@@ -15,4 +15,4 @@ Segitu aja cukup kan? Kalau ada pertanyaan, PING!!! ke [Twitter][akun-twitter], 
 
 Ciao
 
-[akun-twitter]: https://twitter.com/akhyar_ "@akhyar_"
+[akun-twitter]: https://twitter.com/akhyarrh
