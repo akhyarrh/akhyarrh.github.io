@@ -1,0 +1,19 @@
+// https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+.embed-container {
+  position: relative;
+  height: 0;
+  margin-bottom: 1rem;
+  padding-bottom: 56.25%;
+  padding-top: 1.5rem;
+  overflow: hidden;
+
+  embed,
+  iframe,
+  object {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
