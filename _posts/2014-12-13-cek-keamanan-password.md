@@ -4,8 +4,6 @@ tags: [tips, security]
 ---
 Langsung aja ke [sini](https://howsecureismypassword.net/). Masukin password kamu, nanti bakal otomatis dihitung berapa lama waktu yang dibutuhkan untuk memecahkan password tersebut.
 
-<!--more-->
-
 Screenshot dari netty gue :
 
 ![Screenshot](/assets/img/cek-keamanan-password.png)

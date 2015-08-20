@@ -8,11 +8,9 @@ tags: [css]
 
 Jawabannya simple, **tergantung**. Pendeklarasian `!important` sebenarnya tidak terlalu diperlukan di beberapa bagian. Tapi di beberapa hal, memang terkadang harus dipergunakan. Misalnya di *utility classes* atau di *print style*.
 
-<!--more-->
-
 *Important* artinya penting dalam bahasa indonesia. Buat yang belum tahu, `!important` di CSS biasanya dipergunakan untuk deklarasi style yang sifatnya sangat penting. Walaupun setelahnya ada pendeklarasian style yang juga mengubah *selector* yang sama. Mungkin agak susah dipahami, tapi sedikit contoh mungkin akan membantu.
 
-### Tanpa `!important`
+## Tanpa `!important`
 
 CSS
 
@@ -31,7 +29,7 @@ Hasil:
 
 ![Tanpa !important](/assets/img/tanpa-!important.png)
 
-### Dengan `!important`
+## Dengan `!important`
 
 CSS
 

@@ -4,9 +4,7 @@ tags: [css, desain]
 ---
 Sebelumnya, gue cuman tau pixel karena memang dulu pasar web untuk mobile memang tidak seganas sekarang. Karena sekarang pasar untuk platform mobile (smartphone, f ck u gre n r b ts), jadi penggunaan pixel untuk pengaturan ukuran sedikit kurang fleksibel. Ada 2 biji bocah yang lumayan bikin bingung, yaitu si `em` dan `rem`. Kali ini kita belajar dikit, biar kita bisa moveon dari pixel.
 
-<!--more-->
-
-### `em`
+## `em`
 
 *Relative sizing*. Keren banget istilahnya. Satuan `em` mungkin memang dianjurkan untuk *readability* yang lebih bagus, tapi penerapannya susah. Kalau di desain kita memang jarang terdapat elemen yang di *nesting*, mungkin tidak terlalu susah. Tapi kalo *nesting*, ~~sedikit~~ ribet. Buat yang belum *ngeh*, begini maksud gue *nesting*:
 
@@ -73,7 +71,7 @@ Makanya, `rem` dilahirkan.
 
 Anggap aja ada karnaval lewat dulu.
 
-### `rem`
+## `rem`
 
 `rem`, *root em*, akan selalu melakukan inherit terhadap *root elemen*, yaitu `<html>`. Kebanyakan di css, html akan di set menggunakan `font-size: 62.5%;` jadi setelahnya tetap sama, `1rem` sama dengan `10px`. Begini misalnya:
 
@@ -87,7 +85,7 @@ Mungkin membingungkan, terlihat sama seperti menggunakan `em`, tapi dengan mengg
 
 Gampang. Simpel.
 
-#### Colophon
+## Colophon
 
 Satu-satunya sumber yang menjelaskan dengan bahasa indonesia yang mudah dipahami [disini](http://praktisiweb.com/font-sizing-dengan-rem/). Sumber luar yang lumayan komplit penjelasannya bisa baca [disini](https://j.eremy.net/confused-about-rem-and-em/).
 

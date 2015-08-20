@@ -4,8 +4,6 @@ tags: [jekyll]
 ---
 Beberapa minggu belakangan, terhitung sejak awal masa liburan, gue main-main sama [**Jekyll**](http://jekyllrb.com "Jekyll") dan [**SASS**](http://sass-lang.com "SASS"). Jekyll pada dasarnya bukan blogging platform, bukan juga CMS, tetapi *static site generator*. Fungsinya simple, mengubah apapun yang ada dan dia bisa, jadi sebuah HTML. Simple banget memang, kalo bikin HTML siapapun yang paham apa dasar HTML juga bisa.
 
-<!--more-->
-
 HTML pada dasarnya bisa dikuasai semua orang. Contohnya, coba bikin file, nama terserah, ekstensinya `.html`. Contoh ya gue bikin file namanya `test` dan ekstensinya `.html`. Jadi nama filenya `test.html`. Lalu masukkan kode berikut:
 
 ```html
@@ -21,12 +19,11 @@ HTML pada dasarnya bisa dikuasai semua orang. Contohnya, coba bikin file, nama t
 
 Lalu drag file tersebut ke browser dan itu udah jadi. Simple kan ?
 
-"Lalu bergunanya Jekyll dimana lut ?"
+> Lalu bergunanya Jekyll dimana lut ?
 
-<blockquote>
-<p>Its 2014, dude. Woman are smart now.</p>
-<footer>Dave Skylark</footer>
-</blockquote>
+>Its 2014, dude. Woman are smart now.
+>
+> <cite>Dave Skylark</cite>
 
 Begitu juga html, dan css, dan javascript, atau web lebih tepatnya.
 Sekedar info bagi kalian yang lebih suka baca dan lupakan, blog yang sementara ini masih simple memiliki banyak baris kode hanya untuk tampilannya. Pernah mikir berapa baris kode HTML yang dimiliki situs-situs kompleks macam [Github](https://github.com/"Github"), [Twitter](https://twitter.com/"Twitter"), [Google](https://google.com/"Google"), atau yang lain ?

@@ -4,18 +4,16 @@ tags: [lubuntu, ruby, jekyll]
 ---
 Seperti yang gue bilang di [post sebelumnya]({% post_url 2015-01-25-mengenal-jekyll %}), bahwa gue akan memberikan tutorial tentang cara install **Ruby** dan **Jekyll**. Sebelum kita melangkah ke perjalanan yang lebih jauh, tutorial gue lebih cocok sama yang menggunakan Linux, Ubuntu lebih tepatnya, atau **Lubuntu** lebih tepatnya lagi. Untuk pengguna Mac dan sejenisnya, mungkin kalian bisa menggunakan **Homebrew** tapi cara pemasangannya ga bisa gue jelasin karena gue ga punya Mac. Untuk pengguna Windows dan sejenisnya, ke Google aja ya.
 
-<!--more-->
-
 Jadi pada tutorial kali ini (dan mungkin juga untuk seterusnya), gue cuma coba di Lubuntu, kemungkinan besar juga bisa untuk sesama jenisnya (Ubuntu, Xubuntu, Ubuntu GNOME, dan lain-lain). Buat kalian yang memakai sistem operasi yang lain, bisa diikuti atau cari tutor untuk sistem operasi kalian. Mohon maaf.
 
 Pada dasarnya pemasangan Ruby pada Ubuntu lumayan mudah. Lewat terminal juga bisa. Lalu selanjutnya kita perlu JavaScript runtime, yang paling terkenal adalah [Nodejs](http://nodejs.org).
 
-### Keperluan
+## Keperluan
 - PC, laptop, netbook, smartphone, intinya perangkat yang menggunakan sistem operasi Ubuntu atau sejenisnya
 - Koneksi internet
 - Imajinasi
 
-### Langkah-langkah
+## Langkah-langkah
 
 Menginstal ruby, ruby-dev, bundler, dan nodejs
 

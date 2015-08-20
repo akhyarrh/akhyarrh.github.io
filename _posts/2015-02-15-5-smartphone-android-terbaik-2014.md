@@ -4,9 +4,7 @@ tags: [android, review]
 ---
 Di tahun 2014, banyak *smartphone* Android yang dirilis. Mulai dari yang paling cakep sampai yang paling amburadul, mulai dari yang paling murah sampai yang harganya cukup untuk merebut pacar orang lain. Beragam memang, tapi silakan dinikmati 5 *smartphone* android terbaik menurut gue di tahun 2014. Ingat, ini versi gue pribadi. Hasil didasari oleh kesukaan, percobaan, nonton video di *youtube*, browsing kemana-mana, dan lain-lain. Langsung aja cekidot bruh.
 
-<!--more-->
-
-### 5. Samsung Galaxy Note 4
+## 5. Samsung Galaxy Note 4
 
 {% include youtube id="Tv7C4e8thv0" %}
 
@@ -14,7 +12,7 @@ Di tahun 2014, banyak *smartphone* Android yang dirilis. Mulai dari yang paling 
 
 Btw Galaxy Note 4 pernah gue coba cuman sekali. *Smooth* memang dari animasinya walau gue lebih memilih performa di atas segalanya. Tapi yang jelas kita ga bisa memandang Note 4 sebelah mata.
 
-### 4. Sony Xperia Z3 Compact
+## 4. Sony Xperia Z3 Compact
 
 {% include youtube id="tyADdCXbpfU" %}
 
@@ -22,7 +20,7 @@ Btw Galaxy Note 4 pernah gue coba cuman sekali. *Smooth* memang dari animasinya 
 
 Alasan kenapa Xperia gue taruh di tempat keempat karena gue ga pernah suka sama UI bawaan Sony. Walau banyak OS yang bisa dipilih dari pihak ketiga, tapi agak susah kalo harus menginstal lagi. Malesin banget bruh.
 
-### 3. Motorola Moto X 2014
+## 3. Motorola Moto X 2014
 
 {% include youtube id="BK3YvlOFRTg" %}
 
@@ -30,7 +28,7 @@ Ga perlu alasan lagi, Motorolla memang lagi keren banget. Spesifikasi lengkap bi
 
 Menurut gue minusnya cuman karena ga ada slot SD card dan SIM yang mau dipakai harus dipotong dulu. Selebihnya adalah keajaiban. Harganya $499 atau mungkin sekitaran 6 juta. Masih minat ? Aku sih engga, kalo modal lebih ada bisa aja lah ya buat koleksi.
 
-### 2. OnePlus One
+## 2. OnePlus One
 
 {% include youtube id="Jucredt5IWY" %}
 
@@ -40,7 +38,7 @@ Mulai dari tema yang bisa diganti (gue paling sering pakai tema *stock* atau baw
 
 Gue belum pernah mencoba OnePlus One. Mungkin karena saat ini belum tersedia di Indonesia, bahkan di luar Indonesia pun mendapatkannya cukup susah.
 
-### 1. Nexus 6
+## 1. Nexus 6
 
 {% include youtube id="zCYMABjCt3c" %}
 

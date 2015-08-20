@@ -6,8 +6,6 @@ Ciweks. Gud net. Ya ampun lama ga kesini, jadi banyak jaring laba-laba. Ada bany
 
 Beidewei, mumpung besok gue libur, santai disini dulu deh. Kalo bisa sampe 2014, jadi ceritanya setahun kan. Ga kerasa udah mau 2014 ya. Perasaan kemaren masih sekolah aja.
 
-<!--more-->
-
 Tapi akhir tahun ini yang gue alami benar-benar kosong, null, membosankan, atau entah apapun istilahnya yang sejenis. Membosankan banget men. Bosan sebosan-bosannya bosan. Tiap hari cuma bangun, makan, kuliah, pulang, makan, tidur, bangun, main, tidur lagi. Gitu aja di ulang sampe kiamat.
 
 Sebenernya banyak sih yang bisa di kerjain. Merapikan kamar kost walut yang lebih mirip gudang. Mengetik apa aja yang belum kelar. Cuman otak gue selalu sukses menangkis semua itu. Merapikan kamar kost misalnya, otak gue menciptakan pikiran yang membuat semuanya berubah, walau negara api belum menyerang. Biasanya pikirannya gini : “buat di rapikan, ntar juga berantakan lagi”. Kampret banget kan. Sebelum tidur udah niat kan, niat banget, pokoknya ibarat udah nikah udah gasabar cepetan honey moon. Pokoknya niat banget. Pas udah bangun, ga ada angin, ga ada hujan, ga ada kentut, dan ga ada negara api menyerang, semuanya berubah. Niat yang awalnya udah kenceng banget, seketika hancur. Kan kampret. Kamar gue jadi makin berantakan. Rating hancurnya kamar gue bertambah setiap detik. Sedangkan rating kerapian nya malah cuma bertambah satu angka sebulan sekali.

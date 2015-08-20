@@ -4,8 +4,6 @@ tags: [desain, milestone]
 ---
 ![Speed](/assets/img/2015-06-08_12-32-55.png)
 
-<!--more-->
-
 ![User Experience](/assets/img/2015-06-08_12-32-48.png)
 
 Masih kurang. Banyak banget yang kurang. Kalo yang namanya belajar, akan selalu ada pencapaian. Biasa disebut sebagai [*milestone*](https://en.wikipedia.org/wiki/Milestone_%28project_management%29). Kutip dikit:
@@ -23,3 +21,9 @@ Anggap aja post ini sebagai *milestone* menuju blog yang lebih baik. Walaupun ma
 Entahlah.
 
 *note:* coba sendiri test blog ini di Google PageSpeed Insights [disini](https://developers.google.com/speed/pagespeed/insights/?url=walutisme.com)
+
+[broccoli]: https://github.com/broccolijs/broccoli "Broccoli"
+[google]: https://google.com "Google"
+[grunt]: http://gruntjs.com "Grunt"
+[gulp]: http://gulpjs.com "Gulp"
+[npmjs]: https://www.npmjs.com "NPM"

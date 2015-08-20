@@ -4,8 +4,6 @@ tags: [random]
 ---
 Beberapa hari yang lalu, gue sama temen-temen lagi ngumpul. Seperti biasa, basa-basi ga jelas. Lalu kemudian perbincangan menjadi sedikit serius setelah temen gue mengeluh mengenai kondisi penyimpanan atau memori hape dia mulai habis. Tapi topik kali ini bukan tentang memori hape, tapi pendapat gue tentang memori manusia yang kapasitasnya mungkin tidak akan berkurang. Bahkan mungkin bakalan terus bertambah sampai ke batas yang tidak diketahui.
 
-<!--more-->
-
 **Perhatian!** Sebelum gue bahas lebih lanjut, ingat ya bahwa gue bukan peneliti, bukan orang yang mendalami tentang ilmu ilmiah. Gue orang yang melewati masa SMA di jurusan IPS dan mengenyam kuliah di jurusan TI. Jadi kalian tidak akan menemukan bukti biologis, hasil survey, rumusan kimia, atau yang lainnya. Semuanya murni pendapat pribadi.
 
 Awalnya, saat kita kecil kita mungkin tidak ingat banyak tentang masa kecil kita. Menurut gue hal ini karena pada saat kita kecil kita hanya memiliki 1 bagian penyimpanan memori (selanjutnya gue sebut *blok*). *Blok* ini sedikit berbeda dengan memori. Blok yang gue maksudkan disini adalah tempat semua yang dilihat, didengar, dirasakan, dan berbagai macam hal lainnya yang dialami. Jika kita memutuskan untuk melupakannya, maka kejadian yang berada di dalam blok tidak akan masuk ke dalam memori. Biar gampang, berikut akan gue jelaskan lewat tabel dibawah ini:

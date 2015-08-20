@@ -4,8 +4,6 @@ tags: [game, fps]
 ---
 Apa yang terjadi kalau sejak kecil gue main game ini ?. Pertanyaan itu terlontar saat gue lagi nonton YouTube yang berisi video tentang **Call of Duty : Advanced Warfare**. Walau memang game perang semacam ini hanya boleh dimainkan oleh orang yang cukup umur, tapi gue pernah liat anak umur dibawah 10 tahun main game semacam ini.
 
-<!--more-->
-
 Sedikit info, FPS itu artinya First Person Shoot, atau biasa disebut juga sudut pandang orang pertama. Jadi kita gak liat karakter kita gimana, tapi kita yang jadi karakter tersebut.
 
 > Lalu kenapa lut ? Bukannya kamu main game FPS juga kan ?
@@ -22,4 +20,4 @@ Masalah selanjutnya adalah adanya game FPS online. Warnet-warnet pun banyak meny
 
 Ini masalah serius. Anak-anak yang setiap hari dibesarkan dengan damai dan anak-anak yang setiap hari dibesarkan dengan adegan-adegan peperangan akan berkembang ke arah yang berbeda. Karena anak-anak belum memiliki pemikiran yang mendalam tentang apa yang mereka lihat atau yang mereka dengar. Anak-anak tidak salah, karena mereka belum tahu apa-apa. Seharusnya semua pihak, termasuk pemerintah, harusnya mulai memperhatikan tentang ini. Kalau mereka merasa hal ini tidak berefek apa-apa, apa kita siap kalau nanti harus menerima generasi yang mencintai perang ?
 
-Note : mungkin tidak semua game FPS berisi adegan-adegan sadis, tapi kebanyakan memang bertema peperangan berdasarkan pengamatan aku sendiri
+**Note** : mungkin tidak semua game FPS berisi adegan-adegan sadis, tapi kebanyakan memang bertema peperangan berdasarkan pengamatan aku sendiri
