@@ -1,0 +1,40 @@
+<!-- head -->
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.name }}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="canonical" href="{{ page.url | remove:'index.html' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="sitemap" type="application/xml" title="Sitemap • {{ site.name }}" href="/sitemap.xml">
+  <link rel="alternate" type="application/atom+xml" title="Atom • {{ site.name }}" href="/feed.xml">
+  <link rel="author" href="/humans.txt">
+
+  <!-- Open Graph -->
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:site_name" content="{{ site.name }}">
+  {% if page.title %}
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="article">
+  {% endif %}
+  <meta property="og:url" content="{{ page.url | remove:'index.html' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@akhyarrh">
+  <meta name="twitter:title" content="{% if page.title %} {{ page.title }}{% else %}{{ site.name }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 200 }}{% else %}{{ site.description | truncate: 200 }}{% endif %}">
+
+  <!-- Verification -->
+  <meta name="google-site-verification" content="HDpV-7_B7Y6tq6m1rZ8DLPEq_fHpwZOBinc9wt_NTdQ">
+  <meta name="alexaVerifyID" content="gXuVtj4bXDWiVB_ihCJijNBQNj8">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="/assets/all.css?{{ site.time | date:'%Y%m%d%U%H%S' }}">
+<!-- /head -->
