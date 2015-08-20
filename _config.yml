@@ -16,8 +16,6 @@ timezone: Asia/Jakarta
 host: localhost
 port: 6868
 
-excerpt_separator: <!--more-->
-
 permalink: /post/:title
 relative_permalinks: true
 
