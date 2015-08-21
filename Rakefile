@@ -13,7 +13,7 @@ end
 # rake preview
 desc "Preview site without drafts, useful when writing post"
 task :preview do
-  system "bundle exec jekyll serve --trace"
+  system "JEKYLL_ENV=local bundle exec jekyll serve --trace"
 end
 
 # rake build
