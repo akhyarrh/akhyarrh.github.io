@@ -1,11 +1,14 @@
 ---
 title: Android 6.0 Marshmallow
-tags: [android]
+tags:
+  - android
+  - preview
 ---
+
 Android 6.0 Marshmallow kemungkinan rilis di tahun ini. Mari kita bongkar apa saja yang baru.
 
 > Marshmallow!!! <a href="http://t.co/3JYkCBWD1R">pic.twitter.com/3JYkCBWD1R</a>
-> 
+>
 > <cite><a href="https://twitter.com/davey_burke/status/633324719266115584">Dave Burke (@davey_burke)</a></cite>
 
 Rilisnya Android M masih misteri. Gosip yang beredar mengatakan sekitar Q3 2015, kemungkinan besar bulan September, bersamaan dengan rilisnya Nexus 5 2015 atau Huawei Nexus.
@@ -17,7 +20,7 @@ Sekarang kita bahas beberapa fitur yang menarik. Fitur baru banyak sebenarnya, t
 Singkatnya, sistemnya *opt-in*. Setiap kita memakai aplikasi maka kita memilih aplikasi tersebut mendapatkan ijin apa saja. Berikut kutipan dari AndroidPIT:
 
 > Permissions will now be requested the first time you try to use a feature, not at the point of installation.
-> 
+>
 > <cite>https://www.androidpit.com/android-m-release-date-news-features-name</cite>
 
 Jadi misalnya saat kita buka Path dan mau *check-in*, maka Path akan meminta ijin untuk mengakses lokasi kita. Langsung tolak aja gapapa, nanti bisa kita atur ulang lewat Settings.
