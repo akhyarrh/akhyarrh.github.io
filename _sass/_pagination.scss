@@ -18,6 +18,10 @@
   border: solid #eee;
   border-width: 1px 0;
 
+  .arrow {
+    display: none;
+  }
+
   &:first-child {
     margin-bottom: -1px;
   }
@@ -37,6 +41,10 @@ a.pagination-item:hover {
     float: left;
     width: 50%;
     border-width: 1px;
+
+    .arrow {
+      display: inline;
+    }
 
     &:first-child {
       margin-bottom: 0;
