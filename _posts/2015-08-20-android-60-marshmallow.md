@@ -21,7 +21,7 @@ Singkatnya, sistemnya *opt-in*. Setiap kita memakai aplikasi maka kita memilih a
 
 > Permissions will now be requested the first time you try to use a feature, not at the point of installation.
 >
-> <cite>https://www.androidpit.com/android-m-release-date-news-features-name</cite>
+> <cite><a href="https://www.androidpit.com/android-m-release-date-news-features-name">AndroidPIT</a></cite>
 
 Jadi misalnya saat kita buka Path dan mau *check-in*, maka Path akan meminta ijin untuk mengakses lokasi kita. Langsung tolak aja gapapa, nanti bisa kita atur ulang lewat Settings.
 
