@@ -29,6 +29,7 @@ exclude:
   - LICENSE
   - Rakefile
   - README.md
+  - vendor
 
 sass:
   style: compressed
