@@ -25,8 +25,6 @@ Alt-H1
 Alt-H2
 ------
 
-<!--more-->
-
 ## Emphasis
 
 Emphasis, aka italics, with *asterisks*.
