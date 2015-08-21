@@ -33,6 +33,7 @@ exclude:
 sass:
   style: compressed
 
+highlighter: pygments
 markdown: redcarpet
 redcarpet:
   extensions:
