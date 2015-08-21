@@ -11,14 +11,6 @@ layout: default
         </a>
       </h2>
       <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time> {% for tag in post.tags %}#{{ tag | downcase }} {% endfor %}</p>
-      <!-- {% comment %}
-      {% if post.excerpt %}
-        {{ post.excerpt }}
-        <p><a href="{{ site.baseurl }}{{ post.url }}">Continue reading &raquo;</a></p>
-      {% else %}
-        {{ post.content }}
-      {% endif %}
-      {% endcomment %} -->
     </article>
   {% endfor %}
 </div>
