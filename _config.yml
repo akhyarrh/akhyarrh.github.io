@@ -41,7 +41,6 @@ redcarpet:
     - autolink
     - disable_indented_code_blocks
     - strikethrough
-    - underline
     - highlight
     - quote
 
