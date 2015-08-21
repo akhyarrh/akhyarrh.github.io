@@ -167,12 +167,12 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 Here's our logo (hover to see the title text):
 
 Inline-style:
-![alt text](/assets/images/apple-touch-icon.png "Logo Title Text 1")
+![alt text](/assets/img/apple-touch-icon.png "Logo Title Text 1")
 
 Reference-style:
 ![alt text][logo]
 
-[logo]: /assets/images/apple-touch-icon.png "Logo Title Text 2"
+[logo]: /assets/img/apple-touch-icon.png "Logo Title Text 2"
 
 ## Youtube videos
 
