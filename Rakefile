@@ -25,7 +25,7 @@ end
 # rake check_html
 desc "Run html-proofer on _site to check build result"
 task :check_html do
-  system "bundle exec htmlproof _site --disable-external --check-favicon --check-html"
+  system "bundle exec htmlproof _site --only-4xx --check-favicon --check-html"
 end
 
 # rake test
