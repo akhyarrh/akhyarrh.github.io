@@ -1,0 +1,20 @@
+siteEngine: "jekyll"
+siteLocalDir: "/home/akhyar/Project/akhyarrh.github.io"
+siteDraftsDir: "_drafts/"
+sitePostsDir: "_posts/"
+siteImagesDir: "assets/img/"
+siteUrl: "http://walutisme.com"
+urlForCategories: "http://localhost:6868/categories.json"
+urlForPosts: "http://localhost:6868/posts.json"
+urlForTags: "http://localhost:6868/tags.json"
+fileExtension: ".md"
+newPostFileName: "{year}-{month}-{day}-{title}{extension}"
+frontMatter: """
+---
+title: "<title>"
+date: "<date>"
+---
+"""
+imageTag: "![<alt>](<src>)"
+textStyles:
+  italic: before: "*", after: "*"
