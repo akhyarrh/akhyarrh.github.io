@@ -1,7 +1,9 @@
+require "rake"
+
 # rake optim
 desc "Optimize images"
 task :optim do
-  system "bundle exec image_optim assets/img -r --no-pngout --no-svgo"
+  system "bundle exec image_optim assets/img -r"
 end
 
 # rake serve
