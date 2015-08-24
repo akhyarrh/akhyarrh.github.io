@@ -1,3 +1,12 @@
+// Variables
+//
+// Using variables are easier
+
+$brand-color:  #268bd2;
+$gray-base:    #515151;
+$gray-dark:    darken($gray-base, 20%);
+$gray-light:   lighten($gray-base, 20%);
+
 // Body resets
 //
 // Update the foundational and global aspects of the page.
@@ -25,7 +34,7 @@ html {
 }
 
 body {
-  color: #515151;
+  color: $gray-base;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -33,7 +42,7 @@ body {
 
 // No `:visited` state is required by default (browsers will use `a`)
 a {
-  color: #268bd2;
+  color: $brand-color;
   text-decoration: none;
 
   // `:focus` is linked to `:hover` for basic accessibility
