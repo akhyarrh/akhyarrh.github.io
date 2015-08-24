@@ -14,7 +14,6 @@ author:
 timezone: Asia/Jakarta
 
 host: localhost
-port: 6868
 
 permalink: /post/:title
 relative_permalinks: true
