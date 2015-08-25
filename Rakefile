@@ -9,13 +9,13 @@ end
 # rake serve
 desc "Serve site with drafts and watch changes"
 task :serve do
-  system "JEKYLL_ENV=local bundle exec jekyll serve --trace --drafts"
+  system "JEKYLL_ENV=local bundle exec jekyll serve --trace --drafts --config _config.yml,_config-local.yml"
 end
 
 # rake preview
 desc "Preview site without drafts, useful when writing post"
 task :preview do
-  system "JEKYLL_ENV=local bundle exec jekyll serve --trace"
+  system "JEKYLL_ENV=local bundle exec jekyll serve --trace --config _config.yml,_config-local.yml"
 end
 
 # rake build
