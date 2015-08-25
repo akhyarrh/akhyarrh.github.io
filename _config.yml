@@ -29,6 +29,11 @@ exclude:
   - Rakefile
   - README.md
   - vendor
+  # exclude markdown writer files on gh-pages
+  # used only on local
+  - categories.json
+  - posts.json
+  - tags.json
 
 sass:
   style: compressed
