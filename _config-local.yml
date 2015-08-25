@@ -1,0 +1,4 @@
+include:
+  - categories.json
+  - posts.json
+  - tags.json
