@@ -4,18 +4,29 @@
 // snippets from Pygments/Rouge and Gist embeds.
 
 code,
-pre {
+kbd,
+pre,
+samp {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 
-code {
+code,
+kbd,
+samp {
   padding: .25em .5em;
   font-size: 85%;
   color: #bf616a;
-  background-color: #f9f9f9;
+  background-color: #eee;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
+}
+
+kbd,
+samp {
+  background-color: $gray-base;
+  color: #fff;
+  padding: 0.25em;
 }
 
 pre {
@@ -36,7 +47,7 @@ pre code {
   margin-bottom: 1rem;
   font-size: .8rem;
   line-height: 1.4;
-  background-color: #f9f9f9;
+  background-color: #eee;
   -webkit-border-radius: .25rem;
      -moz-border-radius: .25rem;
           border-radius: .25rem;
@@ -50,7 +61,7 @@ pre code {
     display: inline-block; // Ensures the null space also isn't selectable
     padding-right: .75rem;
     padding-left: .25rem;
-    color: #999;
+    color: $gray-light;
     // Make sure numbers aren't selectable
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -58,26 +69,3 @@ pre code {
             user-select: none;
   }
 }
-
-
-// Gist via GitHub Pages
-// .gist .gist-file {
-//   font-family: Menlo, Monaco, "Courier New", monospace !important;
-// }
-// .gist .markdown-body {
-//   padding: 15px;
-// }
-// .gist pre {
-//   padding: 0;
-//   background-color: transparent;
-// }
-// .gist .gist-file .gist-data {
-//   font-size: .8rem !important;
-//   line-height: 1.4;
-// }
-// .gist code {
-//   padding: 0;
-//   color: inherit;
-//   background-color: transparent;
-//   border-radius: 0;
-// }
