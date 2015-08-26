@@ -18,7 +18,7 @@ Lagi-lagi saya memilih untuk mencari alternatif lain.
 
 Alternatif kedua: **self-hosted**. Dengan alternatif ini, semua data adalah punya saya. Saya bisa menjamin semua data kalian yang ada di saya akan aman. Pilihan pertama adalah [Juvia](https://github.com/phusion/juvia). Kesan pertama, namanya cantik. Jadi kepikiran nanti kalau punya anak perempuan akan saya kasih nama Juvia. Ruby on Rails (?) seingat saya. Alasan saya tertarik adalah karena Rails. Saya tertarik untuk belajar Rails, walau saat ini masih berjuang mendapatkan resource yang mudah untuk dipelajari dan dipahami.
 
-Pilihan kedua: [HashOver](https://github.com/jacobwb/hashover-next). Kali ini PHP. Sangat populer dan mudah untuk mendapatkan resource sebagai bahan pembelajaran. Di Indonesia mungkin sangat banyak resource untuk belajar PHP tsnps perlu mencari resource dari luar.
+Pilihan kedua: [HashOver](https://github.com/jacobwb/hashover-next). Kali ini PHP. Sangat populer dan mudah untuk mendapatkan resource sebagai bahan pembelajaran. Di Indonesia mungkin sangat banyak resource untuk belajar PHP tanpa perlu mencari resource dari luar.
 
 Masalah yang paling utama dari self-hosted adalah... **BERLEBIHAN!**. Coba saja pikirkan, ini cuma blog yang simpel. Sampai saat ini GitHub sudah memberi lebih dari cukup dengan [GitHub pages](https://pages.github.com). Kalaupun saya memang harus membeli sepaket shared hosting atau bahkan VPS, tapi yang saya perlukan cuma PHP, sedangkan Ruby (Rails) tidak saya temukan di paket hosting yang ditawarkan perusahaan hosting yang ada di Indonesia.
 
