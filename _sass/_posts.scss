@@ -5,14 +5,14 @@
 
 .page,
 .post {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 // Blog post or page title
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: $gray-dark;
 }
 .page-title,
 .post-title {
@@ -25,14 +25,14 @@
   font-style: italic;
   margin-top: -0.3rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: $gray-light;
 }
 
 
 // Related posts
 .related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   border-top: 1px solid #eee;
 }
 
@@ -47,11 +47,11 @@
   li {
     small {
       font-size: 75%;
-      color: #999;
+      color: $gray-light;
     }
 
     a:hover {
-      color: #268bd2;
+      color: $brand-color;
       text-decoration: none;
 
       small {

@@ -6,8 +6,7 @@
 .pagination {
   overflow: hidden; // clearfix
   margin: 0 -1.5rem 1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ccc;
+  color: $gray-light;
   text-align: center;
 }
 
@@ -28,8 +27,9 @@
 }
 
 // Only provide a hover state for linked pagination items
+a.pagination-item:focus,
 a.pagination-item:hover {
-  background-color: #f5f5f5;
+  background-color: #eee;
 }
 
 @media (min-width: 30em) {

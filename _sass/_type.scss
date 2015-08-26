@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: $gray-dark;
   text-rendering: optimizeLegibility;
 }
 
@@ -35,7 +35,7 @@ p {
 }
 
 strong {
-  color: #303030;
+  color: $gray-dark;
 }
 
 ul, ol, dl {
@@ -62,20 +62,20 @@ hr {
 abbr {
   font-size: 85%;
   font-weight: bold;
-  color: #555;
+  color: $gray-light;
   text-transform: uppercase;
 
   &[title] {
     cursor: help;
-    border-bottom: 1px dotted #e5e5e5;
+    border-bottom: 1px dotted #eee;
   }
 }
 
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  color: $gray-light;
+  border-left: .25rem solid #eee;
 
   p:last-child {
     margin-bottom: 0;
