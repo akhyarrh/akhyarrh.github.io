@@ -72,7 +72,7 @@ compress_html:
     envs: [local]
 
 prose:
-  rooturl: [_drafts, _posts]
+  rooturl: _posts
   ignore:
     - _includes
     - _layouts
