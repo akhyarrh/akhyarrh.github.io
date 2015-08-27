@@ -1,5 +1,5 @@
 siteEngine: "jekyll"
-siteLocalDir: "/home/akhyar/Project/akhyarrh.github.io"
+siteLocalDir: "/home/akhyar/project/akhyarrh.github.io"
 siteDraftsDir: "_drafts/"
 sitePostsDir: "_posts/"
 siteImagesDir: "assets/img/"
