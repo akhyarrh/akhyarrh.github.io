@@ -70,3 +70,60 @@ compress_html:
   comments: ["<!-- ", " -->"]
   ignore:
     envs: [local]
+
+prose:
+  rooturl: [_drafts, _posts]
+  ignore:
+    - _includes
+    - _layouts
+    - _sass
+    - assets
+    - _config-local.yml
+    - _config.yml
+    - _mdwriter.cson
+    - categories.json
+    - CNAME
+    - Gemfile
+    - Gemfile.lock
+    - humans.txt
+    - index.html
+    - LICENSE
+    - links.jsonp
+    - posts.json
+    - Rakefile
+    - README.md
+    - tags.json
+  siteurl: http://walutisme.com
+  media: assets/img
+  relativeLinks: http://walutisme.com/links.jsonp
+  metadata:
+    _drafts:
+      - name: 'title'
+        field:
+          element: text
+          label: 'Title'
+      - name: 'date'
+        field:
+          element: hidden
+          value: $CURRENT_DATETIME
+      - name: 'tags'
+        field:
+          element: text
+          label: Tag(s)
+          value: []
+          placeholder: [tag1, tag2, tag3, ...]
+    _posts:
+      - name: 'title'
+        field:
+          element: text
+          label: 'Title'
+      - name: 'date'
+        field:
+          element: hidden
+          value: $CURRENT_DATETIME
+      - name: 'tags'
+        field:
+          element: text
+          label: Tag(s)
+          value: []
+          placeholder: [tag1, tag2, tag3, ...]
