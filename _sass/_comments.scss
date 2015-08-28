@@ -3,9 +3,10 @@
 }
 
 .comments-list {
-  list-style: none;
   margin: 0;
   padding: 0;
+
+  list-style: none;
 
   li {
     margin-bottom: 0.5rem;
@@ -13,20 +14,24 @@
 }
 
 .commenter {
-  font-size: 1.2rem;
-  font-weight: bold;
   display: block;
+
   margin-top: 0;
   margin-bottom: -0.3rem;
+
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .comment-meta {
   color: $gray-light;
+
   font-size: 0.9rem;
 }
 
 .comment-submit {
   padding: 1rem;
+
   border: 1px solid #eee;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
@@ -35,12 +40,13 @@
 
 label {
   display: block;
+
   font-size: 0.9rem;
   font-weight: bold;
 
   span {
-    font-style: italic;
     font-weight: lighter;
+    font-style: italic;
   }
 }
 
@@ -48,16 +54,20 @@ input[type="email"],
 input[type="text"],
 input[type="url"],
 textarea {
-  background-color: #fff;
-  border: 1px solid $gray-light;
   display: inline-block;
-  font-size: 0.9rem;
+
+  width: 100%;
   margin-bottom: 0.3rem;
   padding: 0.3rem 0.5rem;
-  width: 100%;
+
+  border: 1px solid $gray-light;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
+  background-color: #fff;
+
+  font-size: 0.9rem;
+
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -69,16 +79,18 @@ textarea {
 }
 
 textarea {
-  font-family: Menlo, Monaco, "Courier New", monospace;
   resize: vertical;
+
+  font-family: Menlo, Monaco, "Courier New", monospace;
 }
 
 input[type="submit"] {
-  background-color: $brand-color;
+  padding: 0.5rem 1rem;
+
+  color: #fff;
   border-width: 0;
   border-radius: 3px;
-  color: #fff;
-  padding: 0.5rem 1rem;
+  background-color: $brand-color;
 
   &:focus,
   &:hover {

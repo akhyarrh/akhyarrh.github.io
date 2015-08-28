@@ -5,15 +5,20 @@
 
 .pagination {
   overflow: hidden; // clearfix
+
   margin: 0 -1.5rem 1rem;
-  color: $gray-light;
+
   text-align: center;
+
+  color: $gray-light;
 }
 
 // Pagination items can be `span`s or `a`s
 .pagination-item {
   display: block;
+
   padding: 1rem;
+
   border: solid #eee;
   border-width: 1px 0;
 
@@ -39,7 +44,9 @@ a.pagination-item:hover {
 
   .pagination-item {
     float: left;
+
     width: 50%;
+
     border-width: 1px;
 
     .arrow {
@@ -48,6 +55,7 @@ a.pagination-item:hover {
 
     &:first-child {
       margin-bottom: 0;
+
       -webkit-border-top-left-radius: 4px;
           -moz-border-radius-topleft: 4px;
               border-top-left-radius: 4px;
@@ -57,6 +65,7 @@ a.pagination-item:hover {
     }
     &:last-child {
       margin-left: -1px;
+
       -webkit-border-top-right-radius: 4px;
           -moz-border-radius-topright: 4px;
               border-top-right-radius: 4px;

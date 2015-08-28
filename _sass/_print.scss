@@ -4,8 +4,8 @@
   *:after,
   *:first-letter,
   *:first-line {
-    background: transparent !important;
     color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */
+    background: transparent !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
@@ -36,6 +36,7 @@
   pre,
   blockquote {
     border: 1px solid #999;
+
     page-break-inside: avoid;
   }
 
