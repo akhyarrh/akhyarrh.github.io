@@ -4,9 +4,12 @@
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
+
+  color: $gray-dark;
+
   font-weight: bold;
   line-height: 1.25;
-  color: $gray-dark;
+
   text-rendering: optimizeLegibility;
 }
 
@@ -16,16 +19,19 @@ h1 {
 
 h2 {
   margin-top: 1rem;
+
   font-size: 1.5rem;
 }
 
 h3 {
   margin-top: 1.5rem;
+
   font-size: 1.25rem;
 }
 
 h4, h5, h6 {
   margin-top: 1rem;
+
   font-size: 1rem;
 }
 
@@ -53,27 +59,33 @@ dd {
 
 hr {
   position: relative;
+
   margin: 1.5rem 0;
+
   border: 0;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #fff;
 }
 
 abbr {
+  text-transform: uppercase;
+
+  color: $gray-light;
+
   font-size: 85%;
   font-weight: bold;
-  color: $gray-light;
-  text-transform: uppercase;
 
   &[title] {
     cursor: help;
+
     border-bottom: 1px dotted #eee;
   }
 }
 
 blockquote {
-  padding: .5rem 1rem;
   margin: .8rem 0;
+  padding: .5rem 1rem;
+
   color: $gray-light;
   border-left: .25rem solid #eee;
 
@@ -97,13 +109,16 @@ a[href^="#fn:"],
 // Back to footnote link
 a[href^="#fnref:"] {
   display: inline-block;
+
   margin-left: .1rem;
+
   font-weight: bold;
 }
 
 // List of footnotes
 .footnotes {
   margin-top: 2rem;
+
   font-size: 85%;
 }
 
