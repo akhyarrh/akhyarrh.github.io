@@ -1,5 +1,4 @@
 language: ruby
-cache: bundler
 rvm:
   - 2.1.1
 env:
@@ -7,4 +6,5 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 notifications:
   email: false
-script: rake test
+install: gem install github-pages html-proofer
+script: jekyll build --trace && htmlproof _site --only-4xx --check-favicon --check-html
