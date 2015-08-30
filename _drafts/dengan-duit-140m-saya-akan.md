@@ -1,10 +1,9 @@
 ---
-title: Dengan duit 140M Saya akan ...
+title: Dengan Duit 140M Saya akan ...
 date: "2015-08-30 16:30"
 tags: random
 published: true
 ---
-
 
 ... bermalas-malasan selama 10 tahun mungkin. Jujur aja, 140M itu buaaanyak banget OMG my baby hunny. Untuk lebih detil, mari berhitung.
 
@@ -14,7 +13,7 @@ Anggap saja saya akan membangun situs perusahaan bernama **Nectktar** (amin). Ba
 
 Saya memilih TLD **.io**. Saya daftarkan melalui [Google Domains](https://domains.google.com). Detail harga [disini](https://support.google.com/domains/answer/6010092?hl=en#tld).
 
-TLD |Durasi | Harga
+TLD | Durasi | Harga
 :--- | :---: | ---:
 .io | 1 tahun | $60
  | 10 tahun | $600
