@@ -14,7 +14,7 @@ Anggap saja saya akan membangun situs perusahaan bernama **Nectktar** (amin). Ba
 Saya memilih TLD **.io**. Saya daftarkan melalui [Google Domains](https://domains.google.com). Detail harga [disini](https://support.google.com/domains/answer/6010092?hl=en#tld).
 
 TLD | Durasi | Harga
-:--- | :---: | ---:
+:--- | :---: | :---
 .io | 1 tahun | $60
  | 10 tahun | $600
 
@@ -27,7 +27,7 @@ Blog ini ada di GitHub jadi saya belum tahu web hosting yang bagus. Setelah saya
 ![Hosting](/assets/img/hosting.png)
 
 Plan | Durasi | Harga
-:--- | :---: | ---:
+:--- | :---: | :---
 Dedicated server | 1 bulan | $1177
  | 1 tahun | $14124
  | 10 tahun | $141240
