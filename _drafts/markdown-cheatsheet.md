@@ -150,7 +150,9 @@ This line is only separated by a single newline, so it's a separate line in the 
 
 ## Inline HTML
 
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
+<div class="message">
+  You can also use raw <abbr title="Hypertext Markup Language">HTML</abbr> in your Markdown, and it'll mostly work pretty well.
+</div>
 
 <dl>
   <dt>Definition list</dt>
