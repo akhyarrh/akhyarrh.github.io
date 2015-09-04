@@ -14,6 +14,7 @@
 .post-title a {
   color: $gray-dark;
 }
+
 .page-title,
 .post-title {
   margin-top: 0;
@@ -26,7 +27,7 @@
   margin-top: -0.3rem;
   margin-bottom: 1rem;
 
-  color: $gray-light;
+  color: lighten($gray-base, 20%);
 
   font-style: italic;
 }
@@ -37,7 +38,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 
-  border-top: 1px solid #eee;
+  border-top: 1px solid $gray-light;
 }
 
 .related-posts {
@@ -51,7 +52,7 @@
 
   li {
     small {
-      color: $gray-light;
+      color: lighten($gray-base, 20%);
 
       font-size: 75%;
     }

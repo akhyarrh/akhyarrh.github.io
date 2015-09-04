@@ -16,10 +16,10 @@ samp {
   padding: .25em .5em;
 
   color: #bf616a;
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
-  background-color: #eee;
+  -webkit-border-radius: $base-radius;
+     -moz-border-radius: $base-radius;
+          border-radius: $base-radius;
+  background-color: $gray-light;
 
   font-size: 85%;
 }
@@ -28,8 +28,8 @@ kbd,
 samp {
   padding: 0.25em;
 
-  color: #fff;
-  background-color: $gray-base;
+  color: $gray-light;
+  background-color: $gray-dark;
 }
 
 pre {
@@ -51,10 +51,10 @@ pre code {
   margin-bottom: 1rem;
   padding: 1rem;
 
-  -webkit-border-radius: .25rem;
-     -moz-border-radius: .25rem;
-          border-radius: .25rem;
-  background-color: #eee;
+  -webkit-border-radius: $base-radius;
+     -moz-border-radius: $base-radius;
+          border-radius: $base-radius;
+  background-color: $gray-light;
 
   font-size: .8rem;
   line-height: 1.4;
@@ -77,6 +77,6 @@ pre code {
         -ms-user-select: none;
             user-select: none;
 
-    color: $gray-light;
+    color: $gray-base;
   }
 }

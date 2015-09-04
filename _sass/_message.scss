@@ -6,7 +6,7 @@
 .message {
   margin-bottom: 1rem;
   padding: 1rem;
-
-  color: $gray-light;
-  background-color: #eee;
+  border-radius: $base-radius;
+  color: $gray-base;
+  background-color: $gray-light;
 }

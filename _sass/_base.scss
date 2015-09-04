@@ -3,9 +3,11 @@
 // Using variables are easier
 
 $brand-color:  #268bd2;
-$gray-base:    #515151;
-$gray-dark:    darken($gray-base, 20%);
-$gray-light:   lighten($gray-base, 20%);
+$gray-base:    #555;
+$gray-dark:    #111;
+$gray-light:   #eee;
+
+$base-radius:  4px;
 
 // Body resets
 //
@@ -64,9 +66,9 @@ img {
   max-width: 100%;
   margin: 0 0 1rem;
 
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-          border-radius: 5px;
+  -webkit-border-radius: $base-radius;
+     -moz-border-radius: $base-radius;
+          border-radius: $base-radius;
 }
 
 table {
@@ -87,6 +89,7 @@ th {
 }
 
 th {
+  color: $gray-dark;
   text-align: left;
 }
 

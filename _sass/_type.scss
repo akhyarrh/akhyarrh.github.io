@@ -50,6 +50,7 @@ ul, ol, dl {
 }
 
 dt {
+  color: $gray-dark;
   font-weight: bold;
 }
 
@@ -63,14 +64,14 @@ hr {
   margin: 1.5rem 0;
 
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid $gray-light;
   border-bottom: 1px solid #fff;
 }
 
 abbr {
   text-transform: uppercase;
 
-  color: $gray-light;
+  color: lighten($gray-base, 20%);
 
   font-size: 85%;
   font-weight: bold;
@@ -78,7 +79,7 @@ abbr {
   &[title] {
     cursor: help;
 
-    border-bottom: 1px dotted #eee;
+    border-bottom: 1px dotted;
   }
 }
 
@@ -86,8 +87,8 @@ blockquote {
   margin: .8rem 0;
   padding: .5rem 1rem;
 
-  color: $gray-light;
-  border-left: .25rem solid #eee;
+  color: lighten($gray-base, 20%);
+  border-left: .25rem solid $gray-light;
 
   p:last-child {
     margin-bottom: 0;

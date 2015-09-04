@@ -12,10 +12,15 @@
   margin-top: 0;
   margin-bottom: 0;
 
-  color: $gray-base;
+  color: $gray-dark;
 
   a {
-    color: $gray-base;
+    color: $gray-dark;
+
+    &:focus,
+    &:hover {
+      color: $gray-base;
+    }
   }
 
   small {
