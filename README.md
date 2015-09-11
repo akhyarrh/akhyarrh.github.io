@@ -6,4 +6,4 @@ My blog. Beautified by [Poole](https://github.com/poole/poole). [Eel icon](https
 
 Copyright (c) 2015 Muhammad Akhyar Rahman Hidayat
 
-Code under [MIT](LICENSE). Contents under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/).
+Codes and code samples under [MIT](LICENSE). Contents under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/).
