@@ -5,6 +5,8 @@ tags:
   - tips
 ---
 
+![Jahatnya Pendidikan di Indonesia](/assets/img/IMG_20141222_073240_1778772847.jpg)
+
 Dalam sebuah ruangan ada 10 orang. Itu berarti **ada 10 orang yang berbeda**. Masalahnya adalah **berapa orang yang benar-benar sadar bahwa dia berbeda ?**
 
 Semua orang mungkin tahu bahwa mereka berbeda dengan orang lain tapi mereka takut untuk menjadi berbeda. Alasannya bisa bermacam-macam.
