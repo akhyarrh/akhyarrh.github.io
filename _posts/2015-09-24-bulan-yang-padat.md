@@ -16,3 +16,7 @@ Dengan rutinitas seperti di atas, anehnya saya masih sempat baca majalah Popular
 Saya berharap rutinitas semacam ini hanya terjadi bulan ini.
 
 Sayangnya pra skripsi sudah siap menghantui.
+
+Sebagai penutup, selamat hari raya idul adha. Mohon maaf lahir dan batin.
+
+{% include youtube id="2S1peroIPNY" %}
