@@ -1,7 +1,9 @@
+repository: akhyarrh/akhyarrh.github.io
 gems:
   - jemoji
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-github-metadata
 
 name:        "akhyarrh's"
 description: "Blogger • Freak • Gamer • Geek"
