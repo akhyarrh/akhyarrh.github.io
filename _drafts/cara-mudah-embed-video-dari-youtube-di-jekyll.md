@@ -13,49 +13,49 @@ Jekyll pun seperti itu. Memasukkan video ke post di Jekyll memang kebanyakan men
 
 Tapi masalah yang saya jelaskan di atas sudah saya temukan solusinya. *Workaround* yang dipergunakan adalah menggunakan fitur `include` di Jekyll. Di post Adam Harris yang linknya tersedia di bagian akhir post ini menggunakan file bernama `YoutubePlayer.html`, tapi saya ganti nama filenya menjadi `youtube` untuk lebih mudah dipergunakan walau kehilangan *syntax highlight* di editor. Berikut adalah isi dari file `includes/youtube` yang saya pergunakan:
 
-{% raw %}
 ```html
+{% raw %}
 <!-- _includes/youtube -->
 <div class="embed-container">
   <iframe src="//www.youtube.com/embed/{{ include.id }}"></iframe>
 </div>
-```
 {% endraw %}
+```
 
-Untuk penjelasan mengenai *mark-up* di atas bisa [kesini](https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php).
+Untuk penjelasan mengenai *mark-up* HTML di atas bisa [kesini](https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php).
 
 Singkatnya, pengaturan tinggi dan lebar diatur dengan CSS di *parent element* yaitu `<div>` yang diberi `class="embed-container"`. Lalu iframe yang berada di dalam *parent element* dibuat full dengan `height: 100%` dan `width: 100%`.
 
-Lalu {% raw %}`{{ include.id }}`{% endraw %} dipergunakan agar bisa menggunakan {% raw %}`{% include ... id="blablabla"`{% endraw %}
+Lalu `{% raw %}{{ include.id }}{% endraw %}` dipergunakan agar bisa menggunakan `{% raw %}{% include...id="blablabla" %}{% endraw %}`
 
-Untuk menggunakannya di post yang ingin kita tambahkan video, kita tinggal melakukan {% raw %}`{% include youtube id="$YOUTUBE-VIDEO-ID"`{% endraw %} dimana `$YOUTUBE-VIDEO-ID` adalah id dari video yang ingin kita masukkan. Misalnya untuk memasukkan video [Hardwell On Air 235](https://www.youtube.com/watch?v=m3yam6wyBMo) bisa melakukan cara berikut:
+Untuk menggunakannya di post yang ingin kita tambahkan video, kita tinggal melakukan `{% raw %}{% include youtube id="$YOUTUBE-VIDEO-ID" %}{% endraw %}` dimana `$YOUTUBE-VIDEO-ID` adalah id dari video yang ingin kita masukkan. Misalnya untuk memasukkan video [Hardwell On Air 235](https://www.youtube.com/watch?v=m3yam6wyBMo) bisa melakukan cara berikut:
 
+```
 {% raw %}
-```
 {% include youtube id="m3yam6wyBMo" %}
-```
 {% endraw %}
+```
 
 Gampang atau mudah ?
 
 Cara ini tidak hanya untuk video yang berasal dari YouTube, tapi juga untuk layanan lainnya. Misalnya untuk Vimeo bisa menggunakan *mark-up* berikut:
 
-{% raw %}
 ```html
+{% raw %}
 <!-- example: _includes/vimeo -->
 <div class="embed-container">
   <iframe src="//player.vimeo.com/video/{{ include.id }}"></iframe>
 </div>
-```
 {% endraw %}
+```
 
 Lalu lakukan *embed* di post:
 
+```
 {% raw %}
-```
 {% include vimeo id="$VIMEO-VIDEO-ID" %}
-```
 {% endraw %}
+```
 
 ## Colophon
 
