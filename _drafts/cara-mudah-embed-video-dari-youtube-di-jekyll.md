@@ -28,11 +28,11 @@ Singkatnya, pengaturan tinggi dan lebar diatur dengan CSS di *parent element* ya
 
 Lalu `{% raw %}{{ include.id }}{% endraw %}` dipergunakan agar bisa menggunakan `{% raw %}{% include...id="blablabla" %}{% endraw %}`
 
-Untuk menggunakannya di post yang ingin kita tambahkan video, kita tinggal melakukan `{% raw %}{% include youtube id="$YOUTUBE-VIDEO-ID" %}{% endraw %}` dimana `$YOUTUBE-VIDEO-ID` adalah id dari video yang ingin kita masukkan. Misalnya untuk memasukkan video [Hardwell On Air 235](https://www.youtube.com/watch?v=m3yam6wyBMo) bisa melakukan cara berikut:
+Untuk menggunakannya di post yang ingin kita tambahkan video, kita tinggal melakukan `{% raw %}{% include youtube id="$YOUTUBE-VIDEO-ID" %}{% endraw %}` dimana `$YOUTUBE-VIDEO-ID` adalah id dari video yang ingin kita masukkan. Misalnya untuk memasukkan video [Hardwell On Air 236](https://www.youtube.com/watch?v=qCnzav6tFfY) bisa melakukan cara berikut:
 
 ```
 {% raw %}
-{% include youtube id="m3yam6wyBMo" %}
+{% include youtube id="qCnzav6tFfY" %}
 {% endraw %}
 ```
 
@@ -61,6 +61,6 @@ Lalu lakukan *embed* di post:
 
 Bisa dibilang saya ambil dari post Adam Harris. Saya edit sedikit biar lebih gampang dipergunakan. Langsung aja ke [post asli](http://www.adamwadeharris.com/how-to-easily-embed-youtube-videos-in-jekyll-sites-without-a-plugin/) kalau mau baca versi aslinya.
 
-Sebagai penutup, selamat menikmati Hardwell On Air episode 235.
+Sebagai penutup, selamat menikmati Hardwell On Air episode 236.
 
-{% include youtube id="m3yam6wyBMo" %}
+{% include youtube id="qCnzav6tFfY" %}
