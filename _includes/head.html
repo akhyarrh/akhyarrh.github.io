@@ -11,6 +11,17 @@
   <link rel="alternate" type="application/atom+xml" title="Atom • {{ site.name }}" href="/feed.xml">
   <link rel="author" href="/humans.txt">
 
+  {% if paginator.previous_page %}
+  <link rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | remove: 'index.html' }}">
+  {% elsif page.previous %}
+  <link rel="prev" href="{{ page.previous.url | prepend: site.baseurl }}">
+  {% endif %}
+  {% if paginator.next_page %}
+  <link rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl }}">
+  {% elsif page.next %}
+  <link rel="next" href="{{ page.next.url | prepend: site.baseurl }}">
+  {% endif %}
+
   <!-- Open Graph -->
   <meta property="og:locale" content="id_ID">
   <meta property="og:site_name" content="{{ site.name }}">
