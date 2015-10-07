@@ -1,5 +1,5 @@
 ---
-title: Sistem Terdistribusi: Bab 1
+title: "Sistem Terdistribusi: Bab 1"
 ---
 
 <h2 class="text-center">Bab 1</h2>
