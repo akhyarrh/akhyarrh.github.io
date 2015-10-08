@@ -1,5 +1,5 @@
 ---
-title: Cara Mudah Embed Video dari YouTube di Jekyll
+title: Cara Mudah Embed Video di Jekyll
 tags:
   - blogging
   - jekyll
