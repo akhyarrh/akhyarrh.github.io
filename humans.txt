@@ -12,3 +12,7 @@
   Mark Otto <github.com/mdo>
   Guillem Lopez Gurrera <thenounproject.com/droone>
   Sublime Text <sublimetext.com>
+
+# TECHNOLOGY COLOPHON
+  CSS3, HTML5
+  Jekyll, Normalize.css, Ruby, Static-site generator
