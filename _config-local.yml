@@ -1,0 +1,7 @@
+include:
+  - categories.json
+  - posts.json
+  - tags.json
+
+sass
+  style: expanded
