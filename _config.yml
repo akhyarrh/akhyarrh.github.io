@@ -37,6 +37,7 @@ exclude:
   - categories.json
   - posts.json
   - tags.json
+  - script
 
 sass:
   style: compressed
