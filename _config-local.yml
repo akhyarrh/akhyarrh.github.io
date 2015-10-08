@@ -3,5 +3,5 @@ include:
   - posts.json
   - tags.json
 
-sass
+sass:
   style: expanded
