@@ -1,5 +1,5 @@
 ---
-title: "Sistem Terdistribusi: Bab 1"
+title: "Sistem Terdistribusi"
 ---
 
 <h2 class="text-center">Bab 1</h2>
@@ -7,6 +7,8 @@ title: "Sistem Terdistribusi: Bab 1"
 > Apa itu sistem terdistribusi ?
 
 Sistem Terdistribusi adalah sekumpulan komputer otonom yang terhubung ke suatu jaringan, dimana bagi pengguna sistem terlihat sebagai satu komputer.
+
+<!--more-->
 
 Maksud komputer otonom adalah walaupun komputer tidak terhubung ke jaringan, komputer tersebut tetap dapat berjalan.
 
@@ -32,7 +34,7 @@ Jadi sebenarnya jaringan komputer dan sistem terdistribusi itu saling berkaitan 
 > Apakah fungsi atau manfaat dari sistem terdistribusi ?
 
 - Data sharing
-  
+
   Mengijinkan pengguna untuk dapat mengakses data yang sama
 
 - Device sharing
