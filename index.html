@@ -10,7 +10,15 @@ layout: default
           {{ post.title }}
         </a>
       </h2>
-      <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time> {% for tag in post.tags %}#{{ tag | downcase }} {% endfor %}</p>
+      <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>{% capture words %}{{ post.content | number_of_words | minus: 180 }}{% endcapture %}{% unless words contains "-" %} • {{ words | plus: 180 | divided_by: 180 | append: " min read" }}{% endunless %}</p>
+      {% if post.content contains '<!--more-->' %}
+        {{ post.excerpt }}
+      {% else %}
+        {{ post.content }}
+      {% endif %}
+      {% if post.content contains '<!--more-->' %}
+        <a class="readmore-link" href="{{ post.url }}">Continue Reading &raquo;</a>
+      {% endif %}
     </article>
   {% endfor %}
 </div>
