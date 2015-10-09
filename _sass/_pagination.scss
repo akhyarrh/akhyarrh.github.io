@@ -19,7 +19,7 @@
 
   padding: 1rem;
 
-  border: solid #eee;
+  border: solid $gray-light;
   border-width: 1px 0;
 
   .arrow {
@@ -34,7 +34,7 @@
 // Only provide a hover state for linked pagination items
 a.pagination-item:focus,
 a.pagination-item:hover {
-  background-color: #eee;
+  background-color: $gray-light;
 }
 
 @media (min-width: 30em) {
