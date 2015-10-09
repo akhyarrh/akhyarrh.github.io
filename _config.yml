@@ -20,7 +20,7 @@ host: localhost
 permalink: /post/:title
 relative_permalinks: true
 
-paginate: 10
+paginate: 5
 paginate_path: /page/:num
 
 exclude:
@@ -73,3 +73,5 @@ compress_html:
   comments: ["<!-- ", " -->"]
   ignore:
     envs: [local]
+
+excerpt_separator: "<!--more-->"
