@@ -32,3 +32,22 @@
 .text-center {
   text-align: center;
 }
+
+// Style for Continue Reading link
+.readmore-link {
+  border: 1px solid $gray-light;
+  border-radius: $base-radius;
+  padding: 0.5rem;
+
+  &:focus,
+  &:hover {
+    background-color: $gray-light;
+  }
+}
+
+.posts {
+  .post {
+    border-bottom: 1px solid $gray-light;
+    padding-bottom: 1rem;
+  }
+}
