@@ -6,6 +6,8 @@ Haloooo. Selamat malam.. atau mungkin tepatnya selamat pagi. Akhirnya membacot l
 
 Tapi seriusan, pola tidur emang kacau, balau, runyau. Barusan tadi kebangun jam 11 malem. Dan mau tau gue tidurnya jam berapa ? Jam 5. Biar dramatis di ulang deh, JAM 5 PAGI *jeng jeng jreeeeng*. Ini memang bukan masalah, kalo masih libur. Nah masalahnya kalo udah mau masuk kuliah, dan pola tidur ga berubah, itu masalah. Untungnya, temen gue yang kece ngasih saran supel. Caranya gampang, pas tidur jendela kamar jangan di tutup. Gue pernah nyoba dulu sih. Dan sukses… iya sukses. Sukses di keroyok nyamuk -_-
 
+<!--more-->
+
 Ah tapi mari kita lupakan soal tidur. Yang jelas, gue ~~semoga~~ masih bisa bangun pagi dengan bantuan 3 alarm… maksudnya alarm hape 3 biji, sama gedoran pintu kamar oleh temen 1 kost. Ada 4 kan. Yap benar 4. Kalian pinter. Sekarang kenapa kita malah belajar hitungan ga penting.
 
 Btw… ceileh ngomong beidewei. Biar macam anak gaul gitu pake "btw". Btw, gue baru aja ngehapus akun insta punya gue. Ga apa-apa sih, yang follow juga ga ada. Susah emang jadi anak uninstagram. Lah itu uninstagram artinya apaan. Dari mana istilah itu datang.

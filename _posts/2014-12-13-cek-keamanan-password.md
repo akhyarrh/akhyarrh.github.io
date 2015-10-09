@@ -8,6 +8,8 @@ Screenshot dari netty gue :
 
 ![Screenshot](/assets/img/cek-keamanan-password.png)
 
+<!--more-->
+
 Sekedar catatan, nanti password yang kalian masukkan bakal ga kebaca. Bintang-bintang gitu. Masalah kenapa di screenshot gue bisa dibaca itu urusan lain.
 
 Thanks to [this post](http://9gag.com/gag/aAVOZ49) on [9gag](http://9gag.com).

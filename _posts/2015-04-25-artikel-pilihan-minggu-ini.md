@@ -4,6 +4,8 @@ tags: [pilihan]
 ---
 Dalam seminggu, saya terkadang membaca ratusan artikel. Serius. Kadang memang berguna, tapi kadang saya merasa sedikit buang-buang waktu kalau memang artikelnya tidak berbobot. Begitulah, penilaian kadang berbeda. Tapi ada baiknya juga kalau saya bagikan apa yang saya baca selama seminggu belakangan. Anggap saja sebagai referensi kalau kalian juga mau belajar, atau sekedar info bagi yang penasaran sama apa yang saya baca selama seminggu.
 
+<!--more-->
+
 ## 1. Ubuntu 15.04 Vivid Vervet
 Yap. Versi terbaru Ubuntu sudah dirilis. Hal pertama yang saya cari tahu adalah fitur-fitur yang baru. Mulai dari *core*, *kernel*, aplikasi bawaan, dan fitur-fitur baru lainnya. Beberapa yang saya ingat adalah menu di Unity (*desktop environtment* bawaan untuk Ubuntu) yang bisa di atur untuk tidak selalu tersembunyi, *kernel* baru, dan lain-lain. Kalian bisa baca beberapa artikel berikut sebagai referensi lengkapnya:
 

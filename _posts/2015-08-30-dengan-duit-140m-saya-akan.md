@@ -9,6 +9,8 @@ published: true
 
 Anggap saja saya akan membangun situs perusahaan bernama **Nectktar** (amin). Baru langkah awal, saya baru punya 9 karyawan jadi pas 10 dengan saya. Saya akan perlu domain, hosting, CDN, plus biaya untuk akun organisasi di GitHub dan gaji serta jaminan internet untuk 10 orang, artinya saya akan perlu 10 paket internet dan 1 paket internet untuk perusahaan.
 
+<!--more-->
+
 ## Domain
 
 Saya memilih TLD **.io**. Saya daftarkan melalui [Google Domains](https://domains.google.com). Detail harga [disini](https://support.google.com/domains/answer/6010092?hl=en#tld).

@@ -13,6 +13,8 @@ Android 6.0 Marshmallow kemungkinan rilis di tahun ini. Mari kita bongkar apa sa
 
 Rilisnya Android M masih misteri. Gosip yang beredar mengatakan sekitar Q3 2015, kemungkinan besar bulan September, bersamaan dengan rilisnya Nexus 5 2015 atau Huawei Nexus.
 
+<!--more-->
+
 Sekarang kita bahas beberapa fitur yang menarik. Fitur baru banyak sebenarnya, tapi saya hanya akan membahas yang menarik menurut saya.
 
 ## App permissions

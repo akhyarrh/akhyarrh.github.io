@@ -10,6 +10,8 @@ Jawabannya simple, **tergantung**. Pendeklarasian `!important` sebenarnya tidak 
 
 *Important* artinya penting dalam bahasa indonesia. Buat yang belum tahu, `!important` di CSS biasanya dipergunakan untuk deklarasi style yang sifatnya sangat penting. Walaupun setelahnya ada pendeklarasian style yang juga mengubah *selector* yang sama. Mungkin agak susah dipahami, tapi sedikit contoh mungkin akan membantu.
 
+<!--more-->
+
 ## Tanpa `!important`
 
 CSS

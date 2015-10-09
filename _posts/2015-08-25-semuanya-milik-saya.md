@@ -8,6 +8,8 @@ tags:
 
 Masalah lama sebuah situs yang statis: **commenting system**. Itulah alasan kenapa dulu saya sempat menggunakan [komments](https://komments.net). Support markdown dan code block. Sempurna. Awalnya saya pikir bagus, tapi masalahnya adalah JavaScript. Di satu sisi hanya JavaScript satu-satunya alternatif untuk 'menghadirkan' konten yang dinamis di situs yang statis, tapi di sisi lain saya bukan fans JavaScript.
 
+<!--more-->
+
 Pilihan lama datang, [Disqus](https://disqus.com). Saya kembali bingung. Disqus memang bagus, bahkan menurut saya mendekati sempurna. Hanya saja, Disqus tidak *open-source*.
 
 > But there is one problem: Disqus isn’t open source. So we have all these hackers rushing to switch their blogs over to static site generators with Disqus comments, which is effectively an exodus from completely free systems like WordPress to proprietary systems like Disqus.

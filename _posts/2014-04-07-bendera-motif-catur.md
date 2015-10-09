@@ -6,6 +6,8 @@ Banjarmasin, 7 april 2014. Gue lagi di kosan. Bersama segelas kopi dan setumpuk 
 
 Beidewei, cuacanya lagi kampret. Gue berharap mataharinya cerah, agar suasananya bisa sedikit terobati saat menatap langit dikala senja. Cuacanya lagi kelam, ya walau ga terlalu kelam. Setidaknya cuaca kali ini cukup buat bikin gue milih untuk nge-spam di twitter daripada menahan batuk yang makin kencang. Ah ga guna juga hal ini di tuliskan, tapi gue tulis aja lah biar keliatan berguna.
 
+<!--more-->
+
 Keren juga ya 2 paragraf bisa nulis puitis gini. Padahal biasanya gue ga bisa gitu, bahkan ga pernah mungkin. Oh iya, gue lagi nontonin youtube, karena mendadak tertarik sama kata ‘start’. Bisa di bilang start ini permulaan, langkah awal, dan biasanya ini menentukan finish kita gimana. Misalnya aja kalo mau boker, start-nya ya ke toilet dulu, emang ada yang boker di aula. Bisa aja sih boker di aula, aula yang isinya kloset semua.
 
 Menarik ya. Temen gue banyak yang bilang perjuangan saat di tengah yang menentukan, tapi menurut gue langkah awal juga memegang peranan penting. Contoh paling gampang, balapan. Kalo start jelek, susah buat mengambil tempat paling depan. Intinya adalah langkah awal itu penting. Perjuangannya itu utama, dan finishnya itu cuma hasil. Pasti sangat indah kan kalo kalian memulai dengan baik, berjuang dengan sekuat tenaga, dan akhirnya mendapatkan hasil yang pantas.

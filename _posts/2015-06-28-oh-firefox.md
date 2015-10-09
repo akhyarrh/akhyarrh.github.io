@@ -18,6 +18,8 @@ Sebelum mulai, ada beberapa hal yang harus kalian perhatikan sebelum baca lebih 
 
 ![Firefox version used](/assets/img/firefox-version-tested.png)
 
+<!--more-->
+
 ## HTML5 Test
 ### Chrome
 ![Chrome HTML5 Test Result](/assets/img/chrome-html5test-result.png)

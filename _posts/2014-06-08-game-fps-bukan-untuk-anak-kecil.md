@@ -6,6 +6,8 @@ Apa yang terjadi kalau sejak kecil gue main game ini ?. Pertanyaan itu terlonta
 
 Sedikit info, FPS itu artinya First Person Shoot, atau biasa disebut juga sudut pandang orang pertama. Jadi kita gak liat karakter kita gimana, tapi kita yang jadi karakter tersebut.
 
+<!--more-->
+
 > Lalu kenapa lut ? Bukannya kamu main game FPS juga kan ?
 
 Iya. Gue jatuh cinta sama game FPS sejak pertama kali main Call of Duty. Walau sebelumnya Counter Strike lebih terkenal, tapi Call of Duty benar-benar bikin gue jatuh cinta. Masalahnya, game -game semacam ini terkadang menampilkan adegan-adegan yang mengerikan.

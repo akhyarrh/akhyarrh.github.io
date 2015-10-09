@@ -6,6 +6,8 @@ Seperti yang gue bilang di [post sebelumnya]({% post_url 2015-01-25-mengenal-jek
 
 Jadi pada tutorial kali ini (dan mungkin juga untuk seterusnya), gue cuma coba di Lubuntu, kemungkinan besar juga bisa untuk sesama jenisnya (Ubuntu, Xubuntu, Ubuntu GNOME, dan lain-lain). Buat kalian yang memakai sistem operasi yang lain, bisa diikuti atau cari tutor untuk sistem operasi kalian. Mohon maaf.
 
+<!--more-->
+
 Pada dasarnya pemasangan Ruby pada Ubuntu lumayan mudah. Lewat terminal juga bisa. Lalu selanjutnya kita perlu JavaScript runtime, yang paling terkenal adalah [Nodejs](http://nodejs.org).
 
 ## Keperluan

@@ -11,6 +11,8 @@ Memasukkan sebuah video ke post memang hal yang sangat umum dilakukan. Selain me
 
 Jekyll pun seperti itu. Memasukkan video ke post di Jekyll memang kebanyakan menggunakan plugin. Apalagi untuk video yang responsif. Sayangnya untuk yang hosting Jekyll di GitHub penggunaan plugin dilarang karena alasan keamanan.
 
+<!--more-->
+
 Tapi masalah yang saya jelaskan di atas sudah saya temukan solusinya. *Workaround* yang dipergunakan adalah menggunakan fitur `include` di Jekyll. Di post Adam Harris yang linknya tersedia di bagian akhir post ini menggunakan file bernama `YoutubePlayer.html`, tapi saya ganti nama filenya menjadi `youtube` untuk lebih mudah dipergunakan walau kehilangan *syntax highlight* di editor. Berikut adalah isi dari file `includes/youtube` yang saya pergunakan:
 
 ```html

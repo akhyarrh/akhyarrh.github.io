@@ -12,6 +12,8 @@ Bagaimana kalau mereka juga ingin membuat *contact page* menggunakan layanan sep
 
 Bagaimana kalau mereka juga ingin menggunakan *Analytics*, mengadakan survey, membuat laman pembayaran, membuat galeri foto, atau yang lain ?
 
+<!--more-->
+
 Akhirnya saya menjalankan sebuah proyek kecil-kecilan. Awalnya saya jalankan hanya secara pribadi, lalu kemudian [novia](http://github.com/noviandiani) tertarik untuk join. Untuk memudahkan maka boilerplatenya saya pindahkan ke akun [nectktar](http://github.com/nectktar).
 
 ## Mengenal [jekyll-boilerplate](http://github.com/nectktar/jekyll-boilerplate)

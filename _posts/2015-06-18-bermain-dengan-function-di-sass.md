@@ -4,6 +4,8 @@ tags: [desain, sass]
 ---
 Awalnya ingin mendalami lebih jauh mengenai *fuction* di Sass. Akhirnya malah mendarat di [The Sass Way](http://thesassway.com). Di artikel yang berjudul [Using pure Sass functions to make reusable logic more useful](http://thesassway.com/advanced/pure-sass-functions). Lumayan menarik. Makanya aku post. Nanti kalau lupa, udah ada dokumennya jadi ga ribet carinya.
 
+<!--more-->
+
 Ini cuman penerapan yang dasar. Bikin grid yang lebarnya menggunakan persen. Sedikit demo, menggunakan embednya [Codepen](http://codepen.io).
 
 <p data-height="268" data-theme-id="0" data-slug-hash="zGdXzd" data-default-tab="result" data-user="akhyar" class='codepen'>See the Pen <a href='http://codepen.io/akhyar/pen/zGdXzd/'>Bermain dengan function di Sass</a> by Akhyar Rahman (<a href='http://codepen.io/akhyar'>@akhyar</a>) on <a href='http://codepen.io'>CodePen</a>.</p>

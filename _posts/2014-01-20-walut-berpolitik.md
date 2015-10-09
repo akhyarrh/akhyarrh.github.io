@@ -6,6 +6,8 @@ Gue bukan orang yang suka sama dunia politik atau goyang itik, tapi memperhatika
 
 Memang politik Indonesia punya sistem yang bersih tapi aparatnya yang kotor. Makanya gue kalo ngomong politik sama ayah gue, selalu ketemu kalimat, ‘politik itu kotor’. Sebenarnya sistemnya bersih tapi aparatnya memang kotor. Walau ga semuanya sekotor kamar gue, tapi yang jelas karena lebih banyak yang kotor daripada yang tidak, makanya cap kotornya lebih kental.
 
+<!--more-->
+
 Waktu gue masih kecil, cita-cita jadi presiden udah gue tanamkan. Mungkin karena televisi, akhirnya dulu bercita-cita jadi presiden. Sampai galau antara mau jadi pemain bola macam kapten Tsubasa atau mau jadi presiden. Menurut gue keren, jalanan cuman punya kita, negara segede ini punya kita, pacar orang punya kita. Pokoknya semuanya udah jadi milik kita deh.
 
 Lalu sewaktu SMP, jamannya kencing udah ga bisa sembarangan lagi tapi ingus masih kemana-mana, gue mulai berpikir sebenarnya jadi presiden ga sekeren perkiraan gue waktu SD. Entah kenapa, gue malah melihat politik itu seperti dunia yang lebih menakutkan. Rasanya kalo udah masuk dan terjerumus ke dunia politik, keluarnya susah. Musti rehab dulu, sidang sana sini, lalu ke penjara. Mirip pecandu gitu ya jadinya.

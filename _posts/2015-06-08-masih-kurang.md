@@ -10,6 +10,8 @@ Masih kurang. Banyak banget yang kurang. Kalo yang namanya belajar, akan selalu 
 
 > Milestones are tools used in project management to mark specific points along a project timeline. In many instances, milestones do not impact project duration. Instead, they focus on major progress points that must be reached to achieve success.
 
+<!--more-->
+
 Entah sekarang sudah di *milestone* yang keberapa, satu hal yang saya tahu hanyalah terus belajar. Setelah ini mau belajar sedikit *javascript* soalnya keliatan asik. Sambil main-sama beberapa *build tools* juga. [Grunt][grunt] sama [Gulp][gulp] penggunanya lumayan banyak jadi *resource* di internet juga pasti banyak. Tapi [Broccoli][broccoli] juga lumayan bagus kayaknya. Kalo mau lebih berantakan lagi, mungkin pakai [NPM][npmjs] aja yang disulap jadi *build tools*.
 
 Entahlah.

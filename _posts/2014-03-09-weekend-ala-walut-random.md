@@ -4,6 +4,8 @@ tags: [random, android]
 ---
 Banjarbaru, Kalimantan Selatan. Entah tanggal berapa. Gue lagi duduk di kursi paling belakang sebuah mobil. Yep, paling belakang. Alasannya biar tidak di ganggu. Gue lagi sama temen bapak gue. Di perjalanan menuju Martapura. Kita stop di sebuah tempat, untuk istirahat dan makan. Gue sempat kentut sedikit. Ya walau ga penting, tapi biar keliatan penting gue tulis aja.
 
+<!--more-->
+
 Lalu lanjut ke perjalanan lagi, gue kali ini pindah ke depan. Kami cuman berdua, jadi ya mobilnya sepi gitu. Gue duduk, nyalain laptop, buka Youtube, dan ngetik di search box : ‘CM 11’. Ini OS terbaru dari Cyanogen Mod, silakan search di Google untuk lebih lengkap. Lalu kemudian temen bapak gue (selanjutnya kita panggil om biar singkat) nanya ke gue, “Itu apaan ?”. Gue cuman bisa jawab dengan singkat, “Semacam OS Android yang ga resmi”. Beliau mengerutkan dahi, tanda bingung yang sangat jelas. Gue cuman bisa diam, mau ngejelasin tapi nanti takut di bilang sok tahu jadi lebih baik gue diam.
 
 Sekedar info, beliau saat ini memakai iPhone, gue pernah menyarankan beliau untuk memakai Android tapi setelah 2 bulan, beliau berhenti menggunakannya. Padahal saat itu beliau memakai Samsung Galaxy S4, dan alasan kenapa beliau berhenti adalah karena banyak setting yang membingungkan.
