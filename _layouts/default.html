@@ -15,7 +15,14 @@ layout: compress
       <header class="masthead">
         <h3 class="masthead-title">
           <a href="{{ site.baseurl }}/" title="Home">{{ site.name }}</a>
-          <small><a href="/feed.xml">Subscribe</a></small>
+          <small>
+            <a href="mailto:akhyarrh@gmail.com">Contact</a> •
+            <a href="http://github.com/akhyarrh">GitHub</a> •
+            <a href="http://twitter.com/akhyarrh">Twitter</a> •
+            <a href="http://last.fm/user/akhyarrh">Last.fm</a> •
+            <a href="/archives">Archives</a> •
+            <a href="/feed.xml">Feed</a>
+          </small>
         </h3>
       </header>
 
@@ -23,11 +30,11 @@ layout: compress
         {{ content }}
       </main>
 
-      <footer class="footer">
+      <!-- {% raw %} <footer class="footer">
         <small>
           &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> <a href="https://twitter.com/akhyarrh">akhyarrh</a>
         </small>
-      </footer>
+      </footer> {% endraw %} -->
 
     </div>
 
