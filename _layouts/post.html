@@ -11,7 +11,7 @@ layout: default
 
 <nav class="pagination">
   {% if page.next %}
-    <a class="pagination-item previous" href="{{ page.next.url | prepend: site.baseurl }}" title="{{ page.next.title }}" rel="prev">
+    <a class="pagination-item previous" href="{{ page.next.url | prepend: site.baseurl }}" aria-label="{{ page.next.title }}" rel="prev">
       <span class="arrow">&larr;</span> Previous Post
     </a>
   {% else %}
@@ -20,7 +20,7 @@ layout: default
     </span>
   {% endif %}
   {% if page.previous %}
-    <a class="pagination-item next" href="{{ page.previous.url | prepend: site.baseurl }}" title="{{ page.previous.title }}" rel="next">
+    <a class="pagination-item next" href="{{ page.previous.url | prepend: site.baseurl }}" aria-label="{{ page.previous.title }}" rel="next">
       Next Post <span class="arrow">&rarr;</span>
     </a>
   {% else %}
