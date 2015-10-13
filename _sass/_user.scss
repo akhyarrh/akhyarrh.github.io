@@ -42,12 +42,11 @@
   &:focus,
   &:hover {
     background-color: $gray-light;
+    text-decoration: none;
   }
 }
 
-.posts {
-  .post {
-    border-bottom: 1px solid $gray-light;
-    padding-bottom: 1rem;
-  }
+.post {
+  border-bottom: 1px solid $gray-light;
+  padding-bottom: 1.5rem;
 }
