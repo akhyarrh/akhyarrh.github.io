@@ -8,6 +8,8 @@ tags: [markdown, sample]
 
 Taken from [this page](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet).
 
+<!--more-->
+
 ## Headers
 
 # H1
