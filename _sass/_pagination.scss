@@ -35,6 +35,7 @@
 a.pagination-item:focus,
 a.pagination-item:hover {
   background-color: $gray-light;
+  text-decoration: none;
 }
 
 @media (min-width: 30em) {
