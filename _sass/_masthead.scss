@@ -19,7 +19,8 @@
 
     &:focus,
     &:hover {
-      color: $gray-base;
+      color: $brand-color;
+      text-decoration: none;
     }
   }
 
