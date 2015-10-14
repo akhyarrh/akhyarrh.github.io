@@ -83,7 +83,6 @@ prose:
           label: 'Title'
       - name: 'tags'
         field:
-          element: text
+          element: multiselect
           label: Tag(s)
-          value: []
-          placeholder: [tag1, tag2, tag3, ...]
+          options: 'http://walutisme.com/tags.jsonp'
