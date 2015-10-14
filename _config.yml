@@ -30,6 +30,7 @@ exclude:
   - LICENSE
   - Rakefile
   - README.md
+  - script
   - vendor
 
 sass:
