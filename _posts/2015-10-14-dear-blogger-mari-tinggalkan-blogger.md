@@ -1,6 +1,6 @@
 ---
 title: "Dear Blogger, Mari Tinggalkan Blogger"
-tags: "blogging,tips"
+tags: [blogging,tips]
 published: false
 ---
 

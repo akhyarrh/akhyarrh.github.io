@@ -1,6 +1,6 @@
 ---
 title: Setup Custom DNS
-tags: "dns,linux,lubuntu,mint,rafaela,tips"
+tags: [dns,linux,lubuntu,mint,rafaela,tips]
 published: false
 ---
 
