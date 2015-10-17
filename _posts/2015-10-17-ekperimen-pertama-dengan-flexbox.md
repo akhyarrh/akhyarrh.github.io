@@ -66,15 +66,6 @@ Sedangkan CSS untuk markup line 9-12:
 }
 ```
 
-Sedangkan CSS untuk markup line 9-12:
-
-```css
-.row {
-  display: flex;
-  flex-direction: row;
-}
-```
-
 Perhatikan properti `flex-direction`, `main axis` diatur disini dan sifatnya fleksibel. Tergantung kondisi `flow container` (elemen yang memiliki properti `display: flex`). Jika `display: flow` maka di `ltr` (left to right) *flow* `main axis` dari kiri ke kanan. Jika di `rtl` (right to left), maka *flow* `main axis` dari kanan ke kiri.
 
 Bagian paling pentingnya adalah memahami jika `flex-direction` menggunakan properti yang sifatnya 'membalik' posisi elemen. Jika `row-reverse` atau `column-reverse` maka elemen disusun dari `main end` ke `main start`.
