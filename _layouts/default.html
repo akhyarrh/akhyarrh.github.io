@@ -38,14 +38,5 @@ layout: compress
 
     </div>
 
-    <script src="/assets/parse-1.6.7.min.js"></script>
-    <script>
-      Parse.initialize("Zwtn6anBmg9KrxjFBToyNrqhL8Glb3A2acZggP8I", "8hdNcabeSyHwzI4vZr00SXMAgixjEpcaMuikSPym");
-      var currentPage = {
-        title: '{% if page.title %}{{ page.title }}{% else %}Posts index{% if paginator.page %} page {{ paginator.page }}{% endif %}{% endif %}',
-        date: '{{ site.time | date_to_long_string }}'
-      };
-      Parse.Analytics.track('read', currentPage);
-    </script>
   </body>
 </html>
