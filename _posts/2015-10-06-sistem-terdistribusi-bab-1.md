@@ -1,5 +1,6 @@
 ---
-title: "Sistem Terdistribusi"
+title: "Sistem Terdistribusi: Bab 1"
+category: "Sistem Terdistribusi"
 ---
 
 <h2 class="text-center">Bab 1</h2>
