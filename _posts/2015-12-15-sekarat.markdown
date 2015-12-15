@@ -2,6 +2,7 @@
 published: true
 title: Sekarat
 layout: post
+tags: [random]
 ---
 Saya masih hidup dan sehat. Tapi blog ini yang hampir saja mati andai saya lupa memeriksa inbox email yang dipenuhi pesan tidak penting.
 
