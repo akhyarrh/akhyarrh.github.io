@@ -1,8 +1,9 @@
 ---
-title: "Sistem Terdistribusi: Bab 1"
-category: "Sistem Terdistribusi"
+published: true
+title: Sistem Terdistribusi: Bab 1
+layout: post
+categories: [sister]
 ---
-
 <h2 class="text-center">Bab 1</h2>
 
 > Apa itu sistem terdistribusi ?
