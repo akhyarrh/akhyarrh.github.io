@@ -2,7 +2,7 @@
 published: true
 title: Sistem Terdistribusi: Bab 2
 layout: post
-categories: [Sistem, Terdistribusi]
+categories: [sister]
 ---
 <h2 class="text-center">Bab 2 Komunikasi</h2>
 
