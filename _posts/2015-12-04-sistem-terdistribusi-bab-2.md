@@ -1,8 +1,9 @@
 ---
-title: "Sistem Terdistribusi: Bab 2"
-category: "Sistem Terdistribusi"
+published: true
+title: Sistem Terdistribusi: Bab 2
+layout: post
+categories: [sister]
 ---
-
 <h2 class="text-center">Bab 2 Komunikasi</h2>
 
 ## Komunikasi Data
