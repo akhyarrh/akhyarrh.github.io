@@ -50,3 +50,24 @@
   border-bottom: 1px solid $gray-light;
   padding-bottom: 1.5rem;
 }
+
+@media (max-width: 760px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr { border: 1px solid $gray-base; }
+
+  td {
+    border: none;
+    border-bottom: 1px solid $gray-light;
+    position: relative;
+    text-align: center !important;
+  }
+}
