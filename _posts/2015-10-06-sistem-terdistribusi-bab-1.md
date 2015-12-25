@@ -1,6 +1,6 @@
 ---
 published: true
-title: Sistem Terdistribusi: Bab 1
+title: 'Sistem Terdistribusi: Bab 1'
 layout: post
 categories: [sister]
 ---
