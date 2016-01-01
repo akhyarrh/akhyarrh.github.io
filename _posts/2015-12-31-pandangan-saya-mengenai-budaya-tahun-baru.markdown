@@ -2,7 +2,7 @@
 published: true
 title: Pandangan Saya Mengenai Budaya Tahun Baru
 layout: post
-tags: [random, gaming]
+tags: [random, game, budaya]
 ---
 Kalau menurut saya, belum tentu salah tapi juga belum tentu benar. Semua tergantung dari apa yang kita lakukan.
 
