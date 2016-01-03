@@ -5,13 +5,12 @@ gems:
   - jekyll-sitemap
   - jekyll-github-metadata
 
-name:        "akhyarrh's"
-description: "Blogger • Freak • Gamer • Geek"
+name:        "akhyarrh"
+description: "Hungry, young, wild, and free"
 url:         "http://walutisme.com"
 author:
   name:  "Akhyar Rahman Hidayat"
   email: "akhyarrh@gmail.com"
-  uri:   "https://twitter.com/akhyarrh"
 
 timezone: Asia/Jakarta
 
