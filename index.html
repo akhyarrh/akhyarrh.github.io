@@ -3,41 +3,16 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post">
-      <h2 class="post-title">
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-        </a>
-      </h2>
-      <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>{% capture words %}{{ post.content | number_of_words | minus: 180 }}{% endcapture %}{% unless words contains "-" %} • {{ words | plus: 180 | divided_by: 180 | append: " min read" }}{% endunless %}</p>
-      {% if post.content contains '<!--more-->' %}
-        <p>{{ post.excerpt | strip_html }}</p>
-        <a class="readmore-link" href="{{ post.url }}">Continue Reading &raquo;</a>
-      {% else %}
-        {{ post.content }}
-      {% endif %}
-    </article>
-  {% endfor %}
+  {% for post in site.posts %}
+  {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% if currentyear != year %}
+    {% unless forloop.first %}
+      </ul>
+    {% endunless %}
+    <h2 class="post-title">{{ currentyear }}</h2>
+    <ul>
+    {% capture year %}{{ currentyear }}{% endcapture %}
+  {% endif %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
 </div>
-
-<nav class="pagination">
-  {% if paginator.previous_page %}
-    <a class="pagination-item previous" href="{{ paginator.previous_page_path | prepend: site.baseurl | remove: 'index.html' }}" rel="prev">
-      <span class="arrow">&larr;</span> Previous Page
-    </a>
-  {% else %}
-    <span class="pagination-item previous">
-      <span class="arrow">&larr;</span> Previous Page
-    </span>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a class="pagination-item next" href="{{ paginator.next_page_path | prepend: site.baseurl }}" rel="next">
-      Next Page <span class="arrow">&rarr;</span>
-    </a>
-  {% else %}
-    <span class="pagination-item next">
-      Next Page <span class="arrow">&rarr;</span>
-    </span>
-  {% endif %}
-</nav>
