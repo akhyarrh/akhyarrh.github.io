@@ -262,4 +262,4 @@ Referensi:
 [2]: http://mudji.net/press/?p=61
 [3]: http://staffsite.gunadarma.ac.id/lintang/index.php?stateid=download&id=2268&part=files
 [4]: http://bebas.vlsm.org/v06/Kuliah/SistemOperasi/BUKU/SistemOperasi-4.X-1/ch17s06.html
-[5]: http://www.benpinter.net/article.php?story=20030818005713433
+[5]: http://www.benpinter.net/
