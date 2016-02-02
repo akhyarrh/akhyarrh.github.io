@@ -16,7 +16,7 @@ timezone: Asia/Jakarta
 
 host: localhost
 
-permalink: /post/:title
+permalink: /post/:title/
 
 exclude:
   - CNAME
