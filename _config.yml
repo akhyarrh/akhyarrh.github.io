@@ -1,6 +1,7 @@
 repository: akhyarrh/akhyarrh.github.io
 gems:
   - jemoji
+  - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-github-metadata
@@ -35,7 +36,6 @@ exclude:
 sass:
   style: compressed
 
-highlighter: pygments
 markdown: redcarpet
 redcarpet:
   extensions:
