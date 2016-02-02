@@ -7,7 +7,7 @@ gems:
 
 name:        "akhyarrh"
 description: "Hungry, young, wild, and free"
-url:         "https://walutisme.com"
+url:         "https://akhyarrh.github.io"
 author:
   name:  "Akhyar Rahman Hidayat"
   email: "akhyarrh@gmail.com"
@@ -71,9 +71,9 @@ excerpt_separator: "<!--more-->"
 
 prose:
   rooturl: _posts
-  siteurl: http://walutisme.com
+  siteurl: https://akhyarrh.github.io
   media: assets/img
-  relativeLinks: http://walutisme.com/links.jsonp
+  relativeLinks: https://akhyarrh.github.io/links.jsonp
   metadata:
     _posts:
       - name: 'title'
@@ -84,4 +84,4 @@ prose:
         field:
           element: multiselect
           label: Tag(s)
-          options: 'http://walutisme.com/tags.jsonp'
+          options: 'https://akhyarrh.github.io/tags.jsonp'
