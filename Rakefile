@@ -33,7 +33,7 @@ end
 # rake check_html
 desc 'Run html-proofer on _site folder'
 task :check_html do
-  system 'bundle exec htmlproof _site --only-4xx --check-favicon --check-html --disable-external'
+  system 'bundle exec htmlproofer _site --only-4xx --check-favicon --check-html'
 end
 
 # rake test
