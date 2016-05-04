@@ -3,12 +3,13 @@ published: true
 title: Untukmu Yang Telah Pergi
 layout: post
 ---
+
 Selamat pagi  
-Untukmu yang tidak pernah jadi alasan bagiku..
+Untukmu yang tidak pernah jadi alasan bagiku..  
 ...memulai hari dengan senyum secerah mentari
 
 Selamat siang  
-Untukmu yang telah pergi..
+Untukmu yang telah pergi..  
 ..lalu menghilang  
 Membuat hati ini berlubang
 
@@ -18,5 +19,5 @@ Memberikan kisah hidupku memori kelam
 
 Memang sudah pilihanmu untuk pergi  
 Aku akan tetap disini  
-Berharap dan menanti..
+Berharap dan menanti..  
 ..kelak kau akan kembali
