@@ -14,6 +14,12 @@
 
   color: $gray-dark;
 
+  text-align: right;
+
+  @media (min-width: 30em) {
+    text-align: center;
+  }
+
   a {
     color: $gray-dark;
 
@@ -32,8 +38,14 @@
     font-size: 75%;
     font-weight: 400;
 
+    display: none;
+
     &:before {
       content: '— ';
+    }
+
+    @media (min-width: 30em) {
+      display: inline;
     }
   }
 }
