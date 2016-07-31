@@ -39,7 +39,7 @@ end
 # rake test
 desc 'Build site and check compiled files'
 task :test do
-  Rake::Task[:health_check].invoke
+#  Rake::Task[:health_check].invoke
   Rake::Task[:build].invoke
   Rake::Task[:check_html].invoke
 end
