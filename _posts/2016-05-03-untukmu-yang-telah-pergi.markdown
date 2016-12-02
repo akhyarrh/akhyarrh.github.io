@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Untukmu Yang Telah Pergi
 layout: post
 ---
