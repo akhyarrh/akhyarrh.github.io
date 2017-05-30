@@ -1,6 +1,10 @@
 ---
 title: Artikel Pilihan Minggu ini
-tags: [pilihan]
+tags:
+- pilihan
+date: '2015-04-25T00:00:00.000+00:00'
+published: true
+layout: post
 ---
 Dalam seminggu, saya terkadang membaca ratusan artikel. Serius. Kadang memang berguna, tapi kadang saya merasa sedikit buang-buang waktu kalau memang artikelnya tidak berbobot. Begitulah, penilaian kadang berbeda. Tapi ada baiknya juga kalau saya bagikan apa yang saya baca selama seminggu belakangan. Anggap saja sebagai referensi kalau kalian juga mau belajar, atau sekedar info bagi yang penasaran sama apa yang saya baca selama seminggu.
 
@@ -23,7 +27,7 @@ Ada yang sadar kalau sumber artikelnya cuma dari 2 situs ? Sejak memakai Linux (
 [**Sass**](http://sass-lang.com/) dan [**Angular**](https://angularjs.org/) mulai menarik perhatian saya sejak pertengahan 2014 (telat banget). Sejak dulu menulis <abbr title="Cascading Style Sheets">CSS</abbr> dengan berantakan, <abbr title="Syntactically Awesome Style Sheets">Sass</abbr> seolah menyelamatkan dan membantu mempelajari dan mendalami *styling* menjadi lebih mudah. Walaupun harus belajar <abbr title="Hyper Text Markup Language">HTML</abbr>5, CSS3, lalu ditambah dengan Sass atau Scss. Beda cerita dengan Angular, sebuah *javascript framework* yang membantu untuk membuat aplikasi web. Beberapa referensi berikut ini:
 
 - [Beginner Guides & Tutorials on Sass and Compass](http://thesassway.com/beginner)
-- [AngularJS Tutorial: A Comprehensive 10,000 Word Guide](https://www.airpair.com/angularjs/posts/angularjs-tutorial)
+- [AngularJS Tutorial: A Comprehensive 10,000 Word Guide](https://www.airpair.com/angularjs)
 - [Comprehensive Beginner’s Guide to AngularJS](http://antjanus.com/blog/web-development-tutorials/front-end-development/comprehensive-beginner-guide-angularjs/)
 
 [**Compass**](http://compass-style.org/) akan dijelaskan di artikel yang pertama, walau sedikit.
