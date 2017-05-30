@@ -52,20 +52,3 @@ compress_html:
     envs: [local]
 
 excerpt_separator: "<!--more-->"
-
-prose:
-  rooturl: _posts
-  siteurl: https://akhyarrh.github.io
-  media: assets/img
-  relativeLinks: https://akhyarrh.github.io/links.jsonp
-  metadata:
-    _posts:
-      - name: 'title'
-        field:
-          element: text
-          label: 'Title'
-      - name: 'tags'
-        field:
-          element: multiselect
-          label: Tag(s)
-          options: 'https://akhyarrh.github.io/tags.jsonp'
