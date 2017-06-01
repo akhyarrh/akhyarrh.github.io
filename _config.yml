@@ -32,20 +32,6 @@ exclude:
 sass:
   style: compressed
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "drafts"
-    values:
-      layout: "post"
-
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
