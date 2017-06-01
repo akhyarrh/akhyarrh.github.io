@@ -1,4 +1,5 @@
 repository: akhyarrh/akhyarrh.github.io
+
 gems:
   - jemoji
   - jekyll-feed
@@ -6,8 +7,8 @@ gems:
   - jekyll-github-metadata
   - jekyll-seo-tag
 
-name:        "akhyarrh"
-description: "Hungry, young, wild, and free"
+name:        "AkhyarRH"
+description: "Hungry, Young, Wild, and Free"
 url:         "https://akhyarrh.github.io"
 author:
   name:  "Akhyar Rahman Hidayat"
@@ -38,10 +39,8 @@ compress_html:
   ignore:
     envs: [local]
 
-excerpt_separator: "<!--more-->"
-
 # jekyll seo tag
-title:      "AkhyarRH"
+title: AkhyarRH
 
 # per-post
 author: akhyarrh
