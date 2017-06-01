@@ -4,6 +4,7 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-github-metadata
+  - jekyll-seo-tag
 
 name:        "akhyarrh"
 description: "Hungry, young, wild, and free"
@@ -52,3 +53,26 @@ compress_html:
     envs: [local]
 
 excerpt_separator: "<!--more-->"
+
+# jekyll seo tag
+title:      "AkhyarRH"
+
+# per-post
+author: akhyarrh
+
+# sitewide
+twitter:
+  username: akhyarrh
+
+facebook:
+  admins: 100000001003810
+
+webmaster_verifications:
+  google: "HDpV-7_B7Y6tq6m1rZ8DLPEq_fHpwZOBinc9wt_NTdQ"
+#  bing: 1234
+  alexa: "gXuVtj4bXDWiVB_ihCJijNBQNj8"
+#  yandex: 1234
+
+logo: /assets/img/logo.png
+
+lang: id_ID
