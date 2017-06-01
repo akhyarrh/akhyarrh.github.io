@@ -4,7 +4,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <link rel="sitemap" type="application/xml" title="Sitemap • {{ site.name }}" href="/sitemap.xml">
-  <link rel="alternate" type="application/atom+xml" title="Atom • {{ site.name }}" href="/feed.xml">
 
   <!-- Icons -->
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
@@ -13,5 +12,6 @@
   <!-- Style -->
   <link rel="stylesheet" href="/assets/all.css?{{ site.github.build_revision }}">
   
+  {% feed_meta %}
   {% seo %}
 <!-- /head -->
