@@ -1,0 +1,73 @@
+// https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+.embed-container {
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  margin-bottom: 1rem;
+  //  padding-top: 1.5rem;
+  padding-bottom: 56.25%;
+
+  embed,
+  iframe,
+  object {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+// style for emoji images
+.emoji {
+  display: inline;
+  margin: 0;
+  vertical-align: middle;
+}
+
+// Utility classes
+
+// text-center
+.text-center {
+  text-align: center;
+}
+
+// Style for Continue Reading link
+.readmore-link {
+  border: 1px solid $gray-light;
+  border-radius: $base-radius;
+  padding: 0.5rem;
+
+  &:focus,
+  &:hover {
+    background-color: $gray-light;
+    text-decoration: none;
+  }
+}
+
+.post {
+  border-bottom: 1px solid $gray-light;
+  padding-bottom: 1.5rem;
+}
+
+@media (max-width: 760px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr { border: 1px solid $gray-base; }
+
+  td {
+    border: none;
+    border-bottom: 1px solid $gray-light;
+    position: relative;
+    text-align: center !important;
+  }
+}
