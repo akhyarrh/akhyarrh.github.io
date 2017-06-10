@@ -1,6 +1,7 @@
 repository: akhyarrh/akhyarrh.github.io
 
 gems:
+  - jekyll-assets
   - jemoji
   - jekyll-feed
   - jekyll-sitemap
