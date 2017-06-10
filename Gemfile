@@ -1,10 +1,13 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'rake'
-gem 'github-pages'
-gem 'html-proofer'
-gem 'image_optim'
-gem 'image_optim_pack'
-gem 'netrc'
-gem 'jekyll-github-metadata'
-gem 'tzinfo-data'
+# Jekyll gem
+gem "jekyll"
+
+# Jekyll plugins
+group :jekyll_plugins do
+  gem "jemoji"
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+  gem "jekyll-seo-tag"
+  gem "jekyll-default-layout"
+end
