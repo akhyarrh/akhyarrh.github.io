@@ -7,10 +7,14 @@ set -e
 
 cd _site
 
+git config user.email "build@akhyarrh.github.io"
+git config user.name "Travis CI"
+
 echo "[View live](https://${GH_USER}.github.io)" > README.md
 
 # add, commit and push files
-git add .
+
+git add --all
 git commit -m "Travis build $TRAVIS_BUILD_NUMBER"
 git push origin master > /dev/null
 
