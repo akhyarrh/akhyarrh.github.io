@@ -13,5 +13,6 @@ notifications:
 install: ./script/bootstrap
 script:
   - 'if [ "$TRAVIS_PULL_REQUEST" = "true" ]; then bash ./script/test; fi'
+  - 'if [ "$TRAVIS_BRANCH" != "develop" ]; then bash ./script/test; fi'
   - ./script/build
   - ./script/deploy
