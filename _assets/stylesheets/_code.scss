@@ -1,0 +1,82 @@
+// Code
+//
+// Inline and block-level code snippets. Includes tweaks to syntax highlighted
+// snippets from Pygments/Rouge and Gist embeds.
+
+code,
+kbd,
+pre,
+samp {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+code,
+kbd,
+samp {
+  padding: .25em .5em;
+
+  color: #bf616a;
+  -webkit-border-radius: $base-radius;
+     -moz-border-radius: $base-radius;
+          border-radius: $base-radius;
+  background-color: $gray-light;
+
+  font-size: 85%;
+}
+
+kbd,
+samp {
+  padding: 0.25em;
+
+  color: $gray-light;
+  background-color: $gray-dark;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+pre code {
+  padding: 0;
+
+  color: inherit;
+  background-color: transparent;
+
+  font-size: 100%;
+}
+
+// Pygments via Jekyll
+.highlight {
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  -webkit-border-radius: $base-radius;
+     -moz-border-radius: $base-radius;
+          border-radius: $base-radius;
+  background-color: $gray-light;
+
+  font-size: .8rem;
+  line-height: 1.4;
+
+  pre {
+    overflow-x: auto;
+
+    margin-bottom: 0;
+  }
+
+  .lineno {
+    display: inline-block; // Ensures the null space also isn't selectable
+
+    padding-right: .75rem;
+    padding-left: .25rem;
+    // Make sure numbers aren't selectable
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    color: $gray-base;
+  }
+}
