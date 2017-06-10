@@ -1,0 +1,17 @@
+# Deploy compiled site to master branch
+# because this is user page
+#
+#!/bin/bash
+
+set -e
+
+cd _site
+
+echo "[View live](https://${GH_USER}.github.io)" > README.md
+
+# add, commit and push files
+git add .
+git commit -m "Travis build $TRAVIS_BUILD_NUMBER"
+git push origin master > /dev/null
+
+echo "Done deploying to master"

@@ -1,0 +1,19 @@
+# Setup environment for development & deploy
+#
+# Use case:
+#
+# - local setup
+# - Travis to setup ci
+#
+#!/bin/bash
+
+set -e
+
+gem install bundler
+
+bundle install
+
+# clone 'master' branch to '_site'
+# Need it for deploying
+
+git clone --quiet --branch=master https://${GH_TOKEN}@github.com/${GH_USER}/${GH_REPO}.git _site > /dev/null

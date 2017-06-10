@@ -1,0 +1,11 @@
+# Test building site with verbose output
+# by using --verbose & --trace
+# also print liquid profile
+#
+# Only run on pull-request
+#
+#!/bin/bash
+
+set -e
+
+bundle exec jekyll build --verbose --trace --profile
