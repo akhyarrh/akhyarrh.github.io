@@ -15,7 +15,7 @@ echo "[View live](https://${GH_USER}.github.io)" > README.md
 # add, commit and push files
 
 git add --all
-git commit -m "Travis build $TRAVIS_BUILD_NUMBER"
+git commit -m "Travis build $TRAVIS_BUILD_NUMBER from commit $TRAVIS_COMMIT"
 git push origin master > /dev/null
 
 echo "Done deploying to master"
