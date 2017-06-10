@@ -4,7 +4,6 @@ gems:
   - jemoji
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-github-metadata
   - jekyll-seo-tag
 
 name:        "AkhyarRH"
