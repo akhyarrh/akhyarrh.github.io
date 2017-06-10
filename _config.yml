@@ -61,3 +61,10 @@ webmaster_verifications:
 logo: /assets/img/logo.png
 
 lang: id_ID
+
+# plugin: jekyll-assets
+assets:
+  prefix: "/assets"
+
+  features:
+    integrity: true
