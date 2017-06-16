@@ -19,3 +19,12 @@ git commit -m "Travis build $TRAVIS_BUILD_NUMBER from commit $TRAVIS_COMMIT"
 git push origin master > /dev/null
 
 echo "Done deploying to master"
+
+# Use this script to submit sitemaps
+# automatically to Google & Bing
+
+curl -I "http://www.bing.com/webmaster/ping.aspx?siteMap=https://akhyarrh.github.io/sitemap.xml"
+
+curl -I "http://www.google.com/webmasters/sitemaps/ping?sitemap=https://akhyarrh.github.io/sitemap.xml"
+
+echo "Done ping search engine"
