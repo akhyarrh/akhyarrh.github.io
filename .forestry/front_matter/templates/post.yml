@@ -73,6 +73,9 @@ fields:
   type: datetime
   hidden: false
   default: ''
+  config:
+    date_format: DD MM YYYY
+    required: true
 - name: tags
   label: Tags
   type: tag_list
