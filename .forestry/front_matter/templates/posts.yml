@@ -1,4 +1,6 @@
 ---
+pages:
+- _posts/kembali-ke-miui.md
 hide_body: false
 fields:
 - name: layout
