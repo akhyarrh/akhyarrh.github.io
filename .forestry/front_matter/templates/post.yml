@@ -61,11 +61,6 @@ fields:
   type: text
   hidden: true
   default: post
-- name: published
-  label: Published
-  type: boolean
-  hidden: false
-  default: ''
 - name: title
   label: Title
   type: text
