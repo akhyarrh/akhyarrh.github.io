@@ -1,0 +1,9 @@
+---
+upload_path: "/upload/:year:-:month:"
+frontmatter_file_url_template: "/upload/:year:-:month:"
+body_file_url_template: "/upload/:year:-:month:"
+new_page_extension: md
+auto_deploy: false
+admin_path: forestry
+webhook_url: 
+collections: 

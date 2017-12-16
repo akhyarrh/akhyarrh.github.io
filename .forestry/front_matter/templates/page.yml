@@ -1,0 +1,15 @@
+---
+hide_body: false
+fields:
+- name: title
+  type: text
+  label: Title
+  config:
+    required: true
+- name: layout
+  type: text
+  label: Layout
+  hidden: true
+  default: page
+  config:
+    required: true
