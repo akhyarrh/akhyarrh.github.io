@@ -76,6 +76,7 @@ fields:
   config:
     date_format: DD MM YYYY
     required: true
+    time_format: h:mm A
 - name: tags
   label: Tags
   type: tag_list
