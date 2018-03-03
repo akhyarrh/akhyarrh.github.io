@@ -12,3 +12,8 @@ group :jekyll_plugins do
   gem "jekyll-default-layout"
   gem "jekyll-assets"
 end
+
+# Opt in to use sprockets 4
+gem "sprockets", "~> 4.0.beta", {
+  require: false
+}

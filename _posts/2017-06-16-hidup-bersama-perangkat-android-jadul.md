@@ -76,6 +76,6 @@ Ada yang lain ?
 <small>Catatan tambahan: Gal Gadot cantik tuh. Kalian semua harus nonton Wonder Woman.
 </small>
 
-[instagram-real-size]: {% asset_path instagram-real-size.jpg %} 'Aslinya..'
-[fb-insta-twitter-in-browser]: {% asset_path fb-insta-twitter.jpg %} 'Facebook, Instagram, Twitter di Browser'
+[instagram-real-size]: {% asset instagram-real-size.jpg %} 'Aslinya..'
+[fb-insta-twitter-in-browser]: {% asset fb-insta-twitter.jpg %} 'Facebook, Instagram, Twitter di Browser'
 [sd-maid]: https://play.google.com/store/apps/details?id=eu.thedarken.sdm
