@@ -8,3 +8,16 @@ fields:
   type: text
   hidden: false
   default: post
+- type: text
+  name: title
+  label: Judul
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: DD/MM/YYYY
+- type: tag_list
+  name: tags
+  label: Tag(s)
