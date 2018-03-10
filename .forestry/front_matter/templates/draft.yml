@@ -13,11 +13,11 @@ fields:
   label: Judul
   config:
     required: true
+- type: boolean
+  name: published
+  label: Publish
 - type: datetime
   name: date
   label: Date
   config:
     date_format: DD/MM/YYYY
-- type: tag_list
-  name: tags
-  label: Tag(s)
