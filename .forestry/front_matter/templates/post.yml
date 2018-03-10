@@ -69,6 +69,9 @@ fields:
   default: ''
   config:
     required: true
+- type: boolean
+  name: published
+  label: Publish
 - name: date
   label: Date
   type: datetime
@@ -78,8 +81,3 @@ fields:
     date_format: DD MM YYYY
     required: true
     time_format: h:mm A
-- name: tags
-  label: Tags
-  type: tag_list
-  hidden: false
-  default: ''
