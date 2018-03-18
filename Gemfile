@@ -1,19 +1,10 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-# Jekyll gem
-gem "jekyll"
-
-# Jekyll plugins
 group :jekyll_plugins do
-  gem "jemoji"
-  gem "jekyll-feed"
-  gem "jekyll-sitemap"
-  gem "jekyll-seo-tag"
-  gem "jekyll-default-layout"
-  gem "jekyll-assets"
+    gem 'github-pages'
+    gem 'jekyll-admin'
 end
 
-# Opt in to use sprockets 4
-gem "sprockets", "~> 4.0.beta", {
-  require: false
-}
+group :test do
+  gem 'html-proofer'
+end
