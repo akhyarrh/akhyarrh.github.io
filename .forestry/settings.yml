@@ -1,9 +1,0 @@
----
-upload_path: "/assets/:year:"
-frontmatter_file_url_template: "/assets/:year:"
-body_file_url_template: "/assets/:year:"
-new_page_extension: md
-auto_deploy: false
-admin_path: forestry
-webhook_url: 
-collections: 
