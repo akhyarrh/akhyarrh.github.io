@@ -1,2 +1,10 @@
-.jekyll-cache
+# jekyll default destination
 _site
+
+# used by html-proofer
+# to store cache
+_tmp
+
+# used by travis-ci
+# store bundle
+vendor
