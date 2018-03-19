@@ -1,10 +1,6 @@
----
-title:  "Pindah ke Jekyll"
-tags: [random]
----
-Beberapa hari yang lalu gue setup blog pakai [Grav](http://getgrav.org). Awalnya lancar memang, tapi pada akhirnya ada 1 masalah. Custom domainnya agak sinting. Entah kenapa, mungkin karena memang nasib atau gue yang kurang beruntung. Saat itu gue host file blog di [OpenShift](http://openshift.com). Pada akhirnya gue sekarang pindah (lagi) ke platform baru, yaitu [Jekyll](http://jekyllrb.com).
+# Pindah ke Jekyll
 
-<!--more-->
+Beberapa hari yang lalu gue setup blog pakai [Grav](http://getgrav.org). Awalnya lancar memang, tapi pada akhirnya ada 1 masalah. Custom domainnya agak sinting. Entah kenapa, mungkin karena memang nasib atau gue yang kurang beruntung. Saat itu gue host file blog di [OpenShift](http://openshift.com). Pada akhirnya gue sekarang pindah (lagi) ke platform baru, yaitu [Jekyll](http://jekyllrb.com).
 
 Ribet banget pada awalnya, karena platform gue yang sebelumnya (**Grav**) berbasiskan php, sedangkan **Jekyll** yang sekarang gue pakai pada dasarnya bukan CMS, tapi lebih tepatnya [static site generator](https://www.google.com/search?q=static+site+generator). Beberapa situs yang menggunakan **Jekyll** bisa di cek di websitenya ya. Lumayan banyak, jadi ga mungkin semuanya gue *colokin* ke post ini. Beberapa yang gue ingat adalah situsnya [Bootstrap](http://getbootstrap.com), [Font Awesome](http://fontawesome.io/), dan [masih banyak yang lainnya](https://www.google.com/search?q=site+using+Jekyll).
 

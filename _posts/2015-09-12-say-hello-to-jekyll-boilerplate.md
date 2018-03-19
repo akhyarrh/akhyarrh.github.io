@@ -1,9 +1,5 @@
----
-title: "Say Hello to jekyll-boilerplate"
-tags:
-  - jekyll
-  - preview
----
+# Say Hello to jekyll-boilerplate
+
 Beberapa minggu yang lalu saya membaca ulang [dokumentasi Jekyll](http://jekyllrb.com). Mulai dari bagian 'Welcome' sampai habis. Sebuah pertanyaan muncul di kepala saya. Bagaimana kalau pengguna yang awam, yang belum memahami banyak tentang Jekyll, mencoba untuk memakai layanan seperti [Prose](http://prose.io) atau [markdown-writer](http://github.com/zhuochun/md-writer) (sebuah package untuk Atom) ?
 
 Bagaimana kalau mereka juga ingin menggunakan layanan seperti [Disqus](http://disqus.com) atau [komments](http://komments.net) ? Atau ingin menggunakan [Pooleapp](http://pooleapp.com) ? Atau mungkin commenting system lainnya ?
@@ -12,13 +8,11 @@ Bagaimana kalau mereka juga ingin membuat *contact page* menggunakan layanan sep
 
 Bagaimana kalau mereka juga ingin menggunakan *Analytics*, mengadakan survey, membuat laman pembayaran, membuat galeri foto, atau yang lain ?
 
-<!--more-->
-
 Akhirnya saya menjalankan sebuah proyek kecil-kecilan. Awalnya saya jalankan hanya secara pribadi, lalu kemudian [novia](http://github.com/noviandiani) tertarik untuk join. Untuk memudahkan maka boilerplatenya saya pindahkan ke akun [nectktar](http://github.com/nectktar).
 
 ## Mengenal [jekyll-boilerplate](http://github.com/nectktar/jekyll-boilerplate)
 
-![jekyll-boilerplate](/assets/img/jekyll-boilerplate.png)
+![jekyll-boilerplate](/assets/post-img/jekyll-boilerplate.png)
 
 Jadi mari saya jelaskan sedikit tentang boilerplate ini. Mungkin sama saja seperti boilerplate lainnya. Berisi base setup, config, tema, contoh post. Perbedaannya adalah ada beberapa setup yang sudah kami lakukan yang beda dari boilerplate lainnya. Saat ini masih berisi file-file dan konfigurasi untuk [Prose](http://prose.io) dan [markdown-writer](http://github.com/zhuochun/md-writer). Artinya kalian bisa menggunakan Prose untuk posting ke blog kalian. Prose ini seperti Blogspot, Tumblr, dan lain-lain. Hanya saja fungsinya hanya untuk situs yang statis. Dengan menggunakan Prose kalian juga bisa melakukan upload gambar, mengedit draft, dan tentu saja untuk mengedit dan mempublish post.
 

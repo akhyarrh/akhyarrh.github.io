@@ -1,8 +1,4 @@
----
-title: Hidup bersama Perangkat Android Jadul
-description: Mengoptimalkan perangkat Android lama agar tetap bisa dipakai dalam kegiatan sehari-hari
-tags: [android, tips]
----
+# Hidup bersama Perangkat Android Jadul
 
 *Legacy Device* adalah istilah yang digunakan untuk menyebut perangkat Android jadul, sudah tidak didukung oleh vendor pembuatnya lagi, dan semacamnya. Saat ini memakai smartphone yang dirilis lebih dari 5 tahun yang lalu adalah sebuah tantangan, setidaknya menurut saya banyak tantangan yang harus dihadapi. Mulai dari jumlah memori yang tidak lagi mencukupi, performa yang kurang lancar, aplikasi-aplikasi yang tidak kompatibel, dan lain-lain.
 
@@ -27,11 +23,11 @@ Walau dengan fitur yang bisa dibilang terbatas, setidaknya fitur-fitur penting m
 
 Terkadang beberapa social media memiliki aplikasi resmi yang menggunakan memori terlalu besar. Contoh paling nyata adalah Instagram (maaf ya Facebook). Di PlayStore, ukuran aplikasi mereka hanya dituliskan sekitar 30mb, setelah dipasang dan digunakan beberapa hari apa kalian tahu ukurannya jadi berapa ? Buktikan saja sendiri.
 
-![Instagram Real Size][instagram-real-size]
+![Instagram Real Size](/assets/post-img/instagram-real-size.jpg)
 
 Daripada harus memasang aplikasi dan susah mencari aplikasi alternatif, gunakan saja lewat browser bawaan. Memang tidak semudah memakai aplikasi yang sudah ada, seperti scrolling yang kurang smooth, tapi sebenarnya masih bisa digunakan.
 
-![Unlimited Power][fb-insta-twitter-in-browser]
+![Unlimited Power](/assets/post-img/fb-insta-twitter.jpg)
 
 Dengan fitur yang beda tipis, ditambah dengan pemakaian data yang lebih sedikit, dan tentu saja tidak perlu memori besar.
 
@@ -76,6 +72,4 @@ Ada yang lain ?
 <small>Catatan tambahan: Gal Gadot cantik tuh. Kalian semua harus nonton Wonder Woman.
 </small>
 
-[instagram-real-size]: {% asset instagram-real-size.jpg %} 'Aslinya..'
-[fb-insta-twitter-in-browser]: {% asset fb-insta-twitter.jpg %} 'Facebook, Instagram, Twitter di Browser'
 [sd-maid]: https://play.google.com/store/apps/details?id=eu.thedarken.sdm

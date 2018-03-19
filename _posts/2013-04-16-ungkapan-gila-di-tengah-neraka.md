@@ -1,10 +1,6 @@
----
-title: 'Ungkapan Gila di Tengah Neraka'
-tags: [random]
----
-Hell-o guys. Akhirnya ngepost lagi setelah sekian lama. Karena lagi di tempat adem, jadi kita ngomongin yang adem-adem nih. Tapi ga di kulkas juga sih, cuman secara kebetulan neraka kamar ini mendadak gak ada. Mungkin ntar malem bakalan panas lagi dan kipas angin yang ada disini pun mendadak bakalan ngilang. Tapi kenapa kita malah ngomongin udara, gue kan ga kuliah di kuil udara. Sejak negara api menyerang kamar ini mulai panas dan hati ini pun juga mulai di panaskan.
+# Ungkapan Gila di Tengah Neraka
 
-<!--more-->
+Hell-o guys. Akhirnya ngepost lagi setelah sekian lama. Karena lagi di tempat adem, jadi kita ngomongin yang adem-adem nih. Tapi ga di kulkas juga sih, cuman secara kebetulan neraka kamar ini mendadak gak ada. Mungkin ntar malem bakalan panas lagi dan kipas angin yang ada disini pun mendadak bakalan ngilang. Tapi kenapa kita malah ngomongin udara, gue kan ga kuliah di kuil udara. Sejak negara api menyerang kamar ini mulai panas dan hati ini pun juga mulai di panaskan.
 
 Tapi kali ini gue ga mau ngomongin yang fun. Kenapa ? karena gue lagi emosi sama pers-pers yang terlalu mainstream menghamburkan berita ‘ada bom di Maraton Boston, 2 orang mati’. Itu berita mainstream. Kita seolah melupakan hancurnya beberapa negara di timur tengah yang di gempur. Tapi itu juga ga menarik gue. Yang menarik dalam beberapa jam terakhir adalah tentang pers negara kita. Disaat kasus Eyang Subur belum kelar, foto syurnya Faby Marcelia masih beredar, Eza masih versus sama Ardinia Rasti, pers negara kita malah ikutan mainstream nulisin berita tentang bom di Amrik.
 

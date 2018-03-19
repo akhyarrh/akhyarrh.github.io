@@ -1,19 +1,10 @@
----
-title: Ekperimen Pertama dengan Flexbox
-tags:
-  - css
-  - desain
-  - eksperimen
-  - flexbox
----
+# Ekperimen Pertama dengan Flexbox
 
-Eksperimen pertama dengan `flexbox`. Awalnya agak susah memahami `flex-direction`. Setelah beberapa kali *trial & error*, akhirnya sukses juga. Bagian susahnya adalah awalnya bingung dengan markup dan CSS. Karena `flexbox` memang benar-benar sebuah modul CSS yang baru.
-
-<!--more-->
+Awalnya agak susah memahami `flex-direction`. Setelah beberapa kali *trial & error*, akhirnya sukses juga. Bagian susahnya adalah awalnya bingung dengan markup dan CSS. Karena `flexbox` memang benar-benar sebuah modul CSS yang baru.
 
 Biar nanti tidak bingung, akan saya jelaskan sedikit mengenai `flexbox`.
 
-![Flexbox](/assets/img/flexbox.png)
+![Flexbox](/assets/post-img/flexbox.png)
 
 Bagian yang perlu diperhatikan adalah `main axis`, `main start`, dan `main end`. Sifat ketiga elemen ini (bersama dengan 3 elemen `cross`) benar-benar sangat fleksibel. `main axis` bisa dari kiri ke kanan, kanan ke kiri, atas ke bawah, atau bawah ke atas.
 
@@ -70,6 +61,6 @@ Perhatikan properti `flex-direction`, `main axis` diatur disini dan sifatnya fle
 
 Bagian paling pentingnya adalah memahami jika `flex-direction` menggunakan properti yang sifatnya 'membalik' posisi elemen. Jika `row-reverse` atau `column-reverse` maka elemen disusun dari `main end` ke `main start`.
 
-Masih bingung ? Silakan hubungi via [Email](mailto:akhyarrh@gmail.com) atau [Twitter](https://twitter.com/akhyarrh). Eksperimen saya di atas bisa [clone di Gist](https://gist.github.com/akhyarrh/a88d1a8d9c8c8a562835) atau langsung [mainkan di SassMeister](http://sassmeister.com/gist/a88d1a8d9c8c8a562835).
+Masih bingung ? Silakan hubungi via [Twitter](https://twitter.com/akhyarrh). Eksperimen saya di atas bisa [clone di Gist](https://gist.github.com/akhyarrh/a88d1a8d9c8c8a562835) atau langsung [mainkan di SassMeister](http://sassmeister.com/gist/a88d1a8d9c8c8a562835).
 
 Ciao.

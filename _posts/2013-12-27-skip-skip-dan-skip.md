@@ -1,12 +1,8 @@
----
-title: 'Skip, skip, dan skip'
-tags: [random]
----
+# Skip, skip, dan skip
+
 Ciweks. Gud net. Ya ampun lama ga kesini, jadi banyak jaring laba-laba. Ada banyak sampah juga, genangan air dimana-mana, selokannya sumbat. Parah banget. Udahlah lupain dulu kondisi disini. Yang penting ‘salju’ nya masih ada jadi tetep adem.
 
 Beidewei, mumpung besok gue libur, santai disini dulu deh. Kalo bisa sampe 2014, jadi ceritanya setahun kan. Ga kerasa udah mau 2014 ya. Perasaan kemaren masih sekolah aja.
-
-<!--more-->
 
 Tapi akhir tahun ini yang gue alami benar-benar kosong, null, membosankan, atau entah apapun istilahnya yang sejenis. Membosankan banget men. Bosan sebosan-bosannya bosan. Tiap hari cuma bangun, makan, kuliah, pulang, makan, tidur, bangun, main, tidur lagi. Gitu aja di ulang sampe kiamat.
 

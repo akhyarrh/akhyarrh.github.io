@@ -1,7 +1,5 @@
----
-title: "Memahami Metode BEM"
-tags: [bem, css, desain]
----
+# Memahami Metode BEM
+
 > Kenapa di beberapa file penamaan class-nya banyak menggunakan -- atau __ ?
 
 Dasarnya ada beberapa dan sedang saya coba terapkan:
@@ -9,8 +7,6 @@ Dasarnya ada beberapa dan sedang saya coba terapkan:
 - [BEM](http://bem.info/)
 - [Post Nicolas Gallagher](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
 - [Artikel di CSSwizardry](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
-
-<!--more-->
 
 Sebenarnya hanya berusaha mengubah kebiasaan lama. Sebelumnya terbiasa memakai penamaan `class` yang kurang *semantic*, misalnya;
 

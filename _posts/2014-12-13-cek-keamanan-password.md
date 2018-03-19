@@ -2,13 +2,13 @@
 title: "Cek Keamanan Password"
 tags: [tips, security]
 ---
+# Cek Keamanan Password
+
 Langsung aja ke [sini](https://howsecureismypassword.net/). Masukin password kamu, nanti bakal otomatis dihitung berapa lama waktu yang dibutuhkan untuk memecahkan password tersebut.
 
 Screenshot dari netty gue :
 
-![Screenshot](/assets/img/cek-keamanan-password.png)
-
-<!--more-->
+![Screenshot](/assets/post-img/cek-keamanan-password.png)
 
 Sekedar catatan, nanti password yang kalian masukkan bakal ga kebaca. Bintang-bintang gitu. Masalah kenapa di screenshot gue bisa dibaca itu urusan lain.
 

@@ -1,9 +1,4 @@
----
-title: Android 6.0 Marshmallow
-tags:
-  - android
-  - preview
----
+# Android 6.0 Marshmallow
 
 Android 6.0 Marshmallow kemungkinan rilis di tahun ini. Mari kita bongkar apa saja yang baru.
 
@@ -12,8 +7,6 @@ Android 6.0 Marshmallow kemungkinan rilis di tahun ini. Mari kita bongkar apa sa
 > <cite><a href="https://twitter.com/davey_burke/status/633324719266115584">Dave Burke (@davey_burke)</a></cite>
 
 Rilisnya Android M masih misteri. Gosip yang beredar mengatakan sekitar Q3 2015, kemungkinan besar bulan September, bersamaan dengan rilisnya Nexus 5 2015 atau Huawei Nexus.
-
-<!--more-->
 
 Sekarang kita bahas beberapa fitur yang menarik. Fitur baru banyak sebenarnya, tapi saya hanya akan membahas yang menarik menurut saya.
 

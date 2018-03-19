@@ -1,17 +1,8 @@
----
-title: Mengubah DNS di Linux
-tags:
-- linux
-- tips
-date: 2017-05-31 19:00
-published: true
-layout: post
----
-Cara ini sudah sangat lama saya pergunakan. Jadi kalau misalnya tidak bekerja dengan benar atau ada kesalahan, hubungi saya di [Twitter](https://twitter.com/akhyarrh) atau lewat [email](mailto:akhyarrh@gmail.com).
+# Mengubah DNS di Linux
+
+Cara ini sudah sangat lama saya pergunakan. Jadi kalau misalnya tidak bekerja dengan benar atau ada kesalahan, hubungi saya di [Twitter](https://twitter.com/akhyarrh).
 
 Catatan: cara ini **hanya untuk pengguna Linux** (Mac mungkin juga bisa). Sudah saya coba di Lubuntu 14.04 dan Mint 17.2. Untuk pengguna Windows, silakan melakukan browsing untuk mencari caranya.
-
-<!--more-->
 
 ## Steps
 
@@ -54,7 +45,7 @@ Buka terminal (<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>)
 
 Jalankan command `nm-tool`.
 
-![Contoh output nm-tool](/assets/img/Screenshot_2015-10-07_16-42-30.png)
+![Contoh output nm-tool](/assets/post-img/Screenshot_2015-10-07_16-42-30.png)
 
 ## Colophon
 

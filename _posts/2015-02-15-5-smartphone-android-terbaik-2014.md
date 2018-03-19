@@ -1,10 +1,6 @@
----
-title: 5 Smartphone Android Terbaik 2014
-tags: [android, review]
----
-Di tahun 2014, banyak *smartphone* Android yang dirilis. Mulai dari yang paling cakep sampai yang paling amburadul, mulai dari yang paling murah sampai yang harganya cukup untuk merebut pacar orang lain. Beragam memang, tapi silakan dinikmati 5 *smartphone* android terbaik menurut gue di tahun 2014. Ingat, ini versi gue pribadi. Hasil didasari oleh kesukaan, percobaan, nonton video di *youtube*, browsing kemana-mana, dan lain-lain. Langsung aja cekidot bruh.
+# 5 Smartphone Android Terbaik 2014
 
-<!--more-->
+Di tahun 2014, banyak *smartphone* Android yang dirilis. Mulai dari yang paling cakep sampai yang paling amburadul, mulai dari yang paling murah sampai yang harganya cukup untuk merebut pacar orang lain. Beragam memang, tapi silakan dinikmati 5 *smartphone* android terbaik menurut gue di tahun 2014. Ingat, ini versi gue pribadi. Hasil didasari oleh kesukaan, percobaan, nonton video di *youtube*, browsing kemana-mana, dan lain-lain. Langsung aja cekidot bruh.
 
 ## 5. Samsung Galaxy Note 4
 
@@ -48,7 +44,7 @@ Jangan tanya kenapa, sejak awal mencoba Maxy (Mako/Nexus 4) gue udah jatuh cinta
 
 Selain beberapa alasan di atas, gue juga suka banget sama desainnya. Entah menurut kalian ada bagusnya atau tidak, tapi penilaian kembali kepada diri kita masing-masing.
 
-![Nexus 6](/assets/img/nexus6.jpg)
+![Nexus 6](/assets/post-img/nexus6.jpg)
 
 Oke sekian dulu penilaian dari gue. Sebenarnya ini penilaian pribadi. Masih banyak sebenernya *smartphone* lain yang juga bagus, misalnya HTC One M8 atau *smartphone* bikinan Xiaomi, dan lain sebagainya. Tapi menurut gue kelima *smartphone* di atas yang terbaik di tahun 2014.
 

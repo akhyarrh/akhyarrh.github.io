@@ -1,10 +1,6 @@
----
-title: "Mengenal Jekyll"
-tags: [jekyll]
----
-Beberapa minggu belakangan, terhitung sejak awal masa liburan, gue main-main sama [**Jekyll**](http://jekyllrb.com "Jekyll") dan [**SASS**](http://sass-lang.com "SASS"). Jekyll pada dasarnya bukan blogging platform, bukan juga CMS, tetapi *static site generator*. Fungsinya simple, mengubah apapun yang ada dan dia bisa, jadi sebuah HTML. Simple banget memang, kalo bikin HTML siapapun yang paham apa dasar HTML juga bisa.
+# Mengenal Jekyll
 
-<!--more-->
+Beberapa minggu belakangan, terhitung sejak awal masa liburan, gue main-main sama [**Jekyll**](http://jekyllrb.com "Jekyll") dan [**SASS**](http://sass-lang.com "SASS"). Jekyll pada dasarnya bukan blogging platform, bukan juga CMS, tetapi *static site generator*. Fungsinya simple, mengubah apapun yang ada dan dia bisa, jadi sebuah HTML. Simple banget memang, kalo bikin HTML siapapun yang paham apa dasar HTML juga bisa.
 
 HTML pada dasarnya bisa dikuasai semua orang. Contohnya, coba bikin file, nama terserah, ekstensinya `.html`. Contoh ya gue bikin file namanya `test` dan ekstensinya `.html`. Jadi nama filenya `test.html`. Lalu masukkan kode berikut:
 
