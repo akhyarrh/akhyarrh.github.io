@@ -1,48 +1,38 @@
 ---
 layout: default
 ---
+{% assign months = "Januari|Februari|Maret|April|Mei|Juni|Juli|Agustus|September|Oktober|November|Desember" | split: "|" %}
+{% assign m = page.date | date: "%-m" | minus: 1 %}
+{% assign month = months[m] %}
 
-<article class="post">
-  <h1 class="post-title text-center">{{ page.title }}</h1>
-  <p class="post-meta text-center"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time></p>
-  {{ content }}
+<article>
+    <header class="text-center">
+        <h1>{{ page.title }}</h1>
+        <time class="text-italic color-light"
+          datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date: "%d" }} {{ month }} {{ page.date | date: "%Y" }}
+        </time>
+    </header>
+
+    <section class="page-content">
+        {{content}}
+    </section>
+
+    <footer class="text-right">
+        <a class="text-italic" href="https://twitter.com/intent/tweet?screen_name=akhyarrh">
+          Komentar ?
+        </a>
+    </footer>
 </article>
 
-<nav class="pagination">
-  {% if page.next %}
-    <a class="pagination-item previous" href="{{ page.next.url | prepend: site.baseurl }}" aria-label="{{ page.next.title }}" rel="prev">
-      <span class="arrow">&larr;</span> Previous Post
-    </a>
-  {% else %}
-    <span class="pagination-item previous">
-      <span class="arrow">&larr;</span> Previous Post
-    </span>
-  {% endif %}
-  {% if page.previous %}
-    <a class="pagination-item next" href="{{ page.previous.url | prepend: site.baseurl }}" aria-label="{{ page.previous.title }}" rel="next">
-      Next Post <span class="arrow">&rarr;</span>
-    </a>
-  {% else %}
-    <span class="pagination-item next">
-      Next Post <span class="arrow">&rarr;</span>
-    </span>
-  {% endif %}
-</nav>
-
-{% if site.related_posts != empty %}
-<aside class="related">
-  <h2>Other Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
+<!-- Archive post list -->
+<aside class="related-posts">
+    <h2>Recent Posts</h2>
+    <ul>
+        {% for post in site.related_posts limit:5 %}
+        <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
 </aside>
-{% endif %}

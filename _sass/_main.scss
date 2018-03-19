@@ -1,0 +1,140 @@
+/* Variable*/
+$black:        #000;
+$white:        #fff;
+$dark:         #333;
+$light:        #ccc;
+$accent:       #dc143c;
+$border-color: #efefef;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 18px;
+  }
+}
+
+body {
+  color: $dark;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $black;
+}
+
+a {
+  color: $accent;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+kbd,
+pre,
+code {
+  padding: 0.2rem;
+  font-size: 85%;
+  background-color: #efefef;
+}
+
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+
+pre {
+  overflow-x: auto;
+}
+
+table {
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 85%;
+  border: 1px solid $black;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: .25rem .5rem;
+  border: 1px solid $border-color;
+}
+
+th {
+  text-align: left;
+}
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #eee;
+}
+
+.container {
+  max-width: 650px;
+  padding-top:   1.5rem;
+  padding-right: 1.5rem;
+  padding-left:  1.5rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+.main-nav {
+  text-align: right;
+  a {
+    margin: 0.2rem;
+    padding: 0.4rem;
+  }
+  .rss {
+    color: #fff;
+    background-color: #d43900;
+  }
+}
+
+.page-content {
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  blockquote {
+  padding: 0 1rem;
+  border-left: 0.5rem solid $light;
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.main-footer {
+  padding-bottom: 1rem;
+  border-top: 1px dotted $border-color;
+}
+
+small,.small { font-size: 85%; }
+
+.text-italic { font-style: italic; }
+
+.text-right  { text-align: right; }
+.text-center { text-align: center; }
+
+.color-light { color: light; }
