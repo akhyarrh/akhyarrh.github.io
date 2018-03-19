@@ -7,8 +7,7 @@ build:
 
 test:
 	htmlproofer ./_site --allow-hash-href --assume-extension --check-favicon \
-	  --check-html --check-opengraph --check-sri --only-4xx \
-	  --storage-dir ./_tmp/html-proofer
+	  --check-html --check-opengraph --check-sri --only-4xx
 
 serve:
 	bundle exec jekyll serve --drafts --future --unpublished
