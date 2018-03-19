@@ -3,69 +3,32 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html lang="id">
-  <head>
-
-    {% include head.html %}
-
-  </head>
-  <body>
-
-  {% include sidebar.html %}
-
-    <div class="wrap">
-      <div class="container content">
-
-        <header class="masthead">
-          <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.name }}</a>
-            <small>
-              {{ site.description }}
-            </small>
-          </h3>
-        </header>
-
-        <main>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    {% feed_meta %}
+    <link rel="sitemap" type="application/xml" title="{{ site.title }}" href="/sitemap.xml">
+    <link rel="shortcut icon" href="{{'/' | relative_url }}assets/images/favicon.png">
+    <link rel="stylesheet" href="{{'/' | relative_url }}style.css">
+</head>
+<body>
+    <main class="container">
+        <nav class="main-nav">
+          {% if page.url != "/" %}
+          <a href="{{'/' | relative_url }}"><span>←</span>&nbsp;Home</a>
+          {% endif %}
+          {% if page.url != "/profil/" %}
+          <a href="{{'/' | relative_url }}profil">Profil</a>
+          {% endif %}
+          <a href="{{'/' | relative_url }}feed.xml" class="rss">Subscribe</a>
+        </nav>
           {{ content }}
-        </main>
-
-      </div>
-    </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-            sidebar.contains(target) ||
-            (target === checkbox || target === toggle)) return;
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(['setDocumentTitle', document.domain + "/" + document.title]);
-      _paq.push(['enableHeartBeatTimer', 60]);
-      if (!window.location.pathname.match(/(\/forestry)/))
-      {
-        _paq.push(['trackPageView']);
-      };
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="//my-piwik.000webhostapp.com/piwik/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', '1']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-  </body>
+        <footer class="main-footer text-center">
+            <p class="small color-light">&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+            <a class="small" href="#">Top</a>
+        </footer>
+    </main>
+</body>
 </html>
