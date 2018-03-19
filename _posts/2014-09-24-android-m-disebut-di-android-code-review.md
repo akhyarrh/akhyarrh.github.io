@@ -1,14 +1,10 @@
----
-title: Android M disebut di Android Code Review
-tags: [android]
----
+# Android M disebut di Android Code Review
+
 Ada yang pakai android ? Jelly Bean ? Kitkat ? Atau masih ada yang belum bisa move-on dari Gingerbread ? Hahahahaha
 
 Gue dapet info yang lumayan bikin kaget pagi ini, pas lagi enak-enaknya ngopi, login ke forum, lalu mendadak baca [artikel ini di XDA portal](http://www.xda-developers.com/android-m-mentions/).
 
 Sebelum kesitu, kita ngomongin Android L dulu. Udah pada tau belum ? Jadi gini, Android L itu update dari Google. Bisa dibilang ini update mayor.
-
-<!--more-->
 
 Yang bikin kaget adalah comment “experimental M feature” yang disebut di [Android Code review](https://android-review.googlesource.com/#/c/107482/). Ini kampret. Android L aja belum rilis, bahkan nama dari Android L aja masih belum diumumkan. Lemon, Lollipop, atau ada nama lain belum tau.
 

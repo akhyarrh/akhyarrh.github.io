@@ -1,16 +1,10 @@
----
-published: true
-title: 'Sistem Terdistribusi: Bab 1'
-layout: post
-categories: [sister]
----
+# Sistem Terdistribusi: Bab 1
+
 <h2 class="text-center">Bab 1</h2>
 
 > Apa itu sistem terdistribusi ?
 
 Sistem Terdistribusi adalah sekumpulan komputer otonom yang terhubung ke suatu jaringan, dimana bagi pengguna sistem terlihat sebagai satu komputer.
-
-<!--more-->
 
 Maksud komputer otonom adalah walaupun komputer tidak terhubung ke jaringan, komputer tersebut tetap dapat berjalan.
 
@@ -109,7 +103,7 @@ Sistem Terdistribusi sangat dipengaruhi oleh jaringan komputer. Permasalahan aka
 
 -----
 
-> Sebutkan contoh-contoh sistem terdistribusi ?
+> Contoh-contoh sistem terdistribusi ?
 
 - Sistem telepon seperti ISDN, PSTN
 - Manajemen jaringan seperti administrasi sumber jaringan

@@ -1,12 +1,6 @@
----
-title: "Image Compression"
-tags:
-  - tips
----
+# Image Compression
 
 Gambar adalah konten kedua terbanyak di web menurut saya. Bahkan gif pun juga termasuk gambar, walaupun bergerak. Dulu ukuran file gambar tidak terlalu diperhatikan. Saya juga dulu dengan sembarangan melakukan upload gambar ke blog tanpa peduli berapa ukurannya. Tapi itu dulu, sekarang sudah beda. Hanya saja masih ada beberapa website yang belum melakukan *compression* terhadap konten gambar yang mereka punya. Padahal seharusnya mereka melakukannya agar web mereka cepat dan tidak terlalu banyak memakai kuota data.
-
-<!--more-->
 
 Dalam dunia web, ada tehnik yang disebut **image compression**. Sesuai namanya, untuk melakukan pengurangan ukuran gambar tanpa menurunkan kualitasnya secara drastis. Dengan ukuran gambar yang relatif kecil, maka loading akan semakin cepat karena data yang di download tidak akan terlalu besar. Ambil contoh di [post saya ini]({% post_url 2015-06-28-oh-firefox %}), berikut ukuran file-filenya:
 
@@ -29,7 +23,7 @@ Walaupun di blog saya jarang terdapat gambar, tapi kira-kira aja misalnya sebuah
 
 Makanya *image compression* itu penting. Selain untuk memudahkan pengunjung, nilai web kita di Google PSI juga bagus yang artinya web kita sudah menerima perubahan yang lebih baik.
 
-![Pffftt](/assets/img/pffftt.png)
+![Pffftt](/assets/post-img/pffftt.png)
 
 Ada beberapa cara untuk melakukan *compression*, untuk pengguna Linux mungkin bisa mengikuti cara saya menggunakan [image_optim](https://github.com/toy/image_optim) tapi harus terpasang Ruby & Nodejs dulu. Tinggal install `image_optim` menggunakan `gem` lalu gunakan via terminal.
 

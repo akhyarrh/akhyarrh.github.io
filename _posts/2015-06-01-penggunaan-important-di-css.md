@@ -1,16 +1,11 @@
----
-layout: post
-title: Penggunaan !important di CSS
-tags: [css]
----
+# Penggunaan !important di CSS
+
 > Apakah pendeklarasian `!important` di CSS diperlukan?
 > Apakah CSS kita akan 'bekerja' sesuai dengan yang kita inginkan kalau `!important` tidak dideklarasikan?
 
 Jawabannya simple, **tergantung**. Pendeklarasian `!important` sebenarnya tidak terlalu diperlukan di beberapa bagian. Tapi di beberapa hal, memang terkadang harus dipergunakan. Misalnya di *utility classes* atau di *print style*.
 
 *Important* artinya penting dalam bahasa indonesia. Buat yang belum tahu, `!important` di CSS biasanya dipergunakan untuk deklarasi style yang sifatnya sangat penting. Walaupun setelahnya ada pendeklarasian style yang juga mengubah *selector* yang sama. Mungkin agak susah dipahami, tapi sedikit contoh mungkin akan membantu.
-
-<!--more-->
 
 ## Tanpa `!important`
 
@@ -29,7 +24,7 @@ HTML
 
 Hasil:
 
-![Tanpa !important](/assets/img/tanpa-!important.png)
+![Tanpa !important](/assets/post-img/tanpa-!important.png)
 
 ## Dengan `!important`
 
@@ -48,7 +43,7 @@ HTML
 
 Hasil:
 
-![Dengan !important](/assets/img/dengan-!important.png)
+![Dengan !important](/assets/post-img/dengan-!important.png)
 
 Pada contoh di atas, kita menyatakan bahwa *h1* hurufnya berwarna pink dan *black-text* hurufnya berwarna hitam. Saat kita menggunakan 2 *selector* tersebut di 1 elemen, keduanya bisa menghasilkan sesuatu yang berbeda.
 

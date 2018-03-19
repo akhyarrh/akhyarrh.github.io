@@ -1,9 +1,4 @@
----
-title: Oh Firefox
-tags:
-  - browser
-  - tes
----
+# Oh Firefox
 
 Sebelum mulai, ada beberapa hal yang harus kalian perhatikan sebelum baca lebih lanjut, diantaranya:
 1. Saya akan melakukan tes di 2 browser yang penggunanya lumayan banyak, **Google Chrome** dan **Mozilla Firefox**.
@@ -14,27 +9,25 @@ Sebelum mulai, ada beberapa hal yang harus kalian perhatikan sebelum baca lebih 
 6. Tes yang dilakukan adalah tes dukungan terhadap **HTML5** dan **CSS3**.
 7. Tes dilakukan dengan mengunjungi [HTML5test][html5test] dan [CSS3test][css3test]
 
-![Chrome version used](/assets/img/chrome-version-tested.png)
+![Chrome version used](/assets/post-img/chrome-version-tested.png)
 
-![Firefox version used](/assets/img/firefox-version-tested.png)
-
-<!--more-->
+![Firefox version used](/assets/post-img/firefox-version-tested.png)
 
 ## HTML5 Test
 ### Chrome
-![Chrome HTML5 Test Result](/assets/img/chrome-html5test-result.png)
+![Chrome HTML5 Test Result](/assets/post-img/chrome-html5test-result.png)
 
 ### Firefox
-![Firefox HTML5 Test Result](/assets/img/firefox-html5test-result.png)
+![Firefox HTML5 Test Result](/assets/post-img/firefox-html5test-result.png)
 
 ## CSS3 Test
 ### Chrome
-![Chrome CSS3 Test Result](/assets/img/chrome-css3test-result.png)
+![Chrome CSS3 Test Result](/assets/post-img/chrome-css3test-result.png)
 
 **Note:** berdasarkan catatan kecil di [css3test][css3test], Webkit (_engine_ yang digunakan Chrome, Opera, Safari) sebenarnya tidak mendukung `background-repeat`.
 
 ### Firefox
-![Firefox CSS3 Test Result](/assets/img/firefox-css3test-result.png)
+![Firefox CSS3 Test Result](/assets/post-img/firefox-css3test-result.png)
 
 ## Kesimpulan
 Chrome mungkin lebih baik dalam hal dukungan terhadap HTML5. Tapi jujur aja kalau kalian mencari lebih jauh, dukungan Firefox terhadap HTML5 itu juga bagus karena Chrome selain juga mendukung elemen-elemen yang direkomendasikan juga mendukung elemen-elemen yang belum direkomendasikan (sifatnya masih _draft_ dan lain sebagainya). Sedangkan Firefox mungkin memang kurang mendukung HTML5 tapi elemen-elemen yang sudah di rekomendasikan sudah mereka _support_.
@@ -43,7 +36,7 @@ Di tes terhadap _support_ untuk CSS 3, Chrome kalah, padahal udah curang. Firefo
 
 Sejak awal 2014, saya mencoba beralih ke Firefox tapi selalu saja ada kendala. Lambat, kadang crash, pemasangan _add-on_ yang ribet karena kadang harus _restart_ Firefox, dan yang terbaru adalah animasi yang sangat tidak berguna saat berpindah tab.
 
-![Spinner on latest Firefox](/assets/img/oooh.png)
+![Spinner on latest Firefox](/assets/post-img/oooh.png)
 
 Pada akhirnya, sampai saat ini masih bersabar untuk menggunakan Chrome. Semoga aja nanti Mozilla berhenti melakukan hal tidak berguna seperti _spinner_ tersebut dan fokus untuk memperbaiki performa dan memperbaiki pengalaman pengguna saat menggunakan Firefox.
 

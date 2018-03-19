@@ -1,12 +1,8 @@
----
-title: Bendera motif catur
-tags: [random]
----
+# Bendera motif catur
+
 Banjarmasin, 7 april 2014. Gue lagi di kosan. Bersama segelas kopi dan setumpuk gorengan. Ah ga penting emang, tapi gue tulisin aja lah biar penting. Kali ini gue ga mau lucu-lucu, karena selain batuk gue yang makin kenceng, kondisi keuangan yang tragis ikut menambah kelam suasana yang lumayan bikin gue lebih milih nonton film sedih tapi ga paham apa-apa daripada ikut ketawa sama temen-temen kost-an nontonin youtube.
 
 Beidewei, cuacanya lagi kampret. Gue berharap mataharinya cerah, agar suasananya bisa sedikit terobati saat menatap langit dikala senja. Cuacanya lagi kelam, ya walau ga terlalu kelam. Setidaknya cuaca kali ini cukup buat bikin gue milih untuk nge-spam di twitter daripada menahan batuk yang makin kencang. Ah ga guna juga hal ini di tuliskan, tapi gue tulis aja lah biar keliatan berguna.
-
-<!--more-->
 
 Keren juga ya 2 paragraf bisa nulis puitis gini. Padahal biasanya gue ga bisa gitu, bahkan ga pernah mungkin. Oh iya, gue lagi nontonin youtube, karena mendadak tertarik sama kata ‘start’. Bisa di bilang start ini permulaan, langkah awal, dan biasanya ini menentukan finish kita gimana. Misalnya aja kalo mau boker, start-nya ya ke toilet dulu, emang ada yang boker di aula. Bisa aja sih boker di aula, aula yang isinya kloset semua.
 

@@ -1,10 +1,6 @@
----
-title: "My Life. My World. History"
-tags: [special]
----
-Alhamdulillah. Bersyukur adalah kata pertama di tulisan kali ini. Bukan apa-apa sih. Hanya sekedar berusaha menikmati apa yang sudah gue dapat selama hidup gue yang sekarang. Ga ada yang spesial. Karena pada dasarnya kita tidak perlu alasan apa-apa untuk enjoy dengan yang kita dapat. Hidup terlalu sia-sia untuk dilewati dengan mengeluh. Gue pada dasarnya orang yang enjoy. Walau kadang ada terucap sedikit keluhan, tapi gue berusaha untuk tetap menikmati apa yang ada.
+# My Life. My World. History
 
-<!--more-->
+Alhamdulillah. Bersyukur adalah kata pertama di tulisan kali ini. Bukan apa-apa sih. Hanya sekedar berusaha menikmati apa yang sudah gue dapat selama hidup gue yang sekarang. Ga ada yang spesial. Karena pada dasarnya kita tidak perlu alasan apa-apa untuk enjoy dengan yang kita dapat. Hidup terlalu sia-sia untuk dilewati dengan mengeluh. Gue pada dasarnya orang yang enjoy. Walau kadang ada terucap sedikit keluhan, tapi gue berusaha untuk tetap menikmati apa yang ada.
 
 Tadi siang, sehabis kuliah gue berusaha mengingat apa aja yang udah gue lewatin. Merekap ulang jalan yang udah gue lewati. Sebenarnya sejak awal blog ini dibuat, sekitar kelas 2 atau kelas 3 saat masih SMA, gue ingin menuliskan pengalaman-pengalaman gue. Tapi karena waktu yang terlalu sedikit untuk posting, ditambah dengan kesibukan yang sedikit banyak. Alhasil tidak terlalu bisa untuk menuliskan semuanya. Walau kadang pas ada waktu luang, gue malah bingung mau nulis apaan. Sebenarnya banyak draft berserakan, dengan judul-judul yang ga jelas, isinya penuh dengan curhatan sinting yang membuat gue kadang mikir berkali-kali kalo mau gue hapus. Pas gue ngecek draft, sampai ujung, draft pertama dibuat tahun 2010, 16 Mei, 02:47 am. Judulnya “Kamu Geblek, tapi Aku Sayang”. Iya emang sinting, kalo mau muntah, silakan. Gue udah duluan.
 

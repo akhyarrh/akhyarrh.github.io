@@ -1,10 +1,6 @@
----
-title: 'Football Manager : Jadi Manajer Tak Semudah Keliatannya'
-tags: [game, football]
----
-Semua yang suka sepakbola, pasti bakal tertarik sama game sejenis ini. Tentu saja, daripada cuman jadi pemain, menjadi pelatih pun juga menarik. Tapi tidak semua orang yang suka sepakbola akan sangat menikmati game ini dalam waktu lama. Terkadang ada aja masalah di tengah perjalanan jadi manajer yang jadi penghalang. Pemain-pemain cedera, terlalu banyak kalah, pemain kita yang bagus diincar manajer lain, dan sebagainya. Itu semua cuma sebagian kecil.
+# Football Manager : Jadi Manajer Tak Semudah Keliatannya
 
-<!--more-->
+Semua yang suka sepakbola, pasti bakal tertarik sama game sejenis ini. Tentu saja, daripada cuman jadi pemain, menjadi pelatih pun juga menarik. Tapi tidak semua orang yang suka sepakbola akan sangat menikmati game ini dalam waktu lama. Terkadang ada aja masalah di tengah perjalanan jadi manajer yang jadi penghalang. Pemain-pemain cedera, terlalu banyak kalah, pemain kita yang bagus diincar manajer lain, dan sebagainya. Itu semua cuma sebagian kecil.
 
 Sebenarnya game football manager (setidaknya yang sudah gue coba) tidak memberikan simulasi yang benar-benar real tentang pekerjaan seorang manajer tim sepakbola. Masih ada beberapa hal yang menurut gue kalo diterapkan akan membuat simulasinya makin terasa, tetapi bisa membuat game tersebut semakin kompleks, semakin rumit. Beberapa di antaranya adalah :
 

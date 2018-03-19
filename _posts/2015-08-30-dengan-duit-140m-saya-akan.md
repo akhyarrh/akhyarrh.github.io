@@ -1,15 +1,8 @@
----
-title: Dengan Duit 140M Saya akan ...
-date: "2015-08-30 16:30"
-tags: random
-published: true
----
+# Dengan Duit 140M Saya akan...
 
 ... bermalas-malasan selama 10 tahun mungkin. Jujur aja, 140M itu buaaanyak banget OMG my baby hunny. Untuk lebih detil, mari berhitung.
 
 Anggap saja saya akan membangun situs perusahaan bernama **Nectktar** (amin). Baru langkah awal, saya baru punya 9 karyawan jadi pas 10 dengan saya. Saya akan perlu domain, hosting, CDN, plus biaya untuk akun organisasi di GitHub dan gaji serta jaminan internet untuk 10 orang, artinya saya akan perlu 10 paket internet dan 1 paket internet untuk perusahaan.
-
-<!--more-->
 
 ## Domain
 
@@ -26,7 +19,7 @@ TLD | Durasi | Harga
 
 Blog ini ada di GitHub jadi saya belum tahu web hosting yang bagus. Setelah saya search, saya pilih menggunakan pilihan [PCMag](http://www.pcmag.com) yaitu [Arvixe](http://www.arvixe.com), menggunakan Dedicated server.
 
-![Hosting](/assets/img/hosting.png)
+![Hosting](/assets/post-img/hosting.png)
 
 Plan | Durasi | Harga
 :--- | :---: | :---

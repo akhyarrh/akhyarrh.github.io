@@ -1,12 +1,8 @@
----
-title: Game FPS bukan untuk anak kecil
-tags: [game, fps]
----
+# Game FPS bukan untuk anak kecil
+
 Apa yang terjadi kalau sejak kecil gue main game ini ?. Pertanyaan itu terlontar saat gue lagi nonton YouTube yang berisi video tentang **Call of Duty : Advanced Warfare**. Walau memang game perang semacam ini hanya boleh dimainkan oleh orang yang cukup umur, tapi gue pernah liat anak umur dibawah 10 tahun main game semacam ini.
 
 Sedikit info, FPS itu artinya First Person Shoot, atau biasa disebut juga sudut pandang orang pertama. Jadi kita gak liat karakter kita gimana, tapi kita yang jadi karakter tersebut.
-
-<!--more-->
 
 > Lalu kenapa lut ? Bukannya kamu main game FPS juga kan ?
 

@@ -1,12 +1,8 @@
----
-title: Walut Berpolitik
-tags: [random]
----
+# Politik
+
 Gue bukan orang yang suka sama dunia politik atau goyang itik, tapi memperhatikan politik dengan seksama. Korupsi anggota dewan, artis cerai, cowo yang ini di gosipin sama cowo yang ini. Ya walaupun lebih banyak nonton acara gosip daripada berita, tapi memperhatikan acara tentang politik dengan baik.
 
 Memang politik Indonesia punya sistem yang bersih tapi aparatnya yang kotor. Makanya gue kalo ngomong politik sama ayah gue, selalu ketemu kalimat, ‘politik itu kotor’. Sebenarnya sistemnya bersih tapi aparatnya memang kotor. Walau ga semuanya sekotor kamar gue, tapi yang jelas karena lebih banyak yang kotor daripada yang tidak, makanya cap kotornya lebih kental.
-
-<!--more-->
 
 Waktu gue masih kecil, cita-cita jadi presiden udah gue tanamkan. Mungkin karena televisi, akhirnya dulu bercita-cita jadi presiden. Sampai galau antara mau jadi pemain bola macam kapten Tsubasa atau mau jadi presiden. Menurut gue keren, jalanan cuman punya kita, negara segede ini punya kita, pacar orang punya kita. Pokoknya semuanya udah jadi milik kita deh.
 

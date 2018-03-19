@@ -1,10 +1,6 @@
----
-title: "Bermain dengan function di Sass"
-tags: [desain, sass]
----
-Awalnya ingin mendalami lebih jauh mengenai *fuction* di Sass. Akhirnya malah mendarat di [The Sass Way](http://thesassway.com). Di artikel yang berjudul [Using pure Sass functions to make reusable logic more useful](http://thesassway.com/advanced/pure-sass-functions). Lumayan menarik. Makanya aku post. Nanti kalau lupa, udah ada dokumennya jadi ga ribet carinya.
+# Bermain dengan function di Sass
 
-<!--more-->
+Awalnya ingin mendalami lebih jauh mengenai *fuction* di Sass. Akhirnya malah mendarat di [The Sass Way](http://thesassway.com). Di artikel yang berjudul [Using pure Sass functions to make reusable logic more useful](http://thesassway.com/advanced/pure-sass-functions). Lumayan menarik. Makanya aku post. Nanti kalau lupa, udah ada dokumennya jadi ga ribet carinya.
 
 Ini cuman penerapan yang dasar. Bikin grid yang lebarnya menggunakan persen. Sedikit demo, menggunakan embednya [Codepen](http://codepen.io).
 
@@ -13,7 +9,7 @@ Ini cuman penerapan yang dasar. Bikin grid yang lebarnya menggunakan persen. Sed
 
 Ga ada `.container` sama `.row` biar lebih enak dibacanya. Sebenarnya perlu sih, tapi kalo aku masukin juga nanti susah memahaminya. Intinya itu menggunakan logika dasar aja buat mencari nilai persen.
 
-Segitu aja cukup kan? Kalau ada pertanyaan, PING!!! ke [Twitter][akun-twitter], hancurin di [Codepen](http://codepen.io/akhyar/pen/zGdXzd), atau main sama markdown di kotak komentar.
+Segitu aja cukup kan? Kalau ada pertanyaan, PING!!! ke [Twitter][akun-twitter] atau hancurin di [Codepen](http://codepen.io/akhyar/pen/zGdXzd).
 
 Ciao
 
