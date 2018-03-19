@@ -1,70 +1,77 @@
-repository: akhyarrh/akhyarrh.github.io
+# Ref:
+#
+# https://help.github.com/articles/configuring-jekyll/
 
-gems:
-  - jekyll-assets
-  - jemoji
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+timezone: Asia/Makassar
 
-name:        "AkhyarRH"
-description: "Hungry, Young, Wild, and Free"
-url:         "https://akhyarrh.github.io"
-author:
-  name:  "Akhyar Rahman Hidayat"
-  email: "akhyarrh@gmail.com"
+title:       AkhyarRH
+description: Hungry, Young, Wild, and Free
+url:         https://akhyarrh.github.io
+repository:  akhyarrh/akhyarrh.github.io
 
-timezone: Asia/Jakarta
-
-host: localhost
-
-permalink: /post/:title/
-
-exclude:
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - Rakefile
-  - README.md
-  - script
-  - vendor
-
-sass:
-  style: compressed
-
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  ignore:
-    envs: [local]
-
-# jekyll seo tag
-title: AkhyarRH
-
-# per-post
-author: akhyarrh
-
-# sitewide
+author: M Akhyar Rahman H
 twitter:
   username: akhyarrh
-
-facebook:
-  admins: 100000001003810
 
 webmaster_verifications:
   google: "sV2248YCZVyLu6nhz72znzNoCUhSfCqwiCEjUO-Kiu8"
   bing:   "E9A1908DCAA52A63BF7B5F67DB05745D"
   alexa:  "gXuVtj4bXDWiVB_ihCJijNBQNj8"
-#  yandex: 1234
+#  yandex: ""
 
-logo: /assets/img/logo.png
+permalink: /post/:title/
 
-lang: id_ID
+future: false
 
-# plugin: jekyll-assets
-assets:
-  prefix: "/assets"
+exclude:
+  - CNAME
+  - Gemfile*
+  - LICENSE
+  - Makefile
+  - Rakefile
+  - README.md
+  - vendor
 
-  features:
-    integrity: true
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      image: /assets/images/default-card.jpg
+
+# https://help.github.com/articles/configuring-jekyll-plugins/#default-plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-feed
+
+kramdown:
+  auto_ids:      true
+  smart_quotes:  [lsquo,rsquo,ldquo,rdquo]
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  ignore:
+    envs: [development]
+
+jekyll_admin:
+  hidden_links:
+    - staticfiles
+    - datafiles
+    - configuration
+
+optional_front_matter:
+  remove_originals: true
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true
+
+jekyll-mentions: https://twitter.com
