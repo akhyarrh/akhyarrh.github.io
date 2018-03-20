@@ -5,16 +5,17 @@ layout: default
 {% assign m = page.date | date: "%-m" | minus: 1 %}
 {% assign month = months[m] %}
 
-<article>
+<article itemscope itemtype="http://schema.org/BlogPosting">
     <header class="text-center">
-        <h1>{{ page.title }}</h1>
+        <h1 itemprop="name">{{ page.title }}</h1>
         <time class="text-italic color-light"
-          datetime="{{ page.date | date: "%Y-%m-%d" }}">
+          datetime="{{ page.date | date: "%Y-%m-%d" }}"
+          itemprop="datePublished">
           {{ page.date | date: "%d" }} {{ month }} {{ page.date | date: "%Y" }}
         </time>
     </header>
 
-    <div class="page-content">
+    <div class="page-content" itemprop="articleBody">
         {{content}}
     </div>
 

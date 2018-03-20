@@ -10,6 +10,7 @@ layout: default
 {% assign m = post.date | date: "%-m" | minus: 1 %}
 {% assign month = months[m] %}
 
+<div itemscope itemtype="http://schema.org/Blog">
 {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% if currentyear != year %}
 {% unless forloop.first %}</ul></section>{% endunless %}
@@ -18,13 +19,15 @@ layout: default
 <ul>
     {% capture year %}{{ currentyear }}{% endcapture %}
     {% endif %}
-    <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <li itemprop="blogPost">
+        <a href="{{ post.url | relative_url }}" itemprop="name">{{ post.title }}</a>
         <time class="small text-italic color-gray-light"
-          datetime="{{ post.date | date: "%Y-%m-%d" }}">
+          datetime="{{ post.date | date: "%Y-%m-%d" }}"
+          itemprop="datePublished">
           {{ post.date | date: "%d" }} {{ month }}
         </time>
     </li>
 {% endfor %}
 </ul>
 </section>
+</div>
