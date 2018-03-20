@@ -21,4 +21,7 @@ ping-google:
 ping-bing:
 	curl "http://www.bing.com/webmaster/ping.aspx?siteMap=https://akhyarrh.github.io/sitemap.xml"
 
-ping: ping-google ping-bing
+ping-pubsubhubbub:
+	curl -X POST "https://pubsubhubbub.appspot.com/" -d"hub.mode=publish" -d"hub.url=https://akhyarrh.github.io/feed.xml"
+
+ping: ping-google ping-bing ping-pubsubhubbub
