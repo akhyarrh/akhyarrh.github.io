@@ -14,7 +14,7 @@ layout: compress
     <link rel="stylesheet" href="{{'/' | relative_url }}style.css">
 </head>
 <body>
-    <main class="container">
+    <div class="container">
         <nav class="main-nav">
           {% if page.url != "/" %}
           <a href="{{'/' | relative_url }}"><span>←</span>&nbsp;Home</a>
@@ -24,11 +24,15 @@ layout: compress
           {% endif %}
           <a href="{{'/' | relative_url }}feed.xml" class="rss">Subscribe</a>
         </nav>
-          {{ content }}
+    </div>
+    <main class="container">
+        {{ content }}
+    </main>
+    <div class="container">
         <footer class="main-footer text-center">
             <p class="small color-light">&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
             <a class="small" href="#">Top</a>
         </footer>
-    </main>
+    </div>
 </body>
 </html>
