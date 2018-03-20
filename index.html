@@ -21,7 +21,7 @@ layout: default
     <li>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         <time class="small text-italic color-gray-light"
-          datetime="{{ post.date | date_to_xmlschema }}">
+          datetime="{{ post.date | date: "%Y-%m-%d" }}">
           {{ post.date | date: "%d" }} {{ month }}
         </time>
     </li>

@@ -9,7 +9,7 @@ layout: default
     <header class="text-center">
         <h1>{{ page.title }}</h1>
         <time class="text-italic color-light"
-          datetime="{{ page.date | date_to_xmlschema }}">
+          datetime="{{ page.date | date: "%Y-%m-%d" }}">
           {{ page.date | date: "%d" }} {{ month }} {{ page.date | date: "%Y" }}
         </time>
     </header>
