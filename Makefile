@@ -14,3 +14,11 @@ serve:
 
 preview:
 	bundle exec jekyll serve
+
+ping-google:
+	curl "http://www.google.com/webmasters/sitemaps/ping?sitemap=https://akhyarrh.github.io/sitemap.xml"
+
+ping-bing:
+	curl "http://www.bing.com/webmaster/ping.aspx?siteMap=https://akhyarrh.github.io/sitemap.xml"
+
+ping: ping-google ping-bing
