@@ -4,13 +4,15 @@ layout: default
 
 {% include header.html %}
 
+<div itemscope itemtype="http://schema.org/Blog">
+
 {% for post in site.posts %}
 
 {% assign months = "Jan|Feb|Mar|Apr|Mei|Jun|Jul|Agu|Sep|Okt|Nov|Des" | split: "|" %}
 {% assign m = post.date | date: "%-m" | minus: 1 %}
 {% assign month = months[m] %}
 
-<div itemscope itemtype="http://schema.org/Blog">
+
 {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% if currentyear != year %}
 {% unless forloop.first %}</ul></section>{% endunless %}
