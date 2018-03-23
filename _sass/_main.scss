@@ -115,6 +115,10 @@ tbody tr:nth-child(odd) th {
     display: block;
     margin: 0 auto;
     max-width: 100%;
+
+    &.emoji {
+      display: inline;
+    }
   }
   blockquote {
   padding: 0 1rem;
