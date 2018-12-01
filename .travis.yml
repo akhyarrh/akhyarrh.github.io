@@ -3,7 +3,7 @@ language: ruby
 cache: bundler
 
 rvm:
-  -  2.5.3p105
+  -  2.5.3
 
 env:
   global:
