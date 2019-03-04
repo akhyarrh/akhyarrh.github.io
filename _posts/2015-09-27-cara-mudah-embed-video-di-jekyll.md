@@ -52,7 +52,7 @@ Lalu lakukan *embed* di post:
 
 ## Colophon
 
-Bisa dibilang saya ambil dari post Adam Harris. Saya edit sedikit biar lebih gampang dipergunakan. Langsung aja ke [post asli](http://www.adamwadeharris.com/how-to-easily-embed-youtube-videos-in-jekyll-sites-without-a-plugin/) kalau mau baca versi aslinya.
+Bisa dibilang saya ambil dari post Adam Garrett-Harris. Saya edit sedikit biar lebih gampang dipergunakan. Langsung aja ke [post asli](https://adam.garrett-harris.com/how-to-easily-embed-youtube-videos-in-jekyll-sites-without-a-plugin) kalau mau baca versi aslinya.
 
 Sebagai penutup, selamat menikmati Hardwell On Air episode 236.
 
