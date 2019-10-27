@@ -7,7 +7,7 @@ build:
 
 test:
 	bundle exec htmlproofer ./_site --allow-hash-href --assume-extension \
-	--check-favicon --check-html --check-opengraph --only-4xx
+	--check-favicon --check-html --check-opengraph --timeframe 4w
 
 serve:
 	bundle exec jekyll serve --drafts --future --unpublished
