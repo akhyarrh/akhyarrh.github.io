@@ -14,7 +14,8 @@ Tumblr ? Entah sekarang perkembangan mereka sejauh apa tapi menurut saya lumayan
 
 Pilihan lain yang berbayar ada [**Silvrback**](https://www.silvrback.com) dan [**Svbtle**](https://svbtle.com). Berbayar memang, mungkin agak mahal untuk beberapa orang. Alternatif yang gratis sejauh ini cuma [**Postach**](http://postach.io) yang menggunakan post dari notebook di akun Evernote kita.
 
-Kalau kalian pengguna GitHub, kalian bisa menggunakan Gist untuk blogging. [**Roughdraft**](http://www.roughdraft.io) membuat kita bisa blogging via Gist. FYI, Gist itu seperti Pastebin tapi hanya untuk pengguna GitHub. Cuma perlu membuat public Gist, judul post diambil dari deskripsi Gist, dan kalau sudah punya akun GitHub maka bisa cek ke **$USERNAME.roughdraft.io**. Misalnya akun saya ada di [akhyarrh.roughdraft.io](http://akhyarrh.roughdraft.io) padahal saya belum pernah Register apalagi Login.
+~~Kalau kalian pengguna GitHub, kalian bisa menggunakan Gist untuk blogging. **Roughdraft** membuat kita bisa blogging via Gist. FYI, Gist itu seperti Pastebin tapi hanya untuk pengguna GitHub. Cuma perlu membuat public Gist, judul post diambil dari deskripsi Gist, dan kalau sudah punya akun GitHub maka bisa cek ke **$USERNAME.roughdraft.io**. Misalnya akun saya ada di akhyarrh.roughdraft.io padahal saya belum pernah Register apalagi Login.~~
+**Roughdraft kayaknya lagi down** :cry:
 
 -----
 
