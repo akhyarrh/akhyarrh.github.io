@@ -2,7 +2,7 @@
 
 Beberapa minggu yang lalu saya membaca ulang [dokumentasi Jekyll](http://jekyllrb.com). Mulai dari bagian 'Welcome' sampai habis. Sebuah pertanyaan muncul di kepala saya. Bagaimana kalau pengguna yang awam, yang belum memahami banyak tentang Jekyll, mencoba untuk memakai layanan seperti [Prose](http://prose.io) atau [markdown-writer](http://github.com/zhuochun/md-writer) (sebuah package untuk Atom) ?
 
-Bagaimana kalau mereka juga ingin menggunakan layanan seperti [Disqus](http://disqus.com) atau [komments](http://komments.net) ? Atau ingin menggunakan [Pooleapp](http://pooleapp.com) ? Atau mungkin commenting system lainnya ?
+Bagaimana kalau mereka juga ingin menggunakan layanan seperti [Disqus](http://disqus.com) atau ~~komments(komments.net)~~ link error :cry: ? Atau ingin menggunakan [Pooleapp](http://pooleapp.com) ? Atau mungkin commenting system lainnya ?
 
 Bagaimana kalau mereka juga ingin membuat *contact page* menggunakan layanan seperti [FormSpree](http://formspree.io/) atau [FormKeep](http://formkeep.com/) atau yang lain ?
 
