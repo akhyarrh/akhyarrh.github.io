@@ -85,7 +85,7 @@ Gampang. Simpel.
 
 ## Colophon
 
-Satu-satunya sumber yang menjelaskan dengan bahasa indonesia yang mudah dipahami [disini](http://praktisiweb.com/font-sizing-dengan-rem/). Sumber luar yang lumayan komplit penjelasannya bisa baca [disini](https://j.eremy.net/confused-about-rem-and-em/).
+Satu-satunya sumber yang menjelaskan dengan bahasa indonesia yang mudah dipahami: ~~praktisiweb.com/font-sizing-dengan-rem/~~ Link down :cry:. Sumber luar yang lumayan komplit penjelasannya bisa baca [disini](https://j.eremy.net/confused-about-rem-and-em/).
 
 *note:* awalnya berusaha mengingat arti *inherit* tapi gagal. Akhirnya ke Google Translate dan artinya adalah...
 
