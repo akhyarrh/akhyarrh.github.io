@@ -243,17 +243,10 @@ Keenam langkah tersebut adalah:
 
 Referensi:
 
-1. Rijal Fadilah, Handout Komunikasi Data dan Jaringan Komputer, [rijalfadilah.multiply.com][1]
+1. Rijal Fadilah, Handout Komunikasi Data dan Jaringan Komputer, rijalfadilah.multiply.com
 2. Trindiana dkk., Tugas Kuliah Pengantar Sistem Terdistribusi, 2008.
-3. Mudji, Model Jaringan 7 OSI Layer, [mudji.net][2]
-4. Lintang, Pengenalan Hardware dan Topologi Jaringan Komputer, [staffsite.gunadarma.ac.id][3]
-5. [bebas.vlsm.org][4]
-6. [bebas.vlsm.org] (http://www.bebas.vlsm.org/v06/Kuliah/SistemOperasi/BUKU/bahan/bahan-bab3.pdf)
-7. Isak Rickyanto, Tutorial Pengenalan Java RMI, [benpinter.net][5]
+3. Mudji, Model Jaringan 7 OSI Layer, [mudji.net](http://mudji.net/press/?p=61)
+4. Lintang, Pengenalan Hardware dan Topologi Jaringan Komputer, staffsite.gunadarma.ac.id
+6. bebas.vlsm.org/v06/Kuliah/SistemOperasi/BUKU/bahan/bahan-bab3.pdf
+7. Isak Rickyanto, Tutorial Pengenalan Java RMI, benpinter.net
 8. Ayu Anggriani dkk., Tugas Kuliah Pengantar Sistem Terdistribusi, 2008.
-
-[1]: http://rijalfadilah.multiply.com/
-[2]: http://mudji.net/press/?p=61
-[3]: http://staffsite.gunadarma.ac.id/lintang/index.php?stateid=download&id=2268&part=files
-[4]: http://bebas.vlsm.org/v06/Kuliah/SistemOperasi/BUKU/SistemOperasi-4.X-1/ch17s06.html
-[5]: http://www.benpinter.net/
