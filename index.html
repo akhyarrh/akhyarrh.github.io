@@ -8,25 +8,20 @@ layout: default
 
 {% for post in site.posts %}
 
-{% assign months = "Jan|Feb|Mar|Apr|Mei|Jun|Jul|Agu|Sep|Okt|Nov|Des" | split: "|" %}
-{% assign m = post.date | date: "%-m" | minus: 1 %}
-{% assign month = months[m] %}
-
-
 {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% if currentyear != year %}
 {% unless forloop.first %}</ul></section>{% endunless %}
 <section>
 <h2>{{ currentyear }}</h2>
-<ul>
+<ul class="list-reset">
     {% capture year %}{{ currentyear }}{% endcapture %}
     {% endif %}
-    <li itemprop="blogPost">
+    <li class="index-item" itemprop="blogPost">
         <a href="{{ post.url | relative_url }}" itemprop="name">{{ post.title }}</a>
         <time class="small text-italic color-gray-light"
           datetime="{{ post.date | date: "%Y-%m-%d" }}"
           itemprop="datePublished">
-          {{ post.date | date: "%d" }} {{ month }}
+          {{ post.date | date: "%d/%m" }}
         </time>
     </li>
 {% endfor %}

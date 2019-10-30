@@ -30,7 +30,7 @@ layout: compress
           {% if page.url != "/profil/" %}
           <a href="{{'/' | relative_url }}profil">Profil</a>
           {% endif %}
-          <a href="{{'/' | relative_url }}feed.xml" class="rss">Subscribe</a>
+          <a href="{{'/' | relative_url }}feed.xml">Subscribe</a>
         </nav>
     </div>
     <main class="container">
@@ -39,7 +39,6 @@ layout: compress
     <div class="container">
         <footer class="main-footer text-center">
             <p class="small color-light">&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
-            <a class="small" href="#">Top</a>
         </footer>
     </div>
 </body>

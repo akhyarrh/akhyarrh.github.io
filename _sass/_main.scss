@@ -3,7 +3,7 @@ $black:        #000;
 $white:        #fff;
 $dark:         #333;
 $light:        #ccc;
-$accent:       #dc143c;
+$accent:       #0074d9;
 $border-color: #efefef;
 
 * {
@@ -17,34 +17,30 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  font-size: 14px;
+  font-family: georgia, serif;
+  font-size: 62.5%;
   line-height: 1.5;
-
-  @media (min-width: 768px) {
-    font-size: 16px;
-  }
-
-  @media (min-width: 1024px) {
-    font-size: 18px;
-  }
 }
 
 body {
   color: $dark;
+  font-size: 2rem
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: $black;
 }
 
-a {
+a , a:link {
   color: $accent;
+  transition: color .4s;
   text-decoration: none;
   &:hover,
   &:focus {
+	color: #001f3f;
     text-decoration: underline;
   }
+  &:visited { color: #f012be }
 }
 
 kbd,
@@ -63,7 +59,8 @@ pre code {
 }
 
 pre {
-  overflow-x: auto;
+  overflow: hidden;
+  overflow-x: scroll;
 }
 
 table {
@@ -91,22 +88,16 @@ tbody tr:nth-child(odd) th {
 
 .container {
   max-width: 650px;
-  padding-top:   1.5rem;
-  padding-right: 1.5rem;
-  padding-left:  1.5rem;
-  margin-left:  auto;
+  padding: 1.5rem;
+  margin-left: auto;
   margin-right: auto;
 }
 
 .main-nav {
   text-align: right;
   a {
-    margin: 0.2rem;
-    padding: 0.4rem;
-  }
-  .rss {
-    color: #fff;
-    background-color: #d43900;
+    margin: 0.1rem;
+    padding: 0.5rem;
   }
 }
 
@@ -159,4 +150,7 @@ small,.small { font-size: 85%; }
 .text-right  { text-align: right; }
 .text-center { text-align: center; }
 
-.color-light { color: light; }
+.color-light { color: $light; }
+
+.list-reset { list-style-type: none; }
+.index-item { padding: 0.4rem; }
