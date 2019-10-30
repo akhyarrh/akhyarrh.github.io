@@ -143,6 +143,37 @@ tbody tr:nth-child(odd) th {
   border-top: 1px dotted $border-color;
 }
 
+.contact-form {
+	label {
+		padding: 1rem;
+		padding-left: 0;
+		display: block;
+	}
+	input[type=text], input[type=email], textarea {
+		width: 100%;
+		padding: 1rem;
+		border: 1px solid $dark;
+		border-radius: 2px;
+		resize: vertical;
+	}
+	input[type=submit] {
+		background-color: $accent;
+		color: #eee;
+		padding: 12px 20px;
+		border-radius: 4px;
+		cursor: pointer;
+		transition: background-color .4s;
+		&:hover,
+		&:focus {
+			background-color: #001f3f;
+		}
+	}
+	.g-recaptcha {
+		padding: 1rem;
+		padding-left: 0;
+	}
+}
+
 small,.small { font-size: 85%; }
 
 .text-italic { font-style: italic; }
