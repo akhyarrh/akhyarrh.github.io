@@ -20,7 +20,17 @@ jobs:
       with:
         ruby-version: 2.5.x
 
+    - name: Cache bundled gems
+      id: bundler-cache
+      uses: actions/cache@preview
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gem-
+
     - name: Instal dependencies
+      if: steps.bundler-cache.outputs.cache-hit != 'true'
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
