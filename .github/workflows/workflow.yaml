@@ -19,5 +19,4 @@ jobs:
       run: bundle exec jekyll build --profile
       
     - name: Test
-      run: bundle exec htmlproofer ./_site --allow-hash-href --assume-extension \
-	   --check-favicon --check-html --check-opengraph
+      run: bundle exec htmlproofer ./_site --allow-hash-href --assume-extension --check-favicon --check-html --check-opengraph
