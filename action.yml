@@ -1,7 +1,0 @@
-name: 'Setup Ruby environment'
-description: 'Setup a Ruby environment and add it to the PATH'
-author: 'akhyarrh'
-inputs: 
-  ruby-version:
-    description: 'Version range or exact version of a Ruby version to use.'
-    default: '>= 2.5'
