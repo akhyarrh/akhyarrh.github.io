@@ -11,7 +11,16 @@ layout: compress
     {% feed_meta %}
     <link rel="hub" href="{{'/' | absolute_url }}feed.xml">
     <link rel="sitemap" type="application/xml" title="{{ site.title }}" href="/sitemap.xml">
-    <link rel="shortcut icon" href="{{'/' | relative_url }}assets/images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=00Bd3aYW3A">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=00Bd3aYW3A">
+    <link rel="icon" type="image/png" sizes="194x194" href="/favicon-194x194.png?v=00Bd3aYW3A">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png?v=00Bd3aYW3A">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=00Bd3aYW3A">
+    <link rel="manifest" href="/site.webmanifest?v=00Bd3aYW3A">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=00Bd3aYW3A" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon.ico?v=00Bd3aYW3A">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="{{'/' | relative_url }}style.css">
 </head>
 <body>
@@ -23,7 +32,7 @@ layout: compress
           {% if page.url != "/profil/" %}
           <a href="{{'/' | relative_url }}profil">Profile</a>
           {% endif %}
-		  <a href="{{'/' | relative_url }}contact">Contact</a>
+          <a href="{{'/' | relative_url }}contact">Contact</a>
           <a href="{{'/' | relative_url }}feed.xml">Subscribe</a>
         </nav>
     </div>
@@ -35,6 +44,39 @@ layout: compress
             <p class="small color-light">&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
         </footer>
     </div>
-	<script src="//www.google.com/recaptcha/api.js" async defer></script>
+    <script src="//www.google.com/recaptcha/api.js" async defer></script>
+    <script>// Registration of service worker
+    if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+        navigator.serviceWorker.register("/sw.js").then(function(registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function(err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+        });
+    });
+    }
+    else {
+        console.log('Service Workers not supported');
+    }
+    // Installation of service worker
+    self.addEventListener('install', function(event) {
+    // Perform install steps
+    event.waitUntil(
+        caches.open(CACHE_NAME)
+            .then(function(cache) {
+            return cache.addAll(urlsToCache);
+        })
+        );
+    });
+    self.addEventListener('fetch', event => {
+        event.respondWith(
+            caches.match(event.request, {ignoreSearch:true}).then(response => {
+                return response || fetch(event.request);
+            })
+        );
+    });
+    </script>
 </body>
 </html>
