@@ -1,8 +1,7 @@
 {
     "name": "AkhyarRH",
     "short_name": "AkhyarRH",
-	"start_url": "index.html",
-	"scope" : "./",
+    "start_url": "/",
     "icons": [
         {
             "src": "/android-chrome-192x192.png?v=00Bd3aYW3A",
