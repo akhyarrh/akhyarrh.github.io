@@ -45,14 +45,12 @@ layout: compress
         </footer>
     </div>
     <script src="//www.google.com/recaptcha/api.js" async defer></script>
-    <script>// Registration of service worker
+    <script>
     if ('serviceWorker' in navigator) {
 		window.addEventListener('load', function() {
 			navigator.serviceWorker.register("/sw.js").then(function() {
-				// Registration was successful
 				console.log('ServiceWorker registration successful');
 			}, function(err) {
-				// registration failed :(
 				console.log('ServiceWorker registration failed: ', err);
 			});
 		});
