@@ -28,9 +28,10 @@ layout: default
 
 <!-- Archive post list -->
 <aside class="related-posts">
-    <h2>Recent Posts</h2>
+    <h2>Random Posts</h2>
     <ul>
-        {% for post in site.related_posts limit:5 %}
+        {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
+        {% for post in posts %}
         <li>
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </li>
