@@ -10,7 +10,9 @@ Get in touch :smile:
   <label for="message" style="display:block">Message</label>
   <textarea id="message" name="message" required></textarea>
   <input type="text" name="_gotcha" style="display:none" />
+  {% if jekyll.environment == "production" %}
   <div class="g-recaptcha" data-sitekey="6LdvJhUTAAAAAGWXMLZRgp8gwgx1uV7qCNMKVpa7"></div>
+  {% endif %}
   <input type="submit" value="Send">
   <input type="hidden" name="_next" value="{{ site.url }}/thanks.html" />
 </form>
