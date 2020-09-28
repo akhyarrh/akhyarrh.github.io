@@ -2,9 +2,10 @@
 $black:        #000;
 $white:        #fff;
 $dark:         #333;
-$light:        #ccc;
-$accent:       #0074d9;
-$border-color: #efefef;
+$light:        #696969;
+$accent:       #4b6a88;
+
+$border-color: $light;
 
 * {
   box-sizing: border-box;
@@ -33,12 +34,10 @@ h1, h2, h3, h4, h5, h6 {
 
 a , a:link {
   color: $accent;
-  transition: color .4s;
   text-decoration: none;
   &:hover,
   &:focus {
-	color: #001f3f;
-    text-decoration: underline;
+	text-decoration: underline;
   }
 }
 
@@ -150,21 +149,23 @@ tbody tr:nth-child(odd) th {
 	}
 	input[type=text], input[type=email], textarea {
 		width: 100%;
-		padding: 1rem;
-		border: 1px solid $dark;
-		border-radius: 2px;
-		resize: vertical;
+		padding: 0.5rem;
+		border: 1px solid $border-color;
+		border-radius: 4px;
 	}
+	textarea { resize: vertical; }
+
 	input[type=submit] {
 		background-color: $accent;
-		color: #eee;
-		padding: 12px 20px;
+		color: $white;
+		padding: 1rem 0.5rem;
+		border: none;
 		border-radius: 4px;
+		width: 100%;
 		cursor: pointer;
-		transition: background-color .4s;
 		&:hover,
 		&:focus {
-			background-color: #001f3f;
+			background-color: $light;
 		}
 	}
 	.g-recaptcha {
@@ -183,4 +184,4 @@ small,.small { font-size: 85%; }
 .color-light { color: $light; }
 
 .list-reset { list-style-type: none; }
-.index-item { padding: 0.4rem; }
+.index-item { padding: 0.2rem; }

@@ -8,7 +8,7 @@ layout: default
 <article itemscope itemtype="http://schema.org/BlogPosting">
     <header class="text-center">
         <h1 itemprop="name">{{ page.title }}</h1>
-        <time class="text-italic color-light"
+        <time class="color-light"
           datetime="{{ page.date | date: "%Y-%m-%d" }}"
           itemprop="datePublished">
           {{ page.date | date: "%d" }} {{ month }} {{ page.date | date: "%Y" }}
@@ -18,12 +18,6 @@ layout: default
     <div class="page-content" itemprop="articleBody">
         {{content}}
     </div>
-
-    <footer class="text-right">
-        <a class="text-italic" href="https://twitter.com/intent/tweet?screen_name=akhyarrh">
-          Komentar ?
-        </a>
-    </footer>
 </article>
 
 <!-- Archive post list -->

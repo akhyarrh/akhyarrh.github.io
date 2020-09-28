@@ -18,7 +18,7 @@ layout: default
     {% endif %}
     <li class="index-item" itemprop="blogPost">
         <a href="{{ post.url | relative_url }}" itemprop="name">{{ post.title }}</a>
-        <time class="small text-italic color-gray-light"
+		<time class="small color-light"
           datetime="{{ post.date | date: "%Y-%m-%d" }}"
           itemprop="datePublished">
           {{ post.date | date: "%d/%m" }}
