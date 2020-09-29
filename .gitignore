@@ -8,5 +8,3 @@ _tmp
 # used by travis-ci
 # store bundle
 vendor
-
-Gemfile.lock
