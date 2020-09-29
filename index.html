@@ -15,7 +15,7 @@ layout: default
 <ul>
 	{% for post in site.posts %}
     <li itemprop="blogPost">
-        <a href="{{ post.url | relative_url }}" itemprop="name">{{ post.title }}</a>
+        <a href="{{ post.url }}" itemprop="name">{{ post.title }}</a>
 		<time datetime="{{ post.date | date: "%Y-%m-%d" }}"
           itemprop="datePublished">
           {{ post.date | date: "%d-%m-%Y" }}

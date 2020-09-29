@@ -9,7 +9,7 @@ layout: compress
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
     {% feed_meta %}
-    <link rel="hub" href="{{'/' | absolute_url }}feed.xml">
+    <link rel="hub" href="{{ site.url }}/feed.xml">
     <link rel="sitemap" type="application/xml" title="{{ site.title }}" href="/sitemap.xml">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=00Bd3aYW3A">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=00Bd3aYW3A">
@@ -21,7 +21,7 @@ layout: compress
     <link rel="shortcut icon" href="/favicon.ico?v=00Bd3aYW3A">
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="{{'/' | relative_url }}style.css">
+    <link rel="stylesheet" href="/style.css">
 	{% if jekyll.environment == "production" %}
     <link rel="preconnect" href="https://www.gstatic.com">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -39,7 +39,7 @@ layout: compress
 		{{ content }}
         <footer class="text-center">
 			{% if page.url != "/" %}
-			<p><a href="{{'/' | relative_url }}">Kembali ke Beranda</a></p>
+			<p><a href="/">Kembali ke Beranda</a></p>
 			{% endif %}
             <p>&copy; {{ site.time | date: '%Y' }}</p>
         </footer>
