@@ -3,7 +3,7 @@ all:
 	make test
 
 build:
-	bundle exec jekyll build --profile
+	JEKYLL_ENV=production bundle exec jekyll build --profile
 
 test:
 	bundle exec htmlproofer ./_site --allow-hash-href --assume-extension \
