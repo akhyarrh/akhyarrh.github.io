@@ -14,5 +14,5 @@ Get in touch :smile:
   <div class="g-recaptcha" data-sitekey="6LdvJhUTAAAAAGWXMLZRgp8gwgx1uV7qCNMKVpa7"></div>
   {% endif %}
   <input type="submit" value="Send">
-  <input type="hidden" name="_next" value="{{ site.url }}/thanks.html" />
+  <input type="hidden" name="_next" value="{{ site.url }}/thanks/" />
 </form>
