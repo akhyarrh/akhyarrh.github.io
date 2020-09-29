@@ -36,23 +36,12 @@ layout: compress
 </head>
 <body>
     <div class="container">
-        <nav class="main-nav">
-          {% if page.url != "/" %}
-          <a href="{{'/' | relative_url }}"><span>←</span>&nbsp;Home</a>
-          {% endif %}
-          {% if page.url != "/profil/" %}
-          <a href="{{'/' | relative_url }}profil/">Profile</a>
-          {% endif %}
-          <a href="{{'/' | relative_url }}contact/">Contact</a>
-          <!-- <a href="{{'/' | relative_url }}feed.xml">Subscribe</a> -->
-        </nav>
-    </div>
-    <main class="container">
-        {{ content }}
-    </main>
-    <div class="container">
-        <footer class="main-footer text-center">
-            <p class="small color-light">&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+		{{ content }}
+        <footer class="text-center">
+			{% if page.url != "/" %}
+			<p><a href="{{'/' | relative_url }}">Kembali ke Beranda</a></p>
+			{% endif %}
+            <p>&copy; {{ site.time | date: '%Y' }}</p>
         </footer>
     </div>
 	{% if jekyll.environment == "production" %}

@@ -1,9 +1,9 @@
 /* Variable*/
 $black:        #000;
 $white:        #fff;
-$dark:         #333;
+$dark:         #111;
 $light:        #696969;
-$accent:       #1e824c;
+$accent:       #22a7f0;
 
 $border-color: $light;
 
@@ -18,35 +18,29 @@ body {
 }
 
 html {
-  font-family: georgia, serif;
-  font-size: 62.5%;
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
 body {
-  color: $dark;
-  font-size: 2rem
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: $black;
+  color: $white;
+  background-color: $black;
+  font-size: 1.5rem;
 }
 
 a , a:link {
   color: $accent;
   text-decoration: none;
   &:hover,
-  &:focus {
-	text-decoration: underline;
-  }
+  &:focus { text-decoration: underline; }
 }
 
 kbd,
 pre,
 code {
   padding: 0.2rem;
-  font-size: 85%;
-  background-color: #efefef;
+  font-size: 90%;
+  background-color: $dark;
 }
 
 pre code {
@@ -64,15 +58,15 @@ pre {
 table {
   margin-bottom: 1rem;
   width: 100%;
-  font-size: 85%;
-  border: 1px solid $black;
+  font-size: 90%;
+  border: 1px solid $white;
   border-collapse: collapse;
 }
 
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid $border-color;
+  border: 1px solid $white;
 }
 
 th {
@@ -81,25 +75,17 @@ th {
 
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #eee;
+  background-color: $dark;
 }
 
 .container {
-  max-width: 650px;
-  padding: 1.5rem;
+  max-width: 700px;
+  padding: 1rem;
   margin-left: auto;
   margin-right: auto;
 }
 
-.main-nav {
-  text-align: right;
-  a {
-    margin: 0.1rem;
-    padding: 0.5rem;
-  }
-}
-
-.page-content {
+article {
   img {
     display: block;
     margin: 0 auto;
@@ -136,11 +122,6 @@ tbody tr:nth-child(odd) th {
   }
 }
 
-.main-footer {
-  padding-bottom: 1rem;
-  border-top: 1px dotted $border-color;
-}
-
 .contact-form {
 	label {
 		padding: 1rem;
@@ -174,14 +155,4 @@ tbody tr:nth-child(odd) th {
 	}
 }
 
-small,.small { font-size: 85%; }
-
-.text-italic { font-style: italic; }
-
-.text-right  { text-align: right; }
 .text-center { text-align: center; }
-
-.color-light { color: $light; }
-
-.list-reset { list-style-type: none; }
-.index-item { padding: 0.2rem; }

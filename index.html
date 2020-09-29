@@ -2,29 +2,25 @@
 layout: default
 ---
 
-{% include header.html %}
+<header class="text-center">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+</header>
 
+<h2>Link</h2>
+{% include nav.html %}
+
+<h2>Catatan</h2>
 <div itemscope itemtype="http://schema.org/Blog">
-
-{% for post in site.posts %}
-
-{% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
-{% if currentyear != year %}
-{% unless forloop.first %}</ul></section>{% endunless %}
-<section>
-<h2>{{ currentyear }}</h2>
-<ul class="list-reset">
-    {% capture year %}{{ currentyear }}{% endcapture %}
-    {% endif %}
-    <li class="index-item" itemprop="blogPost">
+<ul>
+	{% for post in site.posts %}
+    <li itemprop="blogPost">
         <a href="{{ post.url | relative_url }}" itemprop="name">{{ post.title }}</a>
-		<time class="small color-light"
-          datetime="{{ post.date | date: "%Y-%m-%d" }}"
+		<time datetime="{{ post.date | date: "%Y-%m-%d" }}"
           itemprop="datePublished">
-          {{ post.date | date: "%d/%m" }}
+          {{ post.date | date: "%d-%m-%Y" }}
         </time>
     </li>
 {% endfor %}
 </ul>
-</section>
 </div>

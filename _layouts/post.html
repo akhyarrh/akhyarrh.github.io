@@ -5,24 +5,25 @@ layout: default
 {% assign m = page.date | date: "%-m" | minus: 1 %}
 {% assign month = months[m] %}
 
+<main>
 <article itemscope itemtype="http://schema.org/BlogPosting">
     <header class="text-center">
         <h1 itemprop="name">{{ page.title }}</h1>
-        <time class="color-light"
+        <time class="text-center"
           datetime="{{ page.date | date: "%Y-%m-%d" }}"
           itemprop="datePublished">
           {{ page.date | date: "%d" }} {{ month }} {{ page.date | date: "%Y" }}
         </time>
     </header>
 
-    <div class="page-content" itemprop="articleBody">
+    <div itemprop="articleBody">
         {{content}}
     </div>
 </article>
+</main>
 
-<!-- Archive post list -->
-<aside class="related-posts">
-    <h2>Random Posts</h2>
+<aside>
+    <h2>Catatan Lainnya</h2>
     <ul>
         {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
         {% for post in posts %}
