@@ -5,7 +5,7 @@
 timezone: Asia/Makassar
 
 title:       AkhyarRH
-description: Hungry, Young, Wild, and Free
+description: Jurnal Online
 url:         https://akhyarrh.github.io
 repository:  akhyarrh/akhyarrh.github.io
 
@@ -75,12 +75,6 @@ compress_html:
   comments: ["<!-- ", " -->"]
   ignore:
     envs: [development]
-
-jekyll_admin:
-  hidden_links:
-    - staticfiles
-    - datafiles
-    - configuration
 
 optional_front_matter:
   remove_originals: true
