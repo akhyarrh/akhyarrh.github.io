@@ -22,6 +22,7 @@ layout: compress
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="{{'/' | relative_url }}style.css">
+	{% if jekyll.environment == "production" %}
     <link rel="preconnect" href="https://www.gstatic.com">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36665422-2"></script>
@@ -31,6 +32,7 @@ layout: compress
       gtag("js", new Date());
       gtag("config", "UA-36665422-2", {"anonymize_ip": true});
     </script>
+	{% endif %}
 </head>
 <body>
     <div class="container">
@@ -53,6 +55,7 @@ layout: compress
             <p class="small color-light">&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
         </footer>
     </div>
+	{% if jekyll.environment == "production" %}
     <script src="//www.google.com/recaptcha/api.js" async defer></script>
     <script>
     if ('serviceWorker' in navigator) {
@@ -68,5 +71,6 @@ layout: compress
         console.log('Service Workers not supported');
     }
     </script>
+	{% endif %}
 </body>
 </html>
