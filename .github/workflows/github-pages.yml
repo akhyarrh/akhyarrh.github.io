@@ -22,3 +22,4 @@ jobs:
             JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
         with:
             target_branch: 'master'
+      - run: make ping
