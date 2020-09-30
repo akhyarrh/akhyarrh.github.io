@@ -1,0 +1,12 @@
+name: Ping search engine after Jekyll site build & every week
+
+on:
+  page_build:
+  schedule:
+    - cron: '0 0 * * 1'
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: make ping

@@ -1,0 +1,16 @@
+name: Build and test Jekyll site
+
+on: [ push, pull_request ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+      - run: gem install bundler html-proofer
+      - run: bundle install
+      - run: make build
+      - run: htmlproofer ./_site --allow-hash-href --assume-extension --check-favicon --check-html --check-opengraph
