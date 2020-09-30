@@ -40,7 +40,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      image: /assets/images/default-card.jpg
+      image: https://source.unsplash.com/random/800x600
 
 # https://help.github.com/articles/configuring-jekyll-plugins/#default-plugins
 plugins:
