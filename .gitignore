@@ -1,10 +1,6 @@
-# jekyll default destination
+# Jekyll stuff
+.sass-cache
 _site
 
-# used by html-proofer
-# to store cache
-_tmp
-
-# used by travis-ci
-# store bundle
+# used by CI to store bundle
 vendor
