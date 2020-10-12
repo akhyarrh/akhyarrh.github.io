@@ -1,0 +1,8 @@
+# Config for development only
+
+sass:
+  style: expanded
+
+show_drafts: true
+future:      true
+unpublished: true
