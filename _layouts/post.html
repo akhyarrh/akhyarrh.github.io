@@ -4,24 +4,17 @@ layout: default
 {% assign months = "Januari|Februari|Maret|April|Mei|Juni|Juli|Agustus|September|Oktober|November|Desember" | split: "|" %}
 {% assign m = page.date | date: "%-m" | minus: 1 %}
 {% assign month = months[m] %}
+<header>
+  {% include nav.html %}
+  <h1>{{ page.title }}</h1>
+  <time class="small" datetime="{{ page.date | date: "%Y-%m-%d" }}">
+    {{ page.date | date: "%d" }} {{ month }} {{ page.date | date: "%Y" }}
+  </time>
+</header>
 
 <main>
-<article itemscope itemtype="http://schema.org/BlogPosting">
-    <header class="text-center">
-        <h1 itemprop="name">{{ page.title }}</h1>
-        <time class="text-center"
-          datetime="{{ page.date | date: "%Y-%m-%d" }}"
-          itemprop="datePublished">
-          {{ page.date | date: "%d" }} {{ month }} {{ page.date | date: "%Y" }}
-        </time>
-    </header>
-
-    <div itemprop="articleBody">
-        {{content}}
-    </div>
-</article>
-</main>
-
+<article>
+  {{content}}
 <aside>
     <h2>Catatan Lainnya</h2>
     <ul>
@@ -33,3 +26,6 @@ layout: default
         {% endfor %}
     </ul>
 </aside>
+
+</article>
+</main>

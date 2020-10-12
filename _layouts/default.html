@@ -4,46 +4,18 @@ layout: compress
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% seo %}
-    {% feed_meta %}
-    <link rel="hub" href="{{ site.url }}/feed.xml">
-    <link rel="sitemap" type="application/xml" title="{{ site.title }}" href="/sitemap.xml">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=00Bd3aYW3A">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=00Bd3aYW3A">
-    <link rel="icon" type="image/png" sizes="194x194" href="/favicon-194x194.png?v=00Bd3aYW3A">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png?v=00Bd3aYW3A">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=00Bd3aYW3A">
-    <link rel="manifest" href="/site.webmanifest?v=00Bd3aYW3A">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=00Bd3aYW3A" color="#5bbad5">
-    <link rel="shortcut icon" href="/favicon.ico?v=00Bd3aYW3A">
-    <meta name="msapplication-TileColor" content="#2d89ef">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="/style.css">
-	{% if jekyll.environment == "production" %}
-    <link rel="preconnect" href="https://www.gstatic.com">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36665422-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag("js", new Date());
-      gtag("config", "UA-36665422-2", {"anonymize_ip": true});
-    </script>
-	{% endif %}
+  {% include head.html %}
 </head>
 <body>
-    <div class="container">
 		{{ content }}
-        <footer class="text-center">
-			{% if page.url != "/" %}
-			<p><a href="/">Kembali ke Beranda</a></p>
-			{% endif %}
-            <p>&copy; {{ site.time | date: '%Y' }}</p>
-        </footer>
-    </div>
+    <footer>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+      <p>
+        <a href="https://twitter.com/{{ site.twitter.username }}">Twitter</a>
+        &mdash;
+        <a href="https://github.com/{{ site.github.owner_name }}">Github</a>
+      </p>
+    </footer>
 	{% if jekyll.environment == "production" %}
     <script src="//www.google.com/recaptcha/api.js" async defer></script>
     <script>

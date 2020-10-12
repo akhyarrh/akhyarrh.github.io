@@ -2,25 +2,26 @@
 layout: default
 ---
 
-<header class="text-center">
+<header>
+  {% include nav.html %}
   <h1>{{ site.title }}</h1>
-  <p>{{ site.description }}</p>
 </header>
 
-<h2>Link</h2>
-{% include nav.html %}
-
-<h2>Catatan</h2>
-<div itemscope itemtype="http://schema.org/Blog">
-<ul>
-	{% for post in site.posts %}
-    <li itemprop="blogPost">
-        <a href="{{ post.url }}" itemprop="name">{{ post.title }}</a>
-		<time datetime="{{ post.date | date: "%Y-%m-%d" }}"
+<main>
+<article>
+{% for post in site.posts %}
+  {% assign months = "Januari|Februari|Maret|April|Mei|Juni|Juli|Agustus|September|Oktober|November|Desember" | split: "|" %}
+  {% assign m = page.date | date: "%-m" | minus: 1 %}
+  {% assign month = months[m] %}
+  {% assign currentdate = post.date | date: "%Y" %}
+  {% if currentdate != date %}
+    <h2>{{ currentdate }}</h2>
+    {% assign date = currentdate %}
+  {% endif %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <time class="small" datetime="{{ post.date | date: "%Y-%m-%d" }}"
           itemprop="datePublished">
-          {{ post.date | date: "%d-%m-%Y" }}
-        </time>
-    </li>
+          {{ post.date | date: "%d" }} {{ month }}</time><br>
 {% endfor %}
-</ul>
-</div>
+</article>
+</main>

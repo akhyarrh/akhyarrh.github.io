@@ -1,6 +1,11 @@
-<nav><ul>
-    <li><a href="/profil/">Profil</a></li>
-	<li><a href="//github.com/akhyarrh">Github</a></li>
-	<li><a href="//twitter.com/akhyarrh">Twitter</a></li>
-	<li><a href="/contact/">Kontak</a></li>
-</ul></nav>
+<nav>
+  {% if page.url != "/" %}
+  <h1><a href="/">{{ site.title }}</a></h1>
+  {% endif %}
+  {% if page.url != "/profil/" %}
+  <a href="/profil">Profil</a>
+  {% endif %}
+  {% if page.url != "/kontak/" %}
+  <a href="/kontak">Kontak</a>
+  {% endif %}
+</nav>

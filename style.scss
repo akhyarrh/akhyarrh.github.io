@@ -1,6 +1,9 @@
 ---
 ---
-@import "normalize.css";
-@import "native.css";
+@import "normalize";
+@import "native";
 @import "main";
-@import "print.css";
+@import "print";
+
+.fluid { width: 100%; }
+.small { @extend small; }
