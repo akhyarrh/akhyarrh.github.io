@@ -6,12 +6,15 @@ timezone: Asia/Makassar
 
 title:       AkhyarRH
 description: Jurnal Online
-url:         https://akhyarrh.github.io
+url:         https://akhyar.js.org
 repository:  akhyarrh/akhyarrh.github.io
 
-author: M Akhyar Rahman H
+locale: id_ID
+logo: "/logo.png"
+author: akhyarrh
 twitter:
   username: akhyarrh
+  card: summary
 
 webmaster_verifications:
   google: "sV2248YCZVyLu6nhz72znzNoCUhSfCqwiCEjUO-Kiu8"
