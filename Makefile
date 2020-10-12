@@ -2,7 +2,7 @@ all: ; make build make test
 
 build: ; JEKYLL_ENV=production bundle exec jekyll build --profile
 
-test: ; bundle exec htmlproofer ./_site --allow-hash-href --assume-extension --check-favicon --check-html --check-opengraph
+test: ; bundle exec htmlproofer ./_site --allow-hash-href --assume-extension --check-favicon --check-html --check-opengraph --disable-external
 
 serve: ; bundle exec jekyll serve --config _config.yml,_config_development.yml
 
