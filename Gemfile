@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'html-proofer', :group => [:development, :test]
+
 group :jekyll_plugins do
     gem 'github-pages'
     gem 'jekyll-admin'
