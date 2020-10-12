@@ -10,7 +10,7 @@ url:         https://akhyar.js.org
 repository:  akhyarrh/akhyarrh.github.io
 
 locale: id_ID
-logo: "/logo.png"
+logo: "/assets/logo.png"
 author: akhyarrh
 twitter:
   username: akhyarrh
