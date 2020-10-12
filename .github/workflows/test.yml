@@ -7,10 +7,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.6'
       - run: gem install bundler html-proofer
+      - run: bundle config path vendor/bundle
       - run: bundle install
       - run: make build
       - run: make test
