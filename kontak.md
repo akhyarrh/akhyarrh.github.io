@@ -1,8 +1,7 @@
 # Kontak
 
 <form action="https://formspree.io/maywlrba" method="POST">
-<fieldset>
-  <legend>Hubungi saya lewat email :smile:</legend>
+  <p>Hubungi saya lewat email :smile:</p>
 
   <label for="name">Nama</label>
   <input id="name" type="text" name="name" class="fluid" required>
@@ -20,5 +19,4 @@
   {% endif %}
 
   <input type="submit" class="fluid" value="Kirim">
-</fieldset>
 </form>

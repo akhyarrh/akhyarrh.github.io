@@ -3,25 +3,28 @@ layout: default
 ---
 
 <header>
+  <h1 class="text-center">{{ site.title }}</h1>
   {% include nav.html %}
-  <h1>{{ site.title }}</h1>
 </header>
 
 <main>
 <article>
 {% for post in site.posts %}
   {% assign months = "Januari|Februari|Maret|April|Mei|Juni|Juli|Agustus|September|Oktober|November|Desember" | split: "|" %}
-  {% assign m = page.date | date: "%-m" | minus: 1 %}
+  {% assign m = post.date | date: "%-m" | minus: 1 %}
   {% assign month = months[m] %}
   {% assign currentdate = post.date | date: "%Y" %}
-  {% if currentdate != date %}
+    {% if currentdate != date %}
+    {% unless forloop.first %}</ul>{% endunless %}
     <h2>{{ currentdate }}</h2>
+    <ul>
     {% assign date = currentdate %}
-  {% endif %}
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <time class="small" datetime="{{ post.date | date: "%Y-%m-%d" }}"
-          itemprop="datePublished">
-          {{ post.date | date: "%d" }} {{ month }}</time><br>
+    {% endif %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d" }} {{ month }}</time>
+      </li>
+    {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
 </article>
 </main>

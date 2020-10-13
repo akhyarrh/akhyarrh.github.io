@@ -1,6 +1,7 @@
 <nav>
+<p {% if page.url == "/" %}class="text-center"{% endif %}>
   {% if page.url != "/" %}
-  <h1><a href="/">{{ site.title }}</a></h1>
+  <a href="/">Beranda</a>
   {% endif %}
   {% if page.url != "/profil/" %}
   <a href="/profil">Profil</a>
@@ -8,4 +9,5 @@
   {% if page.url != "/kontak/" %}
   <a href="/kontak">Kontak</a>
   {% endif %}
+ </p>
 </nav>

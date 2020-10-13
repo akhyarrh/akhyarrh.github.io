@@ -2,8 +2,11 @@
 ---
 @import "normalize";
 @import "native";
-@import "main";
-@import "print";
+@import "sakura-dark";
 
 .fluid { width: 100%; }
 .small { @extend small; }
+.text-center { text-align: center; }
+.emoji { margin: 0; vertical-align: baseline; }
+
+@import "print";
