@@ -28,12 +28,10 @@ future: false
 
 exclude:
   - CNAME
-  - Gemfile*
   - LICENSE
   - Makefile
   - Rakefile
   - README.md
-  - vendor
 
 sass:
   style: compressed
