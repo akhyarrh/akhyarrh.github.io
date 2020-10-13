@@ -1,22 +1,8 @@
+# Markdown Cheatsheet
+
+Originally from [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).
-
-Note that there is also a [Cheatsheet specific to Markdown Here](./Markdown-Here-Cheatsheet) if that's what you're looking for. You can also check out [more Markdown tools](./Other-Markdown-Tools).
-
-##### Table of Contents  
-[Headers](#headers)  
-[Emphasis](#emphasis)  
-[Lists](#lists)  
-[Links](#links)  
-[Images](#images)  
-[Code and Syntax Highlighting](#code)  
-[Tables](#tables)  
-[Blockquotes](#blockquotes)  
-[Inline HTML](#html)  
-[Horizontal Rule](#hr)  
-[Line Breaks](#lines)  
-[YouTube Videos](#videos)  
-
-<a name="headers"/>
 
 ## Headers
 
@@ -52,8 +38,6 @@ Alt-H1
 Alt-H2
 ------
 
-<a name="emphasis"/>
-
 ## Emphasis
 
 ```no-highlight
@@ -74,8 +58,6 @@ Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
-
-<a name="lists"/>
 
 ## Lists
 
@@ -116,8 +98,6 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
-
-<a name="links"/>
 
 ## Links
 
@@ -169,8 +149,6 @@ Some text to show that the reference links can follow later.
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
 
-<a name="images"/>
-
 ## Images
 
 ```no-highlight
@@ -188,14 +166,12 @@ Reference-style:
 Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](/assets/logo.png "Logo Title Text 1")
 
 Reference-style: 
 ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-
-<a name="code"/>
+[logo]: /assets/logo.png "Logo Title Text 2"
 
 ## Code and Syntax Highlighting
 
@@ -209,23 +185,22 @@ Inline `code` has `back-ticks around` it.
 
 Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
 
-<pre lang="no-highlight"><code>```javascript
+<pre lang="no-highlight"><code>
+```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
- 
+
 ```python
 s = "Python syntax highlighting"
 print s
 ```
- 
+
 ```
-No language indicated, so no syntax highlighting. 
+No language indicated, so no syntax highlighting.
 But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
 ```
 </code></pre>
-
-
 
 ```javascript
 var s = "JavaScript syntax highlighting";
@@ -238,12 +213,9 @@ print s
 ```
 
 ```
-No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
+No language indicated, so no syntax highlighting in Markdown Here (varies on Github).  
 But let's throw in a <b>tag</b>.
 ```
-
-
-<a name="tables"/>
 
 ## Tables
 
@@ -276,14 +248,12 @@ Colons can be used to align columns.
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+There must be at least 3 dashes separating each header cell. The outer pipes (`|`) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
 
 Markdown | Less | Pretty
 --- | --- | ---
 *Still* | `renders` | **nicely**
 1 | 2 | 3
-
-<a name="blockquotes"/>
 
 ## Blockquotes
 
@@ -293,7 +263,7 @@ Markdown | Less | Pretty
 
 Quote break.
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 ```
 
 > Blockquotes are very handy in email to emulate reply text.
@@ -301,13 +271,11 @@ Quote break.
 
 Quote break.
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
-
-<a name="html"/>
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
 ## Inline HTML
 
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
+You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
 ```no-highlight
 <dl>
@@ -326,8 +294,6 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
   <dt>Markdown in HTML</dt>
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
-
-<a name="hr"/>
 
 ## Horizontal Rule
 
@@ -361,8 +327,6 @@ ___
 
 Underscores
 
-<a name="lines"/>
-
 ## Line Breaks
 
 My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
@@ -387,8 +351,6 @@ This line is only separated by a single newline, so it's a separate line in the 
 
 (Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
 
-<a name="videos"/>
-
 ## YouTube Videos
 
 They can't be added directly but you can add an image with a link to the video like this:
@@ -405,8 +367,117 @@ Or, in pure Markdown, but losing the image sizing and border:
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 ```
 
-Referencing a bug by #bugID in your git commit links it to the slip. For example #1. 
+## Additional
 
----
+### Definition Lists
 
-License: [CC-BY](https://creativecommons.org/licenses/by/3.0/)
+A definition list works similar to a normal list and is used to associate definitions with terms. Definition lists are started when a normal paragraph is followed by a line starting with a colon and then the definition text. One term can have many definitions and multiple terms can have the same definition. Each line of the preceding paragraph is assumed to contain one term, for example:
+
+```markdown
+term
+: definition
+: another definition
+
+another term
+and another term
+: and a definition for the term
+```
+
+term
+: definition
+: another definition
+
+another term
+and another term
+: and a definition for the term
+
+If you insert a blank line before a definition (note: there must only be one blank line between the terms and the first definition), the definition will be wrapped in a paragraph:
+
+```
+term
+
+: definition
+: definition
+```
+
+term
+
+: definition
+: definition
+
+Each term can be styled using span-level elements and each definition is parsed as block-level elements, i.e. you can use any block-level in a definition. Just use the same indent for the lines following the definition line:
+
+```
+This *is* a term
+
+: This will be a para
+
+  > a blockquote
+
+    # A header
+```
+
+This *is* a term
+
+: This will be a para
+
+  > a blockquote
+
+    # A header
+
+
+### <sub> and <sup>
+
+```
+29^th^
+```
+
+29^th^
+
+```
+H~2~0
+```
+
+H~2~0
+
+### Footnotes
+
+This is some text.[^1]. Other text.[^footnote].
+
+[^1]: Some *crazy* footnote definition.
+
+[^footnote]:
+    > Blockquotes can be in a footnote.
+
+            as well as code blocks
+
+                or, naturally, simple paragraphs.
+
+[^other-note]:       no code block here (spaces are stripped away)
+
+[^codeblock-note]:
+        this is now a code block (8 spaces indentation)
+
+### Abbreviation
+
+This is some text not written in HTML but in another language!
+
+*[another language]: It's called Markdown
+
+*[HTML]: HyperTextMarkupLanguage
+
+### inside outside
+
+```html
+<p>Lets test **markdown** inside HTML</P>
+```
+
+<p>Lets test **markdown** inside HTML</P>
+
+```md
+**Now use <b>HTML</b> inside markdown**
+```
+
+**Now use <b>HTML</b>** inside markdown
+
+
