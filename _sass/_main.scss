@@ -71,18 +71,15 @@ hr {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: $color-blossom;
 
     &:hover,
     &:focus {
-        text-decoration: underline;
+    	color: $color-bg;
+    	background-color: $color-fade;
+        text-decoration: none;
     }
-
-    &:visited {
-        color: darken($color-blossom, 10%);
-    }
-
 }
 
 ul {
