@@ -12,4 +12,3 @@ Also Firefox treat `localhost` and `localhost:4000` as different address. That m
 apache or nginx by default able to listen request on `localhost`. Your setup maybe different.  
 For Jekyll by default you can add `localhost:4000`.
 
-Im on Twitter if you have any question (@akhyarrh) :smile:
