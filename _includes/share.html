@@ -1,0 +1,27 @@
+{% capture sharelink %}{{ site.url }}{{ page.url }}{% endcapture %}
+<aside>
+<p>Bagikan:</p>
+<p>
+
+<a href="https://www.facebook.com/sharer.php?u={{ sharelink }}" target="_blank" rel="nofollow">Facebook</a>
+<span aria-hidden="true">&#8212;</span>
+<a href="https://line.me/R/msg/text/?{{ sharelink }}" target="_blank" rel="nofollow">Line</a>
+<span aria-hidden="true">&#8212;</span>
+<a href="https://telegram.me/share/url?url={{ sharelink }}&text={{ page.title }}" target="_blank" rel="nofollow">Telegram</a>
+<span aria-hidden="true">&#8212;</span>
+<a href="https://twitter.com/intent/tweet?url={{ sharelink }}&text={{ page.title }}&via=akhyarrh" target="_blank" rel="nofollow">Twitter</a>
+<span aria-hidden="true">&#8212;</span>
+<a href="whatsapp://send?text={{ sharelink }}" target="_blank" rel="nofollow">WhatsApp</a>
+<span aria-hidden="true">&#8212;</span>
+
+<a href="https://news.ycombinator.com/submitlink?u={{ sharelink }}&t={{ page.title }}" target="_blank" rel="nofollow">Hacker News</a>
+<span aria-hidden="true">&#8212;</span>
+<a href="https://reddit.com/submit?url={{ sharelink }}&title={{ page.title }}" target="_blank" rel="nofollow">Reddit</a>
+<span aria-hidden="true">&#8212;</span>
+<a href="https://www.tumblr.com/widgets/share/tool?canonicalUrl={{ sharelink }}&title={{ page.title }}&caption="{{ page.excerpt | strip_html | strip_newlines }}" target="_blank" rel="nofollow">Tumblr</a>
+<span aria-hidden="true">&#8212;</span>
+
+<a href="mailto:?subject={{ page.title }}&body={{ sharelink }} - {{ page.excerpt | strip_html | strip_newlines }}" target="_blank" rel="nofollow">Email</a>
+
+</p>
+</aside>
