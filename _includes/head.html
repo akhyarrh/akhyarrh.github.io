@@ -18,15 +18,11 @@
 <meta name="msapplication-TileColor" content="#2b5797">
 <meta name="msapplication-TileImage" content="/assets/mstile-144x144.png?{{ site.time | date: '%Y%s' }}">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="/style.css?{{ site.time | date: '%Y%s' }}">
-{% if jekyll.environment == "production" %}
-<link rel="preconnect" href="//www.gstatic.com">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="//www.googletagmanager.com/gtag/js?id=UA-36665422-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag("js", new Date());
-  gtag("config", "UA-36665422-2", {"anonymize_ip": true});
-</script>
-{% endif %}
+
+{% capture style %}
+{% include style.scss %}
+{% endcapture %}
+<style>
+@charset "UTF-8";
+{{ style | scssify }}
+</style>

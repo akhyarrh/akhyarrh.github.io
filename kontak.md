@@ -14,9 +14,5 @@
 
   <input type="text" name="_gotcha" style="display:none" />
 
-  {% if jekyll.environment == "production" %}
-  <div class="g-recaptcha" data-sitekey="6LdvJhUTAAAAAGWXMLZRgp8gwgx1uV7qCNMKVpa7"></div>
-  {% endif %}
-
   <input type="submit" class="fluid" value="Kirim">
 </form>
