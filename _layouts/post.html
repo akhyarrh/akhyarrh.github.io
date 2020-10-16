@@ -8,20 +8,19 @@ layout: default
 {% include nav.html %}
 
 <main>
-<article>
+<article itemscope itemtype="https://schema.org/BlogPosting">
 <header>
-  <h1 class="text-center">{{ page.title }}</h1>
-  <p class="text-center"><time class="small" datetime="{{ page.date | date: "%Y-%m-%d" }}">
+  <h1 itemprop="headline" class="text-center">{{ page.title }}</h1>
+  <p class="text-center"><time class="small" itemprop="datePublished" datetime="{{ page.date | date: "%Y-%m-%d" }}">
     {{ page.date | date: "%d" }} {{ month }} {{ page.date | date: "%Y" }}
   </time></p>
 </header>
-
+<div itemprop="articleBody">
   {% include toc.html html=content h_min=2 h_max=2 %}
   {{ content }}
+</div>
   <p><a href="https://twitter.com/intent/tweet?text=@akhyarrh" target="_blank" rel="nofollow">Komentar ?</a></p>
   {% include share.html %}
-</article>
-</main>
 <aside>
     <h2 class="text-center">Catatan Lainnya</h2>
     <ul>
@@ -33,5 +32,5 @@ layout: default
         {% endfor %}
     </ul>
 </aside>
-
-
+</article>
+</main>

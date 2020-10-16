@@ -8,23 +8,24 @@ layout: default
 </header>
 
 <main>
-<article>
+<article itemscope itemtype="https://schema.org/Blog">
 {% for post in site.posts %}
   {% assign months = "Januari|Februari|Maret|April|Mei|Juni|Juli|Agustus|September|Oktober|November|Desember" | split: "|" %}
   {% assign m = post.date | date: "%-m" | minus: 1 %}
   {% assign month = months[m] %}
   {% assign currentdate = post.date | date: "%Y" %}
     {% if currentdate != date %}
-    {% unless forloop.first %}</ul>{% endunless %}
+    {% unless forloop.first %}</ul></section>{% endunless %}
+    <section>
     <h2>{{ currentdate }}</h2>
     <ul>
     {% assign date = currentdate %}
     {% endif %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d" }} {{ month }}</time>
+      <li itemscope="blogPost">
+        <a itemprop="url" href="{{ post.url }}"><span itemprop="name">{{ post.title }}</span></a>
+        <time itemprop="datePublished" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d" }} {{ month }}</time>
       </li>
-    {% if forloop.last %}</ul>{% endif %}
+    {% if forloop.last %}</ul></section>{% endif %}
 {% endfor %}
 </article>
 </main>
