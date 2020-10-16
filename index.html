@@ -21,7 +21,7 @@ layout: default
     <ul>
     {% assign date = currentdate %}
     {% endif %}
-      <li itemscope="blogPost">
+      <li>
         <a itemprop="url" href="{{ post.url }}"><span itemprop="name">{{ post.title }}</span></a>
         <time itemprop="datePublished" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d" }} {{ month }}</time>
       </li>

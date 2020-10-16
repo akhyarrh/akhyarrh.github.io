@@ -43,7 +43,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      image: https://source.unsplash.com/random/800x600
+      image: https://source.unsplash.com/800x600
 
 # https://help.github.com/articles/configuring-jekyll-plugins/#default-plugins
 plugins:
