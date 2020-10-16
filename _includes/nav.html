@@ -2,9 +2,11 @@
 <p {% if page.url == "/" %}class="text-center"{% endif %}>
   {% if page.url != "/" %}
   <a itemprop="url" href="/"><span itemprop="name">Beranda</span></a>
+  <span aria-hidden="true">-</span>
   {% endif %}
   {% if page.url != "/profil/" %}
   <a itemprop="url" href="/profil/"><span itemprop="name">Profil</span></a>
+  <span aria-hidden="true">-</span>
   {% endif %}
   {% if page.url != "/kontak/" %}
   <a itemprop="url" href="/kontak/"><span itemprop="name">Kontak</span></a>
