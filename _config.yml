@@ -88,3 +88,9 @@ titles_from_headings:
   collections: true
 
 jekyll-mentions: https://twitter.com
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://akhyarrh.github.io/'
+  relativeLinks: 'https://akhyarrh.github.io/links.jsonp'
+  media: 'assets/post-img'
