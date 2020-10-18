@@ -4,7 +4,7 @@
 # Nothin fancy here
 
 def jekyll(directives = '')
-  sh 'jekyll ' + directives
+  sh 'bundle exec jekyll ' + directives
 end
 
 desc "Serve Jekyll site for development"
@@ -45,7 +45,8 @@ desc "Ping search engine"
 task :ping do
   Rake::Task['pinggoogle'].invoke
   Rake::Task['pingbing'].invoke
-  Rake::Task['pingpubsubhub'].invoke
+  Rake::Task['pingpubsubhubbub'].invoke
+  Rake::Task['pingomatic'].invoke
 end
 
 desc "Ping Google"
@@ -58,7 +59,21 @@ task :pingbing do
   sh 'curl "http://www.bing.com/webmaster/ping.aspx?siteMap=https://akhyar.js.org/sitemap.xml"'
 end
 
-desc "Ping Pubsubhub"
-task :pingpubsubhub do
-  sh 'curl -X POST "https://pubsubhubbub.appspot.com/" -d"hub.mode=publish" -d"hub.url=https://akhyar.js.org/feed.xml"'
+desc "Ping pubsubhubbub"
+task :pingpubsubhubbub do
+  begin
+    require 'cgi'
+    require 'net/http'
+    data = 'hub.mode=publish&hub.url=' + CGI::escape("https://akhyarrh.github.io/feed.xml")
+    http = Net::HTTP.new('pubsubhubbub.appspot.com', 80)
+    resp, data = http.post('http://pubsubhubbub.appspot.com/publish',
+                           data,
+                           {'Content-Type' => 'application/x-www-form-urlencoded'})
+    puts "Ping error: #{resp}, #{data}" unless resp.code == "204"
+  end
+end
+
+desc "Ping pingomatic"
+task :pingomatic do
+  sh 'curl "http://pingomatic.com/ping/?title=AkhyarRH&blogurl=https://akhyarrh.github.io&rssurl=https://akhyarrh.github.io/feed.xml+&chk_blogs=on&chk_feedburner=on&chk_tailrank=on&chk_superfeedr=on"'
 end
