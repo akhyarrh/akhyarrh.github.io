@@ -10,6 +10,7 @@ description: Jurnal Online
 url:         https://akhyar.js.org
 repository:  akhyarrh/akhyarrh.github.io
 
+lang: id
 locale: id_ID
 logo: "/assets/logo.png"
 author: M Akhyar Rahman H
@@ -75,7 +76,6 @@ plugins:
   - jekyll-mentions
   - jemoji
   - jekyll-sitemap
-  - jekyll-feed
 
 compress_html:
   clippings: all
