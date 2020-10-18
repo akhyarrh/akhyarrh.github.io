@@ -19,5 +19,4 @@ jobs:
       - run: gem install bundler
       - run: bundle config path vendor/bundle
       - run: bundle install --jobs 4 --retry 3
-      - run: make build
-      - run: make test
+      - run: bundle exec rake test
