@@ -4,7 +4,7 @@ layout: none
 
 var urlsToCache = [];
 
-var CACHE_NAME = 'akhyarrh-cache-v1';
+var CACHE_NAME = 'akhyarrh-v{{ site.time | date: "%Y%s" }}';
 
 {% for post in site.posts %}
 urlsToCache.push("{{ post.url }}")
