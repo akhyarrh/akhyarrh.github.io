@@ -1,10 +1,10 @@
-/* Sakura.css v1.3.1
- * ================
- * Minimal css theme.
- * Project: https://github.com/oxalorg/sakura/
- */
+// Sakura.css v1.3.1
+// ================
+// Minimal css theme.
+// Project: https://github.com/oxalorg/sakura/
+//
 
-/* Body */
+// Body
 
 html {
     font-size: 62.5%; // So that root size becomes 10px
@@ -115,7 +115,7 @@ img {
     margin-bottom: 2.5rem;
 }
 
-/* Pre and Code */
+ //  Pre and Code //
 
 pre {
     background-color: $color-bg-alt;
@@ -139,7 +139,7 @@ pre > code {
     white-space: pre;
 }
 
-/* Tables */
+ //  Tables //
 
 table {
     text-align: justify;
@@ -152,7 +152,7 @@ td, th {
     border-bottom: 1px solid $color-bg-alt;
 }
 
-/* Buttons, forms and input */
+ //  Buttons, forms and input //
 
 input, textarea {
     border: 1px solid $color-text;
@@ -196,7 +196,7 @@ textarea {
 
 textarea, select, input {
     color: $color-text;
-    padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+    padding: 6px 10px;  //  The 6px vertically centers text on FF, ignored by Webkit //
     margin-bottom: 10px;
     background-color: $color-bg-alt;
     border: 1px solid $color-bg-alt;
