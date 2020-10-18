@@ -1,6 +1,10 @@
 # Jekyll stuff
+.jekyll-metadata
 .sass-cache
 _site
 
 # used by CI to store bundle
 vendor
+
+# lock file
+Gemfile.lock

@@ -4,7 +4,6 @@ gem 'html-proofer', :group => [:development, :test]
 
 group :jekyll_plugins do
     gem 'github-pages'
-    gem 'jekyll-compose'
 end
 
 platforms :mswin, :mingw, :x64_mingw do
