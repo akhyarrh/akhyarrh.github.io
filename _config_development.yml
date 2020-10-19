@@ -11,8 +11,8 @@ unpublished: true
 #
 # incremental building
 
-incremental: true
+#incremental: true
 
 # livereload
 
-#livereload: true
+livereload: true
