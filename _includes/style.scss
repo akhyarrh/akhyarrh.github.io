@@ -1,10 +1,29 @@
 @import "normalize";
 @import "native";
+@import "fontello";
 @import "sakura-dark";
 
 .fluid { width: 100%; }
 .small { @extend small; }
 .text-center { text-align: center; }
 .emoji { margin: 0; vertical-align: baseline; }
+
+.share {
+  display: inline-block;
+
+  &:hover,
+  &:focus {
+    background-color: transparent;
+  }
+  &.fb { color: #1877F2; }
+  &.line { color: #00C300; }
+  &.telegram { color: #2CA5E0 ; }
+  &.twitter { color: #1DA1F2 ; }
+  &.whatsapp { color: #25D366 ; }
+  &.hackernews { color: #F0652F ; }
+  &.reddit { color: #FF4500 ; }
+  &.tumblr { color: #36465D ; }
+  &.email { color: #D14836 ; }
+}
 
 @import "print";

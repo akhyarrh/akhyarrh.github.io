@@ -1,13 +1,13 @@
 <nav itemscope itemtype="https://schema.org/SiteNavigationElement">
-<p {% if page.url == "/" %}class="text-center"{% endif %}>
+<p class="text-center">
   {% if page.url != "/" %}
-  <a itemprop="url" href="/"><span itemprop="name">Beranda</span></a>
+  <a itemprop="url" href="/"><span itemprop="name"><span class="icon-home"></span> Beranda</span></a>
   {% endif %}
   {% if page.url != "/profil/" %}
-  <a itemprop="url" href="/profil/"><span itemprop="name">Profil</span></a>
+  <a itemprop="url" href="/profil/"><span itemprop="name"><span class="icon-user"></span> Profil</span></a>
   {% endif %}
   {% if page.url != "/kontak/" %}
-  <a itemprop="url" href="/kontak/"><span itemprop="name">Kontak</span></a>
+  <a itemprop="url" href="/kontak/"><span itemprop="name"><span class="icon-mail"></span> Kontak</span></a>
   {% endif %}
  </p>
 </nav>

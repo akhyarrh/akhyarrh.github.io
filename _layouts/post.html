@@ -19,10 +19,10 @@ layout: default
   {% include toc.html html=content h_min=2 h_max=2 %}
   {{ content }}
 </div>
-  <p>Comments ? <a href="https://twitter.com/intent/tweet?text=@akhyarrh" target="_blank" rel="nofollow"><b>Ask me on Twitter</b></a> :dove:</p>
-  <p><a href="https://tinyletter.com/akhyarrh"><b>Subscribe</b></a> to my Newsletter. Every new update in this site will sent directly to your mailbox. No spam. Promise :wink:</p>
+    <aside>
+  <p>Comments ? <a href="https://twitter.com/intent/tweet?text=@akhyarrh" target="_blank" rel="nofollow"><b>Ask me on Twitter</b></a> <span class="icon-twitter" aria-hidden="true"></span></p>
+  <p><a href="https://tinyletter.com/akhyarrh"><b>Subscribe</b></a> to my Newsletter :wink:</p>
   {% include share.html %}
-<aside>
     <h2 class="text-center">Other posts</h2>
     <ul>
         {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
