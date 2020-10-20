@@ -15,14 +15,8 @@ task :serve do
   jekyll('serve --config _config.yml,_config_development.yml')
 end
 
-desc 'Clean destination'
-task :clean do
-  puts 'Cleaning...'
-  jekyll('clean')
-end
-
 desc 'Build site for deployment'
-task :build => [:clean] do
+task :build do
   ENV['JEKYLL_ENV'] = 'production'
   puts 'Building...'
   jekyll('build')
@@ -64,7 +58,7 @@ task :pingpubsubhubbub do
   begin
     require 'cgi'
     require 'net/http'
-    data = 'hub.mode=publish&hub.url=' + CGI::escape("https://akhyarrh.github.io/feed.xml")
+    data = 'hub.mode=publish&hub.url=' + CGI::escape("https://akhyar.js.org/feed.xml")
     http = Net::HTTP.new('pubsubhubbub.appspot.com', 80)
     resp, data = http.post('http://pubsubhubbub.appspot.com/publish',
                            data,
@@ -75,5 +69,5 @@ end
 
 desc "Ping pingomatic"
 task :pingomatic do
-  sh 'curl "http://pingomatic.com/ping/?title=AkhyarRH&blogurl=https://akhyarrh.github.io&rssurl=https://akhyarrh.github.io/feed.xml+&chk_blogs=on&chk_feedburner=on&chk_tailrank=on&chk_superfeedr=on"'
+  sh 'curl "http://pingomatic.com/ping/?title=AkhyarRH&blogurl=https://akhyar.js.org&rssurl=https://akhyar.js.org/feed.xml&chk_blogs=on&chk_feedburner=on&chk_tailrank=on&chk_superfeedr=on"'
 end
