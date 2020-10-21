@@ -2,7 +2,7 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html lang="id">
+<html {% if site.lang %}lang="{{ site.lang }}"{% endif %}>
 <head>
   {% include head.html %}
 </head>
@@ -21,7 +21,7 @@ layout: compress
     <script>
     if ('serviceWorker' in navigator) {
 		window.addEventListener('load', function() {
-			navigator.serviceWorker.register("/sw.js").then(function() {
+			navigator.serviceWorker.register("/sw.js?{{ site.time | date: "%s" }}").then(function() {
 				console.log('ServiceWorker registration successful');
 			}, function(err) {
 				console.log('ServiceWorker registration failed: ', err);
