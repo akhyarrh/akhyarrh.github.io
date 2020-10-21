@@ -9,8 +9,7 @@ You can [find me on Github](https://github.com/akhyarrh) or [follow me on Twitte
 [![akhyarrh's github stats](https://github-readme-stats.vercel.app/api?username=akhyarrh&count_private=true&include_all_commits=true&theme=tokyonight&show_icons=true&bg_color=111111&text_color=ffffff&title_color=03a9c9&icon_color=03a9c9&hide_border=true)](https://github.com/akhyarrh)
 
 If you have any question you can [contact me](/kontak). \
-Im interested in open project related to front-end, user experience, and accessibility (a11y). \
-
+Im interested in open project related to front-end, user experience, and accessibility (a11y).
 
 ## Thank you
 
