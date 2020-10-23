@@ -11,9 +11,11 @@ urlsToCache.push("{{ post.url }}")
 {% endfor %}
 
 {% for page in site.pages %}
-{% unless page.url == '/404.html' %}
+{% if page.url == '/404.html' %}
+{% elsif page.url == '/sw.js' %}
+{% else %}
 urlsToCache.push("{{ page.url }}")
-{% endunless %}
+{% endif %}
 {% endfor %}
 
 {% for file in site.static_files %}
