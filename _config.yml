@@ -25,7 +25,7 @@ name: "M. Akhyar Rahman H."
 comments:
   provider               : staticman_v2
   staticman:
-    branch               : master
+    branch               : source
     endpoint             : https://staticman3.herokuapp.com/v3/entry/github/
 search                   : true # true, false (default)
 #search_full_content      : # true, false (default)
