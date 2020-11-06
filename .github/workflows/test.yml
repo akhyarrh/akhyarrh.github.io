@@ -1,6 +1,12 @@
-name: Build and test Jekyll site
+name: Build and test after push/PR on source branch
 
-on: [ push, pull_request ]
+on:
+  push:
+    branches:
+      - source
+  pull_request:
+    branches:
+      - source
 
 jobs:
   test:
