@@ -27,6 +27,10 @@ comments:
   staticman:
     branch               : source
     endpoint             : https://staticman3.herokuapp.com/v3/entry/github/
+reCaptcha:
+    enabled: true
+    siteKey: "6LdvJhUTAAAAAGWXMLZRgp8gwgx1uV7qCNMKVpa7"
+    secret: "KB0jjJ5SOecKWaqYua/VjIF1OU3WtPKEXsDp2HMXXZG0Itmhqko5xtlpq7x93G4JaC+E9HeKST157sCZZ1tu1SoKhNQvj885JrxYOSiQXh7ZBDSak0uMlDWdGDdI5sEJrGopyRP/tavNe3uXT0FxLDwpDjofjXwmE1HgX35tq3ZL8i4qDQaAnzUGrT0oVHMbDOFGnQGkToUIxdc8uK0GvDVOCT7GrqmhZQJwkMAxhFEa8hcQg98IAyqc4ce+aJ1WA5pckjfCEocdv6rQKqGP9sBQEs9nEn8IZN9ijNTVX9w69Z3eYvNJefe+jOUzv0HJQktlfF25REvyeYm0hwPCAQ=="
 search                   : true # true, false (default)
 #search_full_content      : # true, false (default)
 
