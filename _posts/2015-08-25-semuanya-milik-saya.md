@@ -1,4 +1,7 @@
-# Semuanya Milik Saya
+---
+title: Semuanya Milik Saya
+tags: [catatan, static-site]
+---
 
 Masalah lama sebuah situs yang statis: **commenting system**. Itulah alasan kenapa dulu saya sempat menggunakan ~~komments (komments.net)~~ (link error). Support markdown dan code block. Sempurna. Awalnya saya pikir bagus, tapi masalahnya adalah JavaScript. Di satu sisi hanya JavaScript satu-satunya alternatif untuk 'menghadirkan' konten yang dinamis di situs yang statis, tapi di sisi lain saya bukan fans JavaScript.
 

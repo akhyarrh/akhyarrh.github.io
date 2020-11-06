@@ -1,4 +1,7 @@
-# em atau rem ?
+---
+title: "`em` atau `rem`"
+tags: [front-end,css]
+---
 
 Sebelumnya, gue cuman tau pixel karena memang dulu pasar web untuk mobile memang tidak seganas sekarang. Karena sekarang pasar untuk platform mobile (smartphone, f ck u gre n r b ts), jadi penggunaan pixel untuk pengaturan ukuran sedikit kurang fleksibel. Ada 2 biji bocah yang lumayan bikin bingung, yaitu si `em` dan `rem`. Kali ini kita belajar dikit, biar kita bisa moveon dari pixel.
 
@@ -89,6 +92,6 @@ Satu-satunya sumber yang menjelaskan dengan bahasa indonesia yang mudah dipahami
 
 *note:* awalnya berusaha mengingat arti *inherit* tapi gagal. Akhirnya ke Google Translate dan artinya adalah...
 
-![Arti inherit](/assets/post-img/2015-06-12_16-14-32.png)
+![Arti inherit](/assets/post-img/2015-06-12_16-14-32.webp)
 
 Aneh

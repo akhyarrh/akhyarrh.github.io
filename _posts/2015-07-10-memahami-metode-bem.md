@@ -1,4 +1,7 @@
-# Memahami Metode BEM
+---
+title: Memahami Metode BEM
+tags: [front-end, tips]
+---
 
 > Kenapa di beberapa file penamaan class-nya banyak menggunakan -- atau __ ?
 
@@ -87,7 +90,7 @@ Beberapa contoh di atas sifatnya *helper-classes* dan berdiri sendiri.
 Berikut sedikit kutipan dari CSSwizardry mengenai penerapan BEM:
 
 > One of the hardest parts of BEM is deciding when to start and stop scope, and when (or not) to use it. It’s a case of ‘you’ll just know when you know’.
-> 
+>
 > <cite>CSSwizardry</cite>
 
 Menurut pendapat saya pribadi, BEM lebih berguna untuk *styling* di elemen yang sifatnya variasi dari elemen lain. Misalnya seperti berikut:

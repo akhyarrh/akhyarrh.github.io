@@ -1,4 +1,7 @@
-# Bermain dengan function di Sass
+---
+title: Bermain dengan function di Sass
+tags: [front-end, sass]
+---
 
 Awalnya ingin mendalami lebih jauh mengenai *fuction* di Sass. Akhirnya malah mendarat di [The Sass Way](http://thesassway.com). Di artikel yang berjudul [Using pure Sass functions to make reusable logic more useful](http://thesassway.com/advanced/pure-sass-functions). Lumayan menarik. Makanya aku post. Nanti kalau lupa, udah ada dokumennya jadi ga ribet carinya.
 

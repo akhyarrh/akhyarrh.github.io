@@ -1,4 +1,7 @@
-# Dengan Duit 140M Saya akan...
+---
+title: Dengan Duit 140M Saya akan...
+tags: [catatan]
+---
 
 ... bermalas-malasan selama 10 tahun mungkin. Jujur aja, 140M itu buaaanyak banget OMG my baby hunny. Untuk lebih detil, mari berhitung.
 
@@ -19,7 +22,7 @@ TLD | Durasi | Harga
 
 Blog ini ada di GitHub jadi saya belum tahu web hosting yang bagus. Setelah saya search, saya pilih menggunakan pilihan [PCMag](http://www.pcmag.com) yaitu [Arvixe](http://www.arvixe.com), menggunakan Dedicated server.
 
-![Hosting](/assets/post-img/hosting.png)
+![Hosting](/assets/post-img/hosting.webp)
 
 Plan | Durasi | Harga
 :--- | :---: | :---

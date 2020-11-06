@@ -1,4 +1,7 @@
-# Pandangan Saya Mengenai Budaya Tahun Baru
+---
+title: Pandangan Saya Mengenai Budaya Tahun Baru
+tags: [catatan]
+---
 
 Kalau menurut saya, belum tentu salah tapi juga belum tentu benar. Semua tergantung dari apa yang kita lakukan.
 

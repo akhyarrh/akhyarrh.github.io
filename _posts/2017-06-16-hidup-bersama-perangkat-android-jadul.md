@@ -1,4 +1,7 @@
-# Hidup bersama Perangkat Android Jadul
+---
+title: "Hidup bersama Perangkat Android Jadul"
+tags: [android, tips]
+---
 
 *Legacy Device* adalah istilah yang digunakan untuk menyebut perangkat Android jadul, sudah tidak didukung oleh vendor pembuatnya lagi, dan semacamnya. Saat ini memakai smartphone yang dirilis lebih dari 5 tahun yang lalu adalah sebuah tantangan, setidaknya menurut saya banyak tantangan yang harus dihadapi. Mulai dari jumlah memori yang tidak lagi mencukupi, performa yang kurang lancar, aplikasi-aplikasi yang tidak kompatibel, dan lain-lain.
 
@@ -8,7 +11,7 @@ Hal-hal apa saja yang harus dilakukan ?
 
 ## Berpindah ke aplikasi alternatif
 
-Menggunakan aplikasi alternatif dengan cara yang resmi. Membingungkan ?  
+Menggunakan aplikasi alternatif dengan cara yang resmi. Membingungkan ?
 Jadi biasanya perusahaan-perusahaan besar selain membuat aplikasi resmi, mereka juga memberi API untuk para pengembang, misalnya Google dan Facebook memberikan API untuk login ke game menggunakan akun yang sudah dimiliki, Twitter yang memberi API untuk posting tweet langsung ke Twitter, dan sebagainya.
 
 Dengan adanya API, memungkinkan para pengembang membuat aplikasi alternatif yang memiliki fitur hampir menyamai aplikasi resmi, tetapi dengan ukuran yang lebih kecil sehingga tidak memakai memori yang terlalu banyak.
@@ -23,11 +26,11 @@ Walau dengan fitur yang bisa dibilang terbatas, setidaknya fitur-fitur penting m
 
 Terkadang beberapa social media memiliki aplikasi resmi yang menggunakan memori terlalu besar. Contoh paling nyata adalah Instagram (maaf ya Facebook). Di PlayStore, ukuran aplikasi mereka hanya dituliskan sekitar 30mb, setelah dipasang dan digunakan beberapa hari apa kalian tahu ukurannya jadi berapa ? Buktikan saja sendiri.
 
-![Instagram Real Size](/assets/post-img/instagram-real-size.jpg)
+![Instagram Real Size](/assets/post-img/instagram-real-size.webp)
 
 Daripada harus memasang aplikasi dan susah mencari aplikasi alternatif, gunakan saja lewat browser bawaan. Memang tidak semudah memakai aplikasi yang sudah ada, seperti scrolling yang kurang smooth, tapi sebenarnya masih bisa digunakan.
 
-![Unlimited Power](/assets/post-img/fb-insta-twitter.jpg)
+![Unlimited Power](/assets/post-img/fb-insta-twitter.webp)
 
 Dengan fitur yang beda tipis, ditambah dengan pemakaian data yang lebih sedikit, dan tentu saja tidak perlu memori besar.
 

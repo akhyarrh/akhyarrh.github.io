@@ -1,4 +1,7 @@
-# Penggunaan !important di CSS
+---
+title: "Penggunaan `!important` di CSS"
+tags: [front-end,css]
+---
 
 > Apakah pendeklarasian `!important` di CSS diperlukan?
 > Apakah CSS kita akan 'bekerja' sesuai dengan yang kita inginkan kalau `!important` tidak dideklarasikan?
@@ -24,7 +27,7 @@ HTML
 
 Hasil:
 
-![Tanpa !important](/assets/post-img/tanpa-!important.png)
+![Tanpa !important](/assets/post-img/tanpa-!important.webp)
 
 ## Dengan `!important`
 
@@ -43,7 +46,7 @@ HTML
 
 Hasil:
 
-![Dengan !important](/assets/post-img/dengan-!important.png)
+![Dengan !important](/assets/post-img/dengan-!important.webp)
 
 Pada contoh di atas, kita menyatakan bahwa *h1* hurufnya berwarna pink dan *black-text* hurufnya berwarna hitam. Saat kita menggunakan 2 *selector* tersebut di 1 elemen, keduanya bisa menghasilkan sesuatu yang berbeda.
 

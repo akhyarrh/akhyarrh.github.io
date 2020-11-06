@@ -1,4 +1,7 @@
-# Cara Mudah Embed Video di Jekyll
+---
+title: Cara Mudah Embed Video di Jekyll
+tags: [jekyll, tips]
+---
 
 Memasukkan sebuah video ke post memang hal yang sangat umum dilakukan. Selain memberikan konten yang lebih beragam biar tidak bosan, dengan adanya video juga bisa memperjelas maksud dari post tersebut. Hampir semua CMS memberi support untuk memasukkan video ke dalam sebuah post.
 
@@ -56,4 +59,4 @@ Bisa dibilang saya ambil dari post Adam Garrett-Harris. Saya edit sedikit biar l
 
 Sebagai penutup, selamat menikmati Hardwell On Air episode 236.
 
-{% include youtube id="qCnzav6tFfY" %}
+<!-- include youtube id="qCnzav6tFfY" -->

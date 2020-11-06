@@ -1,4 +1,7 @@
-# Dear Blogger, Mari Tinggalkan Blogger
+---
+title: "Dear Blogger, Mari Tinggalkan Blogger"
+tags: [catatan]
+---
 
 > Yar, bantu setting blog aku dong. Aku pakai Blogger. Punya Google kan jadi pasti bagus layanannya.
 

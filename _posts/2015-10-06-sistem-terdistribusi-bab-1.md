@@ -1,6 +1,7 @@
-# Sistem Terdistribusi: Bab 1
-
-<h2 class="text-center">Bab 1</h2>
+---
+title: "Sistem Terdistribusi: Bab 1"
+tags: [catatan]
+---
 
 > Apa itu sistem terdistribusi ?
 

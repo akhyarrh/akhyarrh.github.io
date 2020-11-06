@@ -1,4 +1,7 @@
-# Say Hello to jekyll-boilerplate
+---
+title: "Say Hello to `jekyll-boilerplate`"
+tags: [jekyll, proyek]
+---
 
 Beberapa minggu yang lalu saya membaca ulang [dokumentasi Jekyll](http://jekyllrb.com). Mulai dari bagian 'Welcome' sampai habis. Sebuah pertanyaan muncul di kepala saya. Bagaimana kalau pengguna yang awam, yang belum memahami banyak tentang Jekyll, mencoba untuk memakai layanan seperti [Prose](http://prose.io) atau [markdown-writer](http://github.com/zhuochun/md-writer) (sebuah package untuk Atom) ?
 
@@ -12,7 +15,7 @@ Akhirnya saya menjalankan sebuah proyek kecil-kecilan. Awalnya saya jalankan han
 
 ## Mengenal [jekyll-boilerplate](http://github.com/nectktar/jekyll-boilerplate)
 
-![jekyll-boilerplate](/assets/post-img/jekyll-boilerplate.png)
+![jekyll-boilerplate](/assets/post-img/jekyll-boilerplate.webp)
 
 Jadi mari saya jelaskan sedikit tentang boilerplate ini. Mungkin sama saja seperti boilerplate lainnya. Berisi base setup, config, tema, contoh post. Perbedaannya adalah ada beberapa setup yang sudah kami lakukan yang beda dari boilerplate lainnya. Saat ini masih berisi file-file dan konfigurasi untuk [Prose](http://prose.io) dan [markdown-writer](http://github.com/zhuochun/md-writer). Artinya kalian bisa menggunakan Prose untuk posting ke blog kalian. Prose ini seperti Blogspot, Tumblr, dan lain-lain. Hanya saja fungsinya hanya untuk situs yang statis. Dengan menggunakan Prose kalian juga bisa melakukan upload gambar, mengedit draft, dan tentu saja untuk mengedit dan mempublish post.
 

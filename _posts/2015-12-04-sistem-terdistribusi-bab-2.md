@@ -1,6 +1,9 @@
-# Sistem Terdistribusi: Bab 2
+---
+title: "Sistem Terdistribusi: Bab 2"
+tags: [catatan]
+---
 
-<h2 class="text-center">Bab 2 Komunikasi</h2>
+## Bab 2 Komunikasi
 
 ### Komunikasi Data
 
@@ -21,7 +24,7 @@ komputer-komputer dapat berkomunikasi satu sama lain.
 - Media   pengiriman
 - Protokol
 
-![Komunikasi Data](/assets/post-img/sisterdis/bab-2-gambar-1.png)
+![Komunikasi Data](/assets/post-img/sisterdis/bab-2-gambar-1.webp)
 
 ### Protokol
 
@@ -104,7 +107,7 @@ di komputer. *Lower layer* adalah intisari komunikasi data melalui jaringan
 aktual.
 
 <figure>
-  <img src="/assets/post-img/sisterdis/bab-2-gambar-2.png" alt="Pembagian Layer OSI">
+  <img src="/assets/post-img/sisterdis/bab-2-gambar-2.webp" alt="Pembagian Layer OSI">
   <figcaption class="text-center"><i>Pembagian Model Layer OSI</i></figcaption>
 </figure>
 
@@ -112,13 +115,13 @@ aktual.
 
 | Model OSI                                                                     | Keterangan                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Application Layer](/assets/post-img/sisterdis/bab-2-osi-layer-application.png)   | **Application Layer**: Menyediakan jasa untuk aplikasi pengguna. Layer ini bertanggungjawab atas pertukaran informasi antara program komputer, seperti program e- mail, dan service lain yang jalan di jaringan, seperti server printer atau aplikasi komputer lainnya.                                                                                                                                                                    |
-| ![Presentation Layer](/assets/post-img/sisterdis/bab-2-osi-layer-presentation.png) | **Presentation Layer**: Bertanggung jawab bagaimana data dikonversi dan diformat untuk transfer data. Contoh konversi format text ASCII untuk dokumen, .gif dan JPG untuk gambar. Layer ini membentuk kode konversi, translasi data, enkripsi dan konversi.                                                                                                                                                                                |
-| ![Session Layer](/assets/post-img/sisterdis/bab-2-osi-layer-session.png)           | **Session Layer**: Menentukan bagaimana dua terminal menjaga, memelihara dan mengatur koneksi, bagaimana mereka saling berhubungan satu sama lain. Koneksi di layer ini disebut *session*.                                                                                                                                                                                                                                                 |
-| ![Transport Layer](/assets/post-img/sisterdis/bab-2-osi-layer-transport.png)       | **Transport Layer**: Bertanggung jawab membagi data menjadi segmen, menjaga koneksi logika “end-to-end” antar terminal, dan menyediakan penanganan error (error handling).                                                                                                                                                                                                                                                                 |
-| ![Network Layer](/assets/post-img/sisterdis/bab-2-osi-layer-network.png)           | **Network Layer**: Bertanggung jawab menentukan alamat jaringan, menentukan rute yang harus diambil selama perjalanan, dan menjaga antrian trafik di jaringan. Data pada layer ini berbentuk paket.<br> Fungsi utama dari layer network adalah pengalamatan dan routing. Pengalamatan pada layer network merupakan pengalamatan secara logical.                                                                                            |
-| ![Data Link Layer](/assets/post-img/sisterdis/bab-2-osi-layer-data-link.png)       | **Data Link Layer** Menyediakan link untuk data, memaketkannya menjadi frame yang berhubungan dengan *hardware* kemudian diangkut melalui media.                                                                                                                                                                                                                                                                                           |
-| ![Physical Layer](/assets/post-img/sisterdis/bab-2-osi-layer-physical.png)         | **Physical Layer**: Bertanggung jawab atas proses data menjadi bit dan mentransfernya melalui media, seperti kabel, dan menjaga koneksi fisik antar sistem.Layer ini mengatur tentang bentuk interface yang berbeda-beda dari sebuah media transmisi. Secara umum masalah- masalah  desain  yang  ditemukan  di  sini  berhubungan secara mekanik, elektrik dan interface prosedural, dan media fisik yang berada di bawah physical layer. |
+| ![Application Layer](/assets/post-img/sisterdis/bab-2-osi-layer-application.webp)   | **Application Layer**: Menyediakan jasa untuk aplikasi pengguna. Layer ini bertanggungjawab atas pertukaran informasi antara program komputer, seperti program e- mail, dan service lain yang jalan di jaringan, seperti server printer atau aplikasi komputer lainnya.                                                                                                                                                                    |
+| ![Presentation Layer](/assets/post-img/sisterdis/bab-2-osi-layer-presentation.webp) | **Presentation Layer**: Bertanggung jawab bagaimana data dikonversi dan diformat untuk transfer data. Contoh konversi format text ASCII untuk dokumen, .gif dan JPG untuk gambar. Layer ini membentuk kode konversi, translasi data, enkripsi dan konversi.                                                                                                                                                                                |
+| ![Session Layer](/assets/post-img/sisterdis/bab-2-osi-layer-session.webp)           | **Session Layer**: Menentukan bagaimana dua terminal menjaga, memelihara dan mengatur koneksi, bagaimana mereka saling berhubungan satu sama lain. Koneksi di layer ini disebut *session*.                                                                                                                                                                                                                                                 |
+| ![Transport Layer](/assets/post-img/sisterdis/bab-2-osi-layer-transport.webp)       | **Transport Layer**: Bertanggung jawab membagi data menjadi segmen, menjaga koneksi logika “end-to-end” antar terminal, dan menyediakan penanganan error (error handling).                                                                                                                                                                                                                                                                 |
+| ![Network Layer](/assets/post-img/sisterdis/bab-2-osi-layer-network.webp)           | **Network Layer**: Bertanggung jawab menentukan alamat jaringan, menentukan rute yang harus diambil selama perjalanan, dan menjaga antrian trafik di jaringan. Data pada layer ini berbentuk paket.<br> Fungsi utama dari layer network adalah pengalamatan dan routing. Pengalamatan pada layer network merupakan pengalamatan secara logical.                                                                                            |
+| ![Data Link Layer](/assets/post-img/sisterdis/bab-2-osi-layer-data-link.webp)       | **Data Link Layer** Menyediakan link untuk data, memaketkannya menjadi frame yang berhubungan dengan *hardware* kemudian diangkut melalui media.                                                                                                                                                                                                                                                                                           |
+| ![Physical Layer](/assets/post-img/sisterdis/bab-2-osi-layer-physical.webp)         | **Physical Layer**: Bertanggung jawab atas proses data menjadi bit dan mentransfernya melalui media, seperti kabel, dan menjaga koneksi fisik antar sistem.Layer ini mengatur tentang bentuk interface yang berbeda-beda dari sebuah media transmisi. Secara umum masalah- masalah  desain  yang  ditemukan  di  sini  berhubungan secara mekanik, elektrik dan interface prosedural, dan media fisik yang berada di bawah physical layer. |
 
 Hubungan antara model referensi OSI dengan protokol internet dapat dilihat dalam tabel di bawah ini.
 
@@ -175,11 +178,11 @@ Sejak tahun 1980-an RPC telah banyak digunakan dalam pengembangan *mission-criti
 
 #### Prinsip RPC dalam program Client-Server
 
-![RPC dalam program Client-Server](/assets/post-img/sisterdis/bab-2-rpc-dalam-client-server.png)
+![RPC dalam program Client-Server](/assets/post-img/sisterdis/bab-2-rpc-dalam-client-server.webp)
 
 Skema  RPC  ini  dilakukan  juga  pada  proses-proses  yang  running  di  komputer berlainan
 
-![RPC program Client-Server dalam komputer berlainan](/assets/post-img/sisterdis/bab-2-rpc-berlainan.png)
+![RPC program Client-Server dalam komputer berlainan](/assets/post-img/sisterdis/bab-2-rpc-berlainan.webp)
 
 - Sebelum mekanisme RPC digunakan, data harus di-packaging ke dalam format transimisi. Langkah ini dinamakan *marshalling*
 - *Proxy* bertanggung jawab untuk marshalling data, kemudian mengirimkan data dan meminta instans dari komponen *(remote)*
@@ -188,7 +191,7 @@ Kemudian proses mengembalikan nilai yang diinginkan
 
 #### Langkah-langkah dalam RPC
 
-![Langkah-langkah dalam RPC](/assets/post-img/sisterdis/bab-2-langkah-langkah-rpc.png)
+![Langkah-langkah dalam RPC](/assets/post-img/sisterdis/bab-2-langkah-langkah-rpc.webp)
 
 1. Prosedur client memanggil client stub
 2. Client stub membuat pesan dan memanggil OS client
@@ -203,33 +206,33 @@ Kemudian proses mengembalikan nilai yang diinginkan
 
 ### Object Remote
 
-*Remote Method Invocation* (RMI) adalah sebuah teknik pemanggilan method remote yang lebih secara umum lebih baik daripada RPC. 
-RMI menggunakan paradigma pemrograman berorientasi obyek *(Object Oriented Programming)*. 
-RMI memungkinkan kita untuk mengirim obyek sebagai parameter dari *remote method*. 
-Dengan dibolehkannya program Java memanggil method pada remote obyek, 
+*Remote Method Invocation* (RMI) adalah sebuah teknik pemanggilan method remote yang lebih secara umum lebih baik daripada RPC.
+RMI menggunakan paradigma pemrograman berorientasi obyek *(Object Oriented Programming)*.
+RMI memungkinkan kita untuk mengirim obyek sebagai parameter dari *remote method*.
+Dengan dibolehkannya program Java memanggil method pada remote obyek,
 RMI membuat pengguna dapat mengembangkan aplikasi Java yang terdistribusi pada jaringan.
 
-RMI menyediakan mekanisme dimana server dan client berkomunikasi dan memberikan informasi secara timbal balik. 
+RMI menyediakan mekanisme dimana server dan client berkomunikasi dan memberikan informasi secara timbal balik.
 Aplikasi semacam ini seringkali disebut aplikasi objek terdistribusi.
 
 Aplikasi objek terdistribusi seringkali melakukan hal berikut:
 
-- Melokasikan  objek  remote:  Aplikasi  dapat  menggunakan  satu  dari  dua mekanisme untuk 
-mendapatkan referensi ke objek remote. Aplikasi dapat mendaftarkan objek remote dengan fasilitas 
-penamaan RMI *(naming facility)* yaitu rmiregistry atau aplikasi dapat mem-*pass* dan mengembalikan 
+- Melokasikan  objek  remote:  Aplikasi  dapat  menggunakan  satu  dari  dua mekanisme untuk
+mendapatkan referensi ke objek remote. Aplikasi dapat mendaftarkan objek remote dengan fasilitas
+penamaan RMI *(naming facility)* yaitu rmiregistry atau aplikasi dapat mem-*pass* dan mengembalikan
 referensi objek remote sebagai bagian dari operasi normal.
 
-- Berkomunikasi  dengan  objek  remote:  Detail  dari  komunikasi  antara  objek remote 
+- Berkomunikasi  dengan  objek  remote:  Detail  dari  komunikasi  antara  objek remote
 ditangani oleh RMI, bagi programmer komunikasi remote tampak seperti invokasi method Java standar.
 
 - Memanggil *(load)* bytecode   untuk   objek   yang   di-*pass*:
 Karena RMI mengizinkan pemanggil *(caller)* untuk mem-*pass* objek ke objek remote,
-RMI menyediakan mekanisme yang diperlukan objek 
+RMI menyediakan mekanisme yang diperlukan objek
 me-*load* kode objek, sebagaimana juga mentransmisikan datanya.
 
 #### Langkah-Langkah Pembuatan Program dengan RMI
 
-Membangun  suatu  aplikasi  terdistribusi  menggunakan  RMI  meliputi  6  langkah. 
+Membangun  suatu  aplikasi  terdistribusi  menggunakan  RMI  meliputi  6  langkah.
 Keenam langkah tersebut adalah:
 
 1. Mendefinisikan *remote interface*

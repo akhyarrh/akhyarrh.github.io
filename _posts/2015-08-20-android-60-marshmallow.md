@@ -1,4 +1,7 @@
-# Android 6.0 Marshmallow
+---
+title: Android 6.0 Marshmallow
+tags: [android]
+---
 
 Android 6.0 Marshmallow kemungkinan rilis di tahun ini. Mari kita bongkar apa saja yang baru.
 

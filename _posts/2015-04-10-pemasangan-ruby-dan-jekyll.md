@@ -1,6 +1,9 @@
-# Pemasangan Ruby dan Jekyll
+---
+title: Pemasangan Ruby dan Jekyll
+tags: [jekyll,ruby]
+---
 
-Seperti yang gue bilang di [post sebelumnya]({% post_url 2015-01-25-mengenal-jekyll %}), bahwa gue akan memberikan tutorial tentang cara install **Ruby** dan **Jekyll**. Sebelum kita melangkah ke perjalanan yang lebih jauh, tutorial gue lebih cocok sama yang menggunakan Linux, Ubuntu lebih tepatnya, atau **Lubuntu** lebih tepatnya lagi. Untuk pengguna Mac dan sejenisnya, mungkin kalian bisa menggunakan **Homebrew** tapi cara pemasangannya ga bisa gue jelasin karena gue ga punya Mac. Untuk pengguna Windows dan sejenisnya, ke Google aja ya.
+Seperti yang gue bilang di post sebelumnya, bahwa gue akan memberikan tutorial tentang cara install **Ruby** dan **Jekyll**. Sebelum kita melangkah ke perjalanan yang lebih jauh, tutorial gue lebih cocok sama yang menggunakan Linux, Ubuntu lebih tepatnya, atau **Lubuntu** lebih tepatnya lagi. Untuk pengguna Mac dan sejenisnya, mungkin kalian bisa menggunakan **Homebrew** tapi cara pemasangannya ga bisa gue jelasin karena gue ga punya Mac. Untuk pengguna Windows dan sejenisnya, ke Google aja ya.
 
 Jadi pada tutorial kali ini (dan mungkin juga untuk seterusnya), gue cuma coba di Lubuntu, kemungkinan besar juga bisa untuk sesama jenisnya (Ubuntu, Xubuntu, Ubuntu GNOME, dan lain-lain). Buat kalian yang memakai sistem operasi yang lain, bisa diikuti atau cari tutor untuk sistem operasi kalian. Mohon maaf.
 

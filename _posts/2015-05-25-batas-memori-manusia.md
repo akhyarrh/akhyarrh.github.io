@@ -1,4 +1,7 @@
-# Batas Memori Manusia
+---
+title: Batas Memori Manusia
+tags: [catatan]
+---
 
 Beberapa hari yang lalu, gue sama temen-temen lagi ngumpul. Seperti biasa, basa-basi ga jelas. Lalu kemudian perbincangan menjadi sedikit serius setelah temen gue mengeluh mengenai kondisi penyimpanan atau memori hape dia mulai habis. Tapi topik kali ini bukan tentang memori hape, tapi pendapat gue tentang memori manusia yang kapasitasnya mungkin tidak akan berkurang. Bahkan mungkin bakalan terus bertambah sampai ke batas yang tidak diketahui.
 
@@ -14,7 +17,7 @@ Awalnya, saat kita kecil kita mungkin tidak ingat banyak tentang masa kecil kita
 |           | Miring ke kanan sambil nangis              |            |
 |           | Ketiduran                                  |            |
 
-Paham maksud gue? Jadi intinya di blok ini akan tersimpan semua yang kita alami. Kita bisa memilih untuk mengingat atau melupakan. Lalu mengenai hal-hal yang secara otomatis kita ingat, tergantung dengan pengaturan awal atau pada umumnya dikenal dengan *mind-set*. Contohnya dalam 1 pertandingan sepakbola antara MU vs Chelsea, kalian mungkin aja lupa berapa penyelamatan yang telah dilakukan De Gea atau Cech, tapi gue bisa ingat atau mungkin yang gue ingat mendekati jumlah yang sebenarnya. Hal itu karena kebiasaan gue untuk mengingat hal tersebut. Jadi karena pengaturan atau *mind-set* tersebut blok memori dan memori gue bekerja dengan cara yang berbeda. Pengaturan ini berbeda di setiap orang.  
+Paham maksud gue? Jadi intinya di blok ini akan tersimpan semua yang kita alami. Kita bisa memilih untuk mengingat atau melupakan. Lalu mengenai hal-hal yang secara otomatis kita ingat, tergantung dengan pengaturan awal atau pada umumnya dikenal dengan *mind-set*. Contohnya dalam 1 pertandingan sepakbola antara MU vs Chelsea, kalian mungkin aja lupa berapa penyelamatan yang telah dilakukan De Gea atau Cech, tapi gue bisa ingat atau mungkin yang gue ingat mendekati jumlah yang sebenarnya. Hal itu karena kebiasaan gue untuk mengingat hal tersebut. Jadi karena pengaturan atau *mind-set* tersebut blok memori dan memori gue bekerja dengan cara yang berbeda. Pengaturan ini berbeda di setiap orang.
 
 > Lalu kenapa saat kecil kita susah mengingat kejadian saat itu?
 

@@ -1,4 +1,7 @@
-# Melanggar Aturan Saya Sendiri
+---
+title: Melanggar Aturan Saya Sendiri
+tags: [catatan, android]
+---
 
 Beberapa hari yang lalu saya akhirnya menemukan Android saya yang selanjutnya. Entah ini gadget Android saya yang keberapa udah lupa. Namanya **Gucci**, mungkin lebih banyak dikenal sebagai **Xiaomi Redmi Note 4G Dual**. Tapi saya lebih senang memanggilnya **Guci**. Sebenarnya Guci ini **phablet**, lebih besar dari handphone tapi terlalu kecil kalau harus disebut tablet.
 
@@ -37,7 +40,7 @@ Banget. Menurut saya lebih mudah menggunakan gadget kecil, lebih mudah untuk men
 **NO !** Justru saya senang akhirnya saya punya 1 target tambahan yang harus dicapai selama 2016, yaitu membiasakan diri menggunakan gadget besar :smile:
 
 <figure>
-  <img src="/assets/post-img/xiaomi-redmi-note-4g-dual.jpg" alt="Xiaomi Redmi Note 4G Dual">
+  <img src="/assets/post-img/xiaomi-redmi-note-4g-dual.webp" alt="Xiaomi Redmi Note 4G Dual">
   <figcaption>
     Xiaomi Redmi Note 4G Dual (credit: Detik Forum)
   </figcaption>

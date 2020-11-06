@@ -1,4 +1,7 @@
-# Alasan Saya Masih Melakukan Rooting
+---
+title: "Alasan Saya Masih Melakukan Rooting"
+tags: [catatan, android]
+---
 
 Sebuah pertanyaan kecil muncul di kepala saya saat pertama kali membaca tentang fitur-fitur MIUI 7. Apakah *Rooting* masih diperlukan ? Dulu saya melakukan rooting di Samsung Galaxy Y GT-S5360 untuk mengakali jumlah memory yang terlalu sedikit. Lalu seiring berjalannya waktu semakin banyak penggunaan saya yang membutuhkan hak akses root di Android saya. Backup, cleaning, menghapus *bloatware*, memasang *tweak* dan *mod*, dan lain-lain.
 

@@ -1,4 +1,7 @@
-# Mengubah DNS di Linux
+---
+title: "Mengubah DNS di Linux"
+tags: [linux, tips]
+---
 
 Cara ini sudah sangat lama saya pergunakan. Jadi kalau misalnya tidak bekerja dengan benar atau ada kesalahan, hubungi saya di [Twitter](https://twitter.com/akhyarrh).
 
@@ -8,13 +11,13 @@ Catatan: cara ini **hanya untuk pengguna Linux** (Mac mungkin juga bisa). Sudah 
 
 ### Backup
 
-```sh
+```bash
 sudo cp /etc/dhcp/dhclient.conf /etc/dhcp/dhclient.conf.bak
 ```
 
 ### Edit
 
-```sh
+```bash
 sudo nano /etc/dhcp/dhclient.conf
 ```
 
@@ -45,7 +48,7 @@ Buka terminal (<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>)
 
 Jalankan command `nm-tool`.
 
-![Contoh output nm-tool](/assets/post-img/Screenshot_2015-10-07_16-42-30.png)
+![Contoh output nm-tool](/assets/post-img/Screenshot_2015-10-07_16-42-30.webp)
 
 ## Colophon
 

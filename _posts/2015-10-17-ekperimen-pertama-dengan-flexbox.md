@@ -1,12 +1,13 @@
-# Ekperimen Pertama dengan Flexbox
+---
+title: Ekperimen Pertama dengan Flexbox
+tags: [front-end,tips]
+---
 
 Awalnya agak susah memahami `flex-direction`. Setelah beberapa kali *trial & error*, akhirnya sukses juga. Bagian susahnya adalah awalnya bingung dengan markup dan CSS. Karena `flexbox` memang benar-benar sebuah modul CSS yang baru.
 
 Biar nanti tidak bingung, akan saya jelaskan sedikit mengenai `flexbox`.
 
-![Flexbox](/assets/post-img/flexbox.png)
-
-Bagian yang perlu diperhatikan adalah `main axis`, `main start`, dan `main end`. Sifat ketiga elemen ini (bersama dengan 3 elemen `cross`) benar-benar sangat fleksibel. `main axis` bisa dari kiri ke kanan, kanan ke kiri, atas ke bawah, atau bawah ke atas.
+Bagian utama yang perlu diperhatikan adalah `main axis`, `main start`, dan `main end`. Sifat ketiga elemen ini (bersama dengan 3 elemen `cross`) benar-benar sangat fleksibel. `main axis` bisa dari kiri ke kanan, kanan ke kiri, atas ke bawah, atau bawah ke atas.
 
 Saya akan bahas mengenai `cross` lain kali, kali ini saya fokus ke `main`.
 
