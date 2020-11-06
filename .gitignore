@@ -1,4 +1,5 @@
 # Jekyll stuff
+.jekyll-cache
 .jekyll-metadata
 .sass-cache
 _site
@@ -8,3 +9,7 @@ vendor
 
 # lock file
 Gemfile.lock
+
+# local
+.lite_workspace.lua
+_tomb/backup
