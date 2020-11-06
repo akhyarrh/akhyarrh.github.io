@@ -1,8 +1,8 @@
 # Masih Kurang
 
-![Speed](/assets/post-img/2015-06-08_12-32-55.png)
+![Speed](/assets/post-img/2015-06-08_12-32-55.webp)
 
-![User Experience](/assets/post-img/2015-06-08_12-32-48.png)
+![User Experience](/assets/post-img/2015-06-08_12-32-48.webp)
 
 Masih kurang. Banyak banget yang kurang. Kalo yang namanya belajar, akan selalu ada pencapaian. Biasa disebut sebagai [*milestone*](https://en.wikipedia.org/wiki/Milestone_%28project_management%29). Kutip dikit:
 
