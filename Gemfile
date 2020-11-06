@@ -18,6 +18,7 @@ group :jekyll_plugins do
     gem 'jekyll-include-cache'
     gem 'jekyll-target-blank'
     gem 'jekyll-loading-lazy'
+    gem 'jekyll-pwa-workbox'
     gem 'jekyll-minifier'
 end
 

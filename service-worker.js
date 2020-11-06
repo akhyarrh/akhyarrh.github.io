@@ -1,52 +1,38 @@
----
-layout: none
-sitemap: false
----
-
-var urlsToCache = [];
-
-var CACHE_NAME = 'akhyarrh-v{{ site.time | date: "%s" }}';
-
-{% for post in site.posts %}
-urlsToCache.push("{{ post.url }}")
-{% endfor %}
-
-{% for page in site.pages %}
-{% if page.url == '/404.html' %}
-{% elsif page.url == '/service-worker.js' %}
-{% elsif page.url == '/robots.txt' %}
-{% elsif page.url == '/assets/css/main.css.map' %}
-{% elsif page.url == '/assets/js/lunr/lunr-gr.js' %}
-{% elsif page.url contains 'webmanifest' %}
-{% elsif page.url contains 'xml' %}
-{% else %}
-urlsToCache.push("{{ page.url }}")
-{% endif %}
-{% endfor %}
-
-{% for file in site.static_files %}
-{% if file.path == '/assets/js/_main.js' %}
-{% elsif file.path == '/assets/js/lunr/lunr.js' %}
-{% elsif file.path contains '/assets/js/plugins' %}
-{% elsif file.path contains '/assets/js/vendor' %}
-{% else %}
-urlsToCache.push("{{ file.path }}")
-{% endif %}
-{% endfor %}
-
-self.addEventListener('install', function(event) {
-	event.waitUntil(
-		caches.open(CACHE_NAME)
-		.then(function(cache) {
-			return cache.addAll(urlsToCache);
-		})
-	);
+// set names for both precache & runtime cache
+workbox.core.setCacheNameDetails({
+    prefix: 'akhyarrh',
+    suffix: 'v1',
+    precache: 'precache',
+    runtime: 'runtime-cache'
 });
 
-self.addEventListener('fetch', event => {
-	event.respondWith(
-		caches.match(event.request, {ignoreSearch:true}).then(response => {
-			return response || fetch(event.request);
-		})
-	);
-});
+// let Service Worker take control of pages ASAP
+workbox.core.skipWaiting();
+workbox.core.clientsClaim();
+
+// let Workbox handle our precache list
+workbox.precaching.precacheAndRoute(self.__precacheManifest);
+
+// use `NetworkFirst` strategy for html
+workbox.routing.registerRoute(
+    /\.html$/,
+    new workbox.strategies.NetworkFirst()
+);
+
+// use `NetworkFirst` strategy for css and js
+workbox.routing.registerRoute(
+    /\.(?:js|css)$/,
+    new workbox.strategies.NetworkFirst()
+);
+
+// use `CacheFirst` strategy for images
+workbox.routing.registerRoute(
+    /\.(?:ico|jpg|jpeg|png|svg|webp)$/,
+    new workbox.strategies.CacheFirst()
+);
+
+// use `StaleWhileRevalidate` third party files
+workbox.routing.registerRoute(
+    /^https?:\/\/cdn.statically.io/,
+    new workbox.strategies.StaleWhileRevalidate()
+);

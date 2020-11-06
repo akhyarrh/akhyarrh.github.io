@@ -205,3 +205,20 @@ jekyll-minifier:
   exclude: ["*.xml", "*.txt", "*.webmanifest"]
   uglifier_args:
     harmony: true
+
+pwa:
+  #sw_src_filepath: service-worker.js # Optional
+  #sw_dest_filename: service-worker.js # Optional
+  dest_js_directory: assets/js # Required
+  precache_recent_posts_num: 10 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "/**/*.{js,json,css}"
+    - "/**/*.{ico,jpg,jpeg,png,svg,webp}"
+    - "/**/*.html"
+  precache_glob_ignores: # Optional
+    - "sw-register.js"
+    - "service-worker.js"
+    - "/assets/js/_main.js"
+    - "/assets/js/plugins/**/*"
+    - "/assets/js/vendor/**/*"
