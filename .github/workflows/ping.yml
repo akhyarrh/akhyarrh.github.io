@@ -1,6 +1,9 @@
-name: Ping search engine after Jekyll site build & every week
+name: Ping search engine after push on master branch & every week
 
 on:
+  push:
+    branches:
+      - master
   page_build:
   schedule:
     - cron: '0 0 * * 1'
