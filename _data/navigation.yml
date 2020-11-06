@@ -1,0 +1,8 @@
+# main links
+main:
+  - title: "Beranda"
+    url: /
+  - title: "Profil"
+    url: /profil/
+  - title: "Kontak"
+    url: /kontak/

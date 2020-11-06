@@ -5,26 +5,101 @@
 
 timezone: Asia/Makassar
 
-title:       AkhyarRH
-description: Jurnal Online
-url:         https://akhyar.js.org
-repository:  akhyarrh/akhyarrh.github.io
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: 'dark'
 
+title: AkhyarRH
+subtitle: Jurnal Online
+description: >
+  Seperti sebuah blog pada umumnya.
+  Kebanyakan berisi tentang front-end, user experience,
+  dan accessibility (a11y).
+url: https://akhyar.js.org
+baseurl: ""
+repository: akhyarrh/akhyarrh.github.io
 lang: id
-locale: id_ID
+locale: id-ID
 logo: "/assets/logo.png"
-author: M Akhyar Rahman H
-twitter:
-  username: akhyarrh
-  card: summary
+name: "M. Akhyar Rahman H."
 
-webmaster_verifications:
-  google: "sV2248YCZVyLu6nhz72znzNoCUhSfCqwiCEjUO-Kiu8"
-  bing:   "E9A1908DCAA52A63BF7B5F67DB05745D"
-  alexa:  "gXuVtj4bXDWiVB_ihCJijNBQNj8"
-#  yandex: ""
+comments:
+  provider               : staticman_v2
+  staticman:
+    branch               : master
+    endpoint             : https://staticman3.herokuapp.com/v3/entry/github/
+search                   : true # true, false (default)
+#search_full_content      : # true, false (default)
+
+# Social Sharing
+twitter:
+  username               : akhyarrh
+facebook:
+  username               : akhyarrh
+
+social:
+  name                   : M. Akhyar Rahman H.
+  links:
+    - https://twitter.com/akhyarrh
+    - https://github.com/akhyarrh
+
+# Analytics
+analytics:
+  provider               : google
+  google:
+    tracking_id          : UA-36665422-2
+    anonymize_ip         : true
+
+# SEO Related
+google_site_verification : sV2248YCZVyLu6nhz72znzNoCUhSfCqwiCEjUO-Kiu8
+bing_site_verification   : E9A1908DCAA52A63BF7B5F67DB05745D
+alexa_site_verification  : gXuVtj4bXDWiVB_ihCJijNBQNj8
+#yandex_site_verification :
+naver_site_verification  : 6317134cb9bef4388b660148341705f37c442045
+
+# Site Author
+author:
+  name             : "M. Akhyar Rahman H."
+  avatar           : /assets/img/avatar.jpg
+  bio              : "Young, wild, & free."
+  location         : "South Borneo, ID"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/akhyarrh"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github-alt"
+      url: "https://github.com/akhyarrh"
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/akhyarrh"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github-alt"
+      url: "https://github.com/akhyarrh"
+
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 permalink: /:title/
+paginate: 8
 
 show_drafts: false
 future:      false
@@ -38,21 +113,49 @@ exclude:
   - Rakefile
   - README.md
   - vendor
+  - staticman.yml
 
 sass:
   style: compressed
 
 defaults:
+  # _posts
   - scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
-      image: https://source.unsplash.com/800x600
+      layout: single
+      author_profile: false
+      show_date: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
   - scope:
       path: ""
-      type: "pages"
+      type: pages
     values:
-      image: /cover.webp
+      layout: single
+      author_profile: false
+  - scope:
+      path: ""
+      type: tag
+    values:
+      author_profile: false
+      comments: false
+  - scope:
+      path: ""
+      type: category
+    values:
+      author_profile: false
+      comments: false
+
+compress_html:
+  clippings: all
+  comments: all
+  #ignore:
+  #  envs: development  # disable compression in dev environment
 
 # https://help.github.com/articles/configuring-jekyll-plugins/#default-plugins
 plugins:
@@ -62,26 +165,24 @@ plugins:
   # more info see:
   # https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins
   #
-  #- jekyll-coffeescript
-  #- jekyll-default-layout
-  #- jekyll-gist
-  #- jekyll-github-metadata
-  #- jekyll-optional-front-matter
-  #- jekyll-paginate
-  #- jekyll-readme-index
-  #- jekyll-titles-from-headings
-  #- jekyll-relative-links
-
-  - jekyll-seo-tag
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-github-metadata
   - jekyll-mentions
-  - jemoji
-  - jekyll-sitemap
 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  ignore:
-    envs: [development]
+  - jekyll-data
+  - jekyll-archives
+  - jekyll-include-cache
+  - jekyll-target-blank
+  - jekyll-loading-lazy
+  - jekyll-minifier
+
+markdown: CommonMarkGhPages
+
+#comment-post: https://docs.google.com/forms/d/e/1FAIpQLSdK2gNXrbEDYdLVXQczAgKaSCkPS--w4nGc_AJopcwlZMOIwQ
+#comment-read: https://docs.google.com/spreadsheets/d/1txcAELxvQ0XiPlIYtLB4m5lBqc25I6EYRi5LmTzI1MA
+#comment-post-fields: [ entry.676535420, entry.240716117, entry.185139534]
 
 optional_front_matter:
   remove_originals: true
@@ -92,3 +193,15 @@ titles_from_headings:
   collections: true
 
 jekyll-mentions: https://twitter.com
+
+target-blank:
+  rel: nofollow
+
+commonmark:
+  options: ["SMART", "FOOTNOTES", "STRIKETHROUGH_DOUBLE_TILDE"]
+  extensions: ["strikethrough", "autolink", "table"]
+
+jekyll-minifier:
+  exclude: ["*.xml", "*.txt", "*.webmanifest"]
+  uglifier_args:
+    harmony: true
