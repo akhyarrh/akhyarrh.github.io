@@ -219,6 +219,9 @@ pwa:
   precache_glob_ignores: # Optional
     - "sw-register.js"
     - "service-worker.js"
+    - "assets/css/*.map"
     - "/assets/js/_main.js"
+    - "/assets/js/lunr/lunr.js"
+    - "/assets/js/lunr/lunr-gr.js"
     - "/assets/js/plugins/**/*"
     - "/assets/js/vendor/**/*"
