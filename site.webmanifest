@@ -1,5 +1,6 @@
 ---
 layout: none
+sitemap: false
 ---
 {
     "name": "AkhyarRH",
@@ -17,8 +18,8 @@ layout: none
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#252a34",
+    "background_color": "#252a34",
     "start_url": "/",
     "display": "standalone"
 }
