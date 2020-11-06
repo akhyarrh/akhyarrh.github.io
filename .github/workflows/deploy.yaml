@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - source
+  schedule:
+    - cron: '0 0 1 * *'
 
 jobs:
   deploy:
@@ -18,9 +20,20 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      - uses: jeffreytse/jekyll-deploy-action@v0.1.3
+      - uses: actions/setup-ruby@v1
         with:
-          provider: 'github'
-          token: ${{ secrets.GH_TOKEN }}
-          branch: 'master'
-          cname: 'akhyar.js.org'
+          ruby-version: '2.7'
+
+      - run: gem install bundler
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+      - run: bundle exec rake build
+
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GH_TOKEN }}
+          publish_branch: master
+          publish_dir: ./_site
+          cname: akhyar.js.org
+          force_orphan: true
+          exclude_assets: '.github,assets/css/*.map,assets/js/_main.js,assets/js/lunr/lunr.js,assets/js/lunr/lunr-gr.js,assets/js/plugins/**/*,assets/js/vendor/**/*'
