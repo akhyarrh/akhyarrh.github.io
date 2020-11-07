@@ -28,7 +28,7 @@ $text-color: #fff;
   (hacker-news, #F0652F),
   (reddit, #FF4500),
   (tumblr, #36465D),
-  (email, #333);
+  (email, #D14836);
 
   @each $buttoncolor, $color in $buttoncolors {
     &--#{$buttoncolor} {
@@ -66,4 +66,10 @@ div.highlighter-rouge,
 figure.highlight,
 table {
   font-size: $type-size-5;
+}
+
+.grid__item {
+  .page__meta {
+    font-size: $type-size-6;
+  }
 }
