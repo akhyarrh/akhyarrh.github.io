@@ -45,7 +45,7 @@ end
 
 desc "Ping Google"
 task :pinggoogle do
-  sh 'curl "http://www.google.com/webmasters/sitemaps/ping?sitemap=https://akhyar.js.org/sitemap.xml"'
+  sh 'curl "http://www.google.com/ping?sitemap=https://akhyar.js.org/sitemap.xml"'
 end
 
 desc "Ping Bing"
