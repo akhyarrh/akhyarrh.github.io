@@ -8,7 +8,7 @@ Mencoba mengingat kembali perjalanan berbagai macam memori beserta ukurannya yan
 
 Dimulai dari yang paling kecil, setahu saya dulu ada memori PS2 yang ukurannya tertera di casingnya bertulisan 8 MB dan 16 MB. 1 memori yang 8 MB aja kayaknya cukup buat GTA: SA, RE4, MK Shaolin Monk.
 
-Selanjutnya untuk memori tambahan telpon genggam, misal Ngage, Ngage QD. Setahu saya mulai dari yang 16 MB s/d 512 MB tersedia. Isinya antara lagu, foto, game, atau 3gp yang burik banget :laugh:.
+Selanjutnya untuk memori tambahan telpon genggam, misal Ngage, Ngage QD. Setahu saya mulai dari yang 16 MB s/d 512 MB tersedia. Isinya antara lagu, foto, game, atau 3gp yang burik banget :laughing:.
 
 Sejak jaman pra-gawai seperti sekarang, sudah banyak memori yang ruangnya agak besar untuk telpon genggam. Mulai dari 2, 4 8, 16, dan 32, semuanya dalam satuan GB.
 
