@@ -1,7 +1,3 @@
----
-image: "https://cdn.statically.io/og/theme=dark/Perjalanan%20Sebuah%20Memori.png"
----
-
 # Perjalanan Sebuah Memori
 
 Mencoba mengingat kembali perjalanan berbagai macam memori beserta ukurannya yang pernah saya temui.
