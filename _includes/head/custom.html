@@ -11,6 +11,10 @@
 <meta name="msapplication-TileImage" content="/assets/mstile-144x144.png?{{ site.time | date: '%Y%s' }}">
 <meta name="theme-color" content="#252a34">
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
+{% if page.comments %}
+<link rel="preconnect" href="https://www.google.com">
+<link rel="preconnect" href="https://www.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+{% endif %}
 
 <!-- end custom head snippets -->
