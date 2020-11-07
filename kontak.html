@@ -1,0 +1,38 @@
+---
+title: Kontak
+---
+
+<p>Hubungi saya lewat email :smile:</p>
+
+<form action="https://formspree.io/maywlrba" method="POST">
+  <div class="form-group">
+  	<label for="name">Nama</label>
+  	<input id="name" type="text" name="name" required>
+  </div>
+
+  <div class="form-group">
+  	<label for="mail">Email</label>
+  	<input id="mail" type="email" name="_replyto" required>
+  </div>
+
+  <div class="form-group">
+  	<label for="message">Pesan</label>
+  	<textarea id="message" name="message" rows="3" required></textarea>
+  </div>
+
+  <div class="form-group hidden" style="display:none">
+  	<input type="text" name="_gotcha">
+  </div>
+
+  {% if site.reCaptcha.siteKey %}
+    <div class="form-group">
+        <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
+    </div>
+  {% endif %}
+
+  <div class="form-group">
+  	<input class="btn btn--inverse btn--large" type="submit" value="Kirim">
+  </div>
+</form>
+
+{% if site.reCaptcha.siteKey %}<script src="https://www.google.com/recaptcha/api.js" async defer></script>{% endif %}
