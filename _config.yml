@@ -177,12 +177,14 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-github-metadata
   - jekyll-mentions
+  - jemoji
 
   - jekyll-data
   - jekyll-archives
   - jekyll-include-cache
   - jekyll-target-blank
   - jekyll-loading-lazy
+  - jekyll-pwa-workbox
   - jekyll-minifier
 
 markdown: CommonMarkGhPages
