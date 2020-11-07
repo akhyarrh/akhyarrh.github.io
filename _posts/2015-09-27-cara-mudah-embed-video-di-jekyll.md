@@ -59,4 +59,4 @@ Bisa dibilang saya ambil dari post Adam Garrett-Harris. Saya edit sedikit biar l
 
 Sebagai penutup, selamat menikmati Hardwell On Air episode 236.
 
-<!-- include youtube id="qCnzav6tFfY" -->
+{% include youtube id="qCnzav6tFfY" %}
