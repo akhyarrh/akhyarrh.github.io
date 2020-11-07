@@ -14,5 +14,5 @@
 
   <input type="text" name="_gotcha" style="display:none" />
 
-  <input type="submit" value="Kirim">
+  <input class="btn btn--inverse btn--large" type="submit" value="Kirim">
 </form>
