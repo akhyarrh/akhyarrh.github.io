@@ -43,20 +43,20 @@
 
               <div class="form-group">
                 <label for="comment-form-message">{{ site.data.ui-text[site.locale].comment_form_comment_label | default: "Comment" }} <small class="required">*</small></label>
-                <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
                 <div class="small help-block"><a href="https://daringfireball.net/projects/markdown/">{{ site.data.ui-text[site.locale].comment_form_md_info | default: "Markdown is supported." }}</a></div>
+                <textarea type="text" rows="3" id="comment-form-message" name="fields[message]"></textarea>                
               </div>
               <div class="form-group">
                 <label for="comment-form-name">{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }} <small class="required">*</small></label>
-                <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
+                <input type="text" id="comment-form-name" name="fields[name]" />
               </div>
               <div class="form-group">
                 <label for="comment-form-email">{{ site.data.ui-text[site.locale].comment_form_email_label | default: "Email address" }} <small class="required">*</small></label>
-                <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
+                <input type="email" id="comment-form-email" name="fields[email]" />
               </div>
               <div class="form-group">
                 <label for="comment-form-url">{{ site.data.ui-text[site.locale].comment_form_website_label | default: "Website (optional)" }}</label>
-                <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
+                <input type="url" id="comment-form-url" name="fields[url]" />
               </div>
               <div class="form-group hidden" style="display: none;">
                 <input type="hidden" name="options[slug]" value="{{ page.slug }}">
@@ -76,7 +76,7 @@
                 </div>
               {% endif %}
               <div class="form-group">
-                <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--inverse btn--large">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
+                <button type="submit" id="comment-form-submit" class="btn btn--inverse btn--large">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
               </div>
             </form>
           </div>
@@ -117,20 +117,20 @@
 
               <div class="form-group">
                 <label for="comment-form-message">{{ site.data.ui-text[site.locale].comment_form_comment_label | default: "Comment" }} <small class="required">*</small></label>
-                <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
                 <div class="small help-block"><a href="https://daringfireball.net/projects/markdown/">{{ site.data.ui-text[site.locale].comment_form_md_info | default: "Markdown is supported." }}</a></div>
+                <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" ></textarea>
               </div>
               <div class="form-group">
                 <label for="comment-form-name">{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }} <small class="required">*</small></label>
-                <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
+                <input type="text" id="comment-form-name" name="fields[name]" />
               </div>
               <div class="form-group">
                 <label for="comment-form-email">{{ site.data.ui-text[site.locale].comment_form_email_label | default: "Email address" }} <small class="required">*</small></label>
-                <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
+                <input type="email" id="comment-form-email" name="fields[email]" />
               </div>
               <div class="form-group">
                 <label for="comment-form-url">{{ site.data.ui-text[site.locale].comment_form_website_label | default: "Website (optional)" }}</label>
-                <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
+                <input type="url" id="comment-form-url" name="fields[url]" />
               </div>
               <div class="form-group hidden" style="display: none;">
                 <input type="hidden" name="options[slug]" value="{{ page.slug }}">
@@ -143,7 +143,7 @@
               </p>
               <!-- End comment form alert messaging -->
               <div class="form-group">
-                <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--inverse btn--large">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
+                <button type="submit" id="comment-form-submit" class="btn btn--inverse btn--large">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
               </div>
             </form>
           </div>
