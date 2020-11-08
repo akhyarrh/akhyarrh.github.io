@@ -2,8 +2,8 @@
 published: true
 tags: []
 title: Perjalanan Sebuah Memori
-last_modified_at: 2020-11-01 19:05:00 +0800
-date: 
+last_modified_at: 2020-11-08 19:05:00 +0800
+date: 2020-10-27 18:00:00 +0800
 category: ''
 image: ''
 
