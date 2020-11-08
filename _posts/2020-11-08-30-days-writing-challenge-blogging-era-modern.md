@@ -19,7 +19,7 @@ Tapi percayalah tidak semudah itu untuk tetap produktif selama 30 hari. Bahkan s
 
 Supaya setiap hari selalu ada yang dibahas, maka pada hari pertama ini saya mau mencatat mengenai semakin banyaknya platform untuk blogging yang lebih modern.
 
-Sejauh yang saya ingat, dulu sebenarnya banyak platform sejenis yang memudahkan untuk bloging dengan cara yang lebih simpel. Dimulai dengan [svbtle](svbtle.com), lalu juga ada [postach](postach.io) yang menggunakan Evernote. Tapi yang benar-benar banyak digunakan saat itu adalah [Medium](medium.com).
+Sejauh yang saya ingat, dulu sebenarnya banyak platform sejenis yang memudahkan untuk bloging dengan cara yang lebih simpel. Dimulai dengan [svbtle](//svbtle.com), lalu juga ada [postach](//postach.io) yang menggunakan Evernote. Tapi yang benar-benar banyak digunakan saat itu adalah [Medium](//medium.com).
 
 Berbeda dengan platform semacam Blogger atau Tumblr, dimana kita bisa bebas mau tampilan seperti apapun, bisa menambahkan widget apapun dan sebagainya. Konsep platform blogging semacam Svbtle, Postach, Medium, dan sejenisnya, lebih sederhana.
 
@@ -33,12 +33,12 @@ Dengan beberapa kelebihan, dan juga kekurangan, yang sudah disebutkan, rasanya t
 
 Berikut adalah daftar beberapa platform blogging yang saya tahu:
 
-- [Svbtle](svbtle.com). Setahu saya Svbtle ini tidak gratis.
-- [Postach.io](postach.io). Memerlukan akun Evernote dan sedikit setup.
-- [Medium](medium.com). Paling populer. Sudah mendukung pengguna untuk bisa membuat konten yang tidak tersedia secara gratis.
-- [Dev](dev.to). Kebanyakan digunakan oleh para developer (pembuat aplikasi, admin web, perangkat lunak, dan lain-lain).
-- [DevDojo](devdojo.com). Sama seperti Dev, kebanyakan digunakan para developer.
-- [Hashnode](hashnode.dev). Walaupun juga kebanyakan digunakan para developer, tapi bisa juga dipergunakan untuk mempublikasi topik yang tidak berkaitan dengan teknologi.
+- [Svbtle](//svbtle.com). Setahu saya Svbtle ini tidak gratis.
+- [Postach.io](//postach.io). Memerlukan akun Evernote dan sedikit setup.
+- [Medium](//medium.com). Paling populer. Sudah mendukung pengguna untuk bisa membuat konten yang tidak tersedia secara gratis.
+- [Dev](//dev.to). Kebanyakan digunakan oleh para developer (pembuat aplikasi, admin web, perangkat lunak, dan lain-lain).
+- [DevDojo](//devdojo.com). Sama seperti Dev, kebanyakan digunakan para developer.
+- [Hashnode](//hashnode.dev). Walaupun juga kebanyakan digunakan para developer, tapi bisa juga dipergunakan untuk mempublikasi topik yang tidak berkaitan dengan teknologi.
 
 Berdasarkan daftar diatas, bisa dilihat bahwa **Medium** lebih bertujuan untuk audience yang lebih luas. Selain mudah untuk dipergunakan, bisa melakukan kustomisasi yang cukup banyak, dukungan menggunakan domain pribadi, dan bisa jadi sumber penghasilan.
 
