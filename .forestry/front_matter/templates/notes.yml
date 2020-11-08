@@ -1,4 +1,29 @@
 ---
 label: Notes
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Titel
+  description: Judul
+- name: date
+  type: datetime
+  label: Tanggal
+  description: Tanggal dipublish
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: category
+  type: text
+  config:
+    required: false
+  label: Kategori
+- name: tags
+  type: tag_list
+  default: []
+  label: Label
