@@ -1,5 +1,13 @@
-# Perjalanan Sebuah Memori
+---
+published: true
+tags: []
+title: Perjalanan Sebuah Memori
+last_modified_at: 2020-11-01 19:05:00 +0800
+date: 
+category: ''
+image: ''
 
+---
 Mencoba mengingat kembali perjalanan berbagai macam memori beserta ukurannya yang pernah saya temui.
 
 Dimulai dari yang paling kecil, setahu saya dulu ada memori PS2 yang ukurannya tertera di casingnya bertulisan 8 MB dan 16 MB. 1 memori yang 8 MB aja kayaknya cukup buat GTA: SA, RE4, MK Shaolin Monk.
@@ -8,7 +16,7 @@ Selanjutnya untuk memori tambahan telpon genggam, misal Ngage, Ngage QD. Setahu 
 
 Sejak jaman pra-gawai seperti sekarang, sudah banyak memori yang ruangnya agak besar untuk telpon genggam. Mulai dari 2, 4 8, 16, dan 32, semuanya dalam satuan GB.
 
-Kalau jaman sekarang, bahkan memori bawaan dari sebuah gawai itu sudah berada di rata-rata kapasitas 32 GB. Dengan memori tambahan mulai dari 64 GB s/d 1 TB. 
+Kalau jaman sekarang, bahkan memori bawaan dari sebuah gawai itu sudah berada di rata-rata kapasitas 32 GB. Dengan memori tambahan mulai dari 64 GB s/d 1 TB.
 
 Loncat ke mesin lainnya yang agak besar: PC/laptop. Dulu waktu pertama kali tahu, sudah lewat daripada 256 GB. Sekitar 300 GB atau 312 GB. Lupa. Sekarang, sudah sampai di level 1 TB. Mungkin sudah ada hardisk atau bahkan SSD yang sudah sampai di kapasitas 10 TB atau bahkan 100 TB.
 
