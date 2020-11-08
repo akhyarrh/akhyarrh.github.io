@@ -32,10 +32,10 @@
   {%- assign author_twitter = author.twitter | replace: "@", "" -%}
 {%- endif -%}
 
-{%- assign page_large_image = page.header.og_image | default: page.header.overlay_image | default: page.header.image | absolute_url -%}
+{%- assign page_large_image = page.header.og_image | default: page.header.overlay_image | default: page.header.image | default: page.image | absolute_url -%}
 {%- assign page_large_image = page_large_image | escape -%}
 
-{%- assign page_teaser_image = page.header.teaser | default: site.og_image | absolute_url -%}
+{%- assign page_teaser_image = page.header.teaser | default: page.teaser_image | default: site.og_image | absolute_url -%}
 {%- assign page_teaser_image = page_teaser_image | escape -%}
 
 {%- assign site_og_image = site.og_image | absolute_url -%}
@@ -143,7 +143,7 @@
   {% elsif page_teaser_image %}
   "image": "{{ page_teaser_image }}",
   {% else %}
-  "image": "https://cdn.statically.io/og/theme=dark/{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | uri_escape }}.png",
+  "image": "https://cdn.statically.io/og/theme=dark/{{ page.title | markdownify | strip_html | strip_newlines | uri_escape }}.png",
   {% endif %}
   "description": "{{ seo_description }}",
   "url": "{{ canonical_url }}",
