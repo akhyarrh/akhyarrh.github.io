@@ -1,4 +1,7 @@
-# Profil
+---
+title: Profil
+image: "/assets/img/og-image-default.png"
+---
 
 Halo :wave:
 
@@ -15,6 +18,8 @@ Kalau ada pertanyaan, [hubungi saya](/kontak).
 - [Jekyll](https://jekyllrb.com)
 - [js.org](https://github.com/js-org/js.org)
 - [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
+- [RoboHash](https://robohash.org/)
+- [Color Safe](http://colorsafe.co/)
 - [Statically](https://statically.io/)
 - [Open Graph Image generator](https://og-image.now.sh/)
 
