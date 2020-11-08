@@ -7,13 +7,25 @@ fields:
   config:
     required: true
   label: Title
+- name: add_teaser_image
+  type: boolean
+  label: Add Teaser Image
 - name: teaser_image
   type: file
   config:
     maxSize: 64
   label: Teaser Image
+  showOnly:
+    field: add_teaser_image
+    value: true
+- name: add_image
+  type: boolean
+  label: Add Image
 - name: image
   type: file
   config:
     maxSize: 64
   label: Image
+  showOnly:
+    field: add_image
+    value: true
