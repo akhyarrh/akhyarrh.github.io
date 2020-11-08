@@ -15,7 +15,7 @@ fields:
 - name: date
   type: datetime
   config:
-    required: false
+    required: true
     date_format: 
     time_format: 
     display_utc: false
