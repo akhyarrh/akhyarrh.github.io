@@ -7,15 +7,9 @@ sections:
 - type: document
   path: _config.yml
   label: Config
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
-- type: directory
-  path: _drafts
-  label: Drafts
-  create: documents
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
