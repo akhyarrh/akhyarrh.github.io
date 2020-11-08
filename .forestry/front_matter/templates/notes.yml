@@ -2,6 +2,10 @@
 label: Notes
 hide_body: false
 fields:
+- name: published
+  type: boolean
+  label: Published
+  default: false
 - name: title
   type: text
   config:
