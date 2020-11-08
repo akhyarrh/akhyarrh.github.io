@@ -6,7 +6,7 @@ fields:
 - name: published
   type: boolean
   label: Published
-  default: false
+  default: true
 - name: title
   type: text
   config:
