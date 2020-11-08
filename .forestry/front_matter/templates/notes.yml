@@ -1,5 +1,5 @@
 ---
-label: Notes
+label: Post
 hide_body: false
 display_field: title
 fields:
@@ -11,27 +11,35 @@ fields:
   type: text
   config:
     required: true
-  label: Titel
-  description: Judul
+  label: Title
 - name: date
   type: datetime
-  label: Tanggal
-  description: Tanggal dipublish
   config:
     required: false
     date_format: 
     time_format: 
     display_utc: false
   default: now
+  label: Date Published
+- name: last_modified_at
+  type: datetime
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Date Last Modified
+  default: now
 - name: category
   type: text
   config:
     required: false
-  label: Kategori
+  label: Category
 - name: tags
   type: tag_list
   default: []
-  label: Label
+  label: Tags
 - name: image
   type: file
   config:
