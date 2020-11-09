@@ -1,6 +1,10 @@
 ---
 title: Pindah ke Jekyll
-tags: [jekyll]
+date: 2015-01-22 00:00
+tags:
+  - jekyll
+redirect_from:
+  - /post/pindah-ke-jekyll/
 ---
 
 Beberapa hari yang lalu gue setup blog pakai [Grav](http://getgrav.org). Awalnya lancar memang, tapi pada akhirnya ada 1 masalah. Custom domainnya agak sinting. Entah kenapa, mungkin karena memang nasib atau gue yang kurang beruntung. Saat itu gue host file blog di [OpenShift](http://openshift.com). Pada akhirnya gue sekarang pindah (lagi) ke platform baru, yaitu [Jekyll](http://jekyllrb.com).
