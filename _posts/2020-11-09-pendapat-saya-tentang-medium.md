@@ -1,7 +1,6 @@
 ---
 title: Pendapat Saya Tentang Medium
 date: 2020-11-09 20:30 +08:00
-last_modified_at: ""
 category: 30 Days Writing Challenge
 tags:
   - catatan
