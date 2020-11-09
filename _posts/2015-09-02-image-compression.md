@@ -1,6 +1,11 @@
 ---
 title: Image Compression
-tags: [front-end, tips]
+date: 2015-09-02 00:00
+tags:
+  - front-end
+  - tips
+redirect_from:
+  - /post/image-compression/
 ---
 
 Gambar adalah konten kedua terbanyak di web menurut saya. Bahkan gif pun juga termasuk gambar, walaupun bergerak. Dulu ukuran file gambar tidak terlalu diperhatikan. Saya juga dulu dengan sembarangan melakukan upload gambar ke blog tanpa peduli berapa ukurannya. Tapi itu dulu, sekarang sudah beda. Hanya saja masih ada beberapa website yang belum melakukan *compression* terhadap konten gambar yang mereka punya. Padahal seharusnya mereka melakukannya agar web mereka cepat dan tidak terlalu banyak memakai kuota data.
