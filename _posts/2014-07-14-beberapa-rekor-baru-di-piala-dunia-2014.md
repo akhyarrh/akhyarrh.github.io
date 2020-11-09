@@ -1,6 +1,8 @@
 ---
 title: Beberapa rekor baru di Piala Dunia 2014
-tags: [catatan]
+date: 2020-11-10 02:14
+tags:
+  - catatan
 ---
 
 Holaaa. Baru kelar nonton final Piala Dunia antara Jerman vs Argentina. Sayang favorit gue, Argentina, kalah. Tapi gapapa lah. Masih ada kesempatan lain. Kali ini gue bakal rekap beberapa rekor baru yang tercipta di Piala Dunia tahun ini. Beberapa ada rekor baru, atau memecahkan rekor yang sebelumnya. Penasaran ? Langsung aja deh ya
