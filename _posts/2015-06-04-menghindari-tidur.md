@@ -1,6 +1,10 @@
 ---
 title: Menghindari Tidur
-tags: [catatan]
+date: 2015-06-04 00:00
+tags:
+  - catatan
+redirect_from:
+  - /post/menghindari-tidur/
 ---
 
 Di beberapa keadaan, kita kadang berusaha untuk menghindari kondisi yang membuat kita tidur. Kerja seharian tapi malamnya mau nonton bola. Aktif semalaman tapi ada jadwal pagi. Pengen molor seharian tapi ada jadwal kencan. Makanya kali ini bakal gue kasih tips untuk menghindari tidur. Asik kan, padahal tidur itu enak loh. Bikin ngiler, mimpi kampret yang mungkin tidak terjadi, ga susah pula buat tidur. Tapi tidur kelamaan ga baik juga. Contohnya gue sering banget ketiduran pas hari minggu siang akhirnya ketinggalan OSF. Daripada makin ngaco, langsung aja lah ya.
