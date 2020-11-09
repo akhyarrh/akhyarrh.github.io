@@ -1,6 +1,10 @@
 ---
-title: "Dear Blogger, Mari Tinggalkan Blogger"
-tags: [catatan]
+title: Dear Blogger, Mari Tinggalkan Blogger
+date: 2015-12-25 00:00
+tags:
+  - catatan
+redirect_from:
+  - /post/dear-blogger-mari-tinggalkan-blogger/
 ---
 
 > Yar, bantu setting blog aku dong. Aku pakai Blogger. Punya Google kan jadi pasti bagus layanannya.
