@@ -1,6 +1,10 @@
 ---
 title: "Sistem Terdistribusi: Bab 1"
-tags: [catatan]
+date: 2015-10-06 00:00
+tags:
+  - catatan
+redirect_from:
+  - /post/sistem-terdistribusi-bab-1/
 ---
 
 > Apa itu sistem terdistribusi ?
