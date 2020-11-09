@@ -1,6 +1,11 @@
 ---
-title: "Penggunaan `!important` di CSS"
-tags: [front-end,css]
+title: Penggunaan `!important` di CSS
+date: 2015-06-01 00:00
+tags:
+  - front-end
+  - css
+redirect_from:
+  - /post/penggunaan-important-di-css/
 ---
 
 > Apakah pendeklarasian `!important` di CSS diperlukan?
