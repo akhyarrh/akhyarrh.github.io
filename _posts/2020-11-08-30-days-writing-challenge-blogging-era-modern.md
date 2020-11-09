@@ -1,7 +1,7 @@
 ---
 title: "Blogging Era Modern"
 category: "30 Days Writing Challenge"
-tags: [writing]
+tags: [catatan, tips]
 date: 2020-11-08 13:49 +0800
 ---
 
