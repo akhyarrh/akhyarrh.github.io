@@ -17,5 +17,8 @@
 <link rel="preconnect" href="https://www.gstatic.com">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 {% endif %}
-
+<link rel="preconnect" href="https://www.google-analytics.com">
+{% if page.comments or page.title == 'Kontak' %}
+<link rel="preload" href="https://www.google.com/recaptcha/api.js" as="script">
+{% endif %}
 <!-- end custom head snippets -->
