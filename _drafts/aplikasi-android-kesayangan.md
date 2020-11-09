@@ -1,4 +1,6 @@
-# Aplikasi Android Kesayangan
+---
+title: Aplikasi Android Kesayangan
+---
 
 Walau sudah berkali-kali ganti smartphone, ada beberapa aplikasi yang pasti selalu saya pasang. Beberapa mungkin bukan aplikasi yang pada umumnya dipergunakan oleh semua orang. Beberapa aplikasi juga perlu akses \*root\* atau bahkan Xposed framework, jadi tidak semua aplikasi yang saya sebutkan bisa kalian pergunakan.
 
