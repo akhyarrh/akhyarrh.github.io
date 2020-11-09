@@ -1,6 +1,6 @@
 ---
 title: Pendapat Saya Tentang Medium
-date: 2020-11-09T12:00:00.000Z
+date: 2020-11-09 20:30 +08:00
 last_modified_at: ""
 category: 30 Days Writing Challenge
 tags:
@@ -15,7 +15,7 @@ Editor di Medium memang sudah bagus. Tapi saya yang sudah terlanjur mencintai Ma
 
 Salah satu kelebihan Markdown adalah fenced code block.
 
-```js
+```javascript
 // ini javascript
 var popMe = "Hallo";
 console.log(popMe);
