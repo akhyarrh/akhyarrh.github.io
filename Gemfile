@@ -13,6 +13,7 @@ group :jekyll_plugins do
     gem 'jekyll-mentions'
     gem 'jemoji'
 
+    gem 'jekyll-manager'
     gem 'jekyll-compose'
     gem 'jekyll-data'
     gem 'jekyll-archives'
