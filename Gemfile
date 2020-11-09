@@ -9,6 +9,7 @@ group :jekyll_plugins do
     gem 'jekyll-titles-from-headings'
     gem 'jekyll-github-metadata'
     gem 'jekyll-relative-links'
+    gem 'jekyll-redirect-from'
     gem 'jekyll-mentions'
     gem 'jemoji'
 
