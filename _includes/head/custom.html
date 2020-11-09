@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 {% endif %}
 <link rel="preconnect" href="https://www.google-analytics.com">
-{% if page.comments or page.title == 'Kontak' %}
+{% if page.comments or page.title == 'Kontak' and jekyll.environment == 'production' %}
 <link rel="preload" href="https://www.google.com/recaptcha/api.js" as="script">
 {% endif %}
 <!-- end custom head snippets -->
