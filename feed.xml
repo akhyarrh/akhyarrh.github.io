@@ -8,7 +8,7 @@ sitemap: false
   <link rel="self" href="{{ site.url }}/feed.xml" type="application/atom+xml" />
   <link rel="alternate" href="{{ site.url }}" type="text/html" {% if site.lang %}hreflang="{{ site.lang }}" {% endif %}/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url | absolute_url |xml_escape }}</id>
+  <id>{{ '/' | absolute_url | xml_escape }}</id>
   <title type="html">{{ site.title | xml_escape }}</title>
   {% if site.description %}<subtitle>{{ site.description | xml_escape }}</subtitle>{% endif %}
   <author><name>{{ site.name | xml_escape }}</name></author>
@@ -33,8 +33,8 @@ sitemap: false
       <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post.image | absolute_url | xml_escape }}" />
       <media:content medium="image" url="{{ post.image | absolute_url | xml_escape }}" xmlns:media="http://search.yahoo.com/mrss/" />
       {% else %}
-      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/{{ post.title | markdownify | strip_html | strip_newlines | xml_escape }}.png" />
-      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/{{ post.title | markdownify | strip_html | strip_newlines | xml_escape }}.png" xmlns:media="http://search.yahoo.com/mrss/" />
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/{{ post.title | markdownify | strip_html | strip_newlines | uri_escape }}.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/{{ post.title | markdownify | strip_html | strip_newlines | uri_escape }}.png" xmlns:media="http://search.yahoo.com/mrss/" />
         {% endif %}
     </entry>
   {% endfor %}
