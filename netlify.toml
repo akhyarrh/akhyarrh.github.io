@@ -1,6 +1,6 @@
 [context.production]
   command = "bundle exec rake build"
-  publish = "_site/netlify/"
+  publish = "_site/admin/"
   environment = { JEKYLL_ENV = "production" }
 
 [context.deploy-preview]
