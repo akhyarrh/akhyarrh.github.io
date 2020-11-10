@@ -3,6 +3,7 @@ backend:
   repo: akhyarrh/akhyarrh.github.io
   branch: source
   open_authoring: true
+  use_graphql: true
 publish_mode: editorial_workflow
 site_url: https://akhyarrh-ci.netlify.app/
 display_url: akhyar.js.org
