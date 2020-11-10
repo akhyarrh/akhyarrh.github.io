@@ -84,22 +84,22 @@ footer:
       url: "https://last.fm/user/akhyarrh"
 
 category_archive:
-  type: jekyll-archives
+  type: liquid
   path: /categories/
 tag_archive:
-  type: jekyll-archives
+  type: liquid
   path: /tags/
 
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+#jekyll-archives:
+#  enabled:
+#    - categories
+#    - tags
+#  layouts:
+#    category: archive-taxonomy
+#    tag: archive-taxonomy
+#  permalinks:
+#    category: /categories/:name/
+#    tag: /tags/:name/
 
 permalink: /:title/
 paginate: 8
@@ -117,6 +117,7 @@ exclude:
   - README.md
   - vendor
   - staticman.yml
+  - netlify.toml
 
 sass:
   style: compressed
@@ -180,7 +181,7 @@ plugins:
   - jemoji
   - jekyll-redirect-from
   - jekyll-data
-  - jekyll-archives
+  #- jekyll-archives
   - jekyll-include-cache
   - jekyll-target-blank
   - jekyll-loading-lazy

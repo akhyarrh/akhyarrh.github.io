@@ -15,7 +15,7 @@ group :jekyll_plugins do
 
     gem 'jekyll-compose'
     gem 'jekyll-data'
-    gem 'jekyll-archives'
+    #gem 'jekyll-archives'
     gem 'jekyll-commonmark-ghpages'
     gem 'jekyll-include-cache'
     gem 'jekyll-target-blank'
