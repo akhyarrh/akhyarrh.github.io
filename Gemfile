@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem 'minimal-mistakes-jekyll', github: 'mmistakes/minimal-mistakes'
+gem 'minimal-mistakes-jekyll', github: 'akhyarrh/minimal-mistakes'
 gem 'liquid-c'
 
 group :jekyll_plugins do
@@ -15,7 +15,6 @@ group :jekyll_plugins do
 
     gem 'jekyll-compose'
     gem 'jekyll-data'
-    #gem 'jekyll-archives'
     gem 'jekyll-commonmark-ghpages'
     gem 'jekyll-include-cache'
     gem 'jekyll-target-blank'

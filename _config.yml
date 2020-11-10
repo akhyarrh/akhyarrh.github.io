@@ -90,17 +90,6 @@ tag_archive:
   type: liquid
   path: /tags/
 
-#jekyll-archives:
-#  enabled:
-#    - categories
-#    - tags
-#  layouts:
-#    category: archive-taxonomy
-#    tag: archive-taxonomy
-#  permalinks:
-#    category: /categories/:name/
-#    tag: /tags/:name/
-
 permalink: /:title/
 paginate: 8
 
@@ -159,12 +148,6 @@ defaults:
       comments: false
       classes: wide
 
-compress_html:
-  clippings: all
-  comments: all
-  #ignore:
-  #  envs: development  # disable compression in dev environment
-
 # https://help.github.com/articles/configuring-jekyll-plugins/#default-plugins
 plugins:
   #
@@ -181,7 +164,6 @@ plugins:
   - jemoji
   - jekyll-redirect-from
   - jekyll-data
-  #- jekyll-archives
   - jekyll-include-cache
   - jekyll-target-blank
   - jekyll-loading-lazy
