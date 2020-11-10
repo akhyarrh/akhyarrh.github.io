@@ -1,5 +1,6 @@
 ---
 title: Dengan Duit 140M Saya akan...
+date: 2015-08-30
 tags: [catatan]
 ---
 

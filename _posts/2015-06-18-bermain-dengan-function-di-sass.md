@@ -1,5 +1,6 @@
 ---
 title: Bermain dengan function di Sass
+date: 2015-06-18
 tags: [front-end, sass]
 ---
 

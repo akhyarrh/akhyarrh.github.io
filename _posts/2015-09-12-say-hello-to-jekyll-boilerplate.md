@@ -1,5 +1,6 @@
 ---
 title: "Say Hello to `jekyll-boilerplate`"
+date: 2015-09-12
 tags: [jekyll, proyek]
 ---
 

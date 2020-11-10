@@ -1,5 +1,6 @@
 ---
 title: Mengenal Jekyll
+date: 2015-01-25
 tags: [jekyll]
 ---
 

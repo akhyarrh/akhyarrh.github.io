@@ -1,5 +1,6 @@
 ---
 title: "Mengubah DNS di Linux"
+date: 2017-05-31
 tags: [linux, tips]
 ---
 

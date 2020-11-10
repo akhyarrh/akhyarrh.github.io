@@ -1,5 +1,6 @@
 ---
 title: "Alasan Saya Masih Melakukan Rooting"
+date: 2016-03-11
 tags: [catatan, android]
 ---
 

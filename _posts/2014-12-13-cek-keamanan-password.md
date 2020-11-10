@@ -1,5 +1,6 @@
 ---
 title: Cek Keamanan Password
+date: 2014-12-13
 tags: [tips, security]
 ---
 

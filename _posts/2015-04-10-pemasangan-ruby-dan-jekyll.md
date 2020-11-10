@@ -1,5 +1,6 @@
 ---
 title: Pemasangan Ruby dan Jekyll
+date: 2015-04-10
 tags: [jekyll,ruby]
 ---
 

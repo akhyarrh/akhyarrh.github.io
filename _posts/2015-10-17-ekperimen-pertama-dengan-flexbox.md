@@ -1,5 +1,6 @@
 ---
 title: Ekperimen Pertama dengan Flexbox
+date: 2015-10-17
 tags: [front-end,tips]
 ---
 

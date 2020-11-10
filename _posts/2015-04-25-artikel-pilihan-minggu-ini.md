@@ -1,5 +1,6 @@
 ---
 title: Artikel Pilihan Minggu ini
+date: 2015-04-25
 tags: [linux,sass,chrome,web]
 ---
 

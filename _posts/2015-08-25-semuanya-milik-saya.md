@@ -1,5 +1,6 @@
 ---
 title: Semuanya Milik Saya
+date: 2015-08-25
 tags: [catatan, static-site]
 ---
 

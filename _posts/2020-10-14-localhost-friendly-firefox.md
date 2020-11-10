@@ -1,5 +1,6 @@
 ---
 title: "`localhost` friendly Firefox"
+date: 2020-10-14
 tags: [browser, firefox, tips]
 ---
 

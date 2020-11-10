@@ -1,5 +1,6 @@
 ---
 title: Android 6.0 Marshmallow
+date: 2015-08-20
 tags: [android]
 ---
 

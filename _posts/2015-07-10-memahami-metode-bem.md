@@ -1,5 +1,6 @@
 ---
 title: Memahami Metode BEM
+date: 2015-07-10
 tags: [front-end, tips]
 ---
 

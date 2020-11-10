@@ -1,5 +1,6 @@
 ---
 title: "`em` atau `rem`"
+date: 2015-06-12
 tags: [front-end,css]
 ---
 

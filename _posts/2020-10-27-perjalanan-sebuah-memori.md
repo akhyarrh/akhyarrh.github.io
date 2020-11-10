@@ -1,9 +1,8 @@
 ---
 title: Perjalanan Sebuah Memori
-published: true
 tags: [catatan, android]
-last_modified_at: 2020-11-08 19:05:00 +0800
-date: 2020-10-27 18:00:00 +0800
+date: 2020-10-27 18:00 +08:00
+last_modified_at: 2020-11-08 19:05 +08:00
 ---
 
 Mencoba mengingat kembali perjalanan berbagai macam memori beserta ukurannya yang pernah saya temui.

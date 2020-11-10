@@ -1,5 +1,6 @@
 ---
 title: Melanggar Aturan Saya Sendiri
+date: 2016-01-19
 tags: [catatan, android]
 ---
 

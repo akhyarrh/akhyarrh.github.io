@@ -1,5 +1,6 @@
 ---
 title: "Hidup bersama Perangkat Android Jadul"
+date: 2017-06-16
 tags: [android, tips]
 ---
 

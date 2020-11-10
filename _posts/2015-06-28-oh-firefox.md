@@ -1,5 +1,6 @@
 ---
 title: Oh Firefox
+date: 2015-06-28
 tags: [browser,firefox, chrome]
 ---
 

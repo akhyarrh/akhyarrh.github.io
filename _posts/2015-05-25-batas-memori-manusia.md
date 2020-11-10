@@ -1,5 +1,6 @@
 ---
 title: Batas Memori Manusia
+date: 2015-05-25
 tags: [catatan]
 ---
 
