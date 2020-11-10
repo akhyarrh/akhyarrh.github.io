@@ -36,3 +36,9 @@ workbox.routing.registerRoute(
     /^https?:\/\/cdn.statically.io/,
     new workbox.strategies.StaleWhileRevalidate()
 );
+
+// use `CacheFirst` for Unsplash random image
+workbox.routing.registerRoute(
+    /^https?:\/\/source.unsplash.com/,
+    new workbox.strategies.CacheFirst()
+);
