@@ -1,0 +1,17 @@
+body {
+  max-width: 38rem;
+  max-width: 80ch;
+  padding: 2rem;
+  padding: 2ch;
+  margin: auto;
+}
+
+body img:not(.emoji) {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  overflow-x: auto;
+}

@@ -1,0 +1,46 @@
+backend:
+  name: github
+  repo: akhyarrh/akhyarrh.github.io
+  branch: source
+  open_authoring: true
+publish_mode: editorial_workflow
+site_url: https://akhyarrh-ci.netlify.app/
+display_url: akhyar.js.org
+logo_url: https://akhyar.js.org/assets/logo.png
+locale: "id"
+media_folder: "assets/uploads"
+collections:
+  - name: "posts"
+    label: "Posts"
+    label_singular: "Post"
+    folder: "_posts"
+    sort: "date:desc"
+    sortable_fields: [title, date, commit_date]
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", date_format: "DD MM YYYY", time_format: "HH:mm", format: "YYYY-MM-DD HH:mm"}
+      - {label: "Category", name: "category", widget: "string", required: false}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: true, required: false, label_singular: "Tag"}
+      - {label: "Teaser Image", name: "teaser_image", widget: "image", allow_multiple: false, required: false}
+      - {label: "Image", name: "image", widget: "image", allow_multiple: false, required: false}
+      - {label: "Redirect From", name: "redirect_from", widget: "list", allow_add: true, required: false}
+      - {label: "Redirect To", name: "redirect_to", widget: "list", allow_add: true, required: false}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  - name: "pages"
+    label: "Pages"
+    label_singular: "Page"
+    folder: "/"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Teaser Image", name: "teaser_image", widget: "image", allow_multiple: false, required: false}
+      - {label: "Image", name: "image", widget: "image", allow_multiple: false, required: false}
+      - {label: "Content", name: "body", widget: "markdown"}

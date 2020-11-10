@@ -1,0 +1,8 @@
+[context.production]
+  command = "bundle exec rake build"
+  publish = "_site/netlify/"
+  environment = { JEKYLL_ENV = "production" }
+
+[context.deploy-preview]
+  command = "bundle exec jekyll build --exclude netlify && bundle exec htmlproofer ./_site --allow-hash-href --assume-extension --check-favicon --check-html --check-opengraph --disable-external"
+  publish = "_site/"
