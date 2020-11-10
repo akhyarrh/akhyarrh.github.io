@@ -11,9 +11,6 @@ sections:
   label: Pages
   create: all
 - type: document
-  path: _config.yml
-  label: Config
-- type: document
   path: _data/navigation.yml
   label: Navigation
 upload_dir: assets/uploads
