@@ -1,5 +1,6 @@
-# Minecraft Setup
-
+---
+title: Minecraft Setup
+---
 Setup Minecraft yang saat ini saya gunakan untuk keperluan [streaming di Youtube](https://www.youtube.com/channel/UCVtBp-nNJfU2P7rDInTNcVg)
 Setup ini berfokus pada vanilla gameplay.
 Tidak ada item tambahan, tidak ada perubahan mekanisme gameplay yang banyak, dan lain-lain.
