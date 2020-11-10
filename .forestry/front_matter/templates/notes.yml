@@ -1,0 +1,78 @@
+---
+label: Post
+hide_body: false
+display_field: title
+fields:
+- name: published
+  type: boolean
+  label: Published
+  default: true
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: date
+  type: datetime
+  config:
+    required: true
+    date_format: DD MM YYYY
+    time_format: ''
+    display_utc: false
+  default: now
+  label: Date Published
+- name: modified
+  type: boolean
+  label: Modified
+- name: last_modified_at
+  type: datetime
+  description: ''
+  config:
+    required: false
+    date_format: DD MM YYYY
+    time_format: 
+    display_utc: false
+  label: Date Last Modified
+  default: now
+  showOnly:
+    field: modified
+    value: true
+- name: add_category
+  type: boolean
+  label: Add Category
+- name: category
+  type: text
+  config:
+    required: false
+  label: Category
+  showOnly:
+    field: add_category
+    value: true
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: add_teaser_image
+  type: boolean
+  label: Add Teaser Image
+- name: teaser_image
+  type: file
+  config:
+    maxSize: 64
+  label: Teaser Image
+  showOnly:
+    field: add_teaser_image
+    value: true
+- name: add_image
+  type: boolean
+  label: Add Image
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+  showOnly:
+    field: add_image
+    value: true
+pages:
+- _posts/2020-10-27-perjalanan-sebuah-memori.md
