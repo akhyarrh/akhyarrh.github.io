@@ -4,5 +4,5 @@
   environment = { JEKYLL_ENV = "production" }
 
 [context.deploy-preview]
-  command = "bundle exec jekyll build --config _config.yml,_config_ci_test.yml && bundle exec htmlproofer ./_site --allow-hash-href --assume-extension --check-favicon --check-html --check-opengraph --disable-external"
+  command = "bundle exec jekyll build --config _config.yml,_config_ci_test.yml"
   publish = "_site/"
