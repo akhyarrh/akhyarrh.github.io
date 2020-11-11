@@ -60,9 +60,6 @@ alexa_site_verification  : gXuVtj4bXDWiVB_ihCJijNBQNj8
 #yandex_site_verification :
 naver_site_verification  : 6317134cb9bef4388b660148341705f37c442045
 
-atom_feed:
-  path: "https://follow.it/akhyarrh?action=followPub"
-
 # Site Author
 author:
   name             : "M. Akhyar Rahman H."
