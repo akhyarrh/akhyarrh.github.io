@@ -6,3 +6,5 @@ main:
     url: /profil/
   - title: "Kontak"
     url: /kontak/
+  - title: "Privasi"
+    url: /privasi/
