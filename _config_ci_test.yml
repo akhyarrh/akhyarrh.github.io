@@ -1,2 +1,10 @@
 exclude:
   - admin
+  - forestry
+
+sass:
+  style: expanded
+
+show_drafts: true
+future:      true
+unpublished: true
