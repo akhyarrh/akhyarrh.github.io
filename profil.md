@@ -7,9 +7,9 @@ Halo :wave:
 Nama: **Akhyar**.   
 Suka: kucing :cat:, minum :coffee: :tea: :beer: :sake:, teknologi :desktop_computer: :iphone:, game :video_game:, tidur :sleeping_bed:   
 Alamat: South Borneo, Indonesia :indonesia:   
-Link: [Twitter](https://twitter.com/akhyarrh) [Github](https://github.com/akhyarrh)
+Link: [Twitter](https://twitter.com/akhyarrh) | [Github](https://github.com/akhyarrh)
 
-Kalau ada pertanyaan, [hubungi saya](/kontak).
+Kalau ada pertanyaan, [hubungi saya](/kontak/).
 
 ## Terimakasih
 
