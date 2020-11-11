@@ -52,3 +52,9 @@ workbox.routing.registerRoute(
     /^https?:\/\/github.githubassets.com/,
     new workbox.strategies.CacheFirst()
 );
+
+// jsDelivr
+workbox.routing.registerRoute(
+    /^https?:\/\/cdn.jsdelivr.net/,
+    new workbox.strategies.CacheFirst()
+);
