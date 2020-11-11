@@ -25,7 +25,7 @@ image: "/assets/img/og-image-default.png"
   	<input type="text" name="_gotcha">
   </div>
 
-  {% if site.reCaptcha.siteKey %}
+  {% if jekyll.environment == 'production' and site.reCaptcha.siteKey %}
     <div class="form-group">
         <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
     </div>
@@ -36,4 +36,4 @@ image: "/assets/img/og-image-default.png"
   </div>
 </form>
 
-{% if site.reCaptcha.siteKey %}<script src="https://www.google.com/recaptcha/api.js" async defer></script>{% endif %}
+{% if jekyll.environment == 'production' and site.reCaptcha.siteKey %}<script src="https://www.google.com/recaptcha/api.js" async defer></script>{% endif %}
