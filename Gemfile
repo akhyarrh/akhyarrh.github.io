@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem 'minimal-mistakes-jekyll', github: 'akhyarrh/minimal-mistakes'
+gem 'minimal-mistakes-jekyll', github: 'akhyarrh/minimal-mistakes', branch: 'master'
 gem 'liquid-c'
 
 group :jekyll_plugins do
@@ -10,6 +10,7 @@ group :jekyll_plugins do
     gem 'jekyll-github-metadata'
     gem 'jekyll-relative-links'
     gem 'jekyll-redirect-from'
+    gem 'jekyll-seo-tag'
     gem 'jekyll-mentions'
     gem 'jemoji'
 
