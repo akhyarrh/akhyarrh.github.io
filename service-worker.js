@@ -34,11 +34,21 @@ workbox.routing.registerRoute(
 // use `StaleWhileRevalidate` third party files
 workbox.routing.registerRoute(
     /^https?:\/\/cdn.statically.io/,
-    new workbox.strategies.StaleWhileRevalidate()
+    new workbox.strategies.CacheFirst()
 );
 
 // use `CacheFirst` for Unsplash random image
 workbox.routing.registerRoute(
     /^https?:\/\/source.unsplash.com/,
+    new workbox.strategies.CacheFirst()
+);
+workbox.routing.registerRoute(
+    /^https?:\/\/images.unsplash.com/,
+    new workbox.strategies.CacheFirst()
+);
+
+// Github emoji
+workbox.routing.registerRoute(
+    /^https?:\/\/github.githubassets.com/,
     new workbox.strategies.CacheFirst()
 );
