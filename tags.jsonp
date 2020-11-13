@@ -1,7 +1,7 @@
 ---
 layout: none
 ---
-callback([
+tags([
 {% for tag in site.tags %}
   {
     "name": "{{ tag[0] | capitalize }}",

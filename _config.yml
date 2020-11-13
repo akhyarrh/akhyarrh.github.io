@@ -270,11 +270,11 @@ prose:
           element: "multiselect"
           label: "Categories"
           alterable: true
-          options: "https://akhyar.js.org/categories.jsonp"
+          options: "https://akhyar.js.org/categories.jsonp?callback=categories"
 
       - name: "tags"
         field:
           element: "multiselect"
           label: "Tags"
           alterable: true
-          options: "https://akhyar.js.org/tags.jsonp"
+          options: "https://akhyar.js.org/tags.jsonp?callback=tags"
