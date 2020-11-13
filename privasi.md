@@ -1,7 +1,7 @@
 ---
 title: Privasi
 ---
-Blog menggunakan 3 layanan yang kemungkinan akan mengumpulkan data pengguna dengan level yang berbeda.
+Blog ini menggunakan 3 layanan yang kemungkinan akan mengumpulkan data pengguna dengan level yang berbeda.
 
 ## Github
 
@@ -21,7 +21,7 @@ Blog ini menggunakan layanan Google Analytics untuk mengirimkan data tentang apa
 
 <a href="javascript:gaOptout()">Klik disini untuk opt-out dari Google Analytics di website ini.</a>
 
-[Buka ini untuk membaca kebijakan privasi Google](https://policies.google.com/privacy?hl=id).
+[Buka ini untuk membaca kebijakan privasi Google](https://policies.google.com/technologies/partner-sites?hl=id).
 
 <script>
 // Set to the same value as the web property used on the site
