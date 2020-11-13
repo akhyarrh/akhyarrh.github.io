@@ -1,0 +1,11 @@
+---
+layout: none
+---
+callback([
+{% for tag in site.tags %}
+  {
+    "name": "{{ tag[0] | capitalize }}",
+    "value": "{{ tag[0] }}"
+  }{% unless forloop.last %},{% endunless%}
+{% endfor %}
+])

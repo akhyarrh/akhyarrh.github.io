@@ -222,3 +222,59 @@ pwa:
     - "/assets/js/lunr/lunr-gr.js"
     - "/assets/js/plugins/**/*"
     - "/assets/js/vendor/**/*"
+
+# prose.io
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://akhyar.js.org/'
+  relativeLinks: 'https://akhyar.js.org/links.jsonp'
+  media: 'assets/uploads'
+  metadata:
+    _posts:
+      - name: "published"
+        field:
+          element: "checkbox"
+          value: false
+
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+
+      - name: "date"
+        field:
+          element: "text"
+          label: "Published Date"
+          value: CURRENT_DATETIME
+
+      - name: "last_modified_at"
+        field:
+          element: "text"
+          label: "Modified Date"
+          placeholder: CURRENT_DATETIME
+
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          help: "This image displayed & used as SEO image. Higher priority than Teaser Image."
+
+      - name: "teaser_image"
+        field:
+          element: "text"
+          label: "Teaser Image"
+          help: "This image not displayed & not used as SEO image. Not used if Image already exist."
+
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Categories"
+          alterable: true
+          options: "https://akhyar.js.org/categories.jsonp"
+
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          alterable: true
+          options: "https://akhyar.js.org/tags.jsonp"

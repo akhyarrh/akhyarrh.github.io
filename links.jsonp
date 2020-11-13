@@ -1,0 +1,22 @@
+---
+layout: none
+---
+{% assign pages = site.html_pages | sort_natural: "title" %}
+{% assign posts = site.posts | sort_natural: "title" %}
+
+callback([
+{% for page in pages %}
+{% unless page.url contains '/post/' %}
+  {
+    "text": "{{ page.title | markdownify | strip_html | normalize_whitespace }}",
+    "href": "{{ page.url | absolute_url}}"
+  },
+{% endunless %}
+{% endfor %}
+{% for post in posts %}
+  {
+    "text": "{{ post.title | markdownify | strip_html | normalize_whitespace }}",
+    "href": "{{ post.url | absolute_url}}"
+  } {% unless forloop.last %},{% endunless%}
+{% endfor %}
+])
