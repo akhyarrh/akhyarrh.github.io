@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: '2020-11-13 19:00 +0800'
 title: Pendapat Saya Tentang Wordpress
 categories:
