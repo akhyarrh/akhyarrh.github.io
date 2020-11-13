@@ -19,8 +19,7 @@ baseurl: ""
 repository: akhyarrh/akhyarrh.github.io
 lang: id
 locale: id-ID
-logo: "/assets/logo.png"
-og_image: "/assets/img/og-image-default.png"
+#logo: "/assets/logo.png"
 name: "M Akhyar Rahman H"
 
 comments:
@@ -38,9 +37,8 @@ search                   : true # true, false (default)
 # Social Sharing
 twitter:
   username               : akhyarrh
-  card                   : summary_large_image
 facebook:
-  publisher              : https://facebook.com/akhyarrh
+  username               : akhyarrh
 
 social:
   name                   : M. Akhyar Rahman H.
@@ -56,11 +54,10 @@ analytics:
     anonymize_ip         : true
 
 # SEO Related
-webmaster_verifications:
-  google : sV2248YCZVyLu6nhz72znzNoCUhSfCqwiCEjUO-Kiu8
-  bing   : E9A1908DCAA52A63BF7B5F67DB05745D
-  alexa  : gXuVtj4bXDWiVB_ihCJijNBQNj8
-  #yandex :
+google_site_verification : sV2248YCZVyLu6nhz72znzNoCUhSfCqwiCEjUO-Kiu8
+bing_site_verification   : E9A1908DCAA52A63BF7B5F67DB05745D
+alexa_site_verification  : gXuVtj4bXDWiVB_ihCJijNBQNj8
+#yandex_site_verification :
 naver_site_verification  : 6317134cb9bef4388b660148341705f37c442045
 
 # Site Author
@@ -164,7 +161,6 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
   - jekyll-github-metadata
-  - jekyll-seo-tag
   - jekyll-mentions
   - jemoji
   - jekyll-redirect-from
