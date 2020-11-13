@@ -1,9 +1,7 @@
 - [ ] Preview on Forestry CMS
 - [ ] Netlify build pass
 
-<!--
-Schedule
-
-@prscheduler dd/MM/yyyyThh:mm GMT+8
-
--->
+```
+// To set schedule
+(at)prscheduler dd/MM/yyyyThh:mm GMT+8
+```
