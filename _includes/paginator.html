@@ -13,6 +13,8 @@
     <li aria-hidden="true"><span class="disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</span></li>
     {% endif %}
 
+{% comment %}
+
     {% comment %} First page {% endcomment %}
     {% if paginator.page == 1 %}
       <li aria-hidden="true"><span class="disabled current">1</span></li>
@@ -57,6 +59,8 @@
     {% else %}
       <li><a href="{{ site.paginate_path | replace: ':num', paginator.total_pages | replace: '//', '/' | relative_url }}">{{ paginator.total_pages }}</a></li>
     {% endif %}
+
+{% endcomment %}
 
     {% comment %} Link next page {% endcomment %}
     {% if paginator.next_page %}
