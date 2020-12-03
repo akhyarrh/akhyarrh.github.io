@@ -4,7 +4,8 @@
 .sass-cache
 _site
 
-# used by CI to store bundle
+# used by CI
+node_modules
 vendor
 
 # lock file
