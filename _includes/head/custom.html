@@ -1,26 +1,28 @@
 <!-- start custom head snippets -->
+<script>
+  window.onload = function () {
+    var script = document.createElement('script');
+    var firstScript = document.getElementsByTagName('script')[0];
+    script.async = true;
+    script.src = '{{'sw-register.js'|relative_url}}?v=' + Date.now();
+    firstScript.parentNode.insertBefore(script, firstScript);
+  };
+</script>
+
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#333333">
-<meta name="apple-mobile-web-app-title" content="AkhyarRH">
-<meta name="application-name" content="AkhyarRH">
+<meta name="apple-mobile-web-app-title" content="Akhyar RH">
+<meta name="application-name" content="Akhyar RH">
 <link rel="icon" href="/favicon.ico">
 <meta name="msapplication-TileColor" content="#2b5797">
 <meta name="msapplication-TileImage" content="/assets/mstile-144x144.png">
 <meta name="theme-color" content="#252a34">
 <meta name="monetization" content="$ilp.uphold.com/Azp9EgLjnF2M">
 
-{% if page.comments %}
-<link rel="preconnect" href="https://www.google.com">
-<link rel="preconnect" href="https://www.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-{% endif %}
 <link rel="preconnect" href="https://www.google-analytics.com">
-{% if page.comments or page.title == 'Kontak' and jekyll.environment == 'production' %}
-<link rel="preload" href="https://www.google.com/recaptcha/api.js" as="script">
-{% endif %}
 
 <meta name="follow_it-verification-code" content="ag4lsW99uEXUaYl9KcUF"/>
 
