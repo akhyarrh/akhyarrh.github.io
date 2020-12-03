@@ -1,7 +1,7 @@
 // set names for both precache & runtime cache
 workbox.core.setCacheNameDetails({
     prefix: 'akhyarrh',
-    suffix: 'v1',
+    suffix: 'v2',
     precache: 'precache',
     runtime: 'runtime-cache'
 });
@@ -13,48 +13,76 @@ workbox.core.clientsClaim();
 // let Workbox handle our precache list
 workbox.precaching.precacheAndRoute(self.__precacheManifest);
 
-// use `NetworkFirst` strategy for html
 workbox.routing.registerRoute(
-    /\.html$/,
-    new workbox.strategies.NetworkFirst()
+  /\.html$/,
+  new workbox.strategies.NetworkFirst({
+    plugins: [
+      new workbox.cacheableResponse.CacheableResponsePlugin({
+        statuses: [200]
+      })
+    ]
+  })
 );
 
-// use `NetworkFirst` strategy for css and js
 workbox.routing.registerRoute(
-    /\.(?:js|css)$/,
-    new workbox.strategies.NetworkFirst()
+  /\.js$/,
+  new workbox.strategies.CacheFirst()
 );
 
-// use `CacheFirst` strategy for images
+// search index
 workbox.routing.registerRoute(
-    /\.(?:ico|jpg|jpeg|png|svg|webp)$/,
-    new workbox.strategies.CacheFirst()
+  '/assets/js/lunr/lunr-store.js',
+  new workbox.strategies.StaleWhileRevalidate()
 );
 
-// Statically
 workbox.routing.registerRoute(
-    /^https?:\/\/cdn.statically.io/,
-    new workbox.strategies.StaleWhileRevalidate()
+  /\.css$/,
+  new workbox.strategies.StaleWhileRevalidate()
 );
 
-// Unsplash random image
 workbox.routing.registerRoute(
-    /^https?:\/\/source.unsplash.com/,
-    new workbox.strategies.StaleWhileRevalidate()
-);
-workbox.routing.registerRoute(
-    /^https?:\/\/images.unsplash.com/,
-    new workbox.strategies.StaleWhileRevalidate()
+  /\.(?:jpg|jpeg|png|svg|webp)$/,
+  new workbox.strategies.CacheFirst({
+    cacheName: 'images',
+    plugins: [
+      new workbox.cacheableResponse.CacheableResponsePlugin({
+        statuses: [200]
+      }),
+      new workbox.expiration.ExpirationPlugin({
+        maxEntries: 10, // Only cache 10 images ( TODO: is everything on precache already are counted ?)
+        maxAgeSeconds: 60 * 60 * 24 * 90 // expired after 90 Days
+      })
+    ]
+  })
 );
 
-// Github emoji
 workbox.routing.registerRoute(
-    /^https?:\/\/github.githubassets.com/,
-    new workbox.strategies.StaleWhileRevalidate()
+  /^https?:\/\/cdn.statically.io/,
+  new workbox.strategies.StaleWhileRevalidate()
 );
 
-// jsDelivr
 workbox.routing.registerRoute(
-    /^https?:\/\/cdn.jsdelivr.net/,
-    new workbox.strategies.StaleWhileRevalidate()
+  /^https?:\/\/source.unsplash.com/,
+  new workbox.strategies.StaleWhileRevalidate()
 );
+workbox.routing.registerRoute(
+  /^https?:\/\/images.unsplash.com/,
+  new workbox.strategies.StaleWhileRevalidate()
+);
+
+workbox.routing.registerRoute(
+  /^https?:\/\/github.githubassets.com/,
+  new workbox.strategies.StaleWhileRevalidate()
+);
+
+workbox.routing.registerRoute(
+  /^https?:\/\/cdn.jsdelivr.net/,
+  new workbox.strategies.StaleWhileRevalidate()
+);
+
+workbox.routing.registerRoute(
+  /^https?:\/\/robohash.org/,
+  new workbox.strategies.StaleWhileRevalidate()
+);
+
+workbox.precaching.cleanupOutdatedCaches();
