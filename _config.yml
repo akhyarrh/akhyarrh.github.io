@@ -27,10 +27,10 @@ comments:
   staticman:
     branch               : source
     endpoint             : https://staticman3.herokuapp.com/v3/entry/github/
-reCaptcha:
-    enabled: true
-    siteKey: "6LdvJhUTAAAAAGWXMLZRgp8gwgx1uV7qCNMKVpa7"
-    secret: "KB0jjJ5SOecKWaqYua/VjIF1OU3WtPKEXsDp2HMXXZG0Itmhqko5xtlpq7x93G4JaC+E9HeKST157sCZZ1tu1SoKhNQvj885JrxYOSiQXh7ZBDSak0uMlDWdGDdI5sEJrGopyRP/tavNe3uXT0FxLDwpDjofjXwmE1HgX35tq3ZL8i4qDQaAnzUGrT0oVHMbDOFGnQGkToUIxdc8uK0GvDVOCT7GrqmhZQJwkMAxhFEa8hcQg98IAyqc4ce+aJ1WA5pckjfCEocdv6rQKqGP9sBQEs9nEn8IZN9ijNTVX9w69Z3eYvNJefe+jOUzv0HJQktlfF25REvyeYm0hwPCAQ=="
+#reCaptcha:
+    #enabled: false
+    #siteKey:
+    #secret:
 search                   : true # true, false (default)
 #search_full_content      : # true, false (default)
 
@@ -108,6 +108,7 @@ exclude:
   - vendor
   - staticman.yml
   - netlify.toml
+  - node_modules
 
 sass:
   style: compressed
@@ -170,6 +171,7 @@ plugins:
   - jekyll-loading-lazy
   - jekyll-pwa-workbox
   - jekyll-minifier
+  - jekyll-purgecss
 
 markdown: CommonMarkGhPages
 
@@ -200,19 +202,26 @@ jekyll-minifier:
     harmony: true
 
 pwa:
-  #sw_src_filepath: service-worker.js # Optional
-  #sw_dest_filename: service-worker.js # Optional
   dest_js_directory: assets/js # Required
-  precache_recent_posts_num: 10 # Optional
-  precache_glob_directory: / # Optional
-  precache_glob_patterns: # Optional
-    - "/**/*.{js,json,css}"
-    - "/**/*.{ico,jpg,jpeg,png,svg,webp}"
-    - "/**/*.html"
+  precache_recent_posts_num: 8 # Optional. Number of post on homepage
+  precache_glob_patterns:
+    # Optional
+    # I explicitly stated what to precache here
+    # to keep page download size minimum
+    - "/favicon.ico"
+    - "/assets/*.png"
+    - "/assets/css/main.css"
+    - "/assets/js/main.min.js"
   precache_glob_ignores: # Optional
-    - "sw-register.js"
-    - "service-worker.js"
-    - "assets/css/*.map"
+    - "/sw-register.js"
+    - "/service-worker.js"
+    #
+    # entries below must equal with:
+    # .github/workflows/deploy.yaml (file name)
+    # peaceiris/actions-gh-pages@v3
+    # exclude_assets
+    #
+    - "/assets/css/*.map"
     - "/assets/js/_main.js"
     - "/assets/js/lunr/lunr.js"
     - "/assets/js/lunr/lunr-gr.js"
