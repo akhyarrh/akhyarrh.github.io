@@ -10,6 +10,7 @@ vendor
 
 # lock file
 Gemfile.lock
+package-lock.json
 
 # local
 .lite_workspace.lua
