@@ -22,6 +22,8 @@ group :jekyll_plugins do
     gem 'jekyll-loading-lazy'
     gem 'jekyll-pwa-workbox'
     gem 'jekyll-minifier'
+    gem 'jekyll-assets'
+    gem 'jekyll-purgecss'
 end
 
 platforms :mswin, :mingw, :x64_mingw do

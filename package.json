@@ -1,0 +1,21 @@
+{
+  "name": "akhyarrh-jekyll-blog",
+  "version": "0.0.1",
+  "description": "Blog",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhyarrh/akhyarrh.github.io.git"
+  },
+  "author": "akhyarrh <akhyarrh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akhyarrh/akhyarrh.github.io/issues"
+  },
+  "homepage": "https://github.com/akhyarrh/akhyarrh.github.io#readme",
+  "dependencies": {
+    "purgecss": "^3.0.0"
+  }
+}
