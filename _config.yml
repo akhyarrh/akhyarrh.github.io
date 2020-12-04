@@ -208,6 +208,7 @@ pwa:
     # Optional
     # I explicitly stated what to precache here
     # to keep page download size minimum
+    - "/index.html"
     - "/favicon.ico"
     - "/assets/*.png"
     - "/assets/css/main.css"
