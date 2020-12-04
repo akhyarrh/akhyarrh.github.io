@@ -9,7 +9,7 @@ Blog ini menggunakan layanan Google Analytics untuk mengirimkan data tentang apa
 
 <button class="btn btn--primary btn--large" id="ga-op-out-button">Klik disini untuk opt-out dari Google Analytics di website ini.</button>
 
-<script defer src="{{ '/assets/js/ga-op-out.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/ga-opt-out.js' | relative_url }}"></script>
 
 [Buka ini untuk membaca kebijakan privasi Google](https://policies.google.com/technologies/partner-sites?hl=id).
 
