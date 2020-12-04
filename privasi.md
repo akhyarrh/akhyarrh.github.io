@@ -7,7 +7,9 @@ Blog ini menggunakan 3 layanan yang kemungkinan akan mengumpulkan data pengguna 
 
 Blog ini menggunakan layanan Google Analytics untuk mengirimkan data tentang apa yang kalian lakukan disini, halaman mana yang paling banyak dikunjungi, dan sebagainya. Blog ini sudah menggunakan kode Google Analytics yang sama dengan yang ada di [HTML5-boilerplate](https://github.com/h5bp/html5-boilerplate/blob/master/dist/index.html#L33-L37).
 
-<button class=".btn .btn--primary .btn--large" id="ga-op-out-button">Klik disini untuk opt-out dari Google Analytics di website ini.</button>
+<button class="btn btn--primary btn--large" id="ga-op-out-button">Klik disini untuk opt-out dari Google Analytics di website ini.</button>
+
+<script defer src="{{ '/assets/js/ga-op-out.js' | relative_url }}"></script>
 
 [Buka ini untuk membaca kebijakan privasi Google](https://policies.google.com/technologies/partner-sites?hl=id).
 
