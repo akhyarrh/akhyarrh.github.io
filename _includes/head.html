@@ -11,25 +11,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- For all browsers -->
-<link rel="preload" as="style" href="{{ '/assets/css/main.css' | relative_url }}">
-<link rel="preload" as="script" href="{{ '/assets/js/main.min.js' | relative_url }}">
+<link rel="preload" as="style" href="{{ '/assets/css/main.css' | relative_url }}"
+onload="this.onload=null;this.rel='stylesheet'">
 
+<link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" onload="this.media='all'; this.onload=null;">
+
+<noscript>
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+</noscript>
 
 <!--[if IE]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
+  <link rel="stylesheet" href="{{ '/assets/css/old-ie-fix.css' | relative_url }}">
 <![endif]-->
 
 {% if site.head_scripts %}
