@@ -13,8 +13,12 @@ if (document.cookie.indexOf(disableStr + '=true') > -1) {
 
 // Opt-out function
 function gaOptout() {
+  var button = document.getElementById('ga-op-out-button');
   document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2999 23:59:59 UTC; path=/';
   window[disableStr] = true;
+  button.classList.remove('btn--primary');
+  button.classList.add('btn--success');
+  button.innerHTML="Sukses !";
 }
 
 document.addEventListener('DOMContentLoaded', function () {
