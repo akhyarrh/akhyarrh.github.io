@@ -189,9 +189,6 @@ titles_from_headings:
 
 jekyll-mentions: https://twitter.com
 
-target-blank:
-  rel: nofollow
-
 commonmark:
   options: ["SMART", "FOOTNOTES", "STRIKETHROUGH_DOUBLE_TILDE"]
   extensions: ["strikethrough", "autolink", "table"]
