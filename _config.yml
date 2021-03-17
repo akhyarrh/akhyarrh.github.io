@@ -22,11 +22,11 @@ locale: id-ID
 #logo: "/assets/logo.png"
 name: "M Akhyar Rahman H"
 
-comments:
-  provider               : staticman_v2
-  staticman:
-    branch               : source
-    endpoint             : https://staticman3.herokuapp.com/v3/entry/github/
+#comments:
+#  provider               : staticman_v2
+#  staticman:
+#    branch               : source
+#    endpoint             : https://staticman3.herokuapp.com/v3/entry/github/
 #reCaptcha:
     #enabled: false
     #siteKey:
