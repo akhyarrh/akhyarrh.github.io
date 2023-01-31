@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'jekyll'
 gem 'minimal-mistakes-jekyll', github: 'akhyarrh/minimal-mistakes', branch: 'master'
 gem 'liquid-c'
+gem 'sprockets', '~> 3.7'
 
 group :jekyll_plugins do
     gem 'jekyll-optional-front-matter'
