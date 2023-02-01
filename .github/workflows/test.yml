@@ -21,7 +21,11 @@ jobs:
             ${{ runner.os }}-gems-
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'
+          ruby-version: '3'
+      - uses: actions/setup-node@v3
+        with:
+         node-version: '18'
+      - run: npm install
       - run: gem install bundler
       - run: bundle config path vendor/bundle
       - run: bundle install --jobs 4 --retry 3
