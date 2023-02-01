@@ -15,3 +15,4 @@ package-lock.json
 # local
 .lite_workspace.lua
 _tomb/backup
+.bundle
