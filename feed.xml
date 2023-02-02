@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="id">
+  <link rel="hub" href="http://pubsubhubbub.appspot.com/" />
+  <link rel="self" href="https://akhyar.js.org/feed.xml" type="application/atom+xml" />
+  <link rel="alternate" href="https://akhyar.js.org" type="text/html" hreflang="id" />
+  <updated>2023-02-02T14:31:17+08:00</updated>
+  <id>https://akhyar.js.org/</id>
+  <title type="html">AkhyarRH</title>
+  <subtitle>Seperti sebuah blog pada umumnya. Kebanyakan berisi tentang front-end, user experience, dan accessibility (a11y).
+</subtitle>
+  <author><name>M Akhyar Rahman H</name></author>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Kopi Pahit Sempurna</title>
+      <link href="https://akhyar.js.org/kopi-pahit-sempurna/" rel="alternate" type="text/html" title="Kopi Pahit Sempurna" />
+      <published>2023-01-31T15:00:00+08:00</published>
+      <updated>2023-01-31T15:00:00+08:00</updated>
+      <id>https://akhyar.js.org/kopi-pahit-sempurna</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="catatan" /><category term="Filosofis" /><category term="Kehidupan" /><category term="Kopi" /><category term="Pengalaman" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Kopi%20Pahit%20Sempurna.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Kopi%20Pahit%20Sempurna.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Pendapat Saya Tentang Wordpress</title>
+      <link href="https://akhyar.js.org/pendapat-saya-tentang-wordpress/" rel="alternate" type="text/html" title="Pendapat Saya Tentang Wordpress" />
+      <published>2020-11-13T19:00:00+08:00</published>
+      <updated>2020-11-13T19:00:00+08:00</updated>
+      <id>https://akhyar.js.org/pendapat-saya-tentang-wordpress</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      <category term="30 Days Writing Challenge" />
+      
+      <category term="catatan" /><category term="web" /><category term="wordpress" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://akhyar.js.org/assets/uploads/markus-winkler-3hBH-ZuvppU-unsplash.jpg" />
+      <media:content medium="image" url="https://akhyar.js.org/assets/uploads/markus-winkler-3hBH-ZuvppU-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+      
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Seharusnya *Opt-out* dari Tracking jadi Standar</title>
+      <link href="https://akhyar.js.org/seharusnya-opt-out-dari-tracking-jadi-standar/" rel="alternate" type="text/html" title="Seharusnya *Opt-out* dari Tracking jadi Standar" />
+      <published>2020-11-11T19:00:00+08:00</published>
+      <updated>2020-11-11T19:00:00+08:00</updated>
+      <id>https://akhyar.js.org/seharusnya-opt-out-dari-tracking-jadi-standar</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      <category term="30 Days Writing Challenge" />
+      
+      <category term="catatan" /><category term="web" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Seharusnya%20Opt-out%20dari%20Tracking%20jadi%20Standar.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Seharusnya%20Opt-out%20dari%20Tracking%20jadi%20Standar.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Pendapat Saya Tentang Medium</title>
+      <link href="https://akhyar.js.org/pendapat-saya-tentang-medium/" rel="alternate" type="text/html" title="Pendapat Saya Tentang Medium" />
+      <published>2020-11-09T20:30:00+08:00</published>
+      <updated>2020-11-09T20:30:00+08:00</updated>
+      <id>https://akhyar.js.org/pendapat-saya-tentang-medium</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      <category term="30 Days Writing Challenge" />
+      
+      <category term="catatan" />
+      
+      <summary type="html">button { border-radius: $base-border-radius; font-size: $base-font-size; } button { border-radius: var(–border-radius); font-size: var(–font-size); }</summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://akhyar.js.org/assets/uploads/pendapat-saya-tentang-medium-akhyarrh-.png" />
+      <media:content medium="image" url="https://akhyar.js.org/assets/uploads/pendapat-saya-tentang-medium-akhyarrh-.png" xmlns:media="http://search.yahoo.com/mrss/" />
+      
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Blogging Era Modern</title>
+      <link href="https://akhyar.js.org/30-days-writing-challenge-blogging-era-modern/" rel="alternate" type="text/html" title="Blogging Era Modern" />
+      <published>2020-11-08T13:49:00+08:00</published>
+      <updated>2020-11-08T13:49:00+08:00</updated>
+      <id>https://akhyar.js.org/30-days-writing-challenge-blogging-era-modern</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      <category term="30 Days Writing Challenge" />
+      
+      <category term="catatan" /><category term="tips" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Blogging%20Era%20Modern.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Blogging%20Era%20Modern.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Perjalanan Sebuah Memori</title>
+      <link href="https://akhyar.js.org/perjalanan-sebuah-memori/" rel="alternate" type="text/html" title="Perjalanan Sebuah Memori" />
+      <published>2020-10-27T18:00:00+08:00</published>
+      <updated>2020-11-08T19:05:00+08:00</updated>
+      <id>https://akhyar.js.org/perjalanan-sebuah-memori</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="catatan" /><category term="android" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Perjalanan%20Sebuah%20Memori.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Perjalanan%20Sebuah%20Memori.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">`localhost` friendly Firefox</title>
+      <link href="https://akhyar.js.org/localhost-friendly-firefox/" rel="alternate" type="text/html" title="`localhost` friendly Firefox" />
+      <published>2020-10-14T00:00:00+08:00</published>
+      <updated>2020-10-14T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/localhost-friendly-firefox</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="browser" /><category term="firefox" /><category term="tips" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/localhost%20friendly%20Firefox.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/localhost%20friendly%20Firefox.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">WSL</title>
+      <link href="https://akhyar.js.org/wsl/" rel="alternate" type="text/html" title="WSL" />
+      <published>2019-10-31T00:00:00+08:00</published>
+      <updated>2019-10-31T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/wsl</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="tips" /><category term="windows" /><category term="wsl" />
+      
+      <summary type="html"># or add alias alias explore=“explorer.exe .” explore # you can put that snippet to .bash_profile # or any user config file for your shell # i.e if you are using zsh, its .zprofile</summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/WSL.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/WSL.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Hidup bersama Perangkat Android Jadul</title>
+      <link href="https://akhyar.js.org/hidup-bersama-perangkat-android-jadul/" rel="alternate" type="text/html" title="Hidup bersama Perangkat Android Jadul" />
+      <published>2017-06-16T00:00:00+08:00</published>
+      <updated>2017-06-16T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/hidup-bersama-perangkat-android-jadul</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="android" /><category term="tips" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Hidup%20bersama%20Perangkat%20Android%20Jadul.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Hidup%20bersama%20Perangkat%20Android%20Jadul.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Mengubah DNS di Linux</title>
+      <link href="https://akhyar.js.org/setup-custom-dns/" rel="alternate" type="text/html" title="Mengubah DNS di Linux" />
+      <published>2017-05-31T00:00:00+08:00</published>
+      <updated>2017-05-31T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/setup-custom-dns</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="linux" /><category term="tips" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Mengubah%20DNS%20di%20Linux.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Mengubah%20DNS%20di%20Linux.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Alasan Saya Masih Melakukan Rooting</title>
+      <link href="https://akhyar.js.org/alasan-saya-masih-melakukan-rooting/" rel="alternate" type="text/html" title="Alasan Saya Masih Melakukan Rooting" />
+      <published>2016-03-11T00:00:00+08:00</published>
+      <updated>2016-03-11T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/alasan-saya-masih-melakukan-rooting</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="catatan" /><category term="android" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Alasan%20Saya%20Masih%20Melakukan%20Rooting.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Alasan%20Saya%20Masih%20Melakukan%20Rooting.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Web</title>
+      <link href="https://akhyar.js.org/web/" rel="alternate" type="text/html" title="Web" />
+      <published>2016-01-23T00:00:00+08:00</published>
+      <updated>2016-01-23T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/web</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="catatan" /><category term="tips" /><category term="security" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Web.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Web.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Melanggar Aturan Saya Sendiri</title>
+      <link href="https://akhyar.js.org/melanggar-aturan-saya-sendiri/" rel="alternate" type="text/html" title="Melanggar Aturan Saya Sendiri" />
+      <published>2016-01-19T00:00:00+08:00</published>
+      <updated>2016-01-19T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/melanggar-aturan-saya-sendiri</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="catatan" /><category term="android" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Melanggar%20Aturan%20Saya%20Sendiri.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Melanggar%20Aturan%20Saya%20Sendiri.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Pandangan Saya Mengenai Budaya Tahun Baru</title>
+      <link href="https://akhyar.js.org/pandangan-saya-mengenai-budaya-tahun-baru/" rel="alternate" type="text/html" title="Pandangan Saya Mengenai Budaya Tahun Baru" />
+      <published>2015-12-31T00:00:00+08:00</published>
+      <updated>2015-12-31T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/pandangan-saya-mengenai-budaya-tahun-baru</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="catatan" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Pandangan%20Saya%20Mengenai%20Budaya%20Tahun%20Baru.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Pandangan%20Saya%20Mengenai%20Budaya%20Tahun%20Baru.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Dear Blogger, Mari Tinggalkan Blogger</title>
+      <link href="https://akhyar.js.org/dear-blogger-mari-tinggalkan-blogger/" rel="alternate" type="text/html" title="Dear Blogger, Mari Tinggalkan Blogger" />
+      <published>2015-12-25T00:00:00+08:00</published>
+      <updated>2015-12-25T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/dear-blogger-mari-tinggalkan-blogger</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="catatan" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Dear%20Blogger,%20Mari%20Tinggalkan%20Blogger.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Dear%20Blogger,%20Mari%20Tinggalkan%20Blogger.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Bab 2 Komunikasi</title>
+      <link href="https://akhyar.js.org/sistem-terdistribusi-bab-2/" rel="alternate" type="text/html" title="Bab 2 Komunikasi" />
+      <published>2015-12-04T00:00:00+08:00</published>
+      <updated>2015-12-04T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/sistem-terdistribusi-bab-2</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="catatan" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Bab%202%20Komunikasi.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Bab%202%20Komunikasi.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Ekperimen Pertama dengan Flexbox</title>
+      <link href="https://akhyar.js.org/ekperimen-pertama-dengan-flexbox/" rel="alternate" type="text/html" title="Ekperimen Pertama dengan Flexbox" />
+      <published>2015-10-17T00:00:00+08:00</published>
+      <updated>2015-10-17T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/ekperimen-pertama-dengan-flexbox</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="front-end" /><category term="tips" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Ekperimen%20Pertama%20dengan%20Flexbox.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Ekperimen%20Pertama%20dengan%20Flexbox.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Sistem Terdistribusi: Bab 1</title>
+      <link href="https://akhyar.js.org/sistem-terdistribusi-bab-1/" rel="alternate" type="text/html" title="Sistem Terdistribusi: Bab 1" />
+      <published>2015-10-06T00:00:00+08:00</published>
+      <updated>2015-10-06T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/sistem-terdistribusi-bab-1</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="catatan" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Sistem%20Terdistribusi:%20Bab%201.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Sistem%20Terdistribusi:%20Bab%201.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Cara Mudah Embed Video di Jekyll</title>
+      <link href="https://akhyar.js.org/cara-mudah-embed-video-di-jekyll/" rel="alternate" type="text/html" title="Cara Mudah Embed Video di Jekyll" />
+      <published>2015-09-27T00:00:00+08:00</published>
+      <updated>2015-09-27T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/cara-mudah-embed-video-di-jekyll</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="jekyll" /><category term="tips" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Cara%20Mudah%20Embed%20Video%20di%20Jekyll.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Cara%20Mudah%20Embed%20Video%20di%20Jekyll.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Say Hello to `jekyll-boilerplate`</title>
+      <link href="https://akhyar.js.org/say-hello-to-jekyll-boilerplate/" rel="alternate" type="text/html" title="Say Hello to `jekyll-boilerplate`" />
+      <published>2015-09-12T00:00:00+08:00</published>
+      <updated>2015-09-12T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/say-hello-to-jekyll-boilerplate</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="jekyll" /><category term="proyek" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Say%20Hello%20to%20jekyll-boilerplate.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Say%20Hello%20to%20jekyll-boilerplate.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Image Compression</title>
+      <link href="https://akhyar.js.org/image-compression/" rel="alternate" type="text/html" title="Image Compression" />
+      <published>2015-09-02T00:00:00+08:00</published>
+      <updated>2015-09-02T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/image-compression</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="front-end" /><category term="tips" />
+      
+      <summary type="html">compress semua file gif, jpg, jpeg, png, atau svg di folder assets/img dan yang berada di subfolder image_optim assets/img -r</summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Image%20Compression.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Image%20Compression.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Dengan Duit 140M Saya akan…</title>
+      <link href="https://akhyar.js.org/dengan-duit-140m-saya-akan/" rel="alternate" type="text/html" title="Dengan Duit 140M Saya akan…" />
+      <published>2015-08-30T00:00:00+08:00</published>
+      <updated>2015-08-30T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/dengan-duit-140m-saya-akan</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="catatan" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Dengan%20Duit%20140M%20Saya%20akan....png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Dengan%20Duit%20140M%20Saya%20akan....png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Semuanya Milik Saya</title>
+      <link href="https://akhyar.js.org/semuanya-milik-saya/" rel="alternate" type="text/html" title="Semuanya Milik Saya" />
+      <published>2015-08-25T00:00:00+08:00</published>
+      <updated>2015-08-25T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/semuanya-milik-saya</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="catatan" /><category term="static-site" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Semuanya%20Milik%20Saya.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Semuanya%20Milik%20Saya.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Android 6.0 Marshmallow</title>
+      <link href="https://akhyar.js.org/android-60-marshmallow/" rel="alternate" type="text/html" title="Android 6.0 Marshmallow" />
+      <published>2015-08-20T00:00:00+08:00</published>
+      <updated>2015-08-20T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/android-60-marshmallow</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="android" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Android%206.0%20Marshmallow.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Android%206.0%20Marshmallow.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Memahami Metode BEM</title>
+      <link href="https://akhyar.js.org/memahami-metode-bem/" rel="alternate" type="text/html" title="Memahami Metode BEM" />
+      <published>2015-07-10T00:00:00+08:00</published>
+      <updated>2015-07-10T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/memahami-metode-bem</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="front-end" /><category term="tips" />
+      
+      <summary type="html">&amp;amp;__logo { display: inline-block; &amp;lt;span class=&amp;quot;k&amp;quot;&amp;gt;&amp;amp;amp;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;nt&amp;quot;&amp;gt;--on-right&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;p&amp;quot;&amp;gt;{&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;nl&amp;quot;&amp;gt;float&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;p&amp;quot;&amp;gt;:&amp;lt;/span&amp;gt;...</summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Memahami%20Metode%20BEM.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Memahami%20Metode%20BEM.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Oh Firefox</title>
+      <link href="https://akhyar.js.org/oh-firefox/" rel="alternate" type="text/html" title="Oh Firefox" />
+      <published>2015-06-28T00:00:00+08:00</published>
+      <updated>2015-06-28T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/oh-firefox</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="browser" /><category term="firefox" /><category term="chrome" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Oh%20Firefox.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Oh%20Firefox.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Bermain dengan function di Sass</title>
+      <link href="https://akhyar.js.org/bermain-dengan-function-di-sass/" rel="alternate" type="text/html" title="Bermain dengan function di Sass" />
+      <published>2015-06-18T00:00:00+08:00</published>
+      <updated>2015-06-18T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/bermain-dengan-function-di-sass</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="front-end" /><category term="sass" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Bermain%20dengan%20function%20di%20Sass.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Bermain%20dengan%20function%20di%20Sass.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">`em` atau `rem`</title>
+      <link href="https://akhyar.js.org/em-atau-rem/" rel="alternate" type="text/html" title="`em` atau `rem`" />
+      <published>2015-06-12T00:00:00+08:00</published>
+      <updated>2015-06-12T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/em-atau-rem</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="front-end" /><category term="css" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/em%20atau%20rem.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/em%20atau%20rem.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Maaf, IE</title>
+      <link href="https://akhyar.js.org/maaf-ie/" rel="alternate" type="text/html" title="Maaf, IE" />
+      <published>2015-06-11T00:00:00+08:00</published>
+      <updated>2015-06-11T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/maaf-ie</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="front-end" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Maaf,%20IE.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Maaf,%20IE.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Menghindari Tidur</title>
+      <link href="https://akhyar.js.org/menghindari-tidur/" rel="alternate" type="text/html" title="Menghindari Tidur" />
+      <published>2015-06-04T00:00:00+08:00</published>
+      <updated>2015-06-04T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/menghindari-tidur</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="catatan" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Menghindari%20Tidur.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Menghindari%20Tidur.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Penggunaan `!important` di CSS</title>
+      <link href="https://akhyar.js.org/penggunaan-important-di-css/" rel="alternate" type="text/html" title="Penggunaan `!important` di CSS" />
+      <published>2015-06-01T00:00:00+08:00</published>
+      <updated>2015-06-01T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/penggunaan-important-di-css</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="front-end" /><category term="css" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Penggunaan%20!important%20di%20CSS.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Penggunaan%20!important%20di%20CSS.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Batas Memori Manusia</title>
+      <link href="https://akhyar.js.org/batas-memori-manusia/" rel="alternate" type="text/html" title="Batas Memori Manusia" />
+      <published>2015-05-25T00:00:00+08:00</published>
+      <updated>2015-05-25T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/batas-memori-manusia</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="catatan" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Batas%20Memori%20Manusia.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Batas%20Memori%20Manusia.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Artikel Pilihan Minggu ini</title>
+      <link href="https://akhyar.js.org/artikel-pilihan-minggu-ini/" rel="alternate" type="text/html" title="Artikel Pilihan Minggu ini" />
+      <published>2015-04-25T00:00:00+08:00</published>
+      <updated>2015-04-25T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/artikel-pilihan-minggu-ini</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="linux" /><category term="sass" /><category term="chrome" /><category term="web" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Artikel%20Pilihan%20Minggu%20ini.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Artikel%20Pilihan%20Minggu%20ini.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Pemasangan Ruby dan Jekyll</title>
+      <link href="https://akhyar.js.org/pemasangan-ruby-dan-jekyll/" rel="alternate" type="text/html" title="Pemasangan Ruby dan Jekyll" />
+      <published>2015-04-10T00:00:00+08:00</published>
+      <updated>2015-04-10T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/pemasangan-ruby-dan-jekyll</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="jekyll" /><category term="ruby" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Pemasangan%20Ruby%20dan%20Jekyll.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Pemasangan%20Ruby%20dan%20Jekyll.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">5 Smartphone Android Terbaik 2014</title>
+      <link href="https://akhyar.js.org/5-smartphone-android-terbaik-2014/" rel="alternate" type="text/html" title="5 Smartphone Android Terbaik 2014" />
+      <published>2015-02-15T00:00:00+08:00</published>
+      <updated>2015-02-15T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/5-smartphone-android-terbaik-2014</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="android" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/5%20Smartphone%20Android%20Terbaik%202014.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/5%20Smartphone%20Android%20Terbaik%202014.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Mengenal Jekyll</title>
+      <link href="https://akhyar.js.org/mengenal-jekyll/" rel="alternate" type="text/html" title="Mengenal Jekyll" />
+      <published>2015-01-25T00:00:00+08:00</published>
+      <updated>2015-01-25T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/mengenal-jekyll</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="jekyll" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Mengenal%20Jekyll.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Mengenal%20Jekyll.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Pindah ke Jekyll</title>
+      <link href="https://akhyar.js.org/pindah-ke-jekyll/" rel="alternate" type="text/html" title="Pindah ke Jekyll" />
+      <published>2015-01-22T00:00:00+08:00</published>
+      <updated>2015-01-22T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/pindah-ke-jekyll</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="jekyll" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Pindah%20ke%20Jekyll.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Pindah%20ke%20Jekyll.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Cek Keamanan Password</title>
+      <link href="https://akhyar.js.org/cek-keamanan-password/" rel="alternate" type="text/html" title="Cek Keamanan Password" />
+      <published>2014-12-13T00:00:00+08:00</published>
+      <updated>2014-12-13T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/cek-keamanan-password</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="tips" /><category term="security" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Cek%20Keamanan%20Password.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Cek%20Keamanan%20Password.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Android M disebut di Android Code Review</title>
+      <link href="https://akhyar.js.org/android-m-disebut-di-android-code-review/" rel="alternate" type="text/html" title="Android M disebut di Android Code Review" />
+      <published>2014-09-24T00:00:00+08:00</published>
+      <updated>2014-09-24T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/android-m-disebut-di-android-code-review</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="android" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Android%20M%20disebut%20di%20Android%20Code%20Review.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Android%20M%20disebut%20di%20Android%20Code%20Review.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+    <entry xml:lang="id">
+      
+      <title type="html">Beberapa rekor baru di Piala Dunia 2014</title>
+      <link href="https://akhyar.js.org/beberapa-rekor-baru-di-piala-dunia-2014/" rel="alternate" type="text/html" title="Beberapa rekor baru di Piala Dunia 2014" />
+      <published>2014-07-14T00:00:00+08:00</published>
+      <updated>2014-07-14T00:00:00+08:00</updated>
+      <id>https://akhyar.js.org/beberapa-rekor-baru-di-piala-dunia-2014</id>
+      <author><name>M Akhyar Rahman H</name></author>
+      
+      
+      <category term="catatan" />
+      
+      <summary type="html"></summary>
+
+      
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.statically.io/og/theme=dark/Beberapa%20rekor%20baru%20di%20Piala%20Dunia%202014.png" />
+      <media:content medium="image" url="https://cdn.statically.io/og/theme=dark/Beberapa%20rekor%20baru%20di%20Piala%20Dunia%202014.png" xmlns:media="http://search.yahoo.com/mrss/" />
+        
+    </entry>
+  
+</feed>
