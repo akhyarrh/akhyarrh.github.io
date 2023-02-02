@@ -8,8 +8,6 @@ tags:
   - Kehidupan
   - Kopi
   - Pengalaman
-image: >-
-  https://res.cloudinary.com/akhyar-media/image/upload/c_scale,q_auto,w_1200/v1675148780/post/ed349e24dce8427286699cdce00b617d_yq4soq.webp
 ---
 Kopi pahit memiliki aroma khas dan rasa yang memikat banyak orang. Tapi, apa yang membuat kopi pahit sempurna? Bagaimana kita bisa menikmati setiap tegukan tanpa merasa terlalu pahit atau terlalu manis?
 
