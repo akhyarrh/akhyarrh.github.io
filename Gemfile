@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem 'minimal-mistakes-jekyll', github: 'akhyarrh/minimal-mistakes', branch: 'master'
+# gem 'minimal-mistakes-jekyll', github: 'akhyarrh/minimal-mistakes', branch: 'master'
 gem 'liquid-c'
 gem 'sprockets', '~> 3.7'
 
@@ -15,7 +15,7 @@ group :jekyll_plugins do
     gem 'jekyll-mentions'
     gem 'jemoji'
 
-    gem 'jekyll-compose'
+#    gem 'jekyll-compose'
     gem 'jekyll-data'
     gem 'jekyll-commonmark-ghpages'
     gem 'jekyll-include-cache'
@@ -24,7 +24,7 @@ group :jekyll_plugins do
     gem 'jekyll-pwa-workbox'
     gem 'jekyll-minifier'
     gem 'jekyll-assets'
-    gem 'jekyll-purgecss'
+#    gem 'jekyll-purgecss'
 end
 
 platforms :mswin, :mingw, :x64_mingw do
