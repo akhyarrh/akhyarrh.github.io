@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'jekyll'
 # gem 'minimal-mistakes-jekyll', github: 'akhyarrh/minimal-mistakes', branch: 'master'
 gem 'liquid-c'
-gem 'sprockets', '~> 3.7'
+#gem 'sprockets', '~> 3.7'
 
 group :jekyll_plugins do
     gem 'jekyll-optional-front-matter'
@@ -23,7 +23,8 @@ group :jekyll_plugins do
     gem 'jekyll-loading-lazy'
     gem 'jekyll-pwa-workbox'
     gem 'jekyll-minifier'
-    gem 'jekyll-assets'
+    gem 'jekyll-assets', :git => 'https://github.com/kou/jekyll-assets.git', :branch => 'add-support-for-sprockets-4.0'
+    gem 'jekyll-sanity', :git => 'https://github.com/envygeeks/jekyll-sanity.git'
 #    gem 'jekyll-purgecss'
 end
 
