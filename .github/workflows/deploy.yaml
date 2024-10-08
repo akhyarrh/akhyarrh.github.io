@@ -5,7 +5,8 @@ on:
     branches:
       - source
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -13,28 +14,19 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'
-
-
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-
-
-      - run: npm install
-      - run: gem install bundler
+          bundler-cache: true
 
       - run: bundle install --jobs 4 --retry 3
-      - run: bundle exec rake build
+      - run: bundle exec jekyll build
 
-      - uses: peaceiris/actions-gh-pages@v3
+      - uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: master
           publish_dir: ./_site
           cname: akhyar.js.org
           force_orphan: true
+          commit_message: ${{ github.event.head_commit.message }}
           exclude_assets: '.github,assets/css/*.map,assets/js/_main.js,assets/js/lunr/lunr.js,assets/js/lunr/lunr-gr.js,assets/js/plugins/**/*,assets/js/vendor/**/*'
