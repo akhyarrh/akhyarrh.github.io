@@ -16,14 +16,11 @@ jobs:
 
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'
-  
-      - uses: actions/setup-node@v3
-        with:
-         node-version: '18'
-         
-      - run: npm install
-      - run: gem install bundler
+          ruby-version: 'ruby'
+          bundler-cache: true
 
-      - run: bundle install --jobs 4 --retry 3
-      - run: bundle exec rake test
+      - run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+          
+      - run: bundle exec htmlproofer ./_site
