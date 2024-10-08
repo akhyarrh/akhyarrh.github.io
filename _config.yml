@@ -5,8 +5,7 @@
 
 timezone: Asia/Makassar
 
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: 'dark'
+#theme: minima
 
 title: AkhyarRH
 subtitle: Jurnal Online
