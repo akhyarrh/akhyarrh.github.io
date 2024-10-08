@@ -30,7 +30,7 @@ group :jekyll_plugins do
     gem 'jekyll-titles-from-headings'    
     gem 'jekyll-sitemap'
     gem 'jemoji'
-    
+    gem 'jekyll-data'
     gem 'jekyll-target-blank'
     gem 'jekyll-pwa-workbox'
     gem 'jekyll-minifier'
