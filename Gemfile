@@ -1,38 +1,37 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
-# gem 'minimal-mistakes-jekyll', github: 'akhyarrh/minimal-mistakes', branch: 'master'
-gem 'liquid-c'
-#gem 'sprockets', '~> 3.7'
-
-group :jekyll_plugins do
-    gem 'jekyll-optional-front-matter'
-    gem 'jekyll-titles-from-headings'
-    gem 'jekyll-github-metadata'
-    gem 'jekyll-relative-links'
-    gem 'jekyll-redirect-from'
-    gem 'jekyll-seo-tag'
-    gem 'jekyll-mentions'
-    gem 'jemoji'
-
-#    gem 'jekyll-compose'
-    gem 'jekyll-data'
-    gem 'jekyll-commonmark-ghpages'
-    gem 'jekyll-include-cache'
-    gem 'jekyll-target-blank'
-    gem 'jekyll-loading-lazy'
-    gem 'jekyll-pwa-workbox'
-    gem 'jekyll-minifier'
-    gem 'jekyll-assets', :git => 'https://github.com/kou/jekyll-assets.git', :branch => 'add-support-for-sprockets-4.0'
-    gem 'jekyll-sanity', :git => 'https://github.com/envygeeks/jekyll-sanity.git'
-#    gem 'jekyll-purgecss'
-end
-
+# TBH I dont know if this thing still needed
+# just for personal note in case I gonna use
+# Windows for doing this jekyll stuff again
 platforms :mswin, :mingw, :x64_mingw do
     gem 'wdm', '~> 0.1.1'
     gem 'tzinfo-data'
     gem 'tzinfo', '~> 1.2'
 end
 
-gem 'rake', :group => [:development, :test]
-gem 'html-proofer', :group => [:development, :test]
+gem 'jekyll'
+gem 'liquid-c'
+
+# For testing generated html
+gem 'html-proofer'
+
+group :jekyll_plugins do
+    gem 'jekyll-commonmark-ghpages'
+    gem 'jekyll-default-layout'
+    gem 'jekyll-gist'
+    gem 'jekyll-github-metadata'
+    gem 'jekyll-mentions'
+    gem 'jekyll-optional-front-matter'
+    gem 'jekyll-readme-index'
+    gem 'jekyll-redirect-from'
+    gem 'jekyll-relative-links'
+    gem 'jekyll-remote-theme'
+    gem 'jekyll-seo-tag'
+    gem 'jekyll-titles-from-headings'    
+    gem 'jekyll-sitemap'
+    gem 'jemoji'
+    
+    gem 'jekyll-target-blank'
+    gem 'jekyll-pwa-workbox'
+    gem 'jekyll-minifier'
+end
