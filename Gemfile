@@ -20,6 +20,7 @@ group :jekyll_plugins do
     gem 'jekyll-default-layout'
     gem 'jekyll-gist'
     gem 'jekyll-github-metadata'
+    gem 'jekyll-include-cache'
     gem 'jekyll-mentions'
     gem 'jekyll-optional-front-matter'
     gem 'jekyll-readme-index'
