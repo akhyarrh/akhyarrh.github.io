@@ -32,5 +32,4 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'jekyll-target-blank'
     gem 'jekyll-pwa-workbox'
-    gem 'jekyll-minifier'
 end
