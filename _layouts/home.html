@@ -10,12 +10,11 @@ layout: base
   {{ content }}
 
 
-  {% if site.pagination.enabled %}
+  {% if site.pagination.enabled == true %}
     {% assign posts = paginator.posts %}
   {% else %}
     {% assign posts = site.posts %}
   {% endif %}
-
 
   {%- if posts.total_pages > 0 -%}
     {%- if page.list_title -%}
