@@ -3,12 +3,20 @@
 # https://help.github.com/articles/configuring-jekyll/
 # https://jekyllrb.com/docs/configuration/
 
+theme: minima
+show_excerpts: true
+minima:
+  date_format: "%d %B %Y"
+header_pages:
+  - profil.md
+  - privasi.md
+  - kontak.html
+twitter_username: akhyarrh
+github_username:  akhyarrh
+
 timezone: Asia/Makassar
 
-#theme: minima
-
 title: AkhyarRH
-subtitle: Jurnal Online
 description: >
   Seperti sebuah blog pada umumnya.
   Kebanyakan berisi tentang front-end, user experience,
@@ -17,46 +25,13 @@ url: https://akhyar.js.org
 baseurl: ""
 repository: akhyarrh/akhyarrh.github.io
 lang: id
-locale: id-ID
-#logo: "/assets/logo.png"
+language: id-ID
 name: "M Akhyar Rahman H"
-
-#comments:
-#  provider               : staticman_v2
-#  staticman:
-#    branch               : source
-#    endpoint             : https://staticman3.herokuapp.com/v3/entry/github/
-#reCaptcha:
-    #enabled: false
-    #siteKey:
-    #secret:
-search                   : true # true, false (default)
-#search_full_content      : # true, false (default)
-
-# Social Sharing
-twitter:
-  username               : akhyarrh
-facebook:
-  username               : akhyarrh
-
-social:
-  name                   : M. Akhyar Rahman H.
-  links:
-    - https://twitter.com/akhyarrh
-    - https://github.com/akhyarrh
-
-# Analytics
-analytics:
-  provider               : google-universal
-  google:
-    tracking_id          : UA-36665422-2
-    anonymize_ip         : true
 
 # SEO Related
 google_site_verification : sV2248YCZVyLu6nhz72znzNoCUhSfCqwiCEjUO-Kiu8
 bing_site_verification   : E9A1908DCAA52A63BF7B5F67DB05745D
 alexa_site_verification  : gXuVtj4bXDWiVB_ihCJijNBQNj8
-#yandex_site_verification :
 naver_site_verification  : 6317134cb9bef4388b660148341705f37c442045
 
 # Site Author
@@ -64,34 +39,9 @@ author:
   name             : "M. Akhyar Rahman H."
   twitter          : akhyarrh
   github           : akhyarrh
-  lastfm           : akhyarrh
-  links:
-    - label: Feed
-      icon: "fas fa-fw fa-rss"
-      url: "/feed.xml"
-
-# Site Footer
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/akhyarrh"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github-alt"
-      url: "https://github.com/akhyarrh"
-    - label: Last.fm
-      icon: "fab fa-fw fa-lastfm"
-      url: "https://last.fm/user/akhyarrh"
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
 
 permalink: /:title/
-paginate: 8
+paginate: 5
 
 show_drafts: false
 future:      false
@@ -119,65 +69,40 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: false
-      show_date: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-      classes: wide
+      layout: post
   # _pages
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
-      author_profile: false
-      classes: wide
-  - scope:
-      path: ""
-      type: tag
-    values:
-      author_profile: false
-      comments: false
-      classes: wide
-  - scope:
-      path: ""
-      type: category
-    values:
-      author_profile: false
-      comments: false
-      classes: wide
+      layout: page
 
 # https://help.github.com/articles/configuring-jekyll-plugins/#default-plugins
 plugins:
-  #
-  # Plugins below are enabled by default on github pages
-  # I write them down here only for documentation purpose
-  # more info see:
-  # https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins
-  #
-  - jekyll-relative-links
-  - jekyll-optional-front-matter
-  - jekyll-titles-from-headings
+  - jekyll-commonmark-ghpages
+  - jekyll-default-layout
+  - jekyll-gist
   - jekyll-github-metadata
   - jekyll-mentions
-  - jemoji
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
   - jekyll-redirect-from
-  #- jekyll-data
-  #- jekyll-include-cache
+  - jekyll-relative-links
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-titles-from-headings
+  - jekyll-sitemap
+  - jemoji
   - jekyll-target-blank
-  #- jekyll-loading-lazy
   - jekyll-pwa-workbox
-  - jekyll-minifier
-  #- jekyll-purgecss
+  - jekyll-og-image
+  - jekyll-paginate-v2
 
 markdown: CommonMarkGhPages
 
-#comment-post: https://docs.google.com/forms/d/e/1FAIpQLSdK2gNXrbEDYdLVXQczAgKaSCkPS--w4nGc_AJopcwlZMOIwQ
-#comment-read: https://docs.google.com/spreadsheets/d/1txcAELxvQ0XiPlIYtLB4m5lBqc25I6EYRi5LmTzI1MA
-#comment-post-fields: [ entry.676535420, entry.240716117, entry.185139534]
+commonmark:
+  options: ["SMART", "FOOTNOTES", "STRIKETHROUGH_DOUBLE_TILDE"]
+  extensions: ["strikethrough", "autolink", "table"]
 
 optional_front_matter:
   remove_originals: true
@@ -187,25 +112,15 @@ titles_from_headings:
   strip_title: true
   collections: true
 
-jekyll-mentions: https://twitter.com
-
-commonmark:
-  options: ["SMART", "FOOTNOTES", "STRIKETHROUGH_DOUBLE_TILDE"]
-  extensions: ["strikethrough", "autolink", "table"]
-
-jekyll-minifier:
-  exclude: ["*.xml", "*.txt", "*.webmanifest"]
-  uglifier_args:
-    harmony: true
+jekyll-mentions: "https://twitter.com"
 
 pwa:
   dest_js_directory: assets/js # Required
-  precache_recent_posts_num: 8 # Optional. Number of post on homepage
+  precache_recent_posts_num: 5 # Optional. Number of post on homepage
   precache_glob_patterns:
     # Optional
     # I explicitly stated what to precache here
     # to keep page download size minimum
-    - "/index.html"
     - "/favicon.ico"
     - "/assets/*.png"
     - "/assets/css/main.css"
@@ -244,12 +159,6 @@ prose:
           element: "text"
           label: "Title"
 
-      - name: "date"
-        field:
-          element: "text"
-          label: "Published Date"
-          value: CURRENT_DATETIME
-
       - name: "last_modified_at"
         field:
           element: "text"
@@ -261,12 +170,6 @@ prose:
           element: "text"
           label: "Image"
           help: "This image displayed & used as SEO image. Higher priority than Teaser Image."
-
-      - name: "teaser_image"
-        field:
-          element: "text"
-          label: "Teaser Image"
-          help: "This image not displayed & not used as SEO image. Not used if Image already exist."
 
       - name: "categories"
         field:
