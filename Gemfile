@@ -34,4 +34,5 @@ group :jekyll_plugins do
     gem 'jekyll-pwa-workbox'
     gem 'jekyll-og-image'
     gem 'jekyll-paginate-v2'
+    gem 'minima'
 end
