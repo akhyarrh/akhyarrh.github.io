@@ -3,16 +3,18 @@
 # https://help.github.com/articles/configuring-jekyll/
 # https://jekyllrb.com/docs/configuration/
 
-theme: minima
-show_excerpts: true
-minima:
-  date_format: "%d %B %Y"
-header_pages:
-  - profil.md
-  - privasi.md
-  - kontak.html
-twitter_username: akhyarrh
-github_username:  akhyarrh
+remote_theme: akhyarrh/swiss
+
+#theme: minima
+#show_excerpts: true
+#minima:
+#  date_format: "%d %B %Y"
+#header_pages:
+#  - profil.md
+#  - privasi.md
+#  - kontak.html
+#twitter_username: akhyarrh
+#github_username:  akhyarrh
 
 timezone: Asia/Makassar
 
