@@ -1,4 +1,3 @@
-- [ ] Preview on Forestry CMS
 - [ ] Netlify build pass
 
 ```
