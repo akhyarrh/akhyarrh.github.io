@@ -18,8 +18,14 @@ jobs:
         with:
           ruby-version: 'ruby'
           bundler-cache: true
+          
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 'latest'
 
       - run: bundle exec jekyll build
+
+      - run: npx @divriots/jampack ./_site
 
       - uses: peaceiris/actions-gh-pages@v4
         with:
