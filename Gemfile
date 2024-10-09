@@ -33,4 +33,5 @@ group :jekyll_plugins do
     gem 'jekyll-target-blank'
     gem 'jekyll-pwa-workbox'
     gem 'jekyll-og-image'
+    gem 'jekyll-paginate-v2'
 end
