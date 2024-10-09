@@ -1,5 +1,5 @@
 [context.production]
-  command = "bundle exec rake build"
+  command = "bundle exec jekyll build"
   publish = "_site/admin/"
   environment = { JEKYLL_ENV = "production" }
 
