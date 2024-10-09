@@ -41,7 +41,19 @@ author:
   github           : akhyarrh
 
 permalink: /:title/
-paginate: 5
+
+paginate: nil
+paginate_path: nil
+
+pagination:
+  enabled: true
+  per_page: 5
+  offset: 4
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 show_drafts: false
 future:      false
