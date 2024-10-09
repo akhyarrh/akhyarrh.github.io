@@ -42,9 +42,6 @@ author:
 
 permalink: /:title/
 
-paginate: nil
-paginate_path: nil
-
 pagination:
   enabled: true
   per_page: 5
