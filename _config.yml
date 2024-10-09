@@ -24,21 +24,17 @@ description: >
 url: https://akhyar.js.org
 baseurl: ""
 repository: akhyarrh/akhyarrh.github.io
-lang: id
+
+# WTF IS THIS THING
+lang: id-ID
+locale: id-ID
 language: id-ID
-name: "M Akhyar Rahman H"
 
 # SEO Related
 google_site_verification : sV2248YCZVyLu6nhz72znzNoCUhSfCqwiCEjUO-Kiu8
 bing_site_verification   : E9A1908DCAA52A63BF7B5F67DB05745D
 alexa_site_verification  : gXuVtj4bXDWiVB_ihCJijNBQNj8
 naver_site_verification  : 6317134cb9bef4388b660148341705f37c442045
-
-# Site Author
-author:
-  name             : "M. Akhyar Rahman H."
-  twitter          : akhyarrh
-  github           : akhyarrh
 
 permalink: /:title/
 
@@ -56,10 +52,9 @@ exclude:
   - Makefile
   - Rakefile
   - README.md
-  - vendor
-  - staticman.yml
   - netlify.toml
   - node_modules
+  - vendor
 
 sass:
   style: expanded
@@ -81,38 +76,26 @@ defaults:
 
 # https://help.github.com/articles/configuring-jekyll-plugins/#default-plugins
 plugins:
-  - jekyll-commonmark-ghpages
-  - jekyll-default-layout
-  - jekyll-gist
-  - jekyll-github-metadata
-  - jekyll-mentions
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
-  - jekyll-redirect-from
-  - jekyll-relative-links
   - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-titles-from-headings
-  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-github-metadata
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-relative-links
   - jemoji
   - jekyll-target-blank
-  - jekyll-pwa-workbox
   - jekyll-og-image
   - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-pwa-workbox
 
 markdown: CommonMarkGhPages
 
 commonmark:
   options: ["SMART", "FOOTNOTES", "STRIKETHROUGH_DOUBLE_TILDE"]
   extensions: ["strikethrough", "autolink", "table"]
-
-optional_front_matter:
-  remove_originals: true
-
-titles_from_headings:
-  enabled:     true
-  strip_title: true
-  collections: true
 
 jekyll-mentions: "https://twitter.com"
 
@@ -171,7 +154,7 @@ prose:
         field:
           element: "text"
           label: "Image"
-          help: "This image displayed & used as SEO image. Higher priority than Teaser Image."
+          help: "This image displayed & used for SEO stuff."
 
       - name: "categories"
         field:
