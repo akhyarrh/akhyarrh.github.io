@@ -5,6 +5,14 @@
 
 remote_theme: akhyarrh/apropixyll
 date_format: '%d %B %Y'
+header_pages:
+ - profil.md
+ - kontak.html
+ - privasi.md
+show_related_posts: true
+text:
+  post:
+    related_posts: 'Other Posts'
 
 #theme: minima
 #show_excerpts: true
