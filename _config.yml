@@ -99,14 +99,15 @@ plugins:
   - jekyll-og-image
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-feed
   - jekyll-sitemap
   - jekyll-pwa-workbox
 
 markdown: CommonMark
 
 commonmark:
-  options: ["SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "table"]
+  options: ["smart", "relaxed_autolinks", "github_pre_lang", "figure_with_caption"]
+  extensions: ["strikethrough", "tagfilter", "table", "autolink", "superscript", "footnotes", "description_lists", "multiline_block_quotes", "underline"]
 
 jekyll-mentions: "https://twitter.com"
 
