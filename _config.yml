@@ -90,7 +90,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-redirect-from
   - jekyll-github-metadata
-  - jekyll-commonmark-ghpages
+  - jekyll-commonmark
   - jekyll-gist
   - jekyll-mentions
   - jekyll-relative-links
@@ -102,10 +102,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-pwa-workbox
 
-markdown: CommonMarkGhPages
+markdown: CommonMark
 
 commonmark:
-  options: ["SMART", "FOOTNOTES", "STRIKETHROUGH_DOUBLE_TILDE"]
+  options: ["SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table"]
 
 jekyll-mentions: "https://twitter.com"
