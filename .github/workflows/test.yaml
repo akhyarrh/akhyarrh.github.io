@@ -19,6 +19,10 @@ jobs:
           ruby-version: 'ruby'
           bundler-cache: true
 
+      - run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends libvips
+
       - run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
