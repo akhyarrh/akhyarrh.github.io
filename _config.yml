@@ -4,6 +4,7 @@
 # https://jekyllrb.com/docs/configuration/
 
 remote_theme: akhyarrh/apropixyll
+date_format: '%d %B %Y'
 
 #theme: minima
 #show_excerpts: true
