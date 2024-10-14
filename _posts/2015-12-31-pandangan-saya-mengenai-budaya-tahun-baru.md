@@ -57,7 +57,7 @@ Berbanggalah.
 
 Baca dikit mengenai asal muasal tahun baru. Jangan cuma jadi korban budayanya tanpa tahu hal yang lainnya.
 
-- [Asal Usul Awal Mula Perayaan Tahun Baru](http://tahulebihdalam.blogspot.co.id/2011/02/asal-usul-awal-mula-perayaan-tahun-baru.html)
+- [Asal Usul Awal Mula Perayaan Tahun Baru](https://tahulebihdalam.blogspot.co.id/2011/02/asal-usul-awal-mula-perayaan-tahun-baru.html)
 - [Asal Mula Perayaan Tahun Baru](https://indonesiaindonesia.com/f/86769-sejarah-asal-perayaan-tahun-baru)
 - [Tahun baru - Wikipedia](https://id.wikipedia.org/wiki/Tahun_baru)
 
