@@ -101,7 +101,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-pwa-workbox
 
 markdown: CommonMark
 
@@ -110,33 +109,6 @@ commonmark:
   extensions: ["strikethrough", "tagfilter", "table", "autolink", "superscript", "footnotes", "description_lists", "multiline_block_quotes", "underline"]
 
 jekyll-mentions: "https://twitter.com"
-
-pwa:
-  dest_js_directory: assets/js # Required
-  precache_recent_posts_num: 5 # Optional. Number of post on homepage
-  precache_glob_patterns:
-    # Optional
-    # I explicitly stated what to precache here
-    # to keep page download size minimum
-    - "/favicon.ico"
-    - "/assets/*.png"
-    - "/assets/css/main.css"
-    - "/assets/js/main.min.js"
-  precache_glob_ignores: # Optional
-    - "/sw-register.js"
-    - "/service-worker.js"
-    #
-    # entries below must equal with:
-    # .github/workflows/deploy.yaml (file name)
-    # peaceiris/actions-gh-pages@v3
-    # exclude_assets
-    #
-    - "/assets/css/*.map"
-    - "/assets/js/_main.js"
-    - "/assets/js/lunr/lunr.js"
-    - "/assets/js/lunr/lunr-gr.js"
-    - "/assets/js/plugins/**/*"
-    - "/assets/js/vendor/**/*"
 
 # prose.io
 prose:
