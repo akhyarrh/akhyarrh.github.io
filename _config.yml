@@ -105,8 +105,8 @@ plugins:
 markdown: CommonMark
 
 commonmark:
-  options: ["smart", "relaxed_autolinks", "github_pre_lang", "figure_with_caption"]
-  extensions: ["strikethrough", "tagfilter", "table", "autolink", "superscript", "footnotes", "description_lists", "multiline_block_quotes", "underline"]
+  options: ['SMART','FOOTNOTES','STRIKETHROUGH_DOUBLE_TILDE','GITHUB_PRE_LANG']
+  extensions: ['table', 'strikethrough', 'autolink', 'tagfilter']
 
 jekyll-mentions: "https://twitter.com"
 
