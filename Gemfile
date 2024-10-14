@@ -16,7 +16,6 @@ gem 'liquid-c'
 gem 'html-proofer'
 
 group :jekyll_plugins do
-    gem 'minima'
     gem 'jekyll-remote-theme'
     gem 'jekyll-redirect-from'
     gem 'jekyll-github-metadata'
