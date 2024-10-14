@@ -6,7 +6,7 @@ tags: [catatan]
 
 ... bermalas-malasan selama 10 tahun mungkin. Jujur aja, 140M itu buaaanyak banget OMG my baby hunny. Untuk lebih detil, mari berhitung.
 
-Anggap saja saya akan membangun situs perusahaan bernama **Nectktar** (amin). Baru langkah awal, saya baru punya 9 karyawan jadi pas 10 dengan saya. Saya akan perlu domain, hosting, CDN, plus biaya untuk akun organisasi di GitHub dan gaji serta jaminan internet untuk 10 orang, artinya saya akan perlu 10 paket internet dan 1 paket internet untuk perusahaan.
+Anggap saja saya akan membangun situs perusahaan bernama **Nectktar**. Baru langkah awal, saya baru punya 9 karyawan jadi pas 10 dengan saya. Saya akan perlu domain, hosting, CDN, plus biaya untuk akun organisasi di GitHub dan gaji serta jaminan internet untuk 10 orang, artinya saya akan perlu 10 paket internet dan 1 paket internet untuk perusahaan.
 
 ## Domain
 
@@ -21,7 +21,7 @@ TLD | Durasi | Harga
 
 ## Hosting
 
-Blog ini ada di GitHub jadi saya belum tahu web hosting yang bagus. Setelah saya search, saya pilih menggunakan pilihan [PCMag](http://www.pcmag.com) yaitu [Arvixe](http://www.arvixe.com), menggunakan Dedicated server.
+Blog ini ada di GitHub jadi saya belum tahu web hosting yang bagus. Setelah saya search, saya pilih menggunakan pilihan [PCMag](https://www.pcmag.com) yaitu [Arvixe](https://www.arvixe.com), menggunakan Dedicated server.
 
 ![Hosting](/assets/post-img/hosting.webp)
 
@@ -88,4 +88,4 @@ Masih ada sisa kurang sedikit dari 130M. Kira-kira itu cukup aja lah buat beli P
 
 Setidaknya begitulah gambaran kalau saya dapat duit 140M. Mungkin pas, mungkin kurang, atau mungkin juga berlebihan. Entahlah. Saya hanya iseng main hitung-hitungan. Sekian dari saya. Ciao.
 
-*Btw*, [**revolusimental.go.id**](http://revolusimental.go.id/) masih :thumbsdown: atau udah :thumbsup: ? *eh*
+*Btw*, [**revolusimental.go.id**](https://revolusimental.go.id/) masih :thumbsdown: atau udah :thumbsup: ? *eh*
