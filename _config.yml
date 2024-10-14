@@ -110,6 +110,11 @@ commonmark:
 
 jekyll-mentions: "https://twitter.com"
 
+# jekyll-og image
+og_image:
+  domain: 'akhyar.js.org'
+  image: '/assets/logo.png'
+
 # prose.io
 prose:
   rooturl: '_posts'
