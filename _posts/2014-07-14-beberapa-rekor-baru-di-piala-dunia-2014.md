@@ -12,7 +12,7 @@ Jerman menjadi tim Eropa pertama yang mampu meraih gelar juara dunia di benua Am
 
 2. Tweet
 Saat semifinal Brazil vs Jerman, 35,6 juta tweet yang dikirim jadi yang terbanyak untuk sebuah event akbar.
-Selengkapnya ada disini: http://goo.gl/eGhH8G
+Selengkapnya ada disini: https://goo.gl/eGhH8G
 
 3. Jumlah gol saat babak penyisihan
 136 gol di babak penyisihan jadi yang terbanyak daripada Piala Dunia 2002. Dan saat Pogba membuat gol yang merupakan gol ke 146, jumlah itu lebih banyak daripada 145 gol di Piala Dunia 2010.
