@@ -53,6 +53,6 @@ Jalankan command `nm-tool`.
 
 ## Colophon
 
-- [Free and Public DNS Servers](http://pcsupport.about.com/od/tipstricks/a/free-public-dns-servers.htm)
-- [Top 5 Free Public DNS Servers](http://www.thegeekyglobe.com/top-5-free-public-dns-servers.html)
+- [Free and Public DNS Servers](https://pcsupport.about.com/od/tipstricks/a/free-public-dns-servers.htm)
+- [Top 5 Free Public DNS Servers](https://www.thegeekyglobe.com/top-5-free-public-dns-servers.html)
 - [Public DNS di Google Developers](https://developers.google.com/speed/public-dns/docs/using)
