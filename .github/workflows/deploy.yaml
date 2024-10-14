@@ -23,6 +23,10 @@ jobs:
         with:
           node-version: 'latest'
 
+      - run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends libvips
+
       - run: bundle exec jekyll build
 
       - run: npx @divriots/jampack ./_site
