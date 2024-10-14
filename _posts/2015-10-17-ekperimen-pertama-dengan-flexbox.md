@@ -15,9 +15,9 @@ Saya akan bahas mengenai `cross` lain kali, kali ini saya fokus ke `main`.
 Berikut demo dari gist yang saya buat. Perhatikan HTML dan konten hasil render.
 
 <p class="sassmeister" data-gist-id="a88d1a8d9c8c8a562835" data-height="400" data-theme="tomorrow">
-  <a href="http://sassmeister.com/gist/a88d1a8d9c8c8a562835">Play with this gist on SassMeister.</a>
+  <a href="https://sassmeister.com/gist/a88d1a8d9c8c8a562835">Play with this gist on SassMeister.</a>
 </p>
-<script src="//cdn.sassmeister.com/js/embed.js" async></script>
+<script src="https://cdn.sassmeister.com/js/embed.js" async></script>
 
 **Note: kalau embed tidak terbuka di Firefox, silakan buka di Chrome.**
 
@@ -63,6 +63,6 @@ Perhatikan properti `flex-direction`, `main axis` diatur disini dan sifatnya fle
 
 Bagian paling pentingnya adalah memahami jika `flex-direction` menggunakan properti yang sifatnya 'membalik' posisi elemen. Jika `row-reverse` atau `column-reverse` maka elemen disusun dari `main end` ke `main start`.
 
-Masih bingung ? Silakan hubungi via [Twitter](https://twitter.com/akhyarrh). Eksperimen saya di atas bisa [clone di Gist](https://gist.github.com/akhyarrh/a88d1a8d9c8c8a562835) atau langsung [mainkan di SassMeister](http://sassmeister.com/gist/a88d1a8d9c8c8a562835).
+Masih bingung ? Silakan hubungi via [Twitter](https://twitter.com/akhyarrh). Eksperimen saya di atas bisa [clone di Gist](https://gist.github.com/akhyarrh/a88d1a8d9c8c8a562835) atau langsung [mainkan di SassMeister](https://sassmeister.com/gist/a88d1a8d9c8c8a562835).
 
 Ciao.
