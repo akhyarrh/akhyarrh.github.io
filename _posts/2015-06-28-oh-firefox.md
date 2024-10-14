@@ -49,4 +49,4 @@ Sebagai penutup, entah sampai kapan harus bersabar untuk menggunakan Chrome.
 Oh Firefox. Tolong jadilah teman yang baik nanti.
 
 [html5test]: https://html5test.com
-[css3test]: http://css3test.com
+[css3test]: https://css3test.com
