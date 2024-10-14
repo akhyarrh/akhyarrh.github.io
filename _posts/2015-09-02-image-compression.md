@@ -47,13 +47,13 @@ npm install -g svgo
 image_optim assets/img -r
 ```
 
-Untuk pengguna Mac dan Windows, saya tidak bisa memberi tahu cara yang tepat. Tapi [Creative Bloq](http://www.creativebloq.com/) punya list tools yang bisa dipergunakan untuk melakukan *image compression*. Banyak banget, ada 18 tools untuk pengguna Windows dan Mac. Langsung aja menuju ke [artikel mereka ini](http://www.creativebloq.com/design/image-compression-tools-1132865).
+Untuk pengguna Mac dan Windows, saya tidak bisa memberi tahu cara yang tepat. Tapi [Creative Bloq](https://www.creativebloq.com/) punya list tools yang bisa dipergunakan untuk melakukan *image compression*. Banyak banget, ada 18 tools untuk pengguna Windows dan Mac. Langsung aja menuju ke [artikel mereka ini](https://www.creativebloq.com/design/image-compression-tools-1132865).
 
 ## Resource
 
 - [Image compression di Wikipedia](https://en.wikipedia.org/wiki/Image_compression)
-- [Image Compression for Web Developers di HTML5 Rocks](http://www.html5rocks.com/en/tutorials/speed/img-compression/)
-- [The 18 best image file compression tools di Creative Bloq](http://www.creativebloq.com/design/image-compression-tools-1132865)
+- [Image Compression for Web Developers di HTML5 Rocks](https://www.html5rocks.com/en/tutorials/speed/img-compression/)
+- [The 18 best image file compression tools di Creative Bloq](https://www.creativebloq.com/design/image-compression-tools-1132865)
 
 -----
 
