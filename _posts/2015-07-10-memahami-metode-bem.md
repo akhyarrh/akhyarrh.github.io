@@ -8,9 +8,9 @@ tags: [front-end, tips]
 
 Dasarnya ada beberapa dan sedang saya coba terapkan:
 
-- [BEM](http://bem.info/)
-- [Post Nicolas Gallagher](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
-- [Artikel di CSSwizardry](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+- [BEM](https://bem.info/)
+- [Post Nicolas Gallagher](https://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
+- [Artikel di CSSwizardry](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 
 Sebenarnya hanya berusaha mengubah kebiasaan lama. Sebelumnya terbiasa memakai penamaan `class` yang kurang *semantic*, misalnya;
 
