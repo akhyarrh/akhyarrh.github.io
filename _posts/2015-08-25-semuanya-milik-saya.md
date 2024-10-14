@@ -10,7 +10,7 @@ Pilihan lama datang, [Disqus](https://disqus.com). Saya kembali bingung. Disqus 
 
 > But there is one problem: Disqus isn’t open source. So we have all these hackers rushing to switch their blogs over to static site generators with Disqus comments, which is effectively an exodus from completely free systems like WordPress to proprietary systems like Disqus.
 >
-> <cite><a href="http://dumbmatter.com/2011/08/jekyll-and-other-static-site-generators-are-currently-harmful-to-the-free-open-source-software-movement/">Jeremy Scheff</a></cite>
+> <cite><a href="https://dumbmatter.com/2011/08/jekyll-and-other-static-site-generators-are-currently-harmful-to-the-free-open-source-software-movement/">Jeremy Scheff</a></cite>
 
 Lagi-lagi saya memilih untuk mencari alternatif lain.
 
@@ -30,7 +30,7 @@ Setelah beberapa minggu sangat kebingungan, blog ini sempat saya takedown, saya 
 
 **Ketiga**, semua data komentar ada di saya. Menggunakan Komments dan Disqus artinya data komentar ada di database mereka. Makanya itu saya hindari. Menggunakan self-hosted pun sebenarnya data komentar juga ada di server, tapi setidaknya di server pribadi.
 
-Berdasarkan 3 kriteria diatas, ada 2 approach yang saya dapatkan. Pertama: menggunakan `mailto:`. Kedua: menggunakan [Pooleapp](http://pooleapp.com).
+Berdasarkan 3 kriteria diatas, ada 2 approach yang saya dapatkan. Pertama: menggunakan `mailto:`. Kedua: menggunakan [Pooleapp](https://pooleapp.com).
 
 Dengan menggunakan `mailto:`, maka komentar yang masuk akan langsung dikirim ke email saya. Bisa saya cek dulu lalu baru saya masukkan. Bagian susahnya adalah manajemen. Karena semua komentar yang masuk adalah email, maka harus ada manajemen yang tepat agar tidak berantakan. Sistem manajemen yang mudah adalah menggunakan fitur yang ada di Jekyll yaitu menggunakan `_data` atau {% raw %}`{% include %}`{% endraw %}.
 
