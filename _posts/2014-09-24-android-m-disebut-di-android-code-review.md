@@ -6,7 +6,7 @@ tags: [android]
 
 Ada yang pakai android ? Jelly Bean ? Kitkat ? Atau masih ada yang belum bisa move-on dari Gingerbread ? Hahahahaha
 
-Gue dapet info yang lumayan bikin kaget pagi ini, pas lagi enak-enaknya ngopi, login ke forum, lalu mendadak baca [artikel ini di XDA portal](http://www.xda-developers.com/android-m-mentions/).
+Gue dapet info yang lumayan bikin kaget pagi ini, pas lagi enak-enaknya ngopi, login ke forum, lalu mendadak baca [artikel ini di XDA portal](https://www.xda-developers.com/android-m-mentions/).
 
 Sebelum kesitu, kita ngomongin Android L dulu. Udah pada tau belum ? Jadi gini, Android L itu update dari Google. Bisa dibilang ini update mayor.
 
