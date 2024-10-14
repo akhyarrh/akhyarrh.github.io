@@ -29,7 +29,7 @@ Alasan kenapa Xperia gue taruh di tempat keempat karena gue ga pernah suka sama 
 
 {% include youtube id="BK3YvlOFRTg" %}
 
-Ga perlu alasan lagi, Motorolla memang lagi keren banget. Spesifikasi lengkap bisa dilihat [disini](http://www.gsmarena.com/motorola_moto_x_(2014)-6649.php "Motorola Moto X (2014)"). Btw, *voting result* di GSMARENA tersebut memang bener. Semuanya bagus, desain bagus, spesifikasi mantap, harga standar. Setelah Moto G, Motorolla sukses bikin gue makin suka apalagi dengan adanya Moto X ini.
+Ga perlu alasan lagi, Motorolla memang lagi keren banget. Spesifikasi lengkap bisa dilihat [disini](https://www.gsmarena.com/motorola_moto_x_(2014)-6649.php "Motorola Moto X (2014)"). Btw, *voting result* di GSMARENA tersebut memang bener. Semuanya bagus, desain bagus, spesifikasi mantap, harga standar. Setelah Moto G, Motorolla sukses bikin gue makin suka apalagi dengan adanya Moto X ini.
 
 Menurut gue minusnya cuman karena ga ada slot SD card dan SIM yang mau dipakai harus dipotong dulu. Selebihnya adalah keajaiban. Harganya $499 atau mungkin sekitaran 6 juta. Masih minat ? Aku sih engga, kalo modal lebih ada bisa aja lah ya buat koleksi.
 
