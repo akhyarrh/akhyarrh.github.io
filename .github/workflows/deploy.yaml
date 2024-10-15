@@ -27,6 +27,13 @@ jobs:
           sudo apt-get update
           sudo apt-get install --no-install-recommends libvips
 
+      - uses: actions/cache@v4
+        with:
+          path: '.jampack'
+          key: jampack-${{ github.run_id }}
+          restore-keys: |
+            jampack
+
       - run: bundle exec jekyll build
 
       - run: npx @divriots/jampack ./_site
