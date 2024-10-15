@@ -18,7 +18,7 @@ Kalau ada pertanyaan, [hubungi saya](/kontak/).
 * [js.org](https://github.com/js-org/js.org/)
 * [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/)
 * [RoboHash](https://robohash.org/)
-* [Color Safe](http://colorsafe.co/)
+* [Color Safe](https://colorsafe.co/)
 * [Forestry](https://forestry.io/)
 * [Statically](https://statically.io/)
 * [Open Graph Image generator](https://og-image.now.sh/)
