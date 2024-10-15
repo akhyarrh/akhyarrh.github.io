@@ -16,3 +16,4 @@ package-lock.json
 .lite_workspace.lua
 _tomb/backup
 .bundle
+.jampack
