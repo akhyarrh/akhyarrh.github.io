@@ -32,6 +32,6 @@ Ada yang sadar kalau sumber artikelnya cuma dari 2 situs ? Sejak memakai Linux (
 
 ## 3. Chrome
 
-Yang terakhir, ini tentang Google Chrome memperpanjang dukungannya untuk Windows XP sampai akhir 2015. Langsung aja ke [OMG! Chrome!](http://www.omgchrome.com/google-chrome-extends-windows-xp-support-until-end-of-the-year/).
+Yang terakhir, ini tentang Google Chrome memperpanjang dukungannya untuk Windows XP sampai akhir 2015. Langsung aja ke [OMG! Chrome!](https://www.omgchrome.com/google-chrome-extends-windows-xp-support-until-end-of-the-year/).
 
 Sekian dulu. Hari ini hari sabtu. Mau siap-siap dulu soalnya nanti malam mau kencan. Buat yang jomblo, baca-baca artikel yang sudah dibagikan mungkin bisa untuk menutupi malam minggu kalian yang sepi.
