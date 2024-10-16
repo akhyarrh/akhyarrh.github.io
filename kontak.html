@@ -22,7 +22,7 @@ title: Kontak
       <button type='submit' class="button button-blue button-big mobile-block">{{ site.text.contact.submit | default: "Say Hello" }}</button>
     </form>
   {% else %}
-    <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked">
+    <form action="https://formspree.io/f/{{ site.email }}" method="POST" class="form-stacked">
       <label>
         Email
         <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email | default: "Email Address" }}">
