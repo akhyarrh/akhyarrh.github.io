@@ -13,6 +13,8 @@ show_related_posts: true
 text:
   post:
     related_posts: 'Other Posts'
+# used on kontak page to send email through formspree
+email: 'maywlrba'
 
 #theme: minima
 #show_excerpts: true
