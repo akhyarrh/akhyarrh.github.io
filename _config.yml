@@ -32,16 +32,19 @@ description: >
   Seperti sebuah blog pada umumnya.
   Kebanyakan berisi tentang front-end, user experience,
   dan accessibility (a11y).
-url: https://akhyar.js.org
+url: &url 'https://akhyar.js.org'
 baseurl: ""
 repository: akhyarrh/akhyarrh.github.io
 
 # WTF IS THIS THING
-lang: id-ID
+# used by <html lang>
+lang: id
+# used by jekyll-seo-tag (?)
 locale: id-ID
+# blah
 language: id-ID
 
-# SEO Related
+# site verification
 google_site_verification : sV2248YCZVyLu6nhz72znzNoCUhSfCqwiCEjUO-Kiu8
 bing_site_verification   : E9A1908DCAA52A63BF7B5F67DB05745D
 alexa_site_verification  : gXuVtj4bXDWiVB_ihCJijNBQNj8
@@ -50,12 +53,13 @@ naver_site_verification  : 6317134cb9bef4388b660148341705f37c442045
 permalink: /:title/
 
 paginate: 5
-paginate_path: "/page-:num/"
+paginate_path: "/page:num/"
 
 show_drafts: false
 future:      false
 unpublished: false
 
+# Hey jekyll, dont include this:
 exclude:
   - CNAME
   - Gemfile*
@@ -112,12 +116,12 @@ jekyll-mentions: "https://twitter.com"
 
 # jekyll-og image
 og_image:
-  domain: 'akhyar.js.org'
+  domain: *url
 
 # prose.io
 prose:
   rooturl: '_posts'
-  siteurl: 'https://akhyar.js.org/'
+  siteurl: *url
   relativeLinks: 'https://akhyar.js.org/links.jsonp'
   media: 'assets/uploads'
   metadata:
