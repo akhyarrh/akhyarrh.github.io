@@ -10,11 +10,41 @@ header_pages:
  - kontak.html
  - privasi.md
 show_related_posts: true
-text:
-  post:
-    related_posts: 'Other Posts'
 # used on kontak page to send email through formspree
 email: 'maywlrba'
+text:
+  pagination:
+    newer: 'Lebih Baru'
+    older: 'Lebih Lama'
+  share_buttons:
+    text:         'Bagikan postingan ini!'
+    facebook:     'Bagikan di Facebook'
+    twitter:      'Bagikan di Twitter'
+    googleplus:   'Bagikan di Google+'
+    linkedin:     'Bagikan di LinkedIn'
+    digg:         'Bagikan di Digg'
+    tumblr:       'Bagikan di Tumblr'
+    reddit:       'Bagikan di Reddit'
+    stumbleupon:  'Bagikan di StumbleUpon'
+    hackernews:   'Bagikan di Hacker News'
+  post:
+    updated:        'Diperbarui'
+    minute_read:    'menit baca'
+    related_posts:  'Post Lainnya'
+  index:
+    coming_soon: 'Segera hadir...'
+  contact:
+    email:    'Alamat Email'
+    content:  'Apa yang ingin kamu sampaikan?'
+    subject:  'Pengiriman baru!'
+    submit:   'Sapa Saya'
+    ajax:
+      sending:  'Mengirim...'
+      sent:     'Pesan terkirim!'
+      error:    'Ada kesalahan!'
+  thanks: 'Terima kasih sudah menghubungi kami. Kami akan segera membalas pesanmu.'
+  og_locale: 'id_ID'
+
 
 #theme: minima
 #show_excerpts: true
@@ -44,7 +74,7 @@ repository: akhyarrh/akhyarrh.github.io
 # used by <html lang>
 lang: id
 # used by jekyll-seo-tag (?)
-locale: id-ID
+locale: id_ID
 # blah
 language: id-ID
 
