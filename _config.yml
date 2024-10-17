@@ -34,7 +34,8 @@ text:
   index:
     coming_soon: 'Segera hadir...'
   contact:
-    email:    'Alamat Email'
+    name:     'Nama kamu'
+    email:    'Alamat email'
     content:  'Apa yang ingin kamu sampaikan?'
     subject:  'Pengiriman baru!'
     submit:   'Sapa Saya'
