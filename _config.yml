@@ -29,11 +29,13 @@ email: 'maywlrba'
 
 timezone: Asia/Makassar
 
-title: AkhyarRH
+title: "AkhyarRH's Weblog"
+tagline: 'Semua tentang berbagi hal yang berarti bagi saya.'
 description: >
-  Seperti sebuah blog pada umumnya.
-  Kebanyakan berisi tentang front-end, user experience,
-  dan accessibility (a11y).
+  Selamat datang di sudut kecil internet saya, tempat teknologi, gaming, dan catatan pribadi bertemu.
+  Di sini, saya menyampaikan apapun dengan gaya apa adanya.
+  Jika kamu seorang penggemar teknologi atau gamer yang mencari ulasan, insight, dan sudut pandang unik, kamu berada di tempat yang tepat.
+  Yuk, eksplorasi, curhat, dan terhubung bareng!
 url: &url 'https://akhyar.js.org'
 baseurl: ""
 repository: akhyarrh/akhyarrh.github.io
@@ -46,11 +48,30 @@ locale: id-ID
 # blah
 language: id-ID
 
+# used by jekyll-seo-tag
+twitter:
+  username: akhyarrh
+  card: summary
+
+# used by jekyll-seo-tag
+social:
+  name: 'M Akhyar Rahman H'
+  links:
+    - https://twitter.com/akhyarrh
+    - https://github.com/akhyarrh
+
 # site verification
-google_site_verification : sV2248YCZVyLu6nhz72znzNoCUhSfCqwiCEjUO-Kiu8
-bing_site_verification   : E9A1908DCAA52A63BF7B5F67DB05745D
-alexa_site_verification  : gXuVtj4bXDWiVB_ihCJijNBQNj8
-naver_site_verification  : 6317134cb9bef4388b660148341705f37c442045
+# used by jekyll-seo-tag
+webmaster_verifications:
+  google: 'sV2248YCZVyLu6nhz72znzNoCUhSfCqwiCEjUO-Kiu8'
+  bing: 'E9A1908DCAA52A63BF7B5F67DB05745D'
+  alexa: 'gXuVtj4bXDWiVB_ihCJijNBQNj8'
+#  yandex: 1234
+#  baidu: 1234
+#  facebook: 1234
+
+# not used currently
+#naver_site_verification  : 6317134cb9bef4388b660148341705f37c442045
 
 permalink: /:title/
 
@@ -118,7 +139,7 @@ jekyll-mentions: "https://twitter.com"
 
 # jekyll-og image
 og_image:
-  domain: *url
+  domain: 'akhyar.js.org'
 
 # prose.io
 prose:
