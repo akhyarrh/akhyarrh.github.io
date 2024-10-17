@@ -43,7 +43,7 @@ text:
       sending:  'Mengirim...'
       sent:     'Pesan terkirim!'
       error:    'Ada kesalahan!'
-  thanks: 'Terima kasih sudah menghubungi kami. Kami akan segera membalas pesanmu.'
+  thanks: 'Terima kasih sudah menghubungi saya. Saya akan segera membalas pesanmu.'
   og_locale: 'id_ID'
 
 
@@ -82,7 +82,7 @@ language: id-ID
 # used by jekyll-seo-tag
 twitter:
   username: akhyarrh
-  card: summary
+  card: summary_large_image
 
 # used by jekyll-seo-tag
 social:
@@ -95,8 +95,8 @@ social:
 # used by jekyll-seo-tag
 webmaster_verifications:
   google: 'sV2248YCZVyLu6nhz72znzNoCUhSfCqwiCEjUO-Kiu8'
-  bing: 'E9A1908DCAA52A63BF7B5F67DB05745D'
-  alexa: 'gXuVtj4bXDWiVB_ihCJijNBQNj8'
+  bing:   'E9A1908DCAA52A63BF7B5F67DB05745D'
+  alexa:  'gXuVtj4bXDWiVB_ihCJijNBQNj8'
 #  yandex: 1234
 #  baidu: 1234
 #  facebook: 1234
@@ -106,7 +106,7 @@ webmaster_verifications:
 
 permalink: /:title/
 
-paginate: 5
+paginate: 10
 paginate_path: "/page:num/"
 
 show_drafts: false
@@ -123,6 +123,7 @@ exclude:
   - netlify.toml
   - node_modules
   - vendor
+  - staticman.yml
 
 sass:
   style: expanded
@@ -162,7 +163,7 @@ plugins:
 markdown: CommonMark
 
 commonmark:
-  options: ['SMART','FOOTNOTES','STRIKETHROUGH_DOUBLE_TILDE','GITHUB_PRE_LANG']
+  options: ['SMART','FOOTNOTES','STRIKETHROUGH_DOUBLE_TILDE']
   extensions: ['table', 'strikethrough', 'autolink', 'tagfilter']
 
 jekyll-mentions: "https://twitter.com"
