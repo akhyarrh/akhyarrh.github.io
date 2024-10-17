@@ -6,7 +6,7 @@
 remote_theme: akhyarrh/apropixyll
 date_format: '%d %B %Y'
 header_pages:
- - profil.md
+ - README.md
  - kontak.html
  - privasi.md
 show_related_posts: true
@@ -89,7 +89,6 @@ exclude:
   - LICENSE
   - Makefile
   - Rakefile
-  - README.md
   - netlify.toml
   - node_modules
   - vendor
