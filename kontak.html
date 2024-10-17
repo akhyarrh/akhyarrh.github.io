@@ -8,14 +8,21 @@ title: Kontak
   {% if site.ajaxify_contact_form %}
     <form class="form-stacked">
       <label>
+        Nama
+        <input type="text" name="name" class="field-light" placeholder="{{ site.text.contact.name | default: "Your Name" }}">
+      </label>
+
+      <label>
         Email
         <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email | default: "Email Address" }}">
       </label>
 
       <label>
-        Content
+        Isi pesan
         <textarea type="text" name="content" class="field-light" rows="5" placeholder="{{ site.text.contact.content | default: "What would you like to say?" }}" style="resize: vertical"></textarea>
       </label>
+
+      <input type="hidden" name="_subject" value="{{ site.text.contact.subject | default: "New submission!" }}" />
 
       <input type="text" name="_gotcha" style="display:none" />
 
@@ -24,15 +31,19 @@ title: Kontak
   {% else %}
     <form action="https://formspree.io/f/{{ site.email }}" method="POST" class="form-stacked">
       <label>
+        Nama
+        <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.name | default: "Your Name" }}">
+      </label>
+      <label>
         Email
         <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email | default: "Email Address" }}">
       </label>
       <label>
-        Content
+        Isi pesan
         <textarea type="text" name="content" class="field-light" rows="5" placeholder="{{ site.text.contact.content | default: "What would you like to say?" }}" style="resize: vertical"></textarea>
       </label>
 
-      <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks/" />
+      <input type="hidden" name="_next" value="{{ "/kontak/" | relative_url }}" />
       <input type="hidden" name="_subject" value="{{ site.text.contact.subject | default: "New submission!" }}" />
       <input type="text" name="_gotcha" style="display:none" />
 
