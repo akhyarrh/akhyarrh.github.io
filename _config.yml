@@ -176,7 +176,7 @@ og_image:
     #background_color: "#333333"
   #header:
     #color: "#ffffff"
-  #content:
+  content:
     font_family: 'Georgia, Regular'
     #color: "#ffffff"
   border_bottom:
