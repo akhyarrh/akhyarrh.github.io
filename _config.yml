@@ -164,7 +164,7 @@ markdown: CommonMark
 
 commonmark:
   options: ['SMART','FOOTNOTES','UNSAFE']
-  extensions: ['table', 'strikethrough', 'autolink', 'superscript', 'description_lists', 'multiline_block_quotes']
+  extensions: ['table', 'strikethrough', 'autolink']
 
 jekyll-mentions: "https://twitter.com"
 
