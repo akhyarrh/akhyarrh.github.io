@@ -163,7 +163,7 @@ plugins:
 markdown: CommonMark
 
 commonmark:
-  options: ['SMART','FOOTNOTES','STRIKETHROUGH_DOUBLE_TILDE']
+  options: ['SMART','FOOTNOTES','STRIKETHROUGH_DOUBLE_TILDE', 'UNSAFE']
   render: ['unsafe_']
   extensions: ['table', 'strikethrough', 'autolink']
 
