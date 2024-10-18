@@ -176,11 +176,11 @@ og_image:
     #background_color: "#333333"
   #header:
     #color: "#ffffff"
-  content:
-    font_family: 'Georgia, Regular'
+  #content:
+    #font_family: 'Georgia, Regular'
     #color: "#ffffff"
-  border_bottom:
-    width: 50
+  #border_bottom:
+    #width: 50
 
 # prose.io
 prose:
