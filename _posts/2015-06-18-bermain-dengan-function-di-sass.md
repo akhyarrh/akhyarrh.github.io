@@ -8,7 +8,7 @@ Awalnya ingin mendalami lebih jauh mengenai *fuction* di Sass. Akhirnya malah me
 
 Ini cuman penerapan yang dasar. Bikin grid yang lebarnya menggunakan persen. Sedikit demo, menggunakan embednya [Codepen](https://codepen.io).
 
-<p data-height="268" data-theme-id="0" data-slug-hash="zGdXzd" data-default-tab="result" data-user="akhyar" class='codepen'>See the Pen <a href='http://codepen.io/akhyar/pen/zGdXzd/'>Bermain dengan function di Sass</a> by Akhyar Rahman (<a href='http://codepen.io/akhyar'>@akhyar</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="268" data-theme-id="0" data-slug-hash="zGdXzd" data-default-tab="result" data-user="akhyar" class='codepen'>See the Pen <a href='https://codepen.io/akhyar/pen/zGdXzd/'>Bermain dengan function di Sass</a> by Akhyar Rahman (<a href='https://codepen.io/akhyar'>@akhyar</a>) on <a href='https://codepen.io'>CodePen</a>.</p>
 <script async src="https://assets.codepen.io/assets/embed/ei.js"></script>
 
 Ga ada `.container` sama `.row` biar lebih enak dibacanya. Sebenarnya perlu sih, tapi kalo aku masukin juga nanti susah memahaminya. Intinya itu menggunakan logika dasar aja buat mencari nilai persen.
