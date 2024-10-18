@@ -18,12 +18,14 @@ jobs:
         with:
           ruby-version: 'ruby'
           bundler-cache: true
+          cache-version: 1
 
-      - run: |
-          sudo apt-get update
-          sudo apt-get install --no-install-recommends libvips
+      - uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: libvips
+          version: 1.0
 
-      - run: bundle exec jekyll build
+      - run: bundle exec jekyll build --trace
         env:
           JEKYLL_ENV: production
           
