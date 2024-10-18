@@ -163,9 +163,8 @@ plugins:
 markdown: CommonMark
 
 commonmark:
-  options: ['SMART','FOOTNOTES','STRIKETHROUGH_DOUBLE_TILDE', 'UNSAFE']
-  render: ['unsafe_']
-  extensions: ['table', 'strikethrough', 'autolink']
+  options: ['SMART','FOOTNOTES','UNSAFE']
+  extensions: ['table', 'strikethrough', 'autolink', 'superscript', 'description_lists', 'multiline_block_quotes']
 
 jekyll-mentions: "https://twitter.com"
 
