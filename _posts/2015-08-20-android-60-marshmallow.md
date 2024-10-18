@@ -6,7 +6,7 @@ tags: [android]
 
 Android 6.0 Marshmallow kemungkinan rilis di tahun ini. Mari kita bongkar apa saja yang baru.
 
-> Marshmallow!!! <a href="http://t.co/3JYkCBWD1R">pic.twitter.com/3JYkCBWD1R</a>
+> Marshmallow!!! <a href="https://t.co/3JYkCBWD1R">pic.twitter.com/3JYkCBWD1R</a>
 >
 > <cite><a href="https://twitter.com/davey_burke/status/633324719266115584">Dave Burke (@davey_burke)</a></cite>
 
