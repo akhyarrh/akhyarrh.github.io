@@ -170,7 +170,17 @@ jekyll-mentions: "https://twitter.com"
 
 # jekyll-og image
 og_image:
+  verbose: true
   domain: 'akhyar.js.org'
+  canvas:
+    background_color: '#333333'
+  header:
+    color: '#ffffff'
+  content:
+    font_family: 'Georgia, Regular'
+    color: '#ffffff'
+  border_bottom:
+    width: 50
 
 # prose.io
 prose:
