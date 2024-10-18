@@ -11,6 +11,7 @@ end
 
 gem 'jekyll'
 gem 'liquid-c'
+gem 'nokogiri'
 
 # For testing generated html
 gem 'html-proofer'
