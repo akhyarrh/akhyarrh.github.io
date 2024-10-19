@@ -154,7 +154,7 @@ plugins:
   - jekyll-relative-links
   - jemoji
   - jekyll-target-blank
-  - jekyll-og-image
+  #- jekyll-og-image
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
@@ -169,9 +169,9 @@ commonmark:
 jekyll-mentions: "https://twitter.com"
 
 # jekyll-og image
-og_image:
-  verbose: true
-  domain: 'akhyar.js.org'
+#og_image:
+  #verbose: true
+  #domain: 'akhyar.js.org'
   #canvas:
     #background_color: "#333333"
   #header:
