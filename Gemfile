@@ -27,6 +27,7 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'jekyll-target-blank'
     #gem 'jekyll-og-image'
+    gem 'jekyll-date-localization'
     gem 'jekyll-paginate'
     gem 'jekyll-seo-tag'
     gem 'jekyll-sitemap'
