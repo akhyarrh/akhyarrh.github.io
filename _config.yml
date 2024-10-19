@@ -140,6 +140,7 @@ exclude:
 sass:
   style: expanded
   sourcemap: development
+  verbose: true
 
 defaults:
   # _posts
