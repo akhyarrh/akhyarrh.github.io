@@ -12,6 +12,7 @@ header_pages:
 show_related_posts: true
 # used on kontak page to send email through formspree
 email: 'maywlrba'
+# pixyll text translated to indonesian
 text:
   pagination:
     newer: 'Lebih Baru'
@@ -35,17 +36,22 @@ text:
     coming_soon: 'Segera hadir...'
   contact:
     name:     'Nama kamu'
-    email:    'Alamat email'
+    email:    'Alamat emailmu'
     content:  'Apa yang ingin kamu sampaikan?'
-    subject:  'Pengiriman baru!'
-    submit:   'Sapa Saya'
+    subject:  'Pesan baru!'
+    submit:   'Kirim'
     ajax:
       sending:  'Mengirim...'
-      sent:     'Pesan terkirim!'
+      sent:     'Terkirim!'
       error:    'Ada kesalahan!'
   thanks: 'Terima kasih sudah menghubungi saya. Saya akan segera membalas pesanmu.'
   og_locale: 'id_ID'
-
+  comment:
+    header: 'Komentar'
+    name: 'Nama Kamu.'
+    url: 'Link ke website, blog, atau social media kamu.'
+    message: 'Isi komentarmu.'
+    submit: 'Kirim Komentar'
 
 #theme: minima
 #show_excerpts: true
@@ -70,6 +76,12 @@ description: >
 url: &url 'https://akhyar.js.org'
 baseurl: ""
 repository: akhyarrh/akhyarrh.github.io
+
+# jekyll-date-localization
+date_locale: id
+
+# Staticman url
+staticman_url: 'https://legendary-macaron-3a5244.netlify.app/.netlify/functions/staticman'
 
 # WTF IS THIS THING
 # used by <html lang>
@@ -155,6 +167,7 @@ plugins:
   - jemoji
   - jekyll-target-blank
   #- jekyll-og-image
+  - jekyll-date-localization
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
