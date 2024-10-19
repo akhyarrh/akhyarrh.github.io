@@ -9,6 +9,13 @@ comments:
   # not here is part of the request, an error will be thrown.
   allowedFields: ["name", "email", "url", "message", "slug"]
 
+  # (*) REQUIRED WHEN USING NOTIFICATIONS
+  #
+  # When allowedOrigins is defined, only requests sent from one of the domains
+  # listed will be accepted. The origin is sent as part as the `options` object
+  # (e.g. <input name="options[origin]" value="https://yourdomain.com/post1")
+  allowedOrigins: ["https://akhyarrh.github.io","https://akhyar.js.org"]
+
   # (*) REQUIRED
   #
   # Name of the branch being used. Must match the one sent in the URL of the
@@ -43,7 +50,7 @@ comments:
   moderation: true
 
   # Name of the site. Used in notification emails.
-  name: "akhyarrh.github.io"
+  name: "AkhyarRH's Weblog"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
