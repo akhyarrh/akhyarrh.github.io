@@ -77,9 +77,6 @@ url: &url 'https://akhyar.js.org'
 baseurl: ""
 repository: akhyarrh/akhyarrh.github.io
 
-# jekyll-date-localization
-date_locale: id
-
 # Staticman url
 staticman_url: 'https://legendary-macaron-3a5244.netlify.app/.netlify/functions/staticman'
 
@@ -168,7 +165,6 @@ plugins:
   - jemoji
   - jekyll-target-blank
   #- jekyll-og-image
-  - jekyll-date-localization
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
