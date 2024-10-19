@@ -4,5 +4,5 @@
   environment = { JEKYLL_ENV = "production" }
 
 [context.deploy-preview]
-  command = "bundle exec jekyll build --config _config.yml,_config_ci_test.yml && npx @divriots/jampack ./_site"
+  command = "bundle exec jekyll build --trace"
   publish = "_site/"
