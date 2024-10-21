@@ -12,7 +12,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - uses: ruby/setup-ruby@v1
         with:
@@ -22,6 +22,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 'latest'
+          cache: 'npm'
+          cache-dependency-path: 'package.json'
 
       - run: |
           sudo apt-get update
@@ -35,6 +37,8 @@ jobs:
             jampack
 
       - run: bundle exec jekyll build
+
+      - run: npm install
 
       - run: npx @divriots/jampack ./_site
 
