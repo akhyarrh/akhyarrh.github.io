@@ -1,8 +1,7 @@
 [context.production]
-  command = "bundle exec jekyll build"
-  publish = "_site/admin/"
-  environment = { JEKYLL_ENV = "production" }
+  publish = "_site/this/path/dont/exist/"
 
 [context.deploy-preview]
-  command = "bundle exec jekyll build --trace"
+  command = "bundle exec jekyll build --trace && npx @divriots/jampack ./_site"
   publish = "_site/"
+  environment = { JEKYLL_ENV = "production" }
