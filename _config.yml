@@ -178,6 +178,8 @@ markdown: CommonMark
 commonmark:
   options: ['SMART','FOOTNOTES','UNSAFE']
   extensions: ['table', 'strikethrough', 'autolink']
+  render:
+    header_ids: true  # Enable auto-IDs for headings
 
 jekyll-mentions: "https://twitter.com"
 
