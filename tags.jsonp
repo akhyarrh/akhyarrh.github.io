@@ -1,0 +1,118 @@
+tags([
+
+  {
+    "name": "Catatan",
+    "value": "catatan"
+  },
+
+  {
+    "name": "Android",
+    "value": "android"
+  },
+
+  {
+    "name": "Tips",
+    "value": "tips"
+  },
+
+  {
+    "name": "Security",
+    "value": "security"
+  },
+
+  {
+    "name": "Jekyll",
+    "value": "jekyll"
+  },
+
+  {
+    "name": "Ruby",
+    "value": "ruby"
+  },
+
+  {
+    "name": "Linux",
+    "value": "linux"
+  },
+
+  {
+    "name": "Sass",
+    "value": "sass"
+  },
+
+  {
+    "name": "Chrome",
+    "value": "chrome"
+  },
+
+  {
+    "name": "Web",
+    "value": "web"
+  },
+
+  {
+    "name": "Front-end",
+    "value": "front-end"
+  },
+
+  {
+    "name": "Css",
+    "value": "css"
+  },
+
+  {
+    "name": "Browser",
+    "value": "browser"
+  },
+
+  {
+    "name": "Firefox",
+    "value": "firefox"
+  },
+
+  {
+    "name": "Static-site",
+    "value": "static-site"
+  },
+
+  {
+    "name": "Proyek",
+    "value": "proyek"
+  },
+
+  {
+    "name": "Windows",
+    "value": "windows"
+  },
+
+  {
+    "name": "Wsl",
+    "value": "wsl"
+  },
+
+  {
+    "name": "Wordpress",
+    "value": "wordpress"
+  },
+
+  {
+    "name": "Filosofis",
+    "value": "Filosofis"
+  },
+
+  {
+    "name": "Kehidupan",
+    "value": "Kehidupan"
+  },
+
+  {
+    "name": "Kopi",
+    "value": "Kopi"
+  },
+
+  {
+    "name": "Pengalaman",
+    "value": "Pengalaman"
+  }
+
+])

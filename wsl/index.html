@@ -1,0 +1,254 @@
+<!DOCTYPE html><html lang="id"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>WSL | AkhyarRH’s Weblog</title>
+<meta name="generator" content="Jekyll v4.3.4">
+<meta property="og:title" content="WSL">
+<meta property="og:locale" content="id_ID">
+<meta name="description" content="WSL atau Windows Subsystem for Linux membuat kita bisa menjalankan Linux environment langsung melalui Windows. Saat ini cuma di support di Windows 10. Sejauh ini nyaman-nyaman aja. I’m having fun with it. Setidaknya ga perlu dual OS pakai VirtualBox atau menjalankan container Linux memakai Docker. Good job, Microsoft.">
+<meta property="og:description" content="WSL atau Windows Subsystem for Linux membuat kita bisa menjalankan Linux environment langsung melalui Windows. Saat ini cuma di support di Windows 10. Sejauh ini nyaman-nyaman aja. I’m having fun with it. Setidaknya ga perlu dual OS pakai VirtualBox atau menjalankan container Linux memakai Docker. Good job, Microsoft.">
+<link rel="canonical" href="https://akhyar.js.org/wsl/">
+<meta property="og:url" content="https://akhyar.js.org/wsl/">
+<meta property="og:site_name" content="AkhyarRH’s Weblog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2019-10-31T00:00:00+08:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="WSL">
+<meta name="twitter:site" content="@akhyarrh">
+<meta name="google-site-verification" content="sV2248YCZVyLu6nhz72znzNoCUhSfCqwiCEjUO-Kiu8">
+<meta name="msvalidate.01" content="E9A1908DCAA52A63BF7B5F67DB05745D">
+<meta name="alexaVerifyID" content="gXuVtj4bXDWiVB_ihCJijNBQNj8">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2019-10-31T00:00:00+08:00","datePublished":"2019-10-31T00:00:00+08:00","description":"WSL atau Windows Subsystem for Linux membuat kita bisa menjalankan Linux environment langsung melalui Windows. Saat ini cuma di support di Windows 10. Sejauh ini nyaman-nyaman aja. I’m having fun with it. Setidaknya ga perlu dual OS pakai VirtualBox atau menjalankan container Linux memakai Docker. Good job, Microsoft.","headline":"WSL","mainEntityOfPage":{"@type":"WebPage","@id":"https://akhyar.js.org/wsl/"},"url":"https://akhyar.js.org/wsl/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/style.css?202410211604" type="text/css">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/favicon-48x48.png" sizes="48x48">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="AkhyarRH's Weblog">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link type="application/atom+xml" rel="alternate" href="https://akhyar.js.org/feed.xml" title="AkhyarRH's Weblog">
+
+    
+
+    
+    
+    
+
+    
+    
+</head>
+
+<body class="site">
+  
+	
+
+  <div class="site-wrap">
+    <header class="px-responsive px2 site-header">
+  <div class="wrap mt2">
+    <div class="measure">
+      
+      <a href="/" class="site-title">AkhyarRH's Weblog</a>
+      
+      <nav class="site-nav">
+        
+
+
+
+    
+    
+    
+    
+        <a class="nav-link" href="/profil">Profil</a>
+    
+
+    
+
+    
+    
+    
+    
+        <a class="nav-link" href="/kontak/">Kontak</a>
+    
+
+    
+
+    
+    
+    
+    
+        <a class="nav-link" href="/privasi/">Privasi</a>
+    
+
+    
+
+
+      </nav>
+      <div class="clearfix"></div>
+      
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p-responsive p2 wrap" role="main">
+      <div class="measure">
+            <!-- Day without leading zero -->
+   <!-- Full month name -->
+    <!-- Year with century -->
+
+
+
+
+
+
+
+
+<div class="mb2 post-header">
+  
+  <h1>WSL
+</h1>
+  <p><span class="post-meta">31 Oktober 2019</span><br>
+  </p>
+</div>
+
+<article class="post-content">
+  <p>WSL atau Windows Subsystem for Linux membuat kita bisa menjalankan Linux environment langsung melalui Windows. Saat ini cuma di support di Windows 10. Sejauh ini nyaman-nyaman aja. I’m having fun with it. Setidaknya ga perlu dual OS pakai VirtualBox atau menjalankan container Linux memakai Docker. Good job, Microsoft.</p>
+<p>Disini saya mencoba dokumentasikan apa aja yang sudah saya pelajari.</p>
+<h2>Explorer</h2>
+<p>Folder user di WSL <strong>hanya boleh dibuka melalui terminal</strong>. Kalo mengakses dari Windows nya, ada kemungkinan corrupt. Singkatnya, kalau biasanya kita buka Explorer lalu langsung menuju folder user (i.e C:\Users\akhyar). Di WSL yang harus diingat adalah buka terminal dulu, lalu buka folder user melalui terminal.</p>
+<div class="highlighter-rouge language-bash"><div class="highlight"><pre class="highlight"><code data-lang="bash"><span class="c"># open current cwd</span>
+explorer.exe <span class="nb">.</span>
+
+<span class="c"># or add alias</span>
+<span class="nb">alias </span><span class="nv">explore</span><span class="o">=</span><span class="s2">"explorer.exe ."</span>
+explore
+<span class="c"># you can put that snippet to .bash_profile</span>
+<span class="c"># or any user config file for your shell</span>
+<span class="c"># i.e if you are using zsh, its .zprofile</span>
+</code></pre></div></div>
+<p>Perintah itu menginstruksikan Explorer untuk membuka folder saat ini (Current Working Directory atau <code>cwd</code>). Umumnya saat buka terminal distro Linux yang kita pilih, <code>cwd</code> langsung tertuju ke folder user.</p>
+<h2>Symlink</h2>
+<p>Nah ini yang bikin pusing. Di WSL kalau pakai explorer, file yang berupa symbolic link ga bisa dibuka. Folder yang berupa symbolic link pun bahkan dibaca sebagai file. <a href="https://akudo.codes/2018/12/10/mklink-command-in-windows-ubuntu-wsl/" target="_blank" rel="noopener noreferrer">Here</a> is a workaround using <code>mklink</code>. Tapi setelah saya coba, ternyata kurang cocok dan ada error lagi.</p>
+<p>Masalahnya buat saya adalah saya jadi ga bisa memanage <a href="https://github.com/akhyarrh/dotfiles" target="_blank" rel="noopener noreferrer">dotfiles</a> melalui subfolder. Dotfiles harus di clone ke <code>$HOME</code> yang mana ini ga saya lakukan karena takutnya jadi makin berantakan.</p>
+<h2>Docker Container</h2>
+<p>Saat mencoba Docker di WSL, Docker ga bisa di buka. Workaround ada <a href="https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly" target="_blank" rel="noopener noreferrer">disini</a>. Cuman itu menggunakan Docker di Windows yang bisa diakses oleh Docker di WSL. Sampai saat ini saya masih bingung bagaimana menggunakan Docker di WSL tapi container bisa di cek melalui Windows. I guess this is another thing to learn for this weekend.</p>
+<hr>
+<p>Thats it. Semoga aja bisa di mengerti oleh kalian yang juga ingin bereksperimen menggunakan WSL.</p>
+<p>Minggu ini juga lagi mempelajari <a href="https://kubernetes.io" target="_blank" rel="noopener noreferrer">kubernetes</a>. Orchestration platform yang dibuat oleh Google dan sudah open source. Eksperimen saya adalah deploy <a href="https://ghost.org" target="_blank" rel="noopener noreferrer">Ghost</a> di <a href="https://kuber.host" target="_blank" rel="noopener noreferrer">kuber.host</a>. State saat ini bisa di cek <a href="https://akhyarrh.kuber.host" target="_blank" rel="noopener noreferrer">disini</a>. See ya.</p>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+  <h2 class="related-post-title">Post Lainnya</h2>
+  
+  
+    <div class="post ml2">
+      <a href="/5-smartphone-android-terbaik-2014/" class="post-link">
+        <h3 class="post-title">5 Smartphone Android Terbaik 2014
+</h3>
+        <p class="post-summary">
+          
+            Di tahun 2014, banyak smartphone Android yang dirilis. Mulai dari yang paling cakep sampai yang paling amburadul, mulai dari yang paling murah sampai yang harganya cukup untuk merebut pacar orang lain. Beragam memang, tapi silakan dinikmati 5 smartphone android terbaik menurut gue di tahun 2014. Ingat, ini versi gue pribadi. Hasil didasari oleh kesukaan, percobaan, nonton video di youtube, browsing kemana-mana, dan lain-lain. Langsung aja cekidot bruh.
+
+          
+        </p>
+      </a>
+    </div>
+  
+    <div class="post ml2">
+      <a href="/hidup-bersama-perangkat-android-jadul/" class="post-link">
+        <h3 class="post-title">Hidup bersama Perangkat Android Jadul
+</h3>
+        <p class="post-summary">
+          
+            Legacy Device adalah istilah yang digunakan untuk menyebut perangkat Android jadul, sudah tidak didukung oleh vendor pembuatnya lagi, dan semacamnya. Saat ini memakai smartphone yang dirilis lebih dari 5 tahun yang lalu adalah sebuah tantangan, setidaknya menurut saya banyak tantangan yang harus dihadapi. Mulai dari jumlah memori yang tidak lagi mencukupi, performa yang kurang lancar, aplikasi-aplikasi yang tidak kompatibel, dan lain-lain.
+
+          
+        </p>
+      </a>
+    </div>
+  
+    <div class="post ml2">
+      <a href="/melanggar-aturan-saya-sendiri/" class="post-link">
+        <h3 class="post-title">Melanggar Aturan Saya Sendiri
+</h3>
+        <p class="post-summary">
+          
+            Beberapa hari yang lalu saya akhirnya menemukan Android saya yang selanjutnya. Entah ini gadget Android saya yang keberapa udah lupa. Namanya Gucci, mungkin lebih banyak dikenal sebagai Xiaomi Redmi Note 4G Dual. Tapi saya lebih senang memanggilnya Guci. Sebenarnya Guci ini phablet, lebih besar dari handphone tapi terlalu kecil kalau harus disebut tablet.
+
+          
+        </p>
+      </a>
+    </div>
+  
+
+
+
+<div id="comments">
+  <h2 class="comments-title">Komentar</h2>
+
+  
+
+  <form action="https://staticman-akhyarrh.netlify.app/.netlify/functions/staticman" method="POST" class="form-stacked">
+  <input name="options[origin]" type="hidden" value="https://akhyar.js.org">
+  <input name="options[slug]" type="hidden" value="wsl">
+  <label>
+    Nama
+    <input type="text" name="fields[name]" class="field-light" placeholder="Nama Kamu." required="">
+  </label>
+  <label>
+    URL
+    <input type="text" name="fields[url]" class="field-light" placeholder="Link ke website, blog, atau social media kamu." optional="">
+  </label>
+  <label>
+    Isi komentar
+    <textarea type="text" name="fields[message]" class="field-light" rows="7" placeholder="Isi komentarmu." style="resize:vertical" required=""></textarea>
+  </label>
+
+  <input type="text" name="_gotcha" style="display:none">
+  <input type="hidden" name="options[redirect]" value="/wsl/">
+  
+  <input type="submit" class="button button-big button-blue mobile-block" value="Kirim Komentar">
+</form>
+
+
+</div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+  <div class="measure">
+    <small>
+      <a href="/feed.xml">RSS</a>
+    </small>
+  </div>
+</footer>
+
+<script type="text/javascript">"serviceWorker"in navigator&&navigator.serviceWorker.register("/service-worker.js");
+</script>
+
+
+
+</body></html>

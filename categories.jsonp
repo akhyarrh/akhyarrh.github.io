@@ -1,0 +1,18 @@
+categories([
+
+  {
+    "name": "jekyll",
+    "value": "jekyll"
+  },
+
+  {
+    "name": "update",
+    "value": "update"
+  },
+
+  {
+    "name": "30 Days Writing Challenge",
+    "value": "30 Days Writing Challenge"
+  }
+
+])
