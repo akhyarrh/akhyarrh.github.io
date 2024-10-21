@@ -78,7 +78,7 @@ baseurl: ""
 repository: akhyarrh/akhyarrh.github.io
 
 # Staticman url
-staticman_url: 'https://legendary-macaron-3a5244.netlify.app/.netlify/functions/staticman'
+staticman_url: 'https://staticman-akhyarrh.netlify.app/.netlify/functions/staticman'
 
 # WTF IS THIS THING
 # used by <html lang>
