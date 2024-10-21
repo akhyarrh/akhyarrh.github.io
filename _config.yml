@@ -133,6 +133,9 @@ exclude:
   - node_modules
   - vendor
   - staticman.yml
+  - package.json
+  - package-lock.json
+  - jampack.config.js
 
 sass:
   style: expanded
