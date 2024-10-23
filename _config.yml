@@ -8,10 +8,11 @@ date_format: '%d %B %Y'
 header_pages:
  - README.md
  - kontak.html
- - privasi.md
 show_related_posts: true
+
 # used on kontak page to send email through formspree
 email: 'maywlrba'
+
 # pixyll text translated to indonesian
 text:
   pagination:
