@@ -1,0 +1,239 @@
+<!DOCTYPE html><html lang="id"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>localhost friendly Firefox | AkhyarRH’s Weblog</title>
+<meta name="generator" content="Jekyll v4.3.4">
+<meta property="og:title" content="localhost friendly Firefox">
+<meta property="og:locale" content="id_ID">
+<meta name="description" content="Ever wonder how to tell Firefox to not cache some address ? i.e. your localhost:$DEV_PORT or some https://your-development-server ? Just tell it to ignore that address.">
+<meta property="og:description" content="Ever wonder how to tell Firefox to not cache some address ? i.e. your localhost:$DEV_PORT or some https://your-development-server ? Just tell it to ignore that address.">
+<link rel="canonical" href="https://akhyar.js.org/localhost-friendly-firefox/">
+<meta property="og:url" content="https://akhyar.js.org/localhost-friendly-firefox/">
+<meta property="og:site_name" content="AkhyarRH’s Weblog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-10-14T00:00:00+08:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="localhost friendly Firefox">
+<meta name="twitter:site" content="@akhyarrh">
+<meta name="google-site-verification" content="sV2248YCZVyLu6nhz72znzNoCUhSfCqwiCEjUO-Kiu8">
+<meta name="msvalidate.01" content="E9A1908DCAA52A63BF7B5F67DB05745D">
+<meta name="alexaVerifyID" content="gXuVtj4bXDWiVB_ihCJijNBQNj8">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2020-10-14T00:00:00+08:00","datePublished":"2020-10-14T00:00:00+08:00","description":"Ever wonder how to tell Firefox to not cache some address ? i.e. your localhost:$DEV_PORT or some https://your-development-server ? Just tell it to ignore that address.","headline":"localhost friendly Firefox","mainEntityOfPage":{"@type":"WebPage","@id":"https://akhyar.js.org/localhost-friendly-firefox/"},"url":"https://akhyar.js.org/localhost-friendly-firefox/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/style.css?202410250835" type="text/css">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/favicon-48x48.png" sizes="48x48">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="AkhyarRH's Weblog">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link type="application/atom+xml" rel="alternate" href="https://akhyar.js.org/feed.xml" title="AkhyarRH's Weblog">
+
+    
+
+    
+    
+    
+
+    
+    
+</head>
+
+<body class="site">
+  
+	
+
+  <div class="site-wrap">
+    <header class="px-responsive px2 site-header">
+  <div class="wrap mt2">
+    <div class="measure">
+      
+      <a href="/" class="site-title">AkhyarRH's Weblog</a>
+      
+      <nav class="site-nav">
+        
+
+
+
+    
+    
+    
+    
+        <a class="nav-link" href="/profil">Profil</a>
+    
+
+    
+
+    
+    
+    
+    
+        <a class="nav-link" href="/kontak/">Kontak</a>
+    
+
+    
+
+
+      </nav>
+      <div class="clearfix"></div>
+      
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p-responsive p2 wrap" role="main">
+      <div class="measure">
+            <!-- Day without leading zero -->
+   <!-- Full month name -->
+    <!-- Year with century -->
+
+
+
+
+
+
+
+
+<div class="mb2 post-header">
+  
+  <h1>
+<code>localhost</code> friendly Firefox
+</h1>
+  <p><span class="post-meta">14 Oktober 2020</span><br>
+  </p>
+</div>
+
+<article class="post-content">
+  <p>Ever wonder how to tell Firefox to not cache some address ? i.e. your <code>localhost:$DEV_PORT</code> or some <a href="https://your-development-server" target="_blank" rel="noopener noreferrer">https://your-development-server</a> ?
+Just tell it to ignore that address.</p>
+<p><img src="/assets/post-img/tell-firefox-to-not-allow-localhost-store-data.webp" alt="“If you’re reading this, this image is showing Firefox preference screen to disable caching for any port on localhost address”" fetchpriority="high" decoding="async" width="1366" height="738"></p>
+<p>This solution is so f-in simple. <br>
+Please note in that image I disable caching for <code>localhost</code> but not for <code>localhost:4040</code>. So we can use that port to check something
+that need browser localstorage or cookie to function properly i.e. <code>service-worker</code>. <br>
+Also Firefox treat <code>localhost</code> and <code>localhost:4000</code> as different address. That mean explicit address only.
+Apache or nginx by default able to listen request on <code>localhost</code>. Your setup maybe different. <br>
+For Jekyll by default you can add <code>localhost:4000</code>.</p>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+  <h2 class="related-post-title">Post Lainnya</h2>
+  
+  
+    <div class="post ml2">
+      <a href="/mengenal-jekyll/" class="post-link">
+        <h3 class="post-title">Mengenal Jekyll
+</h3>
+        <p class="post-summary">
+          
+            Beberapa minggu belakangan, terhitung sejak awal masa liburan, gue main-main sama Jekyll dan SASS. Jekyll pada dasarnya bukan blogging platform, bukan juga CMS, tetapi static site generator. Fungsinya simple, mengubah apapun yang ada dan dia bisa, jadi sebuah HTML. Simple banget memang, kalo bikin HTML siapapun yang paham apa dasar HTML juga bisa.
+
+          
+        </p>
+      </a>
+    </div>
+  
+    <div class="post ml2">
+      <a href="/wsl/" class="post-link">
+        <h3 class="post-title">WSL
+</h3>
+        <p class="post-summary">
+          
+            WSL atau Windows Subsystem for Linux membuat kita bisa menjalankan Linux environment langsung melalui Windows. Saat ini cuma di support di Windows 10. Sejauh ini nyaman-nyaman aja. I’m having fun with it. Setidaknya ga perlu dual OS pakai VirtualBox atau menjalankan container Linux memakai Docker. Good job, Microsoft.
+
+          
+        </p>
+      </a>
+    </div>
+  
+    <div class="post ml2">
+      <a href="/setup-custom-dns/" class="post-link">
+        <h3 class="post-title">Mengubah DNS di Linux
+</h3>
+        <p class="post-summary">
+          
+            Cara ini sudah sangat lama saya pergunakan. Jadi kalau misalnya tidak bekerja dengan benar atau ada kesalahan, hubungi saya di Twitter.
+
+          
+        </p>
+      </a>
+    </div>
+  
+
+
+
+<div id="comments">
+  <h2 class="comments-title">Komentar</h2>
+
+  
+
+  <form action="https://staticman-akhyarrh.netlify.app/.netlify/functions/staticman" method="POST" class="form-stacked">
+  <input name="options[origin]" type="hidden" value="https://akhyar.js.org">
+  <input name="options[slug]" type="hidden" value="localhost-friendly-firefox">
+  <label>
+    Nama
+    <input type="text" name="fields[name]" class="field-light" placeholder="Nama Kamu." required="">
+  </label>
+  <!--
+    Disable for now
+    Until I find a way to render URL
+    because people like to enter URL without
+    `http://` or `https://`
+  <label>
+    URL
+    <input type="text" name="fields[url]" class="field-light"
+      placeholder="Link ke website, blog, atau social media kamu." optional>
+  </label> -->
+  <label>
+    Isi komentar
+    <textarea type="text" name="fields[message]" class="field-light" rows="7" placeholder="Isi komentarmu." style="resize:vertical" required=""></textarea>
+  </label>
+
+  <input type="text" name="_gotcha" style="display:none">
+  <input type="hidden" name="options[redirect]" value="/localhost-friendly-firefox/">
+  <small class="meta">Komentar akan tampil setelah diterima.</small>
+  <input type="submit" class="button button-big button-blue mobile-block" value="Kirim Komentar">
+</form>
+
+
+</div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+  <div class="measure">
+    <p>
+      <a href="/privasi"><i>Privasi</i></a> - 
+      <a href="/feed.xml"><i>RSS</i></a>
+    </p>
+  </div>
+</footer>
+
+<script type="text/javascript">"serviceWorker"in navigator&&navigator.serviceWorker.register("/service-worker.js");
+</script>
+
+
+
+</body></html>

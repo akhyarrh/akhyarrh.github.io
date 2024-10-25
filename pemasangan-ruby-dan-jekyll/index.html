@@ -1,0 +1,261 @@
+<!DOCTYPE html><html lang="id"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Pemasangan Ruby dan Jekyll | AkhyarRH’s Weblog</title>
+<meta name="generator" content="Jekyll v4.3.4">
+<meta property="og:title" content="Pemasangan Ruby dan Jekyll">
+<meta property="og:locale" content="id_ID">
+<meta name="description" content="Seperti yang gue bilang di post sebelumnya, bahwa gue akan memberikan tutorial tentang cara install Ruby dan Jekyll. Sebelum kita melangkah ke perjalanan yang lebih jauh, tutorial gue lebih cocok sama yang menggunakan Linux, Ubuntu lebih tepatnya, atau Lubuntu lebih tepatnya lagi. Untuk pengguna Mac dan sejenisnya, mungkin kalian bisa menggunakan Homebrew tapi cara pemasangannya ga bisa gue jelasin karena gue ga punya Mac. Untuk pengguna Windows dan sejenisnya, ke Google aja ya.">
+<meta property="og:description" content="Seperti yang gue bilang di post sebelumnya, bahwa gue akan memberikan tutorial tentang cara install Ruby dan Jekyll. Sebelum kita melangkah ke perjalanan yang lebih jauh, tutorial gue lebih cocok sama yang menggunakan Linux, Ubuntu lebih tepatnya, atau Lubuntu lebih tepatnya lagi. Untuk pengguna Mac dan sejenisnya, mungkin kalian bisa menggunakan Homebrew tapi cara pemasangannya ga bisa gue jelasin karena gue ga punya Mac. Untuk pengguna Windows dan sejenisnya, ke Google aja ya.">
+<link rel="canonical" href="https://akhyar.js.org/pemasangan-ruby-dan-jekyll/">
+<meta property="og:url" content="https://akhyar.js.org/pemasangan-ruby-dan-jekyll/">
+<meta property="og:site_name" content="AkhyarRH’s Weblog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2015-04-10T00:00:00+08:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Pemasangan Ruby dan Jekyll">
+<meta name="twitter:site" content="@akhyarrh">
+<meta name="google-site-verification" content="sV2248YCZVyLu6nhz72znzNoCUhSfCqwiCEjUO-Kiu8">
+<meta name="msvalidate.01" content="E9A1908DCAA52A63BF7B5F67DB05745D">
+<meta name="alexaVerifyID" content="gXuVtj4bXDWiVB_ihCJijNBQNj8">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2015-04-10T00:00:00+08:00","datePublished":"2015-04-10T00:00:00+08:00","description":"Seperti yang gue bilang di post sebelumnya, bahwa gue akan memberikan tutorial tentang cara install Ruby dan Jekyll. Sebelum kita melangkah ke perjalanan yang lebih jauh, tutorial gue lebih cocok sama yang menggunakan Linux, Ubuntu lebih tepatnya, atau Lubuntu lebih tepatnya lagi. Untuk pengguna Mac dan sejenisnya, mungkin kalian bisa menggunakan Homebrew tapi cara pemasangannya ga bisa gue jelasin karena gue ga punya Mac. Untuk pengguna Windows dan sejenisnya, ke Google aja ya.","headline":"Pemasangan Ruby dan Jekyll","mainEntityOfPage":{"@type":"WebPage","@id":"https://akhyar.js.org/pemasangan-ruby-dan-jekyll/"},"url":"https://akhyar.js.org/pemasangan-ruby-dan-jekyll/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/style.css?202410250835" type="text/css">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/favicon-48x48.png" sizes="48x48">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="AkhyarRH's Weblog">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link type="application/atom+xml" rel="alternate" href="https://akhyar.js.org/feed.xml" title="AkhyarRH's Weblog">
+
+    
+
+    
+    
+    
+
+    
+    
+</head>
+
+<body class="site">
+  
+	
+
+  <div class="site-wrap">
+    <header class="px-responsive px2 site-header">
+  <div class="wrap mt2">
+    <div class="measure">
+      
+      <a href="/" class="site-title">AkhyarRH's Weblog</a>
+      
+      <nav class="site-nav">
+        
+
+
+
+    
+    
+    
+    
+        <a class="nav-link" href="/profil">Profil</a>
+    
+
+    
+
+    
+    
+    
+    
+        <a class="nav-link" href="/kontak/">Kontak</a>
+    
+
+    
+
+
+      </nav>
+      <div class="clearfix"></div>
+      
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p-responsive p2 wrap" role="main">
+      <div class="measure">
+            <!-- Day without leading zero -->
+   <!-- Full month name -->
+    <!-- Year with century -->
+
+
+
+
+
+
+
+
+<div class="mb2 post-header">
+  
+  <h1>Pemasangan Ruby dan Jekyll
+</h1>
+  <p><span class="post-meta">10 April 2015</span><br>
+  </p>
+</div>
+
+<article class="post-content">
+  <p>Seperti yang gue bilang di post sebelumnya, bahwa gue akan memberikan tutorial tentang cara install <strong>Ruby</strong> dan <strong>Jekyll</strong>. Sebelum kita melangkah ke perjalanan yang lebih jauh, tutorial gue lebih cocok sama yang menggunakan Linux, Ubuntu lebih tepatnya, atau <strong>Lubuntu</strong> lebih tepatnya lagi. Untuk pengguna Mac dan sejenisnya, mungkin kalian bisa menggunakan <strong>Homebrew</strong> tapi cara pemasangannya ga bisa gue jelasin karena gue ga punya Mac. Untuk pengguna Windows dan sejenisnya, ke Google aja ya.</p>
+<p>Jadi pada tutorial kali ini (dan mungkin juga untuk seterusnya), gue cuma coba di Lubuntu, kemungkinan besar juga bisa untuk sesama jenisnya (Ubuntu, Xubuntu, Ubuntu GNOME, dan lain-lain). Buat kalian yang memakai sistem operasi yang lain, bisa diikuti atau cari tutor untuk sistem operasi kalian. Mohon maaf.</p>
+<p>Pada dasarnya pemasangan Ruby pada Ubuntu lumayan mudah. Lewat terminal juga bisa. Lalu selanjutnya kita perlu JavaScript runtime, yang paling terkenal adalah <a href="https://nodejs.org" target="_blank" rel="noopener noreferrer">Nodejs</a>.</p>
+<h2>Keperluan</h2>
+<ul>
+<li>PC, laptop, netbook, smartphone, intinya perangkat yang menggunakan sistem operasi Ubuntu atau sejenisnya</li>
+<li>Koneksi internet</li>
+<li>Imajinasi</li>
+</ul>
+<h2>Langkah-langkah</h2>
+<p>Menginstal ruby, ruby-dev, bundler, dan nodejs</p>
+<p>Kecuali Nodejs, semuanya tersedia di <em>official repository</em> Ubuntu. Untuk Nodejs bisa menggunakan <a href="https://launchpad.net/~chris-lea/+archive/ubuntu/node.js/" title="node.js : chris lea" target="_blank" rel="noopener noreferrer">PPA chris lea</a>. Kita perlu menambahkan PPA tersebut ke repo list kita. Simple aja, lewat terminal:</p>
+<div class="highlighter-rouge language-bash"><div class="highlight"><pre class="highlight"><code data-lang="bash"><span class="nv">$ </span><span class="nb">sudo </span>add-apt-repository ppa:chris-lea/node.js
+</code></pre></div></div>
+<p>Kita update lalu kita instal semuanya langsung</p>
+<div class="highlighter-rouge language-bash"><div class="highlight"><pre class="highlight"><code data-lang="bash"><span class="nv">$ </span><span class="nb">sudo </span>apt-get update
+<span class="nv">$ </span><span class="nb">sudo </span>apt-get <span class="nb">install </span>synaptic ruby ruby-dev bundler nodejs
+</code></pre></div></div>
+<p>Selanjutnya, pasang Jekyll</p>
+<div class="highlighter-rouge language-bash"><div class="highlight"><pre class="highlight"><code data-lang="bash"><span class="nv">$ </span><span class="nb">sudo </span>gem <span class="nb">install </span>jekyll
+</code></pre></div></div>
+<p>Selesai. Tinggal kita siapkan foldernya</p>
+<div class="highlighter-rouge language-bash"><div class="highlight"><pre class="highlight"><code data-lang="bash"><span class="nv">$ </span>jekyll new NAMA_FOLDER
+<span class="nv">$ </span><span class="nb">cd </span>NAMA_FOLDER
+<span class="nv">$ </span>jekyll serve
+</code></pre></div></div>
+<p><strong>Perhatikan,</strong> <code>NAMA_FOLDER</code> itu terserah kalian.</p>
+<p>Sekarang buka browser, lalu di <em>address-bar</em> masukkan <code>localhost:4000</code>.</p>
+<p>Kalau kalian punya masalah, silakan jelaskan permasalahan kalian di kolom komentar.
+Selanjutnya gue akan membahas tentang hosting untuk Jekyll. Sebenarnya banyak alternatif yang bagus, tapi gue hanya akan membahas tentang cara hosting Jekyll di Github karena gratis, mudah diurus, dan mendukung <em>custom domain</em>.</p>
+<p>Oke sekian dulu. Kita akan jumpa lagi di tulisan yang lain.</p>
+<p>Ciao</p>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+  <h2 class="related-post-title">Post Lainnya</h2>
+  
+  
+    <div class="post ml2">
+      <a href="/artikel-pilihan-minggu-ini/" class="post-link">
+        <h3 class="post-title">Artikel Pilihan Minggu ini
+</h3>
+        <p class="post-summary">
+          
+            Dalam seminggu, saya terkadang membaca ratusan artikel. Serius. Kadang memang berguna, tapi kadang saya merasa sedikit buang-buang waktu kalau memang artikelnya tidak berbobot. Begitulah, penilaian kadang berbeda. Tapi ada baiknya juga kalau saya bagikan apa yang saya baca selama seminggu belakangan. Anggap saja sebagai referensi kalau kalian juga mau belajar, atau sekedar info bagi yang penasaran sama apa yang saya baca selama seminggu.
+
+          
+        </p>
+      </a>
+    </div>
+  
+    <div class="post ml2">
+      <a href="/maaf-ie/" class="post-link">
+        <h3 class="post-title">Maaf, IE
+</h3>
+        <p class="post-summary">
+          
+            Referensi:
+
+          
+        </p>
+      </a>
+    </div>
+  
+    <div class="post ml2">
+      <a href="/sistem-terdistribusi-bab-2/" class="post-link">
+        <h3 class="post-title">Sistem Terdistribusi: Bab 2
+</h3>
+        <p class="post-summary">
+          
+            Bab 2 Komunikasi
+
+          
+        </p>
+      </a>
+    </div>
+  
+
+
+
+<div id="comments">
+  <h2 class="comments-title">Komentar</h2>
+
+  
+
+  <form action="https://staticman-akhyarrh.netlify.app/.netlify/functions/staticman" method="POST" class="form-stacked">
+  <input name="options[origin]" type="hidden" value="https://akhyar.js.org">
+  <input name="options[slug]" type="hidden" value="pemasangan-ruby-dan-jekyll">
+  <label>
+    Nama
+    <input type="text" name="fields[name]" class="field-light" placeholder="Nama Kamu." required="">
+  </label>
+  <!--
+    Disable for now
+    Until I find a way to render URL
+    because people like to enter URL without
+    `http://` or `https://`
+  <label>
+    URL
+    <input type="text" name="fields[url]" class="field-light"
+      placeholder="Link ke website, blog, atau social media kamu." optional>
+  </label> -->
+  <label>
+    Isi komentar
+    <textarea type="text" name="fields[message]" class="field-light" rows="7" placeholder="Isi komentarmu." style="resize:vertical" required=""></textarea>
+  </label>
+
+  <input type="text" name="_gotcha" style="display:none">
+  <input type="hidden" name="options[redirect]" value="/pemasangan-ruby-dan-jekyll/">
+  <small class="meta">Komentar akan tampil setelah diterima.</small>
+  <input type="submit" class="button button-big button-blue mobile-block" value="Kirim Komentar">
+</form>
+
+
+</div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+  <div class="measure">
+    <p>
+      <a href="/privasi"><i>Privasi</i></a> - 
+      <a href="/feed.xml"><i>RSS</i></a>
+    </p>
+  </div>
+</footer>
+
+<script type="text/javascript">"serviceWorker"in navigator&&navigator.serviceWorker.register("/service-worker.js");
+</script>
+
+
+
+</body></html>

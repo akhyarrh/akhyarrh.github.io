@@ -1,0 +1,1 @@
+var CACHE_NAME="apropixyllv1";self.addEventListener("install",function(e){e.waitUntil(caches.open(CACHE_NAME).then(function(t){return t.addAll(["/css/style.css?202410250835","/"])}))}),self.addEventListener("activate",function(e){return e.waitUntil(caches.keys().then(function(t){return Promise.all(t.map(function(n){if(n!=CACHE_NAME)return caches.delete(n)}))})),clients.claim()});

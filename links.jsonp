@@ -1,0 +1,302 @@
+
+
+
+callback([
+
+
+  {
+    "text": "404",
+    "href": "https://akhyar.js.org/404.html"
+  },
+
+
+
+  {
+    "text": "Kontak",
+    "href": "https://akhyar.js.org/kontak/"
+  },
+
+
+
+  {
+    "text": "Posts",
+    "href": "https://akhyar.js.org/"
+  },
+
+
+
+  {
+    "text": "Posts",
+    "href": "https://akhyar.js.org/page2/"
+  },
+
+
+
+  {
+    "text": "Posts",
+    "href": "https://akhyar.js.org/page3/"
+  },
+
+
+
+  {
+    "text": "Posts",
+    "href": "https://akhyar.js.org/page4/"
+  },
+
+
+
+  {
+    "text": "Posts",
+    "href": "https://akhyar.js.org/page5/"
+  },
+
+
+
+  {
+    "text": "Privasi",
+    "href": "https://akhyar.js.org/privasi/"
+  },
+
+
+
+  {
+    "text": "Profil",
+    "href": "https://akhyar.js.org/profil"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "text": "5 Smartphone Android Terbaik 2014",
+    "href": "https://akhyar.js.org/5-smartphone-android-terbaik-2014/"
+  } ,
+
+  {
+    "text": "em atau rem",
+    "href": "https://akhyar.js.org/em-atau-rem/"
+  } ,
+
+  {
+    "text": "localhost friendly Firefox",
+    "href": "https://akhyar.js.org/localhost-friendly-firefox/"
+  } ,
+
+  {
+    "text": "Alasan Saya Masih Melakukan Rooting",
+    "href": "https://akhyar.js.org/alasan-saya-masih-melakukan-rooting/"
+  } ,
+
+  {
+    "text": "Android 6.0 Marshmallow",
+    "href": "https://akhyar.js.org/android-60-marshmallow/"
+  } ,
+
+  {
+    "text": "Android M disebut di Android Code Review",
+    "href": "https://akhyar.js.org/android-m-disebut-di-android-code-review/"
+  } ,
+
+  {
+    "text": "Artikel Pilihan Minggu ini",
+    "href": "https://akhyar.js.org/artikel-pilihan-minggu-ini/"
+  } ,
+
+  {
+    "text": "Batas Memori Manusia",
+    "href": "https://akhyar.js.org/batas-memori-manusia/"
+  } ,
+
+  {
+    "text": "Beberapa rekor baru di Piala Dunia 2014",
+    "href": "https://akhyar.js.org/beberapa-rekor-baru-di-piala-dunia-2014/"
+  } ,
+
+  {
+    "text": "Bermain dengan function di Sass",
+    "href": "https://akhyar.js.org/bermain-dengan-function-di-sass/"
+  } ,
+
+  {
+    "text": "Blogging Era Modern",
+    "href": "https://akhyar.js.org/30-days-writing-challenge-blogging-era-modern/"
+  } ,
+
+  {
+    "text": "Cara Mudah Embed Video di Jekyll",
+    "href": "https://akhyar.js.org/cara-mudah-embed-video-di-jekyll/"
+  } ,
+
+  {
+    "text": "Cek Keamanan Password",
+    "href": "https://akhyar.js.org/cek-keamanan-password/"
+  } ,
+
+  {
+    "text": "Dear Blogger, Mari Tinggalkan Blogger",
+    "href": "https://akhyar.js.org/dear-blogger-mari-tinggalkan-blogger/"
+  } ,
+
+  {
+    "text": "Dengan Duit 140M Saya akan…",
+    "href": "https://akhyar.js.org/dengan-duit-140m-saya-akan/"
+  } ,
+
+  {
+    "text": "Ekperimen Pertama dengan Flexbox",
+    "href": "https://akhyar.js.org/ekperimen-pertama-dengan-flexbox/"
+  } ,
+
+  {
+    "text": "Hidup bersama Perangkat Android Jadul",
+    "href": "https://akhyar.js.org/hidup-bersama-perangkat-android-jadul/"
+  } ,
+
+  {
+    "text": "Image Compression",
+    "href": "https://akhyar.js.org/image-compression/"
+  } ,
+
+  {
+    "text": "Kopi Pahit Sempurna",
+    "href": "https://akhyar.js.org/kopi-pahit-sempurna/"
+  } ,
+
+  {
+    "text": "Maaf, IE",
+    "href": "https://akhyar.js.org/maaf-ie/"
+  } ,
+
+  {
+    "text": "Manusia Makhluk yang Lancang",
+    "href": "https://akhyar.js.org/manusia-makhluk-yang-lancang/"
+  } ,
+
+  {
+    "text": "Melanggar Aturan Saya Sendiri",
+    "href": "https://akhyar.js.org/melanggar-aturan-saya-sendiri/"
+  } ,
+
+  {
+    "text": "Memahami Metode BEM",
+    "href": "https://akhyar.js.org/memahami-metode-bem/"
+  } ,
+
+  {
+    "text": "Mengenal Jekyll",
+    "href": "https://akhyar.js.org/mengenal-jekyll/"
+  } ,
+
+  {
+    "text": "Menghindari Tidur",
+    "href": "https://akhyar.js.org/menghindari-tidur/"
+  } ,
+
+  {
+    "text": "Mengubah DNS di Linux",
+    "href": "https://akhyar.js.org/setup-custom-dns/"
+  } ,
+
+  {
+    "text": "Oh Firefox",
+    "href": "https://akhyar.js.org/oh-firefox/"
+  } ,
+
+  {
+    "text": "Pandangan Saya Mengenai Budaya Tahun Baru",
+    "href": "https://akhyar.js.org/pandangan-saya-mengenai-budaya-tahun-baru/"
+  } ,
+
+  {
+    "text": "Pemasangan Ruby dan Jekyll",
+    "href": "https://akhyar.js.org/pemasangan-ruby-dan-jekyll/"
+  } ,
+
+  {
+    "text": "Pendapat Saya Tentang Medium",
+    "href": "https://akhyar.js.org/pendapat-saya-tentang-medium/"
+  } ,
+
+  {
+    "text": "Pendapat Saya Tentang Wordpress",
+    "href": "https://akhyar.js.org/pendapat-saya-tentang-wordpress/"
+  } ,
+
+  {
+    "text": "Penggunaan !important di CSS",
+    "href": "https://akhyar.js.org/penggunaan-important-di-css/"
+  } ,
+
+  {
+    "text": "Perjalanan Sebuah Memori",
+    "href": "https://akhyar.js.org/perjalanan-sebuah-memori/"
+  } ,
+
+  {
+    "text": "Pindah ke Jekyll",
+    "href": "https://akhyar.js.org/pindah-ke-jekyll/"
+  } ,
+
+  {
+    "text": "Say Hello to jekyll-boilerplate",
+    "href": "https://akhyar.js.org/say-hello-to-jekyll-boilerplate/"
+  } ,
+
+  {
+    "text": "Seharusnya Opt-out dari Tracking jadi Standar",
+    "href": "https://akhyar.js.org/seharusnya-opt-out-dari-tracking-jadi-standar/"
+  } ,
+
+  {
+    "text": "Semuanya Milik Saya",
+    "href": "https://akhyar.js.org/semuanya-milik-saya/"
+  } ,
+
+  {
+    "text": "Sistem Terdistribusi: Bab 1",
+    "href": "https://akhyar.js.org/sistem-terdistribusi-bab-1/"
+  } ,
+
+  {
+    "text": "Sistem Terdistribusi: Bab 2",
+    "href": "https://akhyar.js.org/sistem-terdistribusi-bab-2/"
+  } ,
+
+  {
+    "text": "Web",
+    "href": "https://akhyar.js.org/web/"
+  } ,
+
+  {
+    "text": "Welcome to Jekyll!",
+    "href": "https://akhyar.js.org/welcome-to-jekyll/"
+  } ,
+
+  {
+    "text": "WSL",
+    "href": "https://akhyar.js.org/wsl/"
+  } 
+
+])
