@@ -1,17 +1,4 @@
-export default {
-  html: {
-    minifyJS: true,
-    collapseBooleanAttributes: true,
-    collapseWhitespace: true,
-    conservativeCollapse: true,
-    removeComments: true,
-    removeEmptyAttributes: true,
-    removeEmptyElements: true,
-    removeRedundantAttributes: true,
-    removeScriptTypeAttributes: true,
-    removeStyleLinkTypeAttributes: true,
-    processScripts: ['application/ld+json']
-  },
+const default_options = {
   image: {
     external: {
       process: 'download',
@@ -21,3 +8,6 @@ export default {
     prefetch_links: 'in-viewport',
   },
 };
+
+export default default_options;
+
