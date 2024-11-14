@@ -1,4 +1,4 @@
-name: Build and Deploy to master branch
+name: Deploy to master branch
 
 on:
   push:
@@ -50,4 +50,4 @@ jobs:
           cname: akhyar.js.org
           force_orphan: true
           commit_message: ${{ github.event.head_commit.message }}
-          exclude_assets: '.github,assets/css/*.map,assets/js/_main.js,assets/js/lunr/lunr.js,assets/js/lunr/lunr-gr.js,assets/js/plugins/**/*,assets/js/vendor/**/*'
+          #exclude_assets: '.github,assets/css/*.map,assets/js/_main.js,assets/js/lunr/lunr.js,assets/js/lunr/lunr-gr.js,assets/js/plugins/**/*,assets/js/vendor/**/*'
