@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Profil
-permalink: /profil
+permalink: /profil/
 image: /assets/img/og-image-default.png
 ---
 
