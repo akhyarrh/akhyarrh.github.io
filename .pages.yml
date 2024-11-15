@@ -22,3 +22,8 @@ content:
       - name: body
         label: Body
         type: rich-text
+        options:
+          image:
+            input: 'assets/uploads'
+            output: '/assets/uploads'
+            path: 'assets/uploads'
