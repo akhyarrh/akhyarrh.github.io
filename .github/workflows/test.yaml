@@ -1,4 +1,4 @@
-name: Build and test after push/PR on source branch
+name: Test after push/PR on source branch
 
 on:
   push:
