@@ -1,11 +1,5 @@
 media: 'assets/uploads'
 content:
-  - name: config
-    label: Jekyll config
-    path: _config.yml
-    type: file
-    icon: settings
-
   - name: posts
     label: Posts
     type: collection
@@ -43,4 +37,8 @@ content:
             input: 'assets/uploads'
             output: '/assets/uploads'
             path: 'assets/uploads'
-
+  - name: config
+    label: Jekyll config
+    path: _config.yml
+    type: file
+    icon: settings
