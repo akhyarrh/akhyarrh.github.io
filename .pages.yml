@@ -1,21 +1,37 @@
 media: 'assets/uploads'
 content:
+  - name: config
+    label: Jekyll config
+    path: _config.yml
+    type: file
+    icon: settings
+
   - name: posts
     label: Posts
     type: collection
+    icon: file-stack
     path: '_posts'
+    #filename: '{year}-{month}-{day}-{primary}.md'
+    # filename default. saved for reference later.
     view:
       fields: [ title, date, published ]
     fields:
       - name: published
         label: Published
         type: boolean
+        default: false
       - name: date
         label: Date
         type: date
       - name: title
         label: Title
         type: string
+      - name: summary
+        label: Summary
+        type: text
+        options:
+          maxlength: 200
+          rows: 3
       - name: image
         label: Image
         type: image
@@ -27,3 +43,4 @@ content:
             input: 'assets/uploads'
             output: '/assets/uploads'
             path: 'assets/uploads'
+
