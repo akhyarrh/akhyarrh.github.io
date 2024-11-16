@@ -1,0 +1,22 @@
+backend:
+  automatic_deployments: false
+  name: github
+  repo: akhyarrh/akhyarrh.github.io
+  branch: source
+  base_url: 'https://sveltia-cms-auth.akhyar.workers.dev/'
+
+media_folder: '/assets/uploads'
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}.md"
+    fields:
+      - { label: "Published", name: "published", widget: "boolean" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Content", name: "body", widget: "markdown", options: { buttons: ["link"], modes: "raw" }}
+
