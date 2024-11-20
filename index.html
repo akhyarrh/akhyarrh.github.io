@@ -2,3 +2,40 @@
 layout: home
 title: Posts
 ---
+
+<h1>Latest</h1>
+<h2>Tweet</h2>
+
+<blockquote id="latest-tweet">
+  Loading latest tweet...
+  <cite id="latest-tweet-meta"></cite>
+</blockquote>
+<script>
+  import { TweetFetcher } from './tweet-fetcher.js';
+  // Initialize tweet fetcher
+async function initTweetFetcher() {
+  try {
+    // Fetch token securely from our Functions endpoint
+    const response = await fetch('/api/twitter-token');
+    const { token } = await response.json();
+    
+    // Initialize tweet fetcher with your username
+    const tweetFetcher = new TweetFetcher('akhyarrh', token);
+    await tweetFetcher.fetchLatestTweet();
+    
+    // Optional: Refresh periodically
+    setInterval(() => {
+      tweetFetcher.fetchLatestTweet();
+    }, 1000 * 60 * 30); // Refresh every 30 minutes
+  } catch (error) {
+    console.error('Failed to initialize tweet fetcher:', error);
+  }
+}
+
+// Initialize when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initTweetFetcher);
+} else {
+  initTweetFetcher();
+}
+</script>
