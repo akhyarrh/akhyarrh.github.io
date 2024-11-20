@@ -1,20 +1,12 @@
-// tweet-fetcher.js
-export class TweetFetcher {
-  constructor(username, bearerToken) {
+class TweetFetcher {
+  constructor(username = 'akhyarrh') {
     this.username = username;
-    this.config = {
-      headers: {
-        'Authorization': `Bearer ${bearerToken}`,
-        'Content-Type': 'application/json'
-      }
-    };
     this.CACHE_KEY = `tweet_cache_${username}`;
     this.CACHE_DURATION = 1000 * 60 * 15; // 15 minutes
   }
 
   formatDate(dateString) {
-    const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', {
+    return new Date(dateString).toLocaleDateString('en-US', {
       day: 'numeric',
       month: 'long',
       year: 'numeric'
@@ -35,86 +27,65 @@ export class TweetFetcher {
       }
 
       return data;
-    } catch (error) {
-      console.error('Error reading cache:', error);
+    } catch {
       return null;
     }
   }
 
   setCachedTweet(data) {
     try {
-      const cacheData = {
+      localStorage.setItem(this.CACHE_KEY, JSON.stringify({
         data,
         timestamp: new Date().getTime()
-      };
-      localStorage.setItem(this.CACHE_KEY, JSON.stringify(cacheData));
-    } catch (error) {
-      console.error('Error setting cache:', error);
-    }
-  }
-
-  displayTweet(tweetData) {
-    const tweetElement = document.getElementById('latest-tweet');
-    const citeElement = document.getElementById('latest-tweet-meta');
-    
-    if (!tweetElement || !citeElement) return;
-    
-    tweetElement.textContent = tweetData.text;
-    
-    const tweetUrl = `https://x.com/${this.username}/status/${tweetData.id}`;
-    citeElement.innerHTML = `<a href="${tweetUrl}">@${this.username}, ${this.formatDate(tweetData.created_at)}</a>`;
+      }));
+    } catch {}
   }
 
   async fetchLatestTweet() {
+    const cachedTweet = this.getCachedTweet();
+    if (cachedTweet) {
+      this.displayTweet(cachedTweet);
+      return;
+    }
+
     try {
-      const cachedTweet = this.getCachedTweet();
-      if (cachedTweet) {
-        console.log('Using cached tweet data');
-        this.displayTweet(cachedTweet);
-        return;
+      const response = await fetch(`/api/twitter-token?username=${this.username}`);
+      const data = await response.json();
+
+      if (data.tweet) {
+        this.setCachedTweet(data.tweet);
+        this.displayTweet(data.tweet);
       }
-
-      const userResponse = await fetch(
-        `https://api.twitter.com/2/users/by/username/${this.username}`,
-        this.config
-      );
-      const userData = await userResponse.json();
-      
-      if (!userData.data?.id) {
-        throw new Error('User not found');
-      }
-
-      const tweetsResponse = await fetch(
-        `https://api.twitter.com/2/users/${userData.data.id}/tweets?` +
-        'max_results=1&tweet.fields=created_at',
-        this.config
-      );
-      const tweetsData = await tweetsResponse.json();
-
-      if (!tweetsData.data?.[0]) {
-        throw new Error('No tweets found');
-      }
-
-      const tweet = tweetsData.data[0];
-      this.setCachedTweet(tweet);
-      this.displayTweet(tweet);
-
     } catch (error) {
-      console.error('Error fetching tweet:', error);
+      console.error('Tweet fetch failed:', error);
       const tweetElement = document.getElementById('latest-tweet');
-      if (tweetElement) {
-        tweetElement.textContent = 'Failed to load tweet';
-      }
+      const citeElement = document.getElementById('latest-tweet-meta');
       
-      const cachedTweet = this.getCachedTweet();
-      if (cachedTweet) {
-        console.log('Falling back to cached tweet data');
-        this.displayTweet(cachedTweet);
-      }
+      if (tweetElement) tweetElement.textContent = 'Failed to load tweet';
+      if (citeElement) citeElement.textContent = '';
     }
   }
 
-  clearCache() {
-    localStorage.removeItem(this.CACHE_KEY);
+  displayTweet(tweet) {
+    const tweetElement = document.getElementById('latest-tweet');
+    const citeElement = document.getElementById('latest-tweet-meta');
+    
+    if (tweetElement) tweetElement.textContent = tweet.text;
+    
+    if (citeElement) {
+      const tweetUrl = `https://x.com/${this.username}/status/${tweet.id}`;
+      citeElement.innerHTML = `<a href="${tweetUrl}">@${this.username}, ${this.formatDate(tweet.created_at)}</a>`;
+    }
+  }
+
+  init() {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => this.fetchLatestTweet());
+    } else {
+      this.fetchLatestTweet();
+    }
   }
 }
+
+// Auto-initialize
+new TweetFetcher().init();
