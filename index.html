@@ -1,4 +1,15 @@
 ---
 layout: home
-title: Posts
 ---
+
+<h1>Latest Tweet</h1>
+<blockquote id="latest-tweet">
+  <cite id="latest-tweet-meta"></cite>
+</blockquote>
+
+<script async src="/api/fetch-latest-tweet"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  fetchLatestTweet('akhyarrh');
+});
+</script>
