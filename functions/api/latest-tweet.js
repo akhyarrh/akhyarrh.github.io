@@ -26,7 +26,7 @@ export async function onRequest(context) {
     const userId = userData.data.id;
 
     // Fetch latest tweet from user ID
-    const tweetsResponse = await fetch(`https://api.twitter.com/2/users/${userId}/tweets?max_results=1`, {
+    const tweetsResponse = await fetch(`https://api.twitter.com/2/users/${userId}/tweets?max_results=5`, {
       headers: {
         'Authorization': `Bearer ${BEARER_TOKEN}`
       }
