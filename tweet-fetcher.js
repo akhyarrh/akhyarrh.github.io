@@ -1,91 +1,31 @@
-class TweetFetcher {
-  constructor(username = 'akhyarrh') {
-    this.username = username;
-    this.CACHE_KEY = `tweet_cache_${username}`;
-    this.CACHE_DURATION = 1000 * 60 * 15; // 15 minutes
-  }
+async function fetchLatestTweet(username) {
+  try {
+    const response = await fetch(`/api/latest-tweet?username=${username}`);
+    const tweet = await response.json();
 
-  formatDate(dateString) {
-    return new Date(dateString).toLocaleDateString('en-US', {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric'
-    });
-  }
-
-  getCachedTweet() {
-    try {
-      const cached = localStorage.getItem(this.CACHE_KEY);
-      if (!cached) return null;
-
-      const { data, timestamp } = JSON.parse(cached);
-      const now = new Date().getTime();
-
-      if (now - timestamp > this.CACHE_DURATION) {
-        localStorage.removeItem(this.CACHE_KEY);
-        return null;
-      }
-
-      return data;
-    } catch {
-      return null;
-    }
-  }
-
-  setCachedTweet(data) {
-    try {
-      localStorage.setItem(this.CACHE_KEY, JSON.stringify({
-        data,
-        timestamp: new Date().getTime()
-      }));
-    } catch {}
-  }
-
-  async fetchLatestTweet() {
-    const cachedTweet = this.getCachedTweet();
-    if (cachedTweet) {
-      this.displayTweet(cachedTweet);
+    if (!tweet) {
+      document.getElementById("latest-tweet").innerText = "No tweet found";
+      document.getElementById("latest-tweet-meta").innerText = "";
       return;
     }
 
-    try {
-      const response = await fetch(`/api/twitter-token?username=${this.username}`);
-      const data = await response.json();
+    const tweetId = tweet.id;
+    const tweetText = tweet.text;
+    const tweetUser = tweet.author_id;
+    const tweetDate = new Date(tweet.created_at).toLocaleString();
 
-      if (data.tweet) {
-        this.setCachedTweet(data.tweet);
-        this.displayTweet(data.tweet);
-      }
-    } catch (error) {
-      console.error('Tweet fetch failed:', error);
-      const tweetElement = document.getElementById('latest-tweet');
-      const citeElement = document.getElementById('latest-tweet-meta');
-      
-      if (tweetElement) tweetElement.textContent = 'Failed to load tweet';
-      if (citeElement) citeElement.textContent = '';
-    }
-  }
+    const tweetUrl = `https://twitter.com/${username}/status/${tweetId}`;
 
-  displayTweet(tweet) {
-    const tweetElement = document.getElementById('latest-tweet');
-    const citeElement = document.getElementById('latest-tweet-meta');
-    
-    if (tweetElement) tweetElement.textContent = tweet.text;
-    
-    if (citeElement) {
-      const tweetUrl = `https://x.com/${this.username}/status/${tweet.id}`;
-      citeElement.innerHTML = `<a href="${tweetUrl}">@${this.username}, ${this.formatDate(tweet.created_at)}</a>`;
-    }
-  }
+    document.getElementById("latest-tweet").innerText = tweetText;
 
-  init() {
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', () => this.fetchLatestTweet());
-    } else {
-      this.fetchLatestTweet();
-    }
+    const metaElement = document.getElementById("latest-tweet-meta");
+    metaElement.innerHTML = `<a href="${tweetUrl}" target="_blank">@${tweetUser}, ${tweetDate}</a>`;
+  } catch (error) {
+    console.error("Error fetching tweet:", error);
+    document.getElementById("latest-tweet").innerText = "Error fetching tweet";
+    document.getElementById("latest-tweet-meta").innerText = "";
   }
 }
 
-// Auto-initialize
-new TweetFetcher().init();
+// Replace 'your-username' with the actual Twitter username
+fetchLatestTweet("akhyarrh");
