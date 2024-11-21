@@ -1,11 +1,11 @@
 ---
 published: true
-date: '2023-02-04 18:00 +0800'
 title: Manusia Makhluk yang Lancang
+date: 2023-02-04T20:00:00
+image: /assets/uploads/man-8282467_1280.jpg
 tags:
   - catatan
   - Filosofis
-image: 'https://i.imgur.com/DbiqGko.webp'
 ---
 Manusia adalah makhluk yang unik dan memiliki kelebihan dan kekurangan tersendiri. Salah satu kekurangan manusia adalah kelancangan yang dapat dilihat dari cara berinteraksi dengan Tuhan.
 
@@ -20,3 +20,5 @@ Sebagai makhluk yang diciptakan Tuhan, manusia harus memahami bahwa Tuhan adalah
 Manusia harus belajar untuk berbicara dan berinteraksi dengan Tuhan dengan cara yang benar dan sesuai dengan ajaran agama masing-masing. Mereka harus belajar untuk berdoa dengan tulus dan menghormati Tuhan dengan cara hidup yang bertanggung jawab.
 
 Secara keseluruhan, manusia sebagai makhluk yang lancang harus belajar untuk menghormati Tuhan dan memperlakukan Tuhan dengan cara yang seharusnya. Ini adalah salah satu cara untuk memperbaiki diri dan menjadi makhluk yang lebih baik.
+
+[Photo by RuslanSikunov on Pixabay](https://pixabay.com/photos/man-window-guitar-human-thoughtful-8282467).
