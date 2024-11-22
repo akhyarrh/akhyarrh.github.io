@@ -3,13 +3,17 @@ content:
   - name: posts
     label: Posts
     type: collection
+    icon: file-stack
     path: '_posts'
+    #filename: '{year}-{month}-{day}-{primary}.md'
+    # filename default. saved for reference later.
     view:
       fields: [ title, date, published ]
     fields:
       - name: published
         label: Published
         type: boolean
+        default: false
       - name: date
         label: Date
         type: date
@@ -19,6 +23,9 @@ content:
       - name: image
         label: Image
         type: image
+      - name: image_caption
+        label: Image Caption
+        type: string
       - name: body
         label: Body
         type: rich-text
@@ -27,3 +34,8 @@ content:
             input: 'assets/uploads'
             output: '/assets/uploads'
             path: 'assets/uploads'
+  - name: config
+    label: Jekyll config
+    path: _config.yml
+    type: file
+    icon: settings
