@@ -23,6 +23,9 @@ content:
       - name: image
         label: Image
         type: image
+      - name: image_caption
+        label: Image Caption
+        type: string
       - name: body
         label: Body
         type: rich-text
