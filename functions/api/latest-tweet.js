@@ -1,5 +1,5 @@
 // functions/latest-tweet.js
-export async function onRequest(context) {
+export async function onRequest(context, env) {
   const { request } = context;
   const url = new URL(request.url);
   const username = url.searchParams.get('username');
@@ -8,7 +8,7 @@ export async function onRequest(context) {
     return new Response('Username parameter is required', { status: 400 });
   }
 
-  const BEARER_TOKEN = context.env.BEARER_TOKEN;
+  const BEARER_TOKEN = env.BEARER_TOKEN;
 
   try {
     // Fetch user ID from username
