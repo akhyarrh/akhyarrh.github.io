@@ -1,3 +1,6 @@
+/admin
+  X-Robots-Tag: noindex
+
 /kontak
   X-Robots-Tag: noindex
 
