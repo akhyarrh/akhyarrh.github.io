@@ -1,4 +1,4 @@
-- [ ] Netlify build pass
+- [ ] Build preview
 
 ```
 // To set schedule
