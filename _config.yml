@@ -139,7 +139,11 @@ exclude:
   - staticman.yml
   - package.json
   - package-lock.json
-  - jampack.config.js
+  - jampack.config.mjs
+
+include:
+  - _headers
+  - _redirects
 
 sass:
   style: expanded
