@@ -7,6 +7,7 @@ remote_theme: akhyarrh/apropixyll
 date_format: '%d %B %Y'
 header_pages:
  - README.md
+ - snippets.html
  - kontak.html
 show_related_posts: true
 
@@ -143,6 +144,11 @@ sass:
   sourcemap: development
   verbose: true
 
+collections:
+  snippets:
+    output: true
+    permalink: /snippets/:path/
+
 defaults:
   # _posts
   - scope:
@@ -156,6 +162,12 @@ defaults:
       type: pages
     values:
       layout: page
+  # _snippets
+  - scope:
+      path: ""
+      type: snippets
+    values:
+      layout: snippet
 
 # https://help.github.com/articles/configuring-jekyll-plugins/#default-plugins
 plugins:
@@ -234,6 +246,56 @@ prose:
           label: "Categories"
           alterable: true
           options: "https://akhyar.js.org/categories.jsonp?callback=categories"
+
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          alterable: true
+          options: "https://akhyar.js.org/tags.jsonp?callback=tags"
+    
+    _snippets:
+      - name: "published"
+        field:
+          element: "checkbox"
+          value: true
+
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+          help: "A brief description of the code snippet"
+
+      - name: "language"
+        field:
+          element: "select"
+          label: "Programming Language"
+          options:
+            - name: "JavaScript"
+              value: "javascript"
+            - name: "Python"
+              value: "python"
+            - name: "CSS"
+              value: "css"
+            - name: "HTML"
+              value: "html"
+            - name: "Ruby"
+              value: "ruby"
+            - name: "PHP"
+              value: "php"
+            - name: "Java"
+              value: "java"
+            - name: "C#"
+              value: "csharp"
+            - name: "C++"
+              value: "cpp"
+            - name: "Other"
+              value: "other"
 
       - name: "tags"
         field:

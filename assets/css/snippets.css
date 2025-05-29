@@ -1,0 +1,91 @@
+/* Snippet Collection Styles */
+
+.snippet-list {
+  margin-top: 2rem;
+}
+
+.snippet-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.snippet-item:last-child {
+  border-bottom: none;
+}
+
+.snippet-link {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.snippet-link:hover {
+  text-decoration: underline;
+}
+
+.snippet-meta {
+  font-size: 0.9rem;
+  color: #586069;
+  margin-bottom: 0.5rem;
+}
+
+.snippet-language {
+  display: inline-block;
+  margin-left: 1rem;
+  padding: 0.2rem 0.5rem;
+  background-color: #f1f8ff;
+  border-radius: 3px;
+  color: #0366d6;
+  font-size: 0.8rem;
+}
+
+.snippet-description {
+  margin-bottom: 0.5rem;
+}
+
+.snippet-tags {
+  margin-top: 0.5rem;
+}
+
+.snippet-tag {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  color: #586069;
+  font-size: 0.8rem;
+}
+
+/* Individual Snippet Page Styles */
+
+.post-language {
+  display: inline-block;
+  margin-left: 1rem;
+  padding: 0.2rem 0.5rem;
+  background-color: #f1f8ff;
+  border-radius: 3px;
+  color: #0366d6;
+  font-size: 0.8rem;
+}
+
+.post-tags {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.post-tag {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  color: #586069;
+  font-size: 0.8rem;
+}
+
+.post-description {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  color: #586069;
+}
