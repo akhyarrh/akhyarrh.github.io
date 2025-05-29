@@ -12,6 +12,7 @@ end
 gem 'jekyll'
 gem 'liquid-c'
 gem 'nokogiri'
+gem 'classifier-reborn'
 
 # For testing generated html
 gem 'html-proofer'
