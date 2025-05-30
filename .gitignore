@@ -17,3 +17,8 @@ package-lock.json
 _tomb/backup
 .bundle
 .jampack
+
+# Cloudflare Workers
+.wrangler
+dist
+worker

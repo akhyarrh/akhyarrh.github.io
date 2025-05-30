@@ -1,0 +1,16 @@
+name = "akhyarrh-blog"
+main = "worker.js"
+compatibility_date = "2023-10-30"
+
+[site]
+bucket = "_site"
+
+[build]
+command = "jekyll build && npx jampack _site"
+
+[build.upload]
+format = "service-worker"
+
+# Enable the Functions API
+[functions]
+directory = "functions"

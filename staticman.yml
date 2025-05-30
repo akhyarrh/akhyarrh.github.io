@@ -15,7 +15,7 @@ comments:
   # listed will be accepted. The origin is sent as part as the `options` object
   # (e.g. <input name="options[origin]" value="https://yourdomain.com/post1")
   allowedOrigins: [
-    "https://akhyar.pages.dev",
+    "https://akhyar.workers.dev",
     "https://akhyar.js.org"
   ]
 
