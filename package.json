@@ -2,21 +2,20 @@
   "name": "akhyarrh.github.io",
   "version": "0.0.1",
   "description": "--- layout: page title: Profil permalink: /profil image: /assets/img/og-image-default.png ---",
-  "main": "worker.js",
+  "main": "service-worker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "jekyll build",
+    "build": "bundle exec jekyll build",
     "dev": "wrangler dev",
-    "deploy": "wrangler publish"
+    "publish": "wrangler publish"
   },
   "keywords": [],
   "author": "akhyarrh <akhyarrh@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@divriots/jampack": "^0.30.0",
-    "@cloudflare/kv-asset-handler": "^0.3.0"
+    "@divriots/jampack": "^0.30.0"
   },
   "devDependencies": {
-    "wrangler": "^3.0.0"
+    "@cloudflare/wrangler": "^1.19.12"
   }
 }

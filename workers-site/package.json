@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "Cloudflare worker for serving static Jekyll site",
+  "main": "index.js",
+  "author": "akhyarrh <akhyarrh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.3.0"
+  }
+}

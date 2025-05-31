@@ -19,6 +19,6 @@ _tomb/backup
 .jampack
 
 # Cloudflare Workers
-.wrangler
-dist
-worker
+dist/
+worker/
+.wrangler/

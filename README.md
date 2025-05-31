@@ -17,36 +17,21 @@ Selamat datang di sudut kecil saya di internet! Saya suka beberapa hal sederhana
 
 Saya tinggal di **South Borneo, Indonesia**, tempat dengan alam indah dan budaya keren. Kalau kamu suka ngobrol soal teknologi, game, atau cuma mau say hi, langsung aja lewat [Twitter](https://twitter.com/akhyarrh) atau [lewat Email](/kontak/)!
 
-## Deployment
+## Deployment Instructions
 
-### Cloudflare Workers Deployment
+This site is now deployed using Cloudflare Workers. To deploy:
 
-This site is deployed using Cloudflare Workers. To deploy:
-
-1. Install dependencies:
-   ```
-   npm install
-   ```
-
-2. Build the Jekyll site:
-   ```
-   npm run build
-   ```
-
-3. Deploy to Cloudflare Workers:
-   ```
-   npm run deploy
-   ```
-
-For local development:
-```
-npm run dev
-```
+1. Install Wrangler CLI: `npm install -g @cloudflare/wrangler`
+2. Authenticate with Cloudflare: `wrangler login`
+3. Update `wrangler.toml` with your Cloudflare account ID and zone ID
+4. Build the site: `npm run build`
+5. Deploy to Cloudflare Workers: `npm run publish`
 
 ## Terimakasih
 
-* [Cloudflare Workers](https://workers.cloudflare.com/)
+* [GitHub Pages](https://pages.github.com/)
 * [Jekyll](https://jekyllrb.com/)
+* [Netlify](https://netlify.com/)
 * [js.org](https://github.com/js-org/js.org/)
 * [Pixyll](https://github.com/johno/pixyll)
 * [RoboHash](https://robohash.org/)
@@ -54,4 +39,5 @@ npm run dev
 * [Statically](https://statically.io/)
 * [Open Graph Image generator](https://og-image.now.sh/)
 * [Unsplash](https://unsplash.com/)
+* [Cloudflare Workers](https://workers.cloudflare.com/)
 

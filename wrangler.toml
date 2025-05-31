@@ -1,16 +1,17 @@
 name = "akhyarrh-blog"
-main = "worker.js"
-compatibility_date = "2023-10-30"
+type = "webpack"
+account_id = "" # Fill in your account ID
+workers_dev = true
+route = "akhyar.js.org/*"
+zone_id = "" # Fill in your zone ID
 
 [site]
-bucket = "_site"
+bucket = "_site" # Jekyll's default output directory
+entry-point = "workers-site"
 
 [build]
-command = "jekyll build && npx jampack _site"
+command = "bundle exec jekyll build"
+upload.format = "service-worker"
 
 [build.upload]
 format = "service-worker"
-
-# Enable the Functions API
-[functions]
-directory = "functions"
