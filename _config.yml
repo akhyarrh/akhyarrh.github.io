@@ -3,79 +3,37 @@
 # https://help.github.com/articles/configuring-jekyll/
 # https://jekyllrb.com/docs/configuration/
 
-remote_theme: akhyarrh/apropixyll
-date_format: '%d %B %Y'
-header_pages:
- - README.md
- - kontak.html
-show_related_posts: true
-
 # used on kontak page to send email through formspree
 email: 'maywlrba'
 
-# pixyll text translated to indonesian
-text:
-  pagination:
-    newer: 'Lebih Baru'
-    older: 'Lebih Lama'
-  share_buttons:
-    text:         'Bagikan postingan ini!'
-    facebook:     'Bagikan di Facebook'
-    twitter:      'Bagikan di Twitter'
-    googleplus:   'Bagikan di Google+'
-    linkedin:     'Bagikan di LinkedIn'
-    digg:         'Bagikan di Digg'
-    tumblr:       'Bagikan di Tumblr'
-    reddit:       'Bagikan di Reddit'
-    stumbleupon:  'Bagikan di StumbleUpon'
-    hackernews:   'Bagikan di Hacker News'
-  post:
-    updated:        'Diperbarui'
-    minute_read:    'menit baca'
-    related_posts:  'Post Lainnya'
-  index:
-    coming_soon: 'Segera hadir...'
-  contact:
-    name:     'Nama kamu'
-    email:    'Alamat emailmu'
-    content:  'Apa yang ingin kamu sampaikan?'
-    subject:  'Pesan baru!'
-    submit:   'Kirim'
-    ajax:
-      sending:  'Mengirim...'
-      sent:     'Terkirim!'
-      error:    'Ada kesalahan!'
-  thanks: 'Terima kasih sudah menghubungi saya. Saya akan segera membalas pesanmu.'
-  og_locale: 'id_ID'
-  comment:
-    header: 'Komentar'
-    name: 'Nama Kamu.'
-    url: 'Link ke website, blog, atau social media kamu.'
-    message: 'Isi komentarmu.'
-    submit: 'Kirim Komentar'
-
 #theme: minima
 #show_excerpts: true
-#minima:
-#  date_format: "%d %B %Y"
-#header_pages:
-#  - profil.md
-#  - privasi.md
-#  - kontak.html
-#twitter_username: akhyarrh
-#github_username:  akhyarrh
+remote_theme: "jekyll/minima@0b7ca6b"
+minima:
+  date_format: "%d %B %Y"
+  skin: auto
+  nav_pages:
+    - README.md
+    - kontak.html
+  social_links:
+    - title: akhyarrh at GitHub
+       icon: github
+       url: "https://github.com/akhyarrh"
+    - title: akhyarrh at Twitter
+       icon: twitter
+       url: "https://twitter.com/akhyarrh"
 
 timezone: Asia/Makassar
 
 title: "AkhyarRH's Weblog"
-tagline: 'Semua tentang berbagi hal yang berarti bagi saya.'
+tagline: 'Level 30 Male Human.'
 description: >
   Selamat datang di sudut kecil internet saya, tempat teknologi, gaming, dan catatan pribadi bertemu.
   Di sini, saya menyampaikan apapun dengan gaya apa adanya.
-  Jika kamu seorang penggemar teknologi atau gamer yang mencari ulasan, insight, dan sudut pandang unik, kamu berada di tempat yang tepat.
+  Jika kamu seorang penggemar teknologi atau gamer yang mencari ulasan, insight, dan sudut pandang unik,
+  kamu berada di tempat yang tepat.
   Yuk, eksplorasi, curhat, dan terhubung bareng!
 url: &url 'https://akhyar.js.org'
-baseurl: ""
 repository: akhyarrh/akhyarrh.github.io
 
 # Staticman url
@@ -92,7 +50,6 @@ language: id-ID
 # used by jekyll-seo-tag
 twitter:
   username: akhyarrh
-  card: summary_large_image
 
 # used by jekyll-seo-tag
 social:
@@ -116,8 +73,8 @@ webmaster_verifications:
 
 permalink: /:title/
 
-paginate: 10
-paginate_path: "/page:num/"
+#paginate: 10
+#paginate_path: "/page:num/"
 
 show_drafts: false
 future:      false
@@ -163,16 +120,16 @@ defaults:
 # https://help.github.com/articles/configuring-jekyll-plugins/#default-plugins
 plugins:
   - jekyll-remote-theme
-  - jekyll-redirect-from
-  - jekyll-github-metadata
+#  - jekyll-redirect-from
+#  - jekyll-github-metadata
   - jekyll-commonmark
   - jekyll-gist
   - jekyll-mentions
   - jekyll-relative-links
   - jemoji
   - jekyll-target-blank
-  #- jekyll-og-image
-  - jekyll-paginate
+#  - jekyll-og-image
+#  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
