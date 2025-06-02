@@ -1,4 +1,4 @@
 ---
+title: I dont want to use headless CMS
 published: false
-title: I dont want to use headless cms
 ---
