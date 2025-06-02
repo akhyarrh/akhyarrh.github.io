@@ -2,19 +2,19 @@
 title: Weekly Update 2025 Week 22
 published: false
 date: 2025-06-02
-content: >-
+---
   ## Shizuku on my phone
 
 
-  Finally bisa juga setup \[Shizuku\](https://github.com/RikkaApps/Shizuku).
+  Finally bisa juga setup [Shizuku](https://github.com/RikkaApps/Shizuku).
   Setelah sebelumnya stuck parah soalnya searching pairing wireless ADB terus.
   Hal pertama yang dilakukan tentu saja debloat dulu. Aku melakukannya pakai
   `rish`, shell bawaan Shizuku yang bisa pakai command <kbd>pm uninstall --user
   0 app.pkg.name</kbd>. Setelah kelar beberapa app, baru ketemu
-  \[Canta\](https://github.com/samolego/Canta).
+  [Canta](https://github.com/samolego/Canta).
 
 
-  ![](/assets/uploads/canta-main-screen.jpg)
+  ![Canta main screen](/assets/uploads/canta-main-screen.jpg)
 
 
   Pakai Canta lebih enak rupanya karna ada UI dan app nya dikasih kategori
@@ -22,7 +22,7 @@ content: >-
   pop-up window yang berisi tentang app itu apa, aman ga dihapus, dan lain-lain.
 
 
-  ![](/assets/uploads/Canta-restore-screen.jpg)
+  ![Canta uninstalled app screen](/assets/uploads/Canta-restore-screen.jpg)
 
 
   Di halaman sebelahnya bisa liat aplikasi apa aja yang sudah dihapus. Terus
@@ -38,7 +38,7 @@ content: >-
   dihapus. Sebenarnya sih bisa tapi akan install ulang sendiri setelah restart.
 
 
-  ![](/assets/uploads/protected-app.jpg)
+  ![XOS protected apps](/assets/uploads/protected-app.jpg)
 
 
   Sebagai catatan juga OOBE kalo dihapus bakal bikin status bar broken pas main
@@ -46,19 +46,19 @@ content: >-
   ini protected app.
 
 
-  Database Canta di dapat dari \[universal android
-  debloater\](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad\_lists.json).
+  Database Canta di dapat dari [universal android
+  debloater](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json).
 
 
   ## Shalltry tracker ?
 
 
-  Iseng dump pakai \[PCAPdroid\](https://github.com/emanuele-f/PCAPdroid) karena
+  Iseng dump pakai [PCAPdroid](https://github.com/emanuele-f/PCAPdroid) karena
   masih curiga, ternyata hampir tiap beberapa detik ada mengirim request ke 2
   domain yaitu `gslb.shalltry.com` dan `ire-oneid.shalltry.com`.
 
 
-  ![](/assets/uploads/ZomboDroid_03062025022801.jpg)
+  ![shalltry.com gslb and ire-oneid subdomain detail](/assets/uploads/ZomboDroid_03062025022801.jpg)
 
 
   Di github banyak yang menambahkan domain ini ke project2 adblocker.
@@ -74,9 +74,9 @@ content: >-
       
 
   Sepertinya memang benar tracker. Bisa di block dengan memakai DNS resolver
-  yang memakai \[blocklist dari
-  StevenBlack\](https://github.com/StevenBlack/hosts), seperti misalnya
-  \[ControlD\](https://controld.com/free-dns?freeResolverType=x-stevenblack&helpPane=dns)
+  yang memakai [blocklist dari
+  StevenBlack](https://github.com/StevenBlack/hosts), seperti misalnya
+  [ControlD](https://controld.com/free-dns?freeResolverType=x-stevenblack&helpPane=dns)
   atau pakai langsung blocklistnya melalui aplikasi semacam Adaway atau NextDNS.
 
 
@@ -85,4 +85,4 @@ content: >-
 
   Kayaknya segitu dulu update buat minggu ini. Sebenarnya ini bukan update sih,
   lebih ke dokumentasi pribadi aja. Sampai jumpa di weekly update lainnya. Ciao.
----
+
