@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Profil
+title: README
 permalink: /profil/
 image: /assets/img/og-image-default.png
 ---
@@ -17,13 +17,13 @@ Selamat datang di sudut kecil saya di internet! Saya suka beberapa hal sederhana
 
 Saya tinggal di **South Borneo, Indonesia**, tempat dengan alam indah dan budaya keren. Kalau kamu suka ngobrol soal teknologi, game, atau cuma mau say hi, langsung aja lewat [Twitter](https://twitter.com/akhyarrh) atau [lewat Email](/kontak/)!
 
-## Terimakasih
+## Terima kasih
 
-* [GitHub Pages](https://pages.github.com/)
+* [Cloudflare Pages](https://pages.dev/)
 * [Jekyll](https://jekyllrb.com/)
+* [minima](https://github.com/jekyll/minima)
 * [Netlify](https://netlify.com/)
 * [js.org](https://github.com/js-org/js.org/)
-* [Pixyll](https://github.com/johno/pixyll)
 * [RoboHash](https://robohash.org/)
 * [Color Safe](https://colorsafe.co/)
 * [Statically](https://statically.io/)
