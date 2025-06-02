@@ -27,7 +27,7 @@ content:
       - name: date
         label: 'Date Published'
         type: date
-      - name: content
+      - name: body
         label: 'Content'
         type: rich-text
 
@@ -40,7 +40,7 @@ content:
       - name: title
         label: 'Title'
         type: string
-      - name: content
+      - name: body
         label: 'Content'
         type: rich-text
 
