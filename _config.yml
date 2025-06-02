@@ -27,12 +27,7 @@ timezone: Asia/Makassar
 
 title: "AkhyarRH's Weblog"
 tagline: 'Level 30 Male Human.'
-description: >
-  Selamat datang di sudut kecil internet saya, tempat teknologi, gaming, dan catatan pribadi bertemu.
-  Di sini, saya menyampaikan apapun dengan gaya apa adanya.
-  Jika kamu seorang penggemar teknologi atau gamer yang mencari ulasan, insight, dan sudut pandang unik,
-  kamu berada di tempat yang tepat.
-  Yuk, eksplorasi, curhat, dan terhubung bareng!
+description: 'Level 30 Male Human.'
 url: &url 'https://akhyar.js.org'
 repository: akhyarrh/akhyarrh.github.io
 
