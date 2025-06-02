@@ -125,6 +125,8 @@ unpublished: false
 
 include:
   - .well-known
+  - _headers
+  - _redirects
 
 # Hey jekyll, dont include this:
 exclude:
@@ -140,10 +142,6 @@ exclude:
   - package.json
   - package-lock.json
   - jampack.config.mjs
-
-include:
-  - _headers
-  - _redirects
 
 sass:
   style: expanded
