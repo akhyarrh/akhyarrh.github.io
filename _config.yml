@@ -17,11 +17,11 @@ minima:
     - kontak.html
   social_links:
     - title: akhyarrh at GitHub
-       icon: github
-       url: "https://github.com/akhyarrh"
+      icon: github
+      url: "https://github.com/akhyarrh"
     - title: akhyarrh at Twitter
-       icon: twitter
-       url: "https://twitter.com/akhyarrh"
+      icon: twitter
+      url: "https://twitter.com/akhyarrh"
 
 timezone: Asia/Makassar
 
