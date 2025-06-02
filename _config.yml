@@ -123,6 +123,9 @@ show_drafts: false
 future:      false
 unpublished: false
 
+include:
+  - .well-known
+
 # Hey jekyll, dont include this:
 exclude:
   - CNAME
