@@ -1,11 +1,14 @@
 const default_options = {
+  html: {
+    sort_attributes: true,
+  },
   image: {
     external: {
       process: 'download',
     },
   },
-  misc: {
-    prefetch_links: 'in-viewport',
+  cdn: {
+      process: 'on',
   },
 };
 
