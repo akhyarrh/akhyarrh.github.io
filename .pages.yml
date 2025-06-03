@@ -1,29 +1,51 @@
 media: 'assets/uploads'
 content:
   - name: posts
-    label: Posts
+    label: 'Posts'
     type: collection
+    icon: file-stack
     path: '_posts'
+    # by default filename saved in format {year}-{month}-{day}-{primary}.md.
+    # config below saved for reference later.
+    #filename: '{year}-{month}-{day}-{primary}.md'
     view:
+      primary: title
       fields: [ title, date, published ]
+      sort: [ published, date, title ]
+      default:
+        search: ''
+        sort: published
+        order: asc
     fields:
-      - name: published
-        label: Published
-        type: boolean
-      - name: date
-        label: Date
-        type: date
       - name: title
-        label: Title
+        label: 'Title'
         type: string
-      - name: image
-        label: Image
-        type: image
+      - name: published
+        label: 'Publish'
+        type: boolean
+        default: false
+      - name: date
+        label: 'Date Published'
+        type: date
       - name: body
-        label: Body
+        label: 'Content'
         type: rich-text
-        options:
-          image:
-            input: 'assets/uploads'
-            output: '/assets/uploads'
-            path: 'assets/uploads'
+
+  - name: readme
+    label: About me
+    path: README.md
+    type: file
+    icon: circle-user-round
+    fields:
+      - name: title
+        label: 'Title'
+        type: string
+      - name: body
+        label: 'Content'
+        type: rich-text
+
+  - name: config
+    label: Jekyll config
+    path: _config.yml
+    type: file
+    icon: settings
