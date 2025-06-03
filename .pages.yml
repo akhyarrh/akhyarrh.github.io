@@ -29,7 +29,7 @@ content:
         type: date
       - name: body
         label: 'Content'
-        type: rich-text
+        type: text
 
   - name: readme
     label: About me
@@ -42,7 +42,7 @@ content:
         type: string
       - name: body
         label: 'Content'
-        type: rich-text
+        type: text
 
   - name: config
     label: Jekyll config
