@@ -75,7 +75,7 @@ description: >
   Jika kamu seorang penggemar teknologi atau gamer yang mencari ulasan, insight, dan sudut pandang unik, kamu berada di tempat yang tepat.
   Yuk, eksplorasi, curhat, dan terhubung bareng!
 url: &url 'https://akhyar.id'
-baseurl: "blog"
+#baseurl: "blog"
 repository: akhyarrh/akhyarrh.github.io
 
 # Staticman url
