@@ -114,7 +114,7 @@ webmaster_verifications:
 # not used currently
 #naver_site_verification  : 6317134cb9bef4388b660148341705f37c442045
 
-permalink: /:title/
+permalink: /blog/:title/
 
 paginate: 10
 paginate_path: "/page:num/"
