@@ -39,7 +39,7 @@ url: &url 'https://akhyar.js.org'
 repository: akhyarrh/akhyarrh.github.io
 
 # Staticman url
-staticman_url: 'https://staticman-akhyarrh.netlify.app/.netlify/functions/staticman'
+#staticman_url: 'https://staticman-akhyarrh.netlify.app/.netlify/functions/staticman'
 
 # WTF IS THIS THING
 # used by <html lang>
@@ -161,47 +161,3 @@ jekyll-mentions: "https://twitter.com"
     #color: "#ffffff"
   #border_bottom:
     #width: 50
-
-# prose.io
-prose:
-  rooturl: '_posts'
-  siteurl: *url
-  relativeLinks: 'https://akhyar.js.org/links.jsonp'
-  media: 'assets/uploads'
-  metadata:
-    _posts:
-      - name: "published"
-        field:
-          element: "checkbox"
-          value: false
-
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-
-      - name: "last_modified_at"
-        field:
-          element: "text"
-          label: "Modified Date"
-          placeholder: CURRENT_DATETIME
-
-      - name: "image"
-        field:
-          element: "text"
-          label: "Image"
-          help: "This image displayed & used for SEO stuff."
-
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Categories"
-          alterable: true
-          options: "https://akhyar.js.org/categories.jsonp?callback=categories"
-
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Tags"
-          alterable: true
-          options: "https://akhyar.js.org/tags.jsonp?callback=tags"
