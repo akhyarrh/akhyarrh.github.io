@@ -20,6 +20,8 @@ minima:
     - title: akhyarrh at Twitter
       icon: twitter
       url: "https://twitter.com/akhyarrh"
+  hide_site_feed_link: true
+  
 author:
   name: akhyarrh
   #email: "akhyarrh@gmail.com"
@@ -53,7 +55,7 @@ twitter:
 
 # used by jekyll-seo-tag
 social:
-  name: 'M Akhyar Rahman H'
+  name: 'akhyarrh'
   links:
     - https://twitter.com/akhyarrh
     - https://github.com/akhyarrh
