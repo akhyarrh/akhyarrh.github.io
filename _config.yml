@@ -23,8 +23,8 @@ minima:
       icon: twitter
       url: "https://twitter.com/akhyarrh"
 author:
-  name: M. Akhyar Rahman Hidayat
-  email: "akhyarrh@gmail.com"
+  name: akhyarrh
+  #email: "akhyarrh@gmail.com"
 # ignore minima's default config
 # expect chaos
 ignore_theme_config: true
