@@ -2,56 +2,155 @@
 title: Kontak
 ---
 
+<!-- 1. GAYA (CSS) - Disesuaikan untuk Minima -->
+<style>
+  .contact-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Label membungkus input, jadi kita buat block agar rapi */
+  .contact-wrapper label {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #424242; /* Warna abu gelap Minima */
+  }
+
+  /* Style untuk input dan textarea */
+  .contact-wrapper input[type="text"],
+  .contact-wrapper textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px; /* Jarak antara teks label dan kotak input */
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: inherit;
+  }
+
+  .contact-wrapper input[type="text"]:focus,
+  .contact-wrapper textarea:focus {
+    outline: none;
+    border-color: #2a7ae2; /* Warna biru link Minima */
+  }
+
+  /* Tombol Submit */
+  .contact-wrapper button {
+    background-color: #2a7ae2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .contact-wrapper button:hover {
+    background-color: #1b5bb5;
+  }
+
+  .contact-wrapper button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  /* Kotak pesan status (Success/Error) */
+  #form-status {
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
+  .status-success { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+  .status-error { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+</style>
+
 <p>Hubungi saya lewat email :smile:</p>
 
-<div class="py2">
-  {% if site.ajaxify_contact_form %}
-    <form class="form-stacked">
+<!-- 2. HTML FORM -->
+<div class="contact-wrapper">
+    <!-- GANTI ACTION URL DI BAWAH DENGAN FORMSPREE ANDA -->
+    <form id="contact-form" action="https://formspree.io/{{ site.email }}" method="POST">
+      
       <label>
         Nama
-        <input type="text" name="name" class="field-light" placeholder="{{ site.text.contact.name | default: "Your Name" }}">
+        <input type="text" name="name" placeholder="{{ site.text.contact.name | default: "Your Name" }}" required>
       </label>
 
       <label>
         Email
-        <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email | default: "Email Address" }}">
+        <!-- Menggunakan type="email" untuk validasi browser otomatis -->
+        <input type="email" name="email" placeholder="{{ site.text.contact.email | default: "Email Address" }}" required>
       </label>
 
       <label>
         Isi pesan
-        <textarea type="text" name="content" class="field-light" rows="5" placeholder="{{ site.text.contact.content | default: "What would you like to say?" }}" style="resize: vertical"></textarea>
+        <textarea name="content" rows="5" placeholder="{{ site.text.contact.content | default: "What would you like to say?" }}" style="resize: vertical" required></textarea>
       </label>
 
+      <!-- Liquid Subject -->
       <input type="hidden" name="_subject" value="{{ site.text.contact.subject | default: "New submission!" }}" />
 
+      <!-- Honeypot (Anti Spam) -->
       <input type="text" name="_gotcha" style="display:none" />
 
-      <button type='submit' class="button button-blue button-big mobile-block">{{ site.text.contact.submit | default: "Say Hello" }}</button>
+      <button type="submit" id="submit-btn">{{ site.text.contact.submit | default: "Say Hello" }}</button>
+      
+      <!-- Tempat muncul pesan sukses/gagal -->
+      <div id="form-status"></div>
     </form>
-  {% else %}
-    <form action="https://formspree.io/f/{{ site.email }}" method="POST" class="form-stacked">
-      <label>
-        Nama
-        <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.name | default: "Your Name" }}">
-      </label>
-      <label>
-        Email
-        <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email | default: "Email Address" }}">
-      </label>
-      <label>
-        Isi pesan
-        <textarea type="text" name="content" class="field-light" rows="5" placeholder="{{ site.text.contact.content | default: "What would you like to say?" }}" style="resize: vertical"></textarea>
-      </label>
-
-      <input type="hidden" name="_next" value="{{ "/kontak/" | relative_url }}" />
-      <input type="hidden" name="_subject" value="{{ site.text.contact.subject | default: "New submission!" }}" />
-      <input type="text" name="_gotcha" style="display:none" />
-
-      <input type="submit" class="button button-blue button-big mobile-block" value="{{ site.text.contact.submit | default: "Say Hello" }}">
-    </form>
-  {% endif %}
 </div>
 
-{% if site.ajaxify_contact_form %}
-  {% include ajaxify_content_form.html %}
-{% endif %}
+<!-- 3. JAVASCRIPT AJAX -->
+<script>
+  const form = document.getElementById("contact-form");
+  const status = document.getElementById("form-status");
+  const submitBtn = document.getElementById("submit-btn");
+  const originalBtnText = submitBtn.innerText;
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+    const data = new FormData(event.target);
+    
+    // Ubah tombol jadi "Sending..." dan disable
+    submitBtn.disabled = true;
+    submitBtn.innerText = "Mengirim..."; // Atau "Sending..."
+
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        status.innerHTML = "Pesan berhasil dikirim! Terima kasih.";
+        status.className = "status-success";
+        status.style.display = "block";
+        form.reset();
+      } else {
+        response.json().then(data => {
+          if (Object.hasOwn(data, 'errors')) {
+            status.innerHTML = data["errors"].map(error => error["message"]).join(", ");
+          } else {
+            status.innerHTML = "Oops! Ada masalah saat mengirim formulir.";
+          }
+          status.className = "status-error";
+          status.style.display = "block";
+        })
+      }
+    }).catch(error => {
+      status.innerHTML = "Oops! Ada masalah koneksi.";
+      status.className = "status-error";
+      status.style.display = "block";
+    }).finally(() => {
+      // Kembalikan tombol seperti semula
+      submitBtn.disabled = false;
+      submitBtn.innerText = originalBtnText;
+    });
+  }
+  form.addEventListener("submit", handleSubmit);
+</script>
