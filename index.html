@@ -2,145 +2,141 @@
 layout: null
 ---
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<html lang="{{ site.lang | default: "en" }}">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     {%- seo -%}
     {%- feed_meta -%}
     {%- include custom-head.html -%}
     
-    <!-- Google Fonts: A clean, modern sans-serif font is best for this style. -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- 1. Import CSS Minima (PENTING: Agar variabel CSS terbaca) -->
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 
     <style>
-        /* 
-         * =========================================
-         * CSS STYLES
-         * Expert: Web Designer / Front-End Developer
-         * =========================================
-         */
-
-        /* --- 1. Global & Reset Styles --- */
-        /* A common best practice to ensure consistent styling across all browsers. */
-        * {
+        /* Reset & Base Layout */
+        body {
+            /* Menggunakan variabel background & text Minima */
+            background-color: var(--minima-background-color);
+            color: var(--minima-text-color);
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             margin: 0;
-            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
             box-sizing: border-box;
         }
 
-        /* --- 2. Body & Background --- */
-        body {
-            font-family: 'Inter', sans-serif; /* Use the imported Google Font */
-            color: #fff; /* Default text color is white */
-            
-            /* A subtle, professional gradient background */
-            background: linear-gradient(135deg, #1c1e26, #3c3f50);
-            
-            /* Center the content vertically and horizontally */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh; /* Ensures the body takes at least the full viewport height */
-            padding: 20px; /* Adds some space on very small screens */
-        }
-
-        /* --- 3. Main Container --- */
-        /* This holds all the content and centers it. */
         .container {
             width: 100%;
-            max-width: 680px; /* A good max-width for link pages */
+            max-width: 400px; /* Lebar ideal untuk landing page profil */
             text-align: center;
-            padding: 40px 20px;
         }
-        
-        /* --- 4. Profile Section --- */
+
+        /* --- Profile Section --- */
         .profile-header {
-            margin-bottom: 40px; /* Space between header and links */
+            margin-bottom: 2rem;
         }
-        
+
         .profile-picture {
             width: 120px;
             height: 120px;
-            border-radius: 50%; /* Makes the image a perfect circle */
-            border: 4px solid #fff;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-            object-fit: cover; /* Prevents the image from being distorted */
-            margin-bottom: 20px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            /* Border tipis menggunakan warna border Minima */
+            border: 1px solid var(--minima-border-color-02);
+            padding: 4px; /* Memberi jarak antara foto dan border */
+            background-color: var(--minima-background-color);
         }
 
         .profile-title {
-            font-size: 2rem; /* 32px */
+            font-size: 1.75rem;
             font-weight: 700;
-            margin-bottom: 8px;
+            margin: 0 0 0.5rem 0;
+            color: var(--minima-heading-color);
+            letter-spacing: -0.5px;
         }
 
         .profile-description {
-            font-size: 1rem; /* 16px */
-            font-weight: 400;
-            color: #d1d5db; /* A slightly softer white for the description */
+            font-size: 1rem;
+            margin: 0;
+            color: var(--minima-brand-color-dimmed); /* Warna abu-abu Minima */
         }
 
-        /* --- 5. Fluid Buttons / Links --- */
+        /* --- Links / Buttons Section --- */
         .links-container {
             display: flex;
-            flex-direction: column; /* Stack the links vertically */
-            gap: 20px; /* Space between each link button */
+            flex-direction: column;
+            gap: 15px;
         }
 
         .link-button {
-            display: block; /* Makes the entire area of the anchor tag clickable */
-            background-color: rgba(255, 255, 255, 0.1);
-            color: #fff;
-            text-decoration: none; /* Removes the default underline from links */
-            padding: 18px 20px;
-            border-radius: 12px;
-            font-size: 1.1rem; /* 17.6px */
-            font-weight: 700;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            display: block;
+            text-decoration: none;
+            padding: 15px 20px;
+            border-radius: 4px; /* Radius kecil khas Minima */
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.2s ease-in-out;
             
-            /* The magic for the smooth "fluid" animation on hover */
-            transition: all 0.3s ease-in-out;
+            /* STYLE MINIMA: */
+            /* Background mirip blok kode (abu sangat muda di light mode, abu tua di dark mode) */
+            background-color: var(--minima-code-background-color);
+            
+            /* Border tipis */
+            border: 1px solid var(--minima-border-color-01);
+            
+            /* Warna teks mengikuti warna Link utama */
+            color: var(--minima-link-base-color);
         }
 
         .link-button:hover {
-            background-color: rgba(255, 255, 255, 0.2);
-            transform: scale(1.05); /* Makes the button "grow" slightly */
-            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+            /* Saat hover, border berubah warna dan sedikit terangkat */
+            border-color: var(--minima-link-base-color);
+            transform: translateY(-2px);
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        
+        /* Opsional: Efek aktif saat ditekan */
+        .link-button:active {
+            transform: translateY(0);
         }
 
-        /* --- 6. Footer --- */
+        /* --- Footer --- */
         footer {
-            margin-top: 50px;
-            font-size: 0.8rem;
-            color: #9ca3af;
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            color: var(--minima-brand-color-dimmed);
         }
     </style>
 </head>
 <body>
 
     <main class="container">
-    <!-- PROFILE SECTION -->
+        <!-- PROFILE SECTION -->
         <header class="profile-header">
-            <img src="/assets/img/avatar.jpg" alt="Profile Picture" class="profile-picture">
+            <!-- Pastikan path gambar benar -->
+            <img src="{{ '/assets/img/profile-picture.jpg' | relative_url }}" alt="Profile Picture" class="profile-picture">
             <h1 class="profile-title">Akhyar RH</h1>
             <p class="profile-description">Level 31. Male. Human.</p>
         </header>
 
-        <!-- FLUID BUTTONS SECTION -->
+        <!-- BUTTONS SECTION -->
         <div class="links-container">
-            <a href="/blog/" class="link-button">/blog</a>
+            <!-- Menggunakan relative_url agar link aman saat dideploy -->
+            <a href="{{ '/blog/' | relative_url }}" class="link-button">/blog</a>
             <a href="https://twitter.com/akhyarrh" class="link-button">/twitter</a>
             <a href="https://github.com/akhyarrh" class="link-button">/github</a>
         </div>
         
         <footer>
-            <p>&copy; 2026</p>
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
         </footer>
-
     </main>
 
 </body>
+</html>
