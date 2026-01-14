@@ -23,7 +23,7 @@ minima:
   hide_site_feed_link: true
   
 author:
-  name: akhyarrh
+  name: Akhyar RH
   #email: "akhyarrh@gmail.com"
   
 # ignore minima's default config
@@ -35,7 +35,7 @@ timezone: Asia/Makassar
 title: "AkhyarRH's Weblog"
 tagline: &desc 'Level 30. Male. Human.'
 description: *desc
-url: &url 'https://akhyar.js.org'
+url: &url 'https://akhyar.id'
 repository: akhyarrh/akhyarrh.github.io
 
 # Staticman url
@@ -55,7 +55,7 @@ twitter:
 
 # used by jekyll-seo-tag
 social:
-  name: 'akhyarrh'
+  name: 'Akhyar RH'
   links:
     - https://twitter.com/akhyarrh
     - https://github.com/akhyarrh
