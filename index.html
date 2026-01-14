@@ -121,8 +121,8 @@ layout: null
         <header class="profile-header">
             <!-- Pastikan path gambar benar -->
             <img src="{{ '/assets/img/profile-picture.jpg' | relative_url }}" alt="Profile Picture" class="profile-picture">
-            <h1 class="profile-title">Akhyar RH</h1>
-            <p class="profile-description">Level 31. Male. Human.</p>
+            <h1 class="profile-title">{{ site.author.name }}</h1>
+            <p class="profile-description">{{ site.description }}</p>
         </header>
 
         <!-- BUTTONS SECTION -->
@@ -134,7 +134,7 @@ layout: null
         </div>
         
         <footer>
-            <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
         </footer>
     </main>
 
