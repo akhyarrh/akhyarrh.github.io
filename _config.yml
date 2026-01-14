@@ -8,7 +8,7 @@ email: 'maywlrba'
 
 #theme: minima
 #show_excerpts: true
-remote_theme: "jekyll/minima@0b7ca6b"
+remote_theme: "jekyll/minima@5f61d94"
 minima:
   date_format: "%d %B %Y"
   skin: auto
