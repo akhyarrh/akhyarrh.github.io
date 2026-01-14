@@ -6,11 +6,9 @@
 # used on kontak page to send email through formspree
 email: 'maywlrba'
 
-#theme: minima
-#show_excerpts: true
 remote_theme: "jekyll/minima@5f61d94"
 minima:
-  date_format: "%d %B %Y"
+  date_format: "%d-%m-%Y"
   skin: auto
   nav_pages:
     - README.md
@@ -25,6 +23,7 @@ minima:
 author:
   name: akhyarrh
   #email: "akhyarrh@gmail.com"
+  
 # ignore minima's default config
 # expect chaos
 ignore_theme_config: true
@@ -32,8 +31,8 @@ ignore_theme_config: true
 timezone: Asia/Makassar
 
 title: "AkhyarRH's Weblog"
-tagline: 'Level 30 Male Human.'
-description: 'Level 30 Male Human.'
+tagline: &desc 'Level 30. Male. Human.'
+description: *desc
 url: &url 'https://akhyar.js.org'
 repository: akhyarrh/akhyarrh.github.io
 
@@ -126,7 +125,7 @@ plugins:
 #  - jekyll-redirect-from
 #  - jekyll-github-metadata
   - jekyll-commonmark
-  - jekyll-gist
+#  - jekyll-gist
   - jekyll-mentions
   - jekyll-relative-links
   - jemoji
