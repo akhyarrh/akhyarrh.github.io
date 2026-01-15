@@ -48,7 +48,7 @@ self.addEventListener("fetch", function(event) {
       return fetch(event.request).catch(function() {
         // Offline Fallback: If network fails and request is for an HTML page, show 404/Offline page
         // We check headers to ensure we only return the 404 page for navigation requests, not images/css.
-        if (event.request.headers.get('accept').includes('text/html')) {
+        if (event.request.headers.get('accept')?.includes('text/html')) {
             return caches.match("{{ '/404.html' | relative_url }}");
         }
       });
