@@ -168,6 +168,10 @@ title: Contact
           }
           status.className = "status-error";
           status.style.display = "block";
+        }).catch(() => {
+          status.innerHTML = "Oops! Ada masalah saat mengirim formulir.";
+          status.className = "status-error";
+          status.style.display = "block";
         })
       }
     }).catch(error => {
