@@ -55,4 +55,4 @@
 
 # Jampack generated images (hashed files) can be cached forever
 /_jampack/*
-  Cache-Control: public, max-age=31556952, imversion
+  Cache-Control: public, max-age=31556952, immutable
