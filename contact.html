@@ -162,7 +162,7 @@ title: Contact
       } else {
         response.json().then(data => {
           if (Object.hasOwn(data, 'errors')) {
-            status.innerHTML = data["errors"].map(error => error["message"]).join(", ");
+            status.textContent = data["errors"].map(error => error["message"]).join(", ");
           } else {
             status.innerHTML = "Oops! Ada masalah saat mengirim formulir.";
           }
