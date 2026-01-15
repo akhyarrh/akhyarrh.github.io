@@ -75,8 +75,7 @@ jobs:
             const run_id = context.runId;
             const repository = context.repo.repo;
             const owner = context.repo.owner;
-            const link = `
-            
+            const link = `https://github.com/${owner}/${repository}/actions/runs/${run_id}`;
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: owner,
