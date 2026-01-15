@@ -128,11 +128,19 @@ title: Contact
       <input type="hidden" name="_subject" value="{{ site.text.contact.subject | default: "New submission!" }}" />
       <input type="text" name="_gotcha" style="display:none" />
 
+      <div class="cf-turnstile" data-sitekey="0x4AAAAAAAxOnZWU9yDH27rf"></div>
+
       <button type="submit" id="submit-btn">{{ site.text.contact.submit | default: "Say Hello" }}</button>
       
       <div id="form-status"></div>
     </form>
 </div>
+
+<script
+  src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+  async
+  defer
+></script>
 
 <!-- 3. JAVASCRIPT AJAX -->
 <script>
