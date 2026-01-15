@@ -128,7 +128,9 @@ title: Contact
       <input type="hidden" name="_subject" value="{{ site.text.contact.subject | default: "New submission!" }}" />
       <input type="text" name="_gotcha" style="display:none" />
 
+      {%- if jekyll.environment == 'production' and site.turnstile.site-key -%}
       <div class="cf-turnstile" data-sitekey="{{ site.turnstile.site-key }}"></div>
+      {%- endif -%}
 
       <button type="submit" id="submit-btn">{{ site.text.contact.submit | default: "Say Hello" }}</button>
       
@@ -136,11 +138,13 @@ title: Contact
     </form>
 </div>
 
+{%- if jekyll.environment == 'production' and site.turnstile.site-key -%}
 <script
   src="https://challenges.cloudflare.com/turnstile/v0/api.js"
   async
   defer
 ></script>
+{%- endif -%}
 
 <!-- 3. JAVASCRIPT AJAX -->
 <script>
