@@ -4,11 +4,11 @@
 # https://jekyllrb.com/docs/configuration/
 
 # used on kontak page to send email through formspree
-email: 'maywlrba'
+email: maywlrba
 
-remote_theme: "jekyll/minima@5f61d94"
+remote_theme: jekyll/minima@5f61d94
 minima:
-  date_format: "%d-%m-%Y"
+  date_format: '%d-%m-%Y'
   skin: auto
   nav_pages:
     - README.md
@@ -17,10 +17,10 @@ minima:
   social_links:
     - title: akhyarrh at GitHub
       icon: github
-      url: "https://github.com/akhyarrh"
+      url: 'https://github.com/akhyarrh'
     - title: akhyarrh at Twitter
       icon: twitter
-      url: "https://twitter.com/akhyarrh"
+      url: 'https://twitter.com/akhyarrh'
   hide_site_feed_link: true
   
 author:
@@ -34,7 +34,7 @@ ignore_theme_config: true
 timezone: Asia/Makassar
 
 title: "AkhyarRH's Weblog"
-tagline: &desc 'Level 30. Male. Human.'
+tagline: &desc Level 30. Male. Human.
 description: *desc
 url: &url 'https://akhyar.id'
 repository: akhyarrh/akhyarrh.github.io
@@ -56,17 +56,17 @@ twitter:
 
 # used by jekyll-seo-tag
 social:
-  name: 'Akhyar RH'
+  name: Akhyar RH
   links:
-    - https://twitter.com/akhyarrh
-    - https://github.com/akhyarrh
+    - 'https://twitter.com/akhyarrh'
+    - 'https://github.com/akhyarrh'
 
 # site verification
 # used by jekyll-seo-tag
 webmaster_verifications:
-  google: 'sXiK2vNEKhChWPst96RcH9KxGl4Ib5QbR02dPWIVEts'
-  bing:   'E9A1908DCAA52A63BF7B5F67DB05745D'
-  alexa:  'gXuVtj4bXDWiVB_ihCJijNBQNj8'
+  google: sXiK2vNEKhChWPst96RcH9KxGl4Ib5QbR02dPWIVEts
+  bing:   E9A1908DCAA52A63BF7B5F67DB05745D
+  alexa:  gXuVtj4bXDWiVB_ihCJijNBQNj8
 #  yandex: 1234
 #  baidu: 1234
 #  facebook: 1234
@@ -142,12 +142,12 @@ plugins:
 markdown: CommonMark
 
 commonmark:
-  options: ['SMART','FOOTNOTES','UNSAFE']
-  extensions: ['table', 'strikethrough', 'autolink']
+  options: [SMART, FOOTNOTES, UNSAFE]
+  extensions: [table, strikethrough, autolink]
   render:
     header_ids: true  # Enable auto-IDs for headings
 
-jekyll-mentions: "https://twitter.com"
+jekyll-mentions: 'https://twitter.com'
 
 # jekyll-og image
 #og_image:
