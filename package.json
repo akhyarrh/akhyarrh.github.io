@@ -1,7 +1,8 @@
 {
   "name": "akhyarrh.github.io",
   "version": "0.0.1",
-  "description": "--- layout: page title: Profil permalink: /profil image: /assets/img/og-image-default.png ---",
+  "private": true,
+  "description": "",
   "main": "service-worker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +11,6 @@
   "author": "akhyarrh <akhyarrh@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@divriots/jampack": "^0.30.0"
+    "@divriots/jampack": "^0.34.0"
   }
 }
