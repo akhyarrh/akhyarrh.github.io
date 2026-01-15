@@ -166,3 +166,8 @@ jekyll-mentions: 'https://twitter.com'
     #color: "#ffffff"
   #border_bottom:
     #width: 50
+
+# Cloudflare Turnstile
+# Only used on contact page
+turnstile:
+  site-key: 0x4AAAAAAAxOnZWU9yDH27rf
