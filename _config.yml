@@ -145,9 +145,12 @@ plugins:
 
 markdown: CommonMark
 
+# https://github.com/gjtorikian/commonmarker#options-and-plugins
 commonmark:
-  options: [SMART, FOOTNOTES, UNSAFE]
-  extensions: [table, strikethrough, autolink, header_ids]
+  options: [SMART, UNSAFE]
+  # disabled because (maybe) enabled by default
+  # see link above
+  #extensions: [table, strikethrough, autolink, header_ids]
 
 jekyll-mentions: 'https://twitter.com'
 
