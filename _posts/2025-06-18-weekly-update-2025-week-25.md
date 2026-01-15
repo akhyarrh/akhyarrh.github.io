@@ -1,6 +1,7 @@
 ---
 title: Weekly Update 2025 Week 25
 published: false
+date: 2025-06-18
 ---
 ## AI perlu UI baru
 
@@ -16,10 +17,10 @@ Oleh karena itu, untuk menjaga apps tetap up-to-date, alternative market jadi sa
 
 Aurora Store buat cek update di Play Store, Obtainium untuk cek secara langsung ke Github atau Gitlab. AppVerifier buat verifikasi. Fdroid dan IzzyDroid alternative market yang semua app nya open-source.
 
-### Aurora Store
+Mungkin nanti bakal menjelaskan lebih jauh soal bagaimana setup buat hp android googleless untuk daily driver.
 
-### Obtainium
+* * *
 
-### Fdroid
+Sekian.
 
-### AppVerifier
+Ciao.
