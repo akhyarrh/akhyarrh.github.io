@@ -23,9 +23,13 @@ minima:
       url: 'https://twitter.com/akhyarrh'
   hide_site_feed_link: true
   
+# used by minima (to render author name and email in footer)
+# jekyll-seo-tag for something (I dont remember)
 author:
   name: Akhyar RH
   #email: "akhyarrh@gmail.com"
+  # https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+  url: 'https://twitter.com/akhyarrh'  
   
 # ignore minima's default config
 # expect chaos
