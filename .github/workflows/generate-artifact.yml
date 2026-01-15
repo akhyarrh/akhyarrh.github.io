@@ -1,0 +1,116 @@
+name: generate-artifact
+
+on:
+  push:
+    branches:
+      - source
+  pull_request:
+
+# Necessary permissions to post comments on PRs
+permissions:
+  pull-requests: write
+
+jobs:
+  build_site:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install System Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgsl-dev
+
+      - name: Cache Jekyll
+        uses: actions/cache@v4
+        with:
+          path: .jekyll-cache
+          key: ${{ runner.os }}-jekyll-${{ hashFiles('Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-jekyll-
+
+      - name: Cache Jampack
+        uses: actions/cache@v4
+        with:
+          path: .jampack
+          key: jampack-${{ github.run_id }}
+          restore-keys: |
+            jampack
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: .ruby-version
+          bundler-cache: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.node-version'
+          #cache: 'npm'
+
+      - name: Install Node Dependencies
+        run: npm install
+
+      - name: Build and Optimize Site
+        run: |
+          bundle exec jekyll build --lsi && npx @divriots/jampack _site
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: jekyll-site-${{ github.event_name }}-${{ github.sha }}
+          path: _site/
+          retention-days: 5
+
+      - name: Comment on PR
+        if: github.event_name == 'pull_request' && success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // 1. FETCH ALL COMMENTS (using paginate to handle >30 comments)
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            
+            // 2. DELETE OLD COMMENTS
+            const marker = '<!-- generate-artifact-action -->';
+            
+            for (const comment of comments) {
+              if (comment.body.includes(marker)) {
+                try {
+                  console.log(`Deleting comment ${comment.id}`);
+                  await github.rest.issues.deleteComment({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    comment_id: comment.id,
+                  });
+                } catch (error) {
+                  console.warn(`Failed to delete comment ${comment.id}: ${error.message}`);
+                }
+              }
+            }
+            
+            // 3. POST NEW COMMENT
+            const run_id = context.runId;
+            const repository = context.repo.repo;
+            const owner = context.repo.owner;
+            const link = `https://github.com/${owner}/${repository}/actions/runs/${run_id}`;
+            
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: owner,
+              repo: repository,
+              body: `${marker}
+            🚀 **Jekyll Site Generated Successfully!**
+            
+            The Jekyll site has been built and is available as an artifact in this workflow run: [View Artifacts](${link})
+            
+            You can download the generated site to preview the changes locally.`
+            })
