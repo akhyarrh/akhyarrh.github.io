@@ -2,7 +2,7 @@
 layout: null
 ---
 {% for post in site.posts %}
-/post/{{ post.url }} /{{ post.url }} 301
+/post{{ post.url }} {{ post.url }} 301
 {% endfor %}
 /kontak /contact 301
 /profil /profile 301
