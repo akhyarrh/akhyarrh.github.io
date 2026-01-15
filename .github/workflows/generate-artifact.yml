@@ -72,31 +72,35 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            // Find and delete previous comments from this action
+            // 1. Find previous comments
             const comments = await github.rest.issues.listComments({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
             });
             
+            // 2. Iterate and delete with error handling
             for (const comment of comments.data) {
               if (comment.body.includes('<!-- generate-artifact-action -->')) {
-                await github.rest.issues.deleteComment({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  comment_id: comment.id,
-                });
+                try {
+                  await github.rest.issues.deleteComment({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    comment_id: comment.id,
+                  });
+                } catch (error) {
+                  // Log the error but continue execution
+                  console.warn(`Failed to delete comment ${comment.id}: ${error.message}`);
+                }
               }
             }
             
-            // Post new comment
+            // 3. Post new comment
             const run_id = context.runId;
             const repository = context.repo.repo;
             const owner = context.repo.owner;
             const link = `https://github.com/${owner}/${repository}/actions/runs/${run_id}`;
             
-            // NOTICE: The text below is flushed to the left. 
-            // This ensures Markdown processes it correctly.
             await github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: owner,
