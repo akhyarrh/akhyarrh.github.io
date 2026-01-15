@@ -1,5 +1,6 @@
 ---
 layout: null
+sitemap: false
 ---
 {% for post in site.posts %}
 /post{{ post.url }} {{ post.url }} 301
