@@ -12,7 +12,8 @@ minima:
   skin: auto
   nav_pages:
     - README.md
-    - kontak.html
+    - contact.html
+    - privacy-policy.md
   social_links:
     - title: akhyarrh at GitHub
       icon: github
