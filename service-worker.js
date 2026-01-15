@@ -1,30 +1,64 @@
 ---
 layout: null
+sitemap: false
 ---
-var CACHE_NAME = "akhyarrh-minima-v1";
+// Use Jekyll's build time to generate a unique cache name.
+// This ensures that every time you rebuild the site, the cache version updates.
+var CACHE_NAME = "akhyarrh-minima-{{ site.time | date: '%s' }}";
 
-self.addEventListener("install", function(e) {
-  e.waitUntil(
+var urlsToCache = [
+  "{{ '/' | relative_url null
+  "{{ '/assets/css/style.css' | relative_url }}",
+  "{{ '/404.html' | relative_url }}"
+];
+
+// 1. INSTALL: Cache the core assets immediately
+self.addEventListener("install", function(event) {
+  event.waitUntil(
     caches.open(CACHE_NAME).then(function(cache) {
-      return cache.addAll([
-        "{{ '/assets/css/style.css' | relative_url }}?{{ site.time | date: '%Y%m%d%H%M' }}",
-        "{{ '/' | relative_url }}?{{ site.time | date: '%Y%m%d%H%M' }}"
-      ]);
+      console.log("Opened cache");
+      return cache.addAll(urlsToCache);
     })
   );
 });
 
-self.addEventListener("activate", function(e) {
-  e.waitUntil(
-    caches.keys().then(function(names) {
+// 2. FETCH: Intercept network requests
+self.addEventListener("fetch", function(event) {
+  event.respondWith(
+    caches.match(event.request).then(function(response) {
+      // Cache Hit - Return the cached response
+      if (response) {
+        return response;
+      }
+      
+      // Cache Miss - Fetch from network
+      return fetch(event.request).catch(function() {
+        // Offline Fallback: If network fails and request is for an HTML page, show 404/Offline page
+        if (event.request.headers.get('accept').includes('text/html')) {
+            return caches.match("{{ '/404.html' | relative_url }}");
+        }
+      });
+    })
+  );
+});
+
+// 3. ACTIVATE: Clean up old caches
+self.addEventListener("activate", function(event) {
+  var cacheAllowlist = [CACHE_NAME];
+
+  event.waitUntil(
+    caches.keys().then(function(cacheNames) {
       return Promise.all(
-        names.map(function(name) {
-          if (name != CACHE_NAME) {
-            return caches.delete(name);
+        cacheNames.map(function(cacheName) {
+          if (cacheAllowlist.indexOf(cacheName) === -1) {
+            console.log("Deleting old cache:", cacheName);
+            return caches.delete(cacheName);
           }
         })
       );
     })
   );
-  return clients.claim();
+  
+  // Take control of the page immediately
+  return self.clients.claim();
 });
