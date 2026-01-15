@@ -95,14 +95,16 @@ jobs:
             const owner = context.repo.owner;
             const link = `https://github.com/${owner}/${repository}/actions/runs/${run_id}`;
             
+            // NOTICE: The text below is flushed to the left. 
+            // This ensures Markdown processes it correctly.
             await github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: owner,
               repo: repository,
               body: `<!-- generate-artifact-action -->
-                    🚀 **Jekyll Site Generated Successfully!**
-
-                    The Jekyll site has been built and is available as an artifact in this workflow run: [View Artifacts](${link})
-
-                    You can download the generated site to preview the changes locally.`
+            🚀 **Jekyll Site Generated Successfully!**
+            
+            The Jekyll site has been built and is available as an artifact in this workflow run: [View Artifacts](${link})
+            
+            You can download the generated site to preview the changes locally.`
             })
