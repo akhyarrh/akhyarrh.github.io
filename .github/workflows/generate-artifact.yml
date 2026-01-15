@@ -72,30 +72,32 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            // 1. Find previous comments
-            const comments = await github.rest.issues.listComments({
+            // 1. FETCH ALL COMMENTS (using paginate to handle >30 comments)
+            const comments = await github.paginate(github.rest.issues.listComments, {
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
             });
             
-            // 2. Iterate and delete with error handling
-            for (const comment of comments.data) {
-              if (comment.body.includes('<!-- generate-artifact-action -->')) {
+            // 2. DELETE OLD COMMENTS
+            const marker = '<!-- generate-artifact-action -->';
+            
+            for (const comment of comments) {
+              if (comment.body.includes(marker)) {
                 try {
+                  console.log(`Deleting comment ${comment.id}`);
                   await github.rest.issues.deleteComment({
                     owner: context.repo.owner,
                     repo: context.repo.repo,
                     comment_id: comment.id,
                   });
                 } catch (error) {
-                  // Log the error but continue execution
                   console.warn(`Failed to delete comment ${comment.id}: ${error.message}`);
                 }
               }
             }
             
-            // 3. Post new comment
+            // 3. POST NEW COMMENT
             const run_id = context.runId;
             const repository = context.repo.repo;
             const owner = context.repo.owner;
@@ -105,7 +107,7 @@ jobs:
               issue_number: context.issue.number,
               owner: owner,
               repo: repository,
-              body: `<!-- generate-artifact-action -->
+              body: `${marker}
             🚀 **Jekyll Site Generated Successfully!**
             
             The Jekyll site has been built and is available as an artifact in this workflow run: [View Artifacts](${link})
