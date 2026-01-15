@@ -1,10 +1,8 @@
----
-layout: null
-sitemap: false
----
-{% for post in site.posts %}
-/post{{ post.url }} {{ post.url }} 301
-{% endfor %}
+/post/* /:splat 301
+
 /kontak /contact 301
 /profil /profile 301
 /privasi /privacy-policy 301
+
+/github https://github.com/akhyarrh 301
+/twitter https://twitter.com/akhyarrh 301
