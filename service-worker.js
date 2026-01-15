@@ -7,7 +7,7 @@ var CACHE_NAME = "akhyarrh-minima-{{ site.time | date: '%s' }}";
 
 var urlsToCache = [
   "{{ '/' | relative_url }}",
-  "{{ '/assets/main.css' | relative_url }}",
+  "{{ '/assets/css/style.css' | relative_url }}",
   "{{ '/404.html' | relative_url }}"
 ];
 
