@@ -146,10 +146,8 @@ plugins:
 markdown: CommonMark
 
 commonmark:
-  options: [SMART, FOOTNOTES, UNSAFE]
+  options: [SMART, FOOTNOTES, UNSAFE, HEADER_IDS]
   extensions: [table, strikethrough, autolink]
-  render:
-    header_ids: true  # Enable auto-IDs for headings
 
 jekyll-mentions: 'https://twitter.com'
 
