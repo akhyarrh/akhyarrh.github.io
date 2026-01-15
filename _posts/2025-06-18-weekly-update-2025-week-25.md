@@ -1,7 +1,7 @@
 ---
 title: Weekly Update 2025 Week 25
 published: false
-date: 2025-06-18
+date: 2025-06-19
 ---
 ## AI perlu UI baru
 
@@ -20,6 +20,8 @@ Aurora Store buat cek update di Play Store, Obtainium untuk cek secara langsung 
 Mungkin nanti bakal menjelaskan lebih jauh soal bagaimana setup buat hp android googleless untuk daily driver.
 
 * * *
+
+Oh btw post ini akan dijadwalkan publish 19-06-2025. Bertepatan hari ulang tahun mama. Selamat ulang tahun, mom :heart:
 
 Sekian.
 
