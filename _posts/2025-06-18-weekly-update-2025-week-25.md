@@ -1,6 +1,6 @@
 ---
 title: Weekly Update 2025 Week 25
-published: false
+published: true
 date: 2025-06-19
 ---
 ## AI perlu UI baru
