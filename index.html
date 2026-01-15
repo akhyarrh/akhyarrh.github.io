@@ -1,4 +1,142 @@
 ---
-layout: home
-title: Posts
+layout: null
 ---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en" }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {%- seo -%}
+    {%- feed_meta -%}
+    {%- include custom-head.html -%}
+    
+    <!-- 1. Import CSS Minima (PENTING: Agar variabel CSS terbaca) -->
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+
+    <style>
+        /* Reset & Base Layout */
+        body {
+            /* Menggunakan variabel background & text Minima */
+            background-color: var(--minima-background-color);
+            color: var(--minima-text-color);
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px; /* Lebar ideal untuk landing page profil */
+            text-align: center;
+        }
+
+        /* --- Profile Section --- */
+        .profile-header {
+            margin-bottom: 2rem;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            /* Border tipis menggunakan warna border Minima */
+            border: 1px solid var(--minima-border-color-02);
+            padding: 4px; /* Memberi jarak antara foto dan border */
+            background-color: var(--minima-background-color);
+        }
+
+        .profile-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin: 0 0 0.5rem 0;
+            color: var(--minima-heading-color);
+            letter-spacing: -0.5px;
+        }
+
+        .profile-description {
+            font-size: 1rem;
+            margin: 0;
+            color: var(--minima-brand-color-dimmed); /* Warna abu-abu Minima */
+        }
+
+        /* --- Links / Buttons Section --- */
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .link-button {
+            display: block;
+            text-decoration: none;
+            padding: 15px 20px;
+            border-radius: 4px; /* Radius kecil khas Minima */
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.2s ease-in-out;
+            
+            /* STYLE MINIMA: */
+            /* Background mirip blok kode (abu sangat muda di light mode, abu tua di dark mode) */
+            background-color: var(--minima-code-background-color);
+            
+            /* Border tipis */
+            border: 1px solid var(--minima-border-color-01);
+            
+            /* Warna teks mengikuti warna Link utama */
+            color: var(--minima-link-base-color);
+        }
+
+        .link-button:hover {
+            /* Saat hover, border berubah warna dan sedikit terangkat */
+            border-color: var(--minima-link-base-color);
+            transform: translateY(-2px);
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        
+        /* Opsional: Efek aktif saat ditekan */
+        .link-button:active {
+            transform: translateY(0);
+        }
+
+        /* --- Footer --- */
+        footer {
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            color: var(--minima-brand-color-dimmed);
+        }
+    </style>
+</head>
+<body>
+
+    <main class="container">
+        <!-- PROFILE SECTION -->
+        <header class="profile-header">
+            <!-- Pastikan path gambar benar -->
+            <img src="{{ '/assets/img/profile-picture.jpg' | relative_url }}" alt="Profile Picture" class="profile-picture">
+            <h1 class="profile-title">{{ site.author.name }}</h1>
+            <p class="profile-description">{{ site.description }}</p>
+        </header>
+
+        <!-- BUTTONS SECTION -->
+        <div class="links-container">
+            <!-- Menggunakan relative_url agar link aman saat dideploy -->
+            <a href="{{ '/blog/' | relative_url }}" class="link-button">/blog</a>
+            <a href="https://twitter.com/akhyarrh" class="link-button">/twitter</a>
+            <a href="https://github.com/akhyarrh" class="link-button">/github</a>
+        </div>
+        
+        <footer>
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+        </footer>
+    </main>
+
+</body>
+</html>

@@ -3,83 +3,48 @@
 # https://help.github.com/articles/configuring-jekyll/
 # https://jekyllrb.com/docs/configuration/
 
-remote_theme: akhyarrh/apropixyll
-date_format: '%d %B %Y'
-header_pages:
- - README.md
- - kontak.html
-show_related_posts: true
-
 # used on kontak page to send email through formspree
-email: 'maywlrba'
+email: maywlrba
 
-# pixyll text translated to indonesian
-text:
-  pagination:
-    newer: 'Lebih Baru'
-    older: 'Lebih Lama'
-  share_buttons:
-    text:         'Bagikan postingan ini!'
-    facebook:     'Bagikan di Facebook'
-    twitter:      'Bagikan di Twitter'
-    googleplus:   'Bagikan di Google+'
-    linkedin:     'Bagikan di LinkedIn'
-    digg:         'Bagikan di Digg'
-    tumblr:       'Bagikan di Tumblr'
-    reddit:       'Bagikan di Reddit'
-    stumbleupon:  'Bagikan di StumbleUpon'
-    hackernews:   'Bagikan di Hacker News'
-  post:
-    updated:        'Diperbarui'
-    minute_read:    'menit baca'
-    related_posts:  'Post Lainnya'
-  index:
-    coming_soon: 'Segera hadir...'
-  contact:
-    name:     'Nama kamu'
-    email:    'Alamat emailmu'
-    content:  'Apa yang ingin kamu sampaikan?'
-    subject:  'Pesan baru!'
-    submit:   'Kirim'
-    ajax:
-      sending:  'Mengirim...'
-      sent:     'Terkirim!'
-      error:    'Ada kesalahan!'
-  thanks: 'Terima kasih sudah menghubungi saya. Saya akan segera membalas pesanmu.'
-  og_locale: 'id_ID'
-  comment:
-    header: 'Komentar'
-    name: 'Nama Kamu.'
-    url: 'Link ke website, blog, atau social media kamu.'
-    message: 'Isi komentarmu.'
-    submit: 'Kirim Komentar'
-
-#theme: minima
-#show_excerpts: true
-#minima:
-#  date_format: "%d %B %Y"
-#header_pages:
-#  - profil.md
-#  - privasi.md
-#  - kontak.html
-#twitter_username: akhyarrh
-#github_username:  akhyarrh
+remote_theme: jekyll/minima@5f61d94
+minima:
+  date_format: '%d-%m-%Y'
+  skin: auto
+  nav_pages:
+    - README.md
+    - contact.html
+    - privacy-policy.md
+  social_links:
+    - title: akhyarrh at GitHub
+      icon: github
+      url: 'https://github.com/akhyarrh'
+    - title: akhyarrh at Twitter
+      icon: twitter
+      url: 'https://twitter.com/akhyarrh'
+  hide_site_feed_link: true
+  
+# used by minima (to render author name and email in footer)
+# jekyll-seo-tag for something (I dont remember)
+author:
+  name: Akhyar RH
+  #email: "akhyarrh@gmail.com"
+  # https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+  url: 'https://twitter.com/akhyarrh'  
+  
+# ignore minima's default config
+# expect chaos
+ignore_theme_config: true
 
 timezone: Asia/Makassar
 
 title: "AkhyarRH's Weblog"
-tagline: 'Semua tentang berbagi hal yang berarti bagi saya.'
-description: >
-  Selamat datang di sudut kecil internet saya, tempat teknologi, gaming, dan catatan pribadi bertemu.
-  Di sini, saya menyampaikan apapun dengan gaya apa adanya.
-  Jika kamu seorang penggemar teknologi atau gamer yang mencari ulasan, insight, dan sudut pandang unik, kamu berada di tempat yang tepat.
-  Yuk, eksplorasi, curhat, dan terhubung bareng!
-url: &url 'https://akhyar.js.org'
-baseurl: ""
+tagline: &desc Level 30. Male. Human.
+description: *desc
+url: &url 'https://akhyar.id'
 repository: akhyarrh/akhyarrh.github.io
 
 # Staticman url
-staticman_url: 'https://staticman-akhyarrh.netlify.app/.netlify/functions/staticman'
+#staticman_url: 'https://staticman-akhyarrh.netlify.app/.netlify/functions/staticman'
 
 # WTF IS THIS THING
 # used by <html lang>
@@ -92,21 +57,20 @@ language: id-ID
 # used by jekyll-seo-tag
 twitter:
   username: akhyarrh
-  card: summary_large_image
 
 # used by jekyll-seo-tag
 social:
-  name: 'M Akhyar Rahman H'
+  name: Akhyar RH
   links:
-    - https://twitter.com/akhyarrh
-    - https://github.com/akhyarrh
+    - 'https://twitter.com/akhyarrh'
+    - 'https://github.com/akhyarrh'
 
 # site verification
 # used by jekyll-seo-tag
 webmaster_verifications:
-  google: 'sXiK2vNEKhChWPst96RcH9KxGl4Ib5QbR02dPWIVEts'
-  bing:   'E9A1908DCAA52A63BF7B5F67DB05745D'
-  alexa:  'gXuVtj4bXDWiVB_ihCJijNBQNj8'
+  google: sXiK2vNEKhChWPst96RcH9KxGl4Ib5QbR02dPWIVEts
+  bing:   E9A1908DCAA52A63BF7B5F67DB05745D
+  alexa:  gXuVtj4bXDWiVB_ihCJijNBQNj8
 #  yandex: 1234
 #  baidu: 1234
 #  facebook: 1234
@@ -116,8 +80,8 @@ webmaster_verifications:
 
 permalink: /:title/
 
-paginate: 10
-paginate_path: "/page:num/"
+#paginate: 10
+#paginate_path: "/page:num/"
 
 show_drafts: false
 future:      false
@@ -165,16 +129,16 @@ defaults:
 # https://help.github.com/articles/configuring-jekyll-plugins/#default-plugins
 plugins:
   - jekyll-remote-theme
-  #- jekyll-redirect-from
-  - jekyll-github-metadata
+#  - jekyll-redirect-from
+#  - jekyll-github-metadata
   - jekyll-commonmark
-  - jekyll-gist
+#  - jekyll-gist
   - jekyll-mentions
   - jekyll-relative-links
   - jemoji
   - jekyll-target-blank
-  #- jekyll-og-image
-  - jekyll-paginate
+#  - jekyll-og-image
+#  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
@@ -182,12 +146,12 @@ plugins:
 markdown: CommonMark
 
 commonmark:
-  options: ['SMART','FOOTNOTES','UNSAFE']
-  extensions: ['table', 'strikethrough', 'autolink']
+  options: [SMART, FOOTNOTES, UNSAFE]
+  extensions: [table, strikethrough, autolink]
   render:
     header_ids: true  # Enable auto-IDs for headings
 
-jekyll-mentions: "https://twitter.com"
+jekyll-mentions: 'https://twitter.com'
 
 # jekyll-og image
 #og_image:
@@ -202,47 +166,3 @@ jekyll-mentions: "https://twitter.com"
     #color: "#ffffff"
   #border_bottom:
     #width: 50
-
-# prose.io
-prose:
-  rooturl: '_posts'
-  siteurl: *url
-  relativeLinks: 'https://akhyar.js.org/links.jsonp'
-  media: 'assets/uploads'
-  metadata:
-    _posts:
-      - name: "published"
-        field:
-          element: "checkbox"
-          value: false
-
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-
-      - name: "last_modified_at"
-        field:
-          element: "text"
-          label: "Modified Date"
-          placeholder: CURRENT_DATETIME
-
-      - name: "image"
-        field:
-          element: "text"
-          label: "Image"
-          help: "This image displayed & used for SEO stuff."
-
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Categories"
-          alterable: true
-          options: "https://akhyar.js.org/categories.jsonp?callback=categories"
-
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Tags"
-          alterable: true
-          options: "https://akhyar.js.org/tags.jsonp?callback=tags"

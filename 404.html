@@ -1,0 +1,56 @@
+---
+layout: page
+title: "Page Not Found"
+permalink: /404.html
+sitemap: false
+---
+
+<style>
+  .error-container {
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+  
+  .error-code {
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    /* Uses Minima grey/dimmed color */
+    color: var(--minima-brand-color-dimmed); 
+  }
+  
+  .error-message {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    color: var(--minima-text-color);
+  }
+
+  .btn-back {
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    
+    /* Uses Minima link color for background */
+    background-color: var(--minima-link-base-color);
+    /* Uses Minima background color for text (auto contrast for dark/light mode) */
+    color: var(--minima-background-color) !important; 
+    transition: opacity 0.2s;
+  }
+
+  .btn-back:hover {
+    opacity: 0.85;
+    text-decoration: none;
+  }
+</style>
+
+<div class="error-container">
+  <h1 class="error-code">404</h1>
+  <p class="error-message">Oops. The page you are looking for doesn't exist.</p>
+  
+  <a href="{{ '/blog' | relative_url }}" class="btn-back">
+    Back to Home
+  </a>
+</div>

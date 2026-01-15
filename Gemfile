@@ -15,12 +15,12 @@ gem 'nokogiri'
 gem 'classifier-reborn'
 
 # For testing generated html
-gem 'html-proofer'
+#gem 'html-proofer'
 
 group :jekyll_plugins do
     gem 'jekyll-remote-theme'
-    gem 'jekyll-redirect-from'
-    gem 'jekyll-github-metadata'
+    #gem 'jekyll-redirect-from'
+    #gem 'jekyll-github-metadata'
     gem 'jekyll-commonmark'
     gem 'jekyll-gist'
     gem 'jekyll-mentions'
@@ -29,7 +29,7 @@ group :jekyll_plugins do
     gem 'jekyll-target-blank'
     #gem 'jekyll-og-image'
     #gem 'jekyll-date-localization'
-    gem 'jekyll-paginate'
+    #gem 'jekyll-paginate'
     gem 'jekyll-seo-tag'
     gem 'jekyll-sitemap'
     gem 'jekyll-feed'

@@ -1,0 +1,187 @@
+---
+permalink: /contact
+title: Contact
+---
+
+<!-- 1. GAYA (CSS) - Native Minima Variables -->
+<style>
+  .contact-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Label styles */
+  .contact-wrapper label {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: var(--minima-text-color);
+  }
+
+  /* 
+     Input styles:
+     Mengadopsi style dari 'pre, code' bawaan Minima 
+     agar background dan border otomatis cocok dengan Dark/Light mode 
+  */
+  .contact-wrapper input[type="text"],
+  .contact-wrapper input[type="email"],
+  .contact-wrapper textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    
+    /* Menggunakan variabel native Minima */
+    background-color: var(--minima-code-background-color); 
+    border: 1px solid var(--minima-border-color-01);
+    color: var(--minima-text-color);
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.2s;
+  }
+
+  /* Focus state: Menggunakan warna Link utama */
+  .contact-wrapper input:focus,
+  .contact-wrapper textarea:focus {
+    outline: none;
+    border-color: var(--minima-link-base-color);
+  }
+
+  /* Tombol Submit */
+  .contact-wrapper button {
+    /* Background mengikuti warna Link */
+    background-color: var(--minima-link-base-color);
+    
+    /* Teks tombol mengikuti warna background body untuk kontras tinggi */
+    color: var(--minima-background-color); 
+    
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: opacity 0.2s;
+  }
+
+  .contact-wrapper button:hover {
+    opacity: 0.85;
+  }
+
+  .contact-wrapper button:disabled {
+    background-color: var(--minima-border-color-01);
+    color: var(--minima-brand-color-dimmed);
+    cursor: not-allowed;
+  }
+
+  /* Status message styling */
+  #form-status {
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    display: none;
+  }
+  .status-success { 
+    background-color: #d4edda; 
+    color: #155724; 
+    border: 1px solid #c3e6cb; 
+  }
+  .status-error { 
+    background-color: #f8d7da; 
+    color: #721c24; 
+    border: 1px solid #f5c6cb; 
+  }
+
+  /* Override dark mode khusus status message */
+  @media (prefers-color-scheme: dark) {
+    .status-success { background-color: #1e4620; color: #d4edda; border-color: #155724; }
+    .status-error { background-color: #4c1d1d; color: #f8d7da; border-color: #721c24; }
+  }
+</style>
+
+<p>Drop me an email :smile:</p>
+
+<!-- 2. HTML FORM -->
+<div class="contact-wrapper">
+    <!-- Action URL mengambil email dari _config.yml -->
+    <form id="contact-form" action="https://formspree.io/f/{{ site.email }}" method="POST">
+      
+      <label>
+        Nama
+        <input type="text" name="name" placeholder="{{ site.text.contact.name | default: "Your Name" }}" required>
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="email" placeholder="{{ site.text.contact.email | default: "Email Address" }}" required>
+      </label>
+
+      <label>
+        Isi pesan
+        <textarea name="content" rows="5" placeholder="{{ site.text.contact.content | default: "What would you like to say?" }}" style="resize: vertical" required></textarea>
+      </label>
+
+      <input type="hidden" name="_subject" value="{{ site.text.contact.subject | default: "New submission!" }}" />
+      <input type="text" name="_gotcha" style="display:none" />
+
+      <button type="submit" id="submit-btn">{{ site.text.contact.submit | default: "Say Hello" }}</button>
+      
+      <div id="form-status"></div>
+    </form>
+</div>
+
+<!-- 3. JAVASCRIPT AJAX -->
+<script>
+  const form = document.getElementById("contact-form");
+  const status = document.getElementById("form-status");
+  const submitBtn = document.getElementById("submit-btn");
+  const originalBtnText = submitBtn.innerText;
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+    const data = new FormData(event.target);
+    
+    submitBtn.disabled = true;
+    submitBtn.innerText = "Mengirim..."; 
+
+    // Javascript akan otomatis mengambil URL dari atribut action form di atas
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    }).then(response => {
+      if (response.ok) {
+        status.innerHTML = "Pesan berhasil dikirim! Terima kasih.";
+        status.className = "status-success";
+        status.style.display = "block";
+        form.reset();
+      } else {
+        response.json().then(data => {
+          if (Object.hasOwn(data, 'errors')) {
+            status.textContent = data["errors"].map(error => error["message"]).join(", ");
+          } else {
+            status.innerHTML = "Oops! Ada masalah saat mengirim formulir.";
+          }
+          status.className = "status-error";
+          status.style.display = "block";
+        }).catch(() => {
+          status.innerHTML = "Oops! Ada masalah saat mengirim formulir.";
+          status.className = "status-error";
+          status.style.display = "block";
+        })
+      }
+    }).catch(error => {
+      status.innerHTML = "Oops! Ada masalah koneksi.";
+      status.className = "status-error";
+      status.style.display = "block";
+    }).finally(() => {
+      submitBtn.disabled = false;
+      submitBtn.innerText = originalBtnText;
+    });
+  }
+  form.addEventListener("submit", handleSubmit);
+</script>
