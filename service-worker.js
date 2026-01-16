@@ -15,78 +15,83 @@ const urlsToCache = [
 
 const excludePatterns = [
   '^/\\.well-known/',
-  //'^/admin/',
+  // '^/admin/',
   '/feed\\.xml$',
   '/sitemap\\.xml$',
   '/robots\\.txt$',
-  //'/ads\\.txt$',
-  //'/CNAME$',
+  // '/ads\\.txt$',
+  // '/CNAME$',
   '\\.(pdf|zip|mp4|webm)$'
 ];
 const excludeRegex = new RegExp(excludePatterns.join('|'));
 
-self.addEventListener("install", (event) => {
+// Install: pre-cache assets
+self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      console.log("Pre-caching");
+      console.log('Pre-caching');
       return cache.addAll(urlsToCache);
     })
   );
 });
 
-self.addEventListener("activate", (event) => {
+// Activate: clean up old caches
+self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
-      return Promise.all(
-        cacheNames.filter((key) => key !== CACHE_NAME)
+    caches.keys().then((cacheNames) =>
+      Promise.all(
+        cacheNames
+          .filter((key) => key !== CACHE_NAME)
           .map((key) => {
-            console.log("Deleting old cache:", key);
+            console.log('Deleting old cache:', key);
             return caches.delete(key);
           })
-      );
-    })
+      )
+    )
   );
+
   return self.clients.claim();
 });
 
-const fetchAndCache = (request, event) => {
-  return fetch(request).then((networkResponse) => {
+// Helper: fetch from network and cache successful responses
+const fetchAndCache = (request, event) =>
+  fetch(request).then((networkResponse) => {
     if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
       const responseClone = networkResponse.clone();
       event.waitUntil(
-        caches.open(CACHE_NAME)
+        caches
+          .open(CACHE_NAME)
           .then((cache) => cache.put(request, responseClone))
-          .catch(err => console.error('SW cache put failed:', err))
+          .catch((err) => console.error('SW cache put failed:', err))
       );
     }
     return networkResponse;
   });
-};
 
-self.addEventListener("fetch", (event) => {
-  
-  if (!event.request.url.startsWith(self.location.origin) || event.request.method !== 'GET') {
+// Fetch handler: network-first for HTML, cache-first for others
+self.addEventListener('fetch', (event) => {
+  const { request } = event;
+
+  // Only handle same-origin GET requests and not excluded paths
+  if (!request.url.startsWith(self.location.origin) || request.method !== 'GET') {
     return;
   }
 
-  const url = new URL(event.request.url);
+  const url = new URL(request.url);
   if (excludeRegex.test(url.pathname)) {
     return;
   }
 
+  // Network-first for navigation/HTML requests
+  if (request.headers.get('accept')?.includes('text/html')) {
+    event.respondWith(
+      fetchAndCache(request, event).catch(() =>
+        caches.match(request).then((cachedResponse) => cachedResponse || caches.match("{{ '/404.html' | relative_url }}"))
+      )
+    );
+    return;
+  }
 
-if (event.request.headers.get('accept')?.includes('text/html')) {
-  event.respondWith(
-    fetchAndCache(event.request, event).catch(() => {
-      return caches.match(event.request).then((cachedResponse) => {
-        return cachedResponse || caches.match("{{ '/404.html' | relative_url }}");
-      });
-    })
-  );
-  return;
-}
-
-  event.respondWith(
-    caches.match(event.request).then(response => response || fetchAndCache(event.request, event))
-  );
+  // Cache-first for other assets
+  event.respondWith(caches.match(request).then((response) => response || fetchAndCache(request, event)));
 });
