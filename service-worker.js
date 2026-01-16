@@ -49,18 +49,7 @@ self.addEventListener("activate", (event) => {
   return self.clients.claim();
 });
 
-self.addEventListener("fetch", (event) => {
-  
-  if (!event.request.url.startsWith(self.location.origin) || event.request.method !== 'GET') {
-    return;
-  }
-
-  const url = new URL(event.request.url);
-  if (excludeRegex.test(url.pathname)) {
-    return;
-  }
-
-const fetchAndCache = (request) => {
+const fetchAndCache = (request, event) => {
   return fetch(request).then((networkResponse) => {
     if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
       const responseClone = networkResponse.clone();
@@ -74,9 +63,21 @@ const fetchAndCache = (request) => {
   });
 };
 
+self.addEventListener("fetch", (event) => {
+  
+  if (!event.request.url.startsWith(self.location.origin) || event.request.method !== 'GET') {
+    return;
+  }
+
+  const url = new URL(event.request.url);
+  if (excludeRegex.test(url.pathname)) {
+    return;
+  }
+
+
 if (event.request.headers.get('accept')?.includes('text/html')) {
   event.respondWith(
-    fetchAndCache(event.request).catch(() => {
+    fetchAndCache(event.request, event).catch(() => {
       return caches.match(event.request).then((cachedResponse) => {
         return cachedResponse || caches.match("{{ '/404.html' | relative_url }}");
       });
@@ -86,6 +87,6 @@ if (event.request.headers.get('accept')?.includes('text/html')) {
 }
 
   event.respondWith(
-    caches.match(event.request).then(response => response || fetchAndCache(event.request))
+    caches.match(event.request).then(response => response || fetchAndCache(event.request, event))
   );
 });
