@@ -131,7 +131,7 @@ plugins:
   - jekyll-remote-theme
 #  - jekyll-redirect-from
 #  - jekyll-github-metadata
-  - jekyll-commonmark
+  - jekyll-commonmark-ghpages
 #  - jekyll-gist
   - jekyll-mentions
   - jekyll-relative-links
@@ -143,7 +143,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-markdown: CommonMark
+markdown: CommonMarkGhPages
 
 commonmark:
   options: [SMART, FOOTNOTES, UNSAFE]
