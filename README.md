@@ -2,7 +2,7 @@
 layout: page
 title: Profile
 permalink: /profile/
-image: /assets/img/og-image-default.png
+image: /assets/img/default-card.jpg
 ---
 
 **Hello** :wave:
