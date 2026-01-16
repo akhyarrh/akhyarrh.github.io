@@ -64,7 +64,7 @@ self.addEventListener("fetch", (event) => {
     event.respondWith(
       fetch(event.request)
         .then((networkResponse) => {
-          if (networkResponse && networkResponse.ok) {
+          if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
             const responseClone = networkResponse.clone();
             event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone)).catch(err => console.error('SW cache put failed:', err)));
           }
