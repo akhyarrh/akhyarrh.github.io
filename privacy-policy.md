@@ -1,6 +1,7 @@
 ---
 permalink: /privacy-policy/
 title: Privacy Policy
+image: /assets/uploads/privacy-policy-5243225_1280.jpg
 ---
 
 I do not collect any personal data from visitors.
