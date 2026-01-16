@@ -8,7 +8,9 @@ const default_options = {
     },
   },
   cdn: {
-      process: 'on',
+    // https://jampack.divriots.com/features/optimize-images-cdn/
+    // treat cdn images as external images
+    process: 'off',
   },
 };
 
