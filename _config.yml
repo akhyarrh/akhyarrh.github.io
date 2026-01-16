@@ -150,7 +150,7 @@ commonmark:
   options: [SMART, UNSAFE]
   # disabled because (maybe) enabled by default
   # see link above
-  #extensions: [table, strikethrough, autolink, header_ids]
+  extensions: [table, strikethrough, autolink, header_ids]
 
 jekyll-mentions: 'https://twitter.com'
 
