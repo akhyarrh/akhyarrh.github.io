@@ -61,7 +61,7 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (event.request.headers.get('accept').includes('text/html')) {
+  if (event.request.headers.get('accept')?.includes('text/html')) {
     event.respondWith(
       fetch(event.request)
         .then((networkResponse) => {
