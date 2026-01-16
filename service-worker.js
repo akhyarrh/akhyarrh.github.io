@@ -37,7 +37,7 @@ self.addEventListener('install', (event) => {
 
 // Activate: clean up old caches
 self.addEventListener('activate', (event) => {
-  event.waitUntil(
+  event.waitUntil(Promise.all([
     caches.keys().then((cacheNames) =>
       Promise.all(
         cacheNames
@@ -47,10 +47,9 @@ self.addEventListener('activate', (event) => {
             return caches.delete(key);
           })
       )
-    )
-  );
-
-  return self.clients.claim();
+    ),
+    self.clients.claim()
+  ]));
 });
 
 // Helper: fetch from network and cache successful responses
