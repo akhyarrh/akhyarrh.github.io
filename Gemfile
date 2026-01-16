@@ -21,7 +21,7 @@ group :jekyll_plugins do
     gem 'jekyll-remote-theme'
     #gem 'jekyll-redirect-from'
     #gem 'jekyll-github-metadata'
-    gem 'jekyll-commonmark'
+    gem 'jekyll-commonmark-ghpages'
     gem 'jekyll-gist'
     gem 'jekyll-mentions'
     gem 'jekyll-relative-links'
