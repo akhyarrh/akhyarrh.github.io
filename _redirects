@@ -1,8 +1,8 @@
-/post/* /:splat 301
-
 /kontak /contact 301
 /profil /profile 301
 /privasi /privacy-policy 301
 
 /github https://github.com/akhyarrh 301
 /twitter https://twitter.com/akhyarrh 301
+
+/post/* /:splat 301
