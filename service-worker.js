@@ -13,16 +13,17 @@ const urlsToCache = [
   "{{ '/404.html' | relative_url }}"
 ];
 
-const excludeRegex = new RegExp(
-  '^/\\.well-known/|' + 
-  //'^/admin/|' + 
-  '/feed\\.xml$|' + 
-  '/sitemap\\.xml$|' + 
-  '/robots\\.txt$|' + 
-  //'/ads\\.txt$|' + 
-  //'/CNAME$|' + 
+const excludePatterns = [
+  '^/\\.well-known/',
+  //'^/admin/',
+  '/feed\\.xml$',
+  '/sitemap\\.xml$',
+  '/robots\\.txt$',
+  //'/ads\\.txt$',
+  //'/CNAME$',
   '\\.(pdf|zip|mp4|webm)$'
-);
+];
+const excludeRegex = new RegExp(excludePatterns.join('|'));
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -65,7 +66,7 @@ self.addEventListener("fetch", (event) => {
       fetch(event.request)
         .then((networkResponse) => {
           const responseClone = networkResponse.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone));
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone)).catch(err => console.error('SW cache put failed:', err));
           return networkResponse;
         })
         .catch(() => {
@@ -89,9 +90,9 @@ self.addEventListener("fetch", (event) => {
         }
         
         const responseClone = networkResponse.clone();
-        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone));
+        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone)).catch(err => console.error('SW cache put failed:', err));
         return networkResponse;
       });
     })
   );
-blog
+});
