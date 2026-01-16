@@ -86,14 +86,6 @@ if (event.request.headers.get('accept')?.includes('text/html')) {
 }
 
   event.respondWith(
-    caches.match(event.request).then((response) => {
-      if (response) {
-        return response;
-      }
-
-      return fetchAndCache(event.request).catch(() => {
-       return;
-      });
-    })
+    caches.match(event.request).then(response => response || fetchAndCache(event.request))
   );
 });
