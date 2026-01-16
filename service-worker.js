@@ -60,39 +60,39 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (event.request.headers.get('accept')?.includes('text/html')) {
-    event.respondWith(
-      fetch(event.request)
-        .then((networkResponse) => {
-          if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
-            const responseClone = networkResponse.clone();
-            event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone)).catch(err => console.error('SW cache put failed:', err)));
-          }
-          return networkResponse;
-        })
-        .catch(() => {
-          return caches.match(event.request).then((cachedResponse) => {
-            return cachedResponse || caches.match("{{ '/404.html' | relative_url }}");
-          });
-        })
-    );
-    return;
-  }
+const fetchAndCache = (request) => {
+  return fetch(request).then((networkResponse) => {
+    if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
+      const responseClone = networkResponse.clone();
+      event.waitUntil(
+        caches.open(CACHE_NAME)
+          .then((cache) => cache.put(request, responseClone))
+          .catch(err => console.error('SW cache put failed:', err))
+      );
+    }
+    return networkResponse;
+  });
+};
+
+if (event.request.headers.get('accept')?.includes('text/html')) {
+  event.respondWith(
+    fetchAndCache(event.request).catch(() => {
+      return caches.match(event.request).then((cachedResponse) => {
+        return cachedResponse || caches.match("{{ '/404.html' | relative_url }}");
+      });
+    })
+  );
+  return;
+}
 
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) {
-        return cachedResponse;
+    caches.match(event.request).then((response) => {
+      if (response) {
+        return response;
       }
-      
-      return fetch(event.request).then((networkResponse) => {
-        if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
-          return networkResponse;
-        }
-        
-        const responseClone = networkResponse.clone();
-        event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone)).catch(err => console.error('SW cache put failed:', err)));
-        return networkResponse;
+
+      return fetchAndCache(event.request).catch(() => {
+       return;
       });
     })
   );
