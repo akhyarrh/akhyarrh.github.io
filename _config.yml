@@ -14,13 +14,6 @@ minima:
     - README.md
     - contact.html
     - privacy-policy.md
-  social_links:
-    - title: akhyarrh at GitHub
-      icon: github
-      url: 'https://github.com/akhyarrh'
-    - title: akhyarrh at Twitter
-      icon: twitter
-      url: 'https://twitter.com/akhyarrh'
   hide_site_feed_link: true
   
 # used by minima (to render author name and email in footer)
