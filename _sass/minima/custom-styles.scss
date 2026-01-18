@@ -1,3 +1,48 @@
 img {
   height: auto;
 }
+
+.menu-icon {
+  float: right;
+  width: 36px;
+  height: 26px;
+  padding-top: 18px;
+  text-align: center;
+  cursor: pointer;
+
+  &::before {
+    content: none;
+  }
+
+  .svg-icon {
+    width: 1.25em;
+    height: 1.25em;
+    fill: $border-color-03;
+  }
+}
+
+.icon-close {
+  display: none;
+}
+
+#nav-trigger {
+  ~ label[for=nav-trigger] {
+    .icon-menu {
+      display: inline;
+    }
+    .icon-close {
+      display: none;
+    }
+  }
+
+  &:checked {
+    ~ label[for=nav-trigger] {
+      .icon-menu {
+        display: none;
+      }
+      .icon-close {
+        display: inline;
+      }
+    }
+  }
+}
