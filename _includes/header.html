@@ -3,7 +3,7 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
-    {%- assign page_titles = site.pages | map: 'title' | compact %}
+    {%- assign page_titles = site.pages | map: 'title' | compact | slugify | prepend: "/" %}
     <a class="site-title" rel="author" href="{{ '/blog' | relative_url }}">{{ '/blog' | relative_url | escape }}</a>
 
     {%- unless page_titles == empty %}
