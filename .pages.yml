@@ -43,6 +43,8 @@ content:
       - name: body
         label: 'Content'
         type: code
+        options:
+          language: markdown
 
   - name: config
     label: Jekyll config
