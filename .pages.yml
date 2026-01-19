@@ -42,7 +42,7 @@ content:
         type: string
       - name: body
         label: 'Content'
-        type: text
+        type: code
 
   - name: config
     label: Jekyll config
