@@ -29,7 +29,9 @@ content:
         type: date
       - name: body
         label: 'Content'
-        type: text
+        type: code
+        options:
+          language: markdown
 
   - name: readme
     label: About me
