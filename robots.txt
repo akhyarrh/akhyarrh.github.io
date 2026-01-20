@@ -3,7 +3,9 @@ layout: null
 sitemap: false
 ---
 
+User-agent: *
 Disallow: /404.html
 Disallow: /_headers
 Disallow: /_redirects
+
 Sitemap: {{ "/sitemap.xml" | absolute_url }}
