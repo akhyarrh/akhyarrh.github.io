@@ -29,7 +29,9 @@ content:
         type: date
       - name: body
         label: 'Content'
-        type: rich-text
+        type: code
+        options:
+          language: markdown
 
   - name: readme
     label: About me
@@ -42,7 +44,9 @@ content:
         type: string
       - name: body
         label: 'Content'
-        type: rich-text
+        type: code
+        options:
+          language: markdown
 
   - name: config
     label: Jekyll config
