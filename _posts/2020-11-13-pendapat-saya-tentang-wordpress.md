@@ -1,13 +1,7 @@
 ---
-published: true
-date: '2020-11-13 19:00 +0800'
 title: Pendapat Saya Tentang Wordpress
-categories:
-  - 30 Days Writing Challenge
-tags:
-  - catatan
-  - web
-  - wordpress
+published: true
+date: 2020-11-13
 image: /assets/uploads/markus-winkler-3hBH-ZuvppU-unsplash.jpg
 ---
 Setelah sebelumnya saya membahas tentang blogging secara umum dan Medium, Sekarang saya akan beralih ke  pembahasan mengenai blogging engine yang self-hosted. Kali ini saya secara khusus membahas mengenai [Wordpress.org](https://wordpress.org/), bukan [Wordpress.com](https://wordpress.com/). Walau perbedaannya mungkin terlihat hanya sebatas itu, tapi self-hosted Wordpress jauh lebih powerfull daripada Wordpress yang tersedia sebagai service.
