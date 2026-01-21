@@ -1,9 +1,8 @@
 ---
 title: Artikel Pilihan Minggu ini
+published: true
 date: 2015-04-25
-tags: [linux,sass,chrome,web]
 ---
-
 Dalam seminggu, saya terkadang membaca ratusan artikel. Serius. Kadang memang berguna, tapi kadang saya merasa sedikit buang-buang waktu kalau memang artikelnya tidak berbobot. Begitulah, penilaian kadang berbeda. Tapi ada baiknya juga kalau saya bagikan apa yang saya baca selama seminggu belakangan. Anggap saja sebagai referensi kalau kalian juga mau belajar, atau sekedar info bagi yang penasaran sama apa yang saya baca selama seminggu.
 
 ## 1. Ubuntu 15.04 Vivid Vervet
