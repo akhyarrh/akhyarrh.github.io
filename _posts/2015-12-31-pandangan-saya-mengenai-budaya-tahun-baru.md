@@ -1,12 +1,8 @@
 ---
 title: Pandangan Saya Mengenai Budaya Tahun Baru
-date: 2015-12-31 00:00
-tags:
-  - catatan
-redirect_from:
-  - /post/pandangan-saya-mengenai-budaya-tahun-baru/
+published: true
+date: 2015-12-31
 ---
-
 Kalau menurut saya, belum tentu salah tapi juga belum tentu benar. Semua tergantung dari apa yang kita lakukan.
 
 Ada beberapa yang salah dan ada beberapa yang benar. Saya tidak bisa menyebutkan beberapa yang salah karena **ketentuan benar atau salah itu hanya berhak dinilai oleh tuhan**, saya manusia walaupun tidak biasa.
