@@ -1,9 +1,8 @@
 ---
 title: Memahami Metode BEM
+published: true
 date: 2015-07-10
-tags: [front-end, tips]
 ---
-
 > Kenapa di beberapa file penamaan class-nya banyak menggunakan -- atau __ ?
 
 Dasarnya ada beberapa dan sedang saya coba terapkan:
