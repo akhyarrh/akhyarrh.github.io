@@ -1,10 +1,8 @@
 ---
-title: "Blogging Era Modern"
-category: "30 Days Writing Challenge"
-tags: [catatan, tips]
-date: 2020-11-08 13:49 +0800
+title: Blogging Era Modern
+published: true
+date: 2020-11-08
 ---
-
 Jadi beberapa hari yang lalu (atau kemaren ?), ada tweet berupa link. Tweet itu memiliki hashtag #30DaysWritingChallenge. Kaget juga ternyata kalau bisa seproduktif itu dalam hal membuat tulisan apapun setiap hari selama 30 hari.
 
 Sampai akhirnya saya ikutan juga :laughing:.
