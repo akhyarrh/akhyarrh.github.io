@@ -11,6 +11,8 @@
   "author": "akhyarrh <akhyarrh@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@divriots/jampack": "^0.34.0"
+    "@divriots/jampack": "^0.34.0",
+    "@cloudflare/pages-plugin-vercel-og": "^0.1.2",
+    "react": "^19.2.3"
   }
 }
