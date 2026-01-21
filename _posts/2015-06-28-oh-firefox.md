@@ -1,9 +1,8 @@
 ---
 title: Oh Firefox
+published: true
 date: 2015-06-28
-tags: [browser,firefox, chrome]
 ---
-
 Sebelum mulai, ada beberapa hal yang harus kalian perhatikan sebelum baca lebih lanjut, diantaranya:
 1. Saya akan melakukan tes di 2 browser yang penggunanya lumayan banyak, **Google Chrome** dan **Mozilla Firefox**.
 2. Versi Chrome: **44.0.2403.61 Beta**. Versi Firefox: **Developer Edition 40.0a2 (2015-06-03)**.
