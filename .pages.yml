@@ -27,6 +27,9 @@ content:
       - name: date
         label: 'Date Published'
         type: date
+      - name: image
+        label: Cover Image
+        type: image
       - name: body
         label: 'Content'
         type: code
