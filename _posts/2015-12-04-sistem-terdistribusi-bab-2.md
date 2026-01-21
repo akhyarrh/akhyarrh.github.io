@@ -1,12 +1,8 @@
 ---
 title: "Sistem Terdistribusi: Bab 2"
-date: 2015-12-04 00:00
-tags:
-  - catatan
-redirect_from:
-  - /post/sistem-terdistribusi-bab-2/
+published: true
+date: 2015-12-04
 ---
-
 ## Bab 2 Komunikasi
 
 ### Komunikasi Data
