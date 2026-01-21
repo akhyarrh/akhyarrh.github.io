@@ -82,7 +82,6 @@ export const onRequest = vercelOGPagesPlugin<Props>({
           fontSize: "22px",
           color: "#1e69d8", // --minima-link-base-color
           borderBottom: "1px solid #1e69d8",
-          width: "fit-content",
         }}
       >
         read more
