@@ -1,10 +1,8 @@
 ---
 title: Perjalanan Sebuah Memori
-tags: [catatan, android]
-date: 2020-10-27 18:00 +08:00
-last_modified_at: 2020-11-08 19:05 +08:00
+published: true
+date: 2020-10-27
 ---
-
 Mencoba mengingat kembali perjalanan berbagai macam memori beserta ukurannya yang pernah saya temui.
 
 Dimulai dari yang paling kecil, setahu saya dulu ada memori PS2 yang ukurannya tertera di casingnya bertulisan 8 MB dan 16 MB. 1 memori yang 8 MB aja kayaknya cukup buat GTA: SA, RE4, MK Shaolin Monk.
