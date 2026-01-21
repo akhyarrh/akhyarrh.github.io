@@ -1,13 +1,8 @@
 ---
 title: Image Compression
-date: 2015-09-02 00:00
-tags:
-  - front-end
-  - tips
-redirect_from:
-  - /post/image-compression/
+published: true
+date: 2015-09-02
 ---
-
 Gambar adalah konten kedua terbanyak di web menurut saya. Bahkan gif pun juga termasuk gambar, walaupun bergerak. Dulu ukuran file gambar tidak terlalu diperhatikan. Saya juga dulu dengan sembarangan melakukan upload gambar ke blog tanpa peduli berapa ukurannya. Tapi itu dulu, sekarang sudah beda. Hanya saja masih ada beberapa website yang belum melakukan *compression* terhadap konten gambar yang mereka punya. Padahal seharusnya mereka melakukannya agar web mereka cepat dan tidak terlalu banyak memakai kuota data.
 
 Dalam dunia web, ada tehnik yang disebut **image compression**. Sesuai namanya, untuk melakukan pengurangan ukuran gambar tanpa menurunkan kualitasnya secara drastis. Dengan ukuran gambar yang relatif kecil, maka loading akan semakin cepat karena data yang di download tidak akan terlalu besar. Ambil contoh di post saya yang berjudul Oh Firefox, berikut ukuran file-filenya:
