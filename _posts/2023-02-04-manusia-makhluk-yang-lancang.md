@@ -1,11 +1,8 @@
 ---
-published: true
 title: Manusia Makhluk yang Lancang
-date: 2023-02-04T20:00:00
+published: true
+date: 2023-02-04
 image: /assets/uploads/man-8282467_1280.jpg
-tags:
-  - catatan
-  - Filosofis
 ---
 Manusia adalah makhluk yang unik dan memiliki kelebihan dan kekurangan tersendiri. Salah satu kekurangan manusia adalah kelancangan yang dapat dilihat dari cara berinteraksi dengan Tuhan.
 
