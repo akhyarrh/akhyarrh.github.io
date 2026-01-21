@@ -1,13 +1,8 @@
 ---
 title: Cara Mudah Embed Video di Jekyll
-date: 2015-09-27 00:00
-tags:
-  - jekyll
-  - tips
-redirect_from:
-  - /post/cara-mudah-embed-video-di-jekyll/
+published: true
+date: 2015-09-27
 ---
-
 Memasukkan sebuah video ke post memang hal yang sangat umum dilakukan. Selain memberikan konten yang lebih beragam biar tidak bosan, dengan adanya video juga bisa memperjelas maksud dari post tersebut. Hampir semua CMS memberi support untuk memasukkan video ke dalam sebuah post.
 
 Jekyll pun seperti itu. Memasukkan video ke post di Jekyll memang kebanyakan menggunakan plugin. Apalagi untuk video yang responsif. Sayangnya untuk yang hosting Jekyll di GitHub penggunaan plugin dilarang karena alasan keamanan.
