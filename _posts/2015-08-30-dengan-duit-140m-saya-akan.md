@@ -1,9 +1,8 @@
 ---
 title: Dengan Duit 140M Saya akan...
+published: true
 date: 2015-08-30
-tags: [catatan]
 ---
-
 ... bermalas-malasan selama 10 tahun mungkin. Jujur aja, 140M itu buaaanyak banget OMG my baby hunny. Untuk lebih detil, mari berhitung.
 
 Anggap saja saya akan membangun situs perusahaan bernama **Nectktar**. Baru langkah awal, saya baru punya 9 karyawan jadi pas 10 dengan saya. Saya akan perlu domain, hosting, CDN, plus biaya untuk akun organisasi di GitHub dan gaji serta jaminan internet untuk 10 orang, artinya saya akan perlu 10 paket internet dan 1 paket internet untuk perusahaan.
