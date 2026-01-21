@@ -1,9 +1,8 @@
 ---
 title: "`em` atau `rem`"
+published: true
 date: 2015-06-12
-tags: [front-end,css]
 ---
-
 Sebelumnya, gue cuman tau pixel karena memang dulu pasar web untuk mobile memang tidak seganas sekarang. Karena sekarang pasar untuk platform mobile (smartphone, f ck u gre n r b ts), jadi penggunaan pixel untuk pengaturan ukuran sedikit kurang fleksibel. Ada 2 biji bocah yang lumayan bikin bingung, yaitu si `em` dan `rem`. Kali ini kita belajar dikit, biar kita bisa moveon dari pixel.
 
 ## `em`
