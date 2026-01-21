@@ -1,9 +1,8 @@
 ---
 title: Ekperimen Pertama dengan Flexbox
+published: true
 date: 2015-10-17
-tags: [front-end,tips]
 ---
-
 Awalnya agak susah memahami `flex-direction`. Setelah beberapa kali *trial & error*, akhirnya sukses juga. Bagian susahnya adalah awalnya bingung dengan markup dan CSS. Karena `flexbox` memang benar-benar sebuah modul CSS yang baru.
 
 Biar nanti tidak bingung, akan saya jelaskan sedikit mengenai `flexbox`.
