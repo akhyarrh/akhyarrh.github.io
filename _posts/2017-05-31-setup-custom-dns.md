@@ -1,9 +1,8 @@
 ---
-title: "Mengubah DNS di Linux"
+title: Mengubah DNS di Linux
+published: true
 date: 2017-05-31
-tags: [linux, tips]
 ---
-
 Cara ini sudah sangat lama saya pergunakan. Jadi kalau misalnya tidak bekerja dengan benar atau ada kesalahan, hubungi saya di [Twitter](https://twitter.com/akhyarrh).
 
 Catatan: cara ini **hanya untuk pengguna Linux** (Mac mungkin juga bisa). Sudah saya coba di Lubuntu 14.04 dan Mint 17.2. Untuk pengguna Windows, silakan melakukan browsing untuk mencari caranya.
