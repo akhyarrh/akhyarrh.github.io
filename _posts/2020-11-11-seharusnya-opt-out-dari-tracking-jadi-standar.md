@@ -2,6 +2,7 @@
 title: Seharusnya *Opt-out* dari Tracking jadi Standar
 published: true
 date: 2020-11-11
+image: /assets/uploads/privacy-policy-5243225_1280.jpg
 ---
 Di era dimana internet sudah dipergunakan hampir disemua aspek kehidupan, mulai dari sekedar bersosial media, kegiatan promosi, toko online, atau bahkan lebih jauh seperti IoT. Privasi seolah hanya jadi bagian abu-abu. Ada batas yang sangat tipis antara aman atau "aman".
 
