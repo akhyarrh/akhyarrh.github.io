@@ -1,9 +1,8 @@
 ---
 title: Semuanya Milik Saya
+published: true
 date: 2015-08-25
-tags: [catatan, static-site]
 ---
-
 Masalah lama sebuah situs yang statis: **commenting system**. Itulah alasan kenapa dulu saya sempat menggunakan ~~komments (komments.net)~~ (link error). Support markdown dan code block. Sempurna. Awalnya saya pikir bagus, tapi masalahnya adalah JavaScript. Di satu sisi hanya JavaScript satu-satunya alternatif untuk 'menghadirkan' konten yang dinamis di situs yang statis, tapi di sisi lain saya bukan fans JavaScript.
 
 Pilihan lama datang, [Disqus](https://disqus.com). Saya kembali bingung. Disqus memang bagus, bahkan menurut saya mendekati sempurna. Hanya saja, Disqus tidak *open-source*.

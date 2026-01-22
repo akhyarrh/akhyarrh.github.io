@@ -1,9 +1,7 @@
 ---
 title: Pendapat Saya Tentang Medium
-date: 2020-11-09 20:30 +08:00
-category: 30 Days Writing Challenge
-tags:
-  - catatan
+published: true
+date: 2020-11-09
 image: /assets/uploads/pendapat-saya-tentang-medium-akhyarrh-.png
 ---
 Medium, walau populer, tapi saya tidak tertarik untuk memakai Medium karena beberapa alasan. *Direction* yang diambil oleh Medium lebih kearah sebagai sebuah tempat untuk publikasi, bukan tempat untuk para penulis untuk berbagi *story*.

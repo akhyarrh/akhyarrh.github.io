@@ -1,9 +1,8 @@
 ---
 title: Bermain dengan function di Sass
+published: true
 date: 2015-06-18
-tags: [front-end, sass]
 ---
-
 Awalnya ingin mendalami lebih jauh mengenai *fuction* di Sass. Akhirnya malah mendarat di [The Sass Way](https://thesassway.com). Di artikel yang berjudul [Using pure Sass functions to make reusable logic more useful](https://thesassway.com/using-pure-sass-functions-to-make-reusable-logic-more-useful/). Lumayan menarik. Makanya aku post. Nanti kalau lupa, udah ada dokumennya jadi ga ribet carinya.
 
 Ini cuman penerapan yang dasar. Bikin grid yang lebarnya menggunakan persen. Sedikit demo, menggunakan embednya [Codepen](https://codepen.io).

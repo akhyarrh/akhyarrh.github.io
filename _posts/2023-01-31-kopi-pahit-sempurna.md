@@ -1,14 +1,8 @@
 ---
-published: true
 title: Kopi Pahit Sempurna
-date: 2023-01-31T15:00:00
-image: https://images.unsplash.com/photo-1468768649734-ddebcf0b0bc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NzY0NDB8MHwxfHNlYXJjaHwxNHx8Y29mZmVlfGVufDB8fHx8MTczMjE2NDYyNHww&ixlib=rb-4.0.3&q=80&w=1080
-tags:
-  - catatan
-  - Filosofis
-  - Kehidupan
-  - Kopi
-  - Pengalaman
+published: true
+date: 2023-01-31
+image: /assets/uploads/photo-1468768649734-ddebcf0b0bc4.jpeg
 ---
 Kopi pahit memiliki aroma khas dan rasa yang memikat banyak orang. Tapi, apa yang membuat kopi pahit sempurna? Bagaimana kita bisa menikmati setiap tegukan tanpa merasa terlalu pahit atau terlalu manis?
 

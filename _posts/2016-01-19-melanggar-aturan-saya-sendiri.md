@@ -1,9 +1,8 @@
 ---
 title: Melanggar Aturan Saya Sendiri
+published: true
 date: 2016-01-19
-tags: [catatan, android]
 ---
-
 Beberapa hari yang lalu saya akhirnya menemukan Android saya yang selanjutnya. Entah ini gadget Android saya yang keberapa udah lupa. Namanya **Gucci**, mungkin lebih banyak dikenal sebagai **Xiaomi Redmi Note 4G Dual**. Tapi saya lebih senang memanggilnya **Guci**. Sebenarnya Guci ini **phablet**, lebih besar dari handphone tapi terlalu kecil kalau harus disebut tablet.
 
 Quadcore, Snapdragon 400/401, clock sampe 1,21 GHz, Adreno 306, 267 dpi, 185 gram, 2 GB RAM, 16 GB internal, slot micro SD up to 32 GB, MIUI 7 (Android 4.4.4), bertenaga baterai 3100 mAh, saya tidak peduli soal kelengkapan sensornya yang penting ada GPS, 16 MP kamera utama, 5 MP kamera kedua tentu saja dengan fitur yang kurang saya pedulikan karena saya jarang menggunakan kamera.

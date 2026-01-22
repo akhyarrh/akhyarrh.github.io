@@ -1,9 +1,8 @@
 ---
 title: Batas Memori Manusia
+published: true
 date: 2015-05-25
-tags: [catatan]
 ---
-
 Beberapa hari yang lalu, gue sama temen-temen lagi ngumpul. Seperti biasa, basa-basi ga jelas. Lalu kemudian perbincangan menjadi sedikit serius setelah temen gue mengeluh mengenai kondisi penyimpanan atau memori hape dia mulai habis. Tapi topik kali ini bukan tentang memori hape, tapi pendapat gue tentang memori manusia yang kapasitasnya mungkin tidak akan berkurang. Bahkan mungkin bakalan terus bertambah sampai ke batas yang tidak diketahui.
 
 **Perhatian!** Sebelum gue bahas lebih lanjut, ingat ya bahwa gue bukan peneliti, bukan orang yang mendalami tentang ilmu ilmiah. Gue orang yang melewati masa SMA di jurusan IPS dan mengenyam kuliah di jurusan TI. Jadi kalian tidak akan menemukan bukti biologis, hasil survey, rumusan kimia, atau yang lainnya. Semuanya murni pendapat pribadi.

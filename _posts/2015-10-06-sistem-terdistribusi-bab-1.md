@@ -1,12 +1,8 @@
 ---
 title: "Sistem Terdistribusi: Bab 1"
-date: 2015-10-06 00:00
-tags:
-  - catatan
-redirect_from:
-  - /post/sistem-terdistribusi-bab-1/
+published: true
+date: 2015-10-06
 ---
-
 > Apa itu sistem terdistribusi ?
 
 Sistem Terdistribusi adalah sekumpulan komputer otonom yang terhubung ke suatu jaringan, dimana bagi pengguna sistem terlihat sebagai satu komputer.

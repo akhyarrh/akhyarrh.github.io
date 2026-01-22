@@ -1,9 +1,8 @@
 ---
 title: "`localhost` friendly Firefox"
+published: true
 date: 2020-10-14
-tags: [browser, firefox, tips]
 ---
-
 Ever wonder how to tell Firefox to not cache some address ? i.e. your `localhost:$DEV_PORT` or some https://your-development-server ?
 Just tell it to ignore that address.
 

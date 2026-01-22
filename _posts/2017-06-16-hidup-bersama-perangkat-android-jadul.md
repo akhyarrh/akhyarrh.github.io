@@ -1,9 +1,8 @@
 ---
-title: "Hidup bersama Perangkat Android Jadul"
+title: Hidup bersama Perangkat Android Jadul
+published: true
 date: 2017-06-16
-tags: [android, tips]
 ---
-
 *Legacy Device* adalah istilah yang digunakan untuk menyebut perangkat Android jadul, sudah tidak didukung oleh vendor pembuatnya lagi, dan semacamnya. Saat ini memakai smartphone yang dirilis lebih dari 5 tahun yang lalu adalah sebuah tantangan, setidaknya menurut saya banyak tantangan yang harus dihadapi. Mulai dari jumlah memori yang tidak lagi mencukupi, performa yang kurang lancar, aplikasi-aplikasi yang tidak kompatibel, dan lain-lain.
 
 Berpindah ke smartphone baru ? Selain perlu biaya, kadang perlu waktu penyesuaian dengan yang baru. **Sebenarnya perangkat legacy masih bisa dipakai, walaupun harus melakukan berbagai macam konfigurasi dimana-mana**.

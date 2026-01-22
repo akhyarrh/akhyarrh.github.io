@@ -1,12 +1,8 @@
 ---
 title: Dear Blogger, Mari Tinggalkan Blogger
-date: 2015-12-25 00:00
-tags:
-  - catatan
-redirect_from:
-  - /post/dear-blogger-mari-tinggalkan-blogger/
+published: true
+date: 2015-12-25
 ---
-
 > Yar, bantu setting blog aku dong. Aku pakai Blogger. Punya Google kan jadi pasti bagus layanannya.
 
 Jujur aja, **Blogger itu mati suri**. Walaupun Google masih mempertahankan Blogger seperti dua orang yang masih pacaran padahal masing-masing tahu mereka harus pisah. Ga ada support untuk Markdown, plugin yang tidak terlalu banyak, celah untuk spam-bots yang sempat booming, dan lain-lain. Saya bahkan sudah lama beralih dari Blogger. Dulu alasan saya berpindah ke Tumblr karena sepertinya fitur-fitur di Blogger tidak berkembang secara signifikan.

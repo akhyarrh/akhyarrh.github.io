@@ -1,12 +1,8 @@
 ---
 title: 5 Smartphone Android Terbaik 2014
-date: 2015-02-15 00:00
-tags:
-  - android
-redirect_from:
-  - /post/5-smartphone-android-terbaik-2014/
+published: true
+date: 2015-02-15
 ---
-
 Di tahun 2014, banyak *smartphone* Android yang dirilis. Mulai dari yang paling cakep sampai yang paling amburadul, mulai dari yang paling murah sampai yang harganya cukup untuk merebut pacar orang lain. Beragam memang, tapi silakan dinikmati 5 *smartphone* android terbaik menurut gue di tahun 2014. Ingat, ini versi gue pribadi. Hasil didasari oleh kesukaan, percobaan, nonton video di *youtube*, browsing kemana-mana, dan lain-lain. Langsung aja cekidot bruh.
 
 ## 5. Samsung Galaxy Note 4

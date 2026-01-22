@@ -1,9 +1,8 @@
 ---
 title: Android 6.0 Marshmallow
+published: true
 date: 2015-08-20
-tags: [android]
 ---
-
 Android 6.0 Marshmallow kemungkinan rilis di tahun ini. Mari kita bongkar apa saja yang baru.
 
 > Marshmallow!!! <a href="https://t.co/3JYkCBWD1R">pic.twitter.com/3JYkCBWD1R</a>

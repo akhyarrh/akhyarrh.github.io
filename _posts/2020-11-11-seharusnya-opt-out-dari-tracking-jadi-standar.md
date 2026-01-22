@@ -1,7 +1,7 @@
 ---
-published: true
 title: Seharusnya *Opt-out* dari Tracking jadi Standar
-date: 2020-11-11T00:00:00
+published: true
+date: 2020-11-11
 image: /assets/uploads/privacy-policy-5243225_1280.jpg
 ---
 Di era dimana internet sudah dipergunakan hampir disemua aspek kehidupan, mulai dari sekedar bersosial media, kegiatan promosi, toko online, atau bahkan lebih jauh seperti IoT. Privasi seolah hanya jadi bagian abu-abu. Ada batas yang sangat tipis antara aman atau "aman".
@@ -12,7 +12,7 @@ Google sebenarnya sudah menyampaikan bahwa mereka tidak pernah menjual data peng
 
 _Opt-out_ dari semua pendataan yang dilakukan Google Analytic sebenarnya bisa dilakukan. Bahkan implementasinya sangat mudah. Saya pun nanti akan menambahkannya di blog ini.
 
-- * *
+---
 
 Fakta bahwa tidak semua website menyediakan fungsi untuk _opt-out_ bisa dibilang tidak menghormati privasi pengguna. Lucunya juga, Google sendiri padahal juga merilis Google Analytic opt-out browser add-on, yang tersedia untuk beberapa browser.
 
@@ -20,13 +20,13 @@ Tapi walaupun kita bisa menggunakan add-on untuk browser, _tracking_ yang dilaku
 
 Tengok saja ke Github, ada banyak data-set yang berhamburan, dibagikan secara publik. Walau sebagian besar tidak berisi info pribadi, fakta bahwa data sebanyak itu bisa di kumpulkan sudah cukup mengagetkan harusnya.
 
-- * *
+---
 
 Tidak mengagetkan memang kalau perusahaan besar tertarik untuk mengumpulkan data pengguna mereka. Fakta bahwa dengan data tersebut pula mereka bisa improve tidak bisa dipungkiri. Tidak hanya untuk perusahaan besar, bahkan untuk UMKM pun mungkin berguna.
 
 Dengan mengetahui bagaimana pengguna/pembeli/pemakai memakai layanan/produk yang diberikan, maka pengambilan keputusan tentang apa yang harus dilakukan selanjutnya bisa lebih memiliki dasar acuan yang kuat. Makanya sekarang pengolahan data pun memiliki studi yang bercabang. _Data mining_, _data visualization_, _data science_, dan sebagainya.
 
-- * *
+---
 
 Seharusnya kita sebagai pengguna bisa diberi pilihan lebih. Mungkin sesederhana seperti percakapan berikut:
 
@@ -38,7 +38,7 @@ Lebih baik lagi kalau kumpulkan seminimal mungkin. Konsep ini dipakai oleh [Pira
 
 Lebih baik lagi, tanya ke pengguna boleh atau tidak untuk melakukan _tracking_ data mereka. Konsep ini dipakai oleh [Offen](https://www.offen.dev/). Pengguna pun bisa melihat data apa yang sudah dikumpulkan. Pengguna bisa menghapus apa info yang tidak mau mereka bagikan. _Fair, simple, elegan_.
 
-- * *
+---
 
 Lebih baik lagi, jangan lakukan _tracking_. Tapi ini jadi membuat pengambilan keputusan jadi kurang akurat. Seolah hanya menerka kemana arah target market bergerak tanpa tahu kemana sebenarnya market bergerak.
 

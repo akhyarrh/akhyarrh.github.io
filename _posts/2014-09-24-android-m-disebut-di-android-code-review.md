@@ -1,9 +1,8 @@
 ---
 title: Android M disebut di Android Code Review
+published: true
 date: 2014-09-24
-tags: [android]
 ---
-
 Ada yang pakai android ? Jelly Bean ? Kitkat ? Atau masih ada yang belum bisa move-on dari Gingerbread ? Hahahahaha
 
 Gue dapet info yang lumayan bikin kaget pagi ini, pas lagi enak-enaknya ngopi, login ke forum, lalu mendadak baca [artikel ini di XDA portal](https://www.xda-developers.com/android-m-mentions/).
