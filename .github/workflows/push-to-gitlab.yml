@@ -8,9 +8,9 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v6
-      with:
-        fetch-depth: 0
+    #- uses: actions/checkout@v6
+      #with:
+        #fetch-depth: 0
     - uses: keninkujovic/gitlab-sync@2.1.0
       with:
         gitlab_url: ${{ env.GITLAB_REPO }}
