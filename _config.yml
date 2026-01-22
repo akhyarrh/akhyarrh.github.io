@@ -162,3 +162,9 @@ jekyll-mentions: 'https://twitter.com'
 # Only used on contact page
 turnstile:
   site-key: 0x4AAAAAAAxOnZWU9yDH27rf
+
+# https://github.com/keithmifsud/jekyll-target-blank?tab=readme-ov-file#
+# jekyll-target-blank
+target-blank:
+    css_class: external-link
+    rel: nofollow
