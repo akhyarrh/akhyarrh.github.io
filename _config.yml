@@ -99,6 +99,7 @@ exclude:
   - package.json
   - package-lock.json
   - jampack.config.mjs
+  - minify-html.js
 
 sass:
   style: expanded

@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "@divriots/jampack": "^0.34.0",
+    "@minify-html/node": "^0.18.1",
     "@cloudflare/pages-plugin-vercel-og": "^0.1.2",
     "react": "^19.2.3"
   }
