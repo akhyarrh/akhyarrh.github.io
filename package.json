@@ -5,6 +5,11 @@
   "description": "",
   "main": "service-worker.js",
   "scripts": {
+    "build:jekyll": "bundle exec jekyll build --lsi",
+    "build:jampack": "jampack _site",
+    "build:style": "node optimize-style.js",
+    "build:html": "node minify-html.js",
+    "build": "npm run build:jekyll && npm run build:jampack && npm run build:style && npm run build:html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
