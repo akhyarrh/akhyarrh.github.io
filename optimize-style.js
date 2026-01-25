@@ -4,8 +4,9 @@
 const fs = require('fs/promises');
 const path = require('path');
 
-// Import the Beasties class. Using destructuring is a robust way to import it.
-const { Beasties } = require('beasties');
+// CORRECTED IMPORT: The 'beasties' package exports the class directly (default export).
+// We assign the entire result of require() to the Beasties constant.
+const Beasties = require('beasties');
 
 // Define the path to the Jekyll build output directory.
 // `__dirname` refers to the directory where this script is located (your project root).
@@ -18,18 +19,10 @@ async function optimizeHtmlFiles() {
   console.log(`🚀 Starting CSS optimization with Beasties in directory: ${buildDir}`);
 
   // Initialize Beasties ONCE outside the loop for better performance.
-  // This configuration instance will be used for every file we process.
+  // This will now work correctly because `Beasties` is a valid constructor.
   const beast = new Beasties({
-    // Prune the original <link rel="stylesheet"> tag from the HTML string
-    // after its content has been successfully inlined. This reduces HTTP requests.
     pruneSource: true,
-
-    // This is a key feature: parse CSS inside existing <style> tags and
-    // remove any selectors that are not used on the page.
     reduceInlineStyles: true,
-
-    // Combine all critical CSS (from <link> tags and <style> tags)
-    // into a single, final <style> tag in the <head> for maximum efficiency.
     mergeStylesheets: true,
   });
 
@@ -47,9 +40,7 @@ async function optimizeHtmlFiles() {
 
     console.log(`🔎 Found ${htmlFiles.length} HTML files to process...`);
 
-    // 3. Process each HTML file.
-    // Using `Promise.all` allows files to be processed in parallel, which is faster
-    // than processing them one by one in a standard loop.
+    // 3. Process each HTML file in parallel.
     await Promise.all(
       htmlFiles.map(async (relativeFilePath) => {
         const absoluteFilePath = path.join(buildDir, relativeFilePath);
@@ -75,7 +66,7 @@ async function optimizeHtmlFiles() {
 
   } catch (error) {
     console.error('❌ A fatal error occurred during the optimization process:', error);
-    process.exit(1); // Exit with an error code to stop any subsequent build steps.
+    process.exit(1);
   }
 }
 
