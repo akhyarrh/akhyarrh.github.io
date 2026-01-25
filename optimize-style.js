@@ -16,8 +16,12 @@ async function optimizeHtmlFiles() {
 
     path: buildDir,
 
+    inlineThreshold: 99999999,
+
     pruneSource: true,
+
     reduceInlineStyles: true,
+
     mergeStylesheets: true,
   });
 
