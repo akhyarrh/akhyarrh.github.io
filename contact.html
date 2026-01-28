@@ -3,115 +3,16 @@ permalink: /contact/
 title: Contact
 ---
 
-<!-- 1. GAYA (CSS) - Native Minima Variables -->
-<style>
-  .contact-wrapper {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-  /* Label styles */
-  .contact-wrapper label {
-    display: block;
-    margin-bottom: 1.5rem;
-    font-weight: bold;
-    color: var(--minima-text-color);
-  }
-
-  /* 
-     Input styles:
-     Mengadopsi style dari 'pre, code' bawaan Minima 
-     agar background dan border otomatis cocok dengan Dark/Light mode 
-  */
-  .contact-wrapper input[type="text"],
-  .contact-wrapper input[type="email"],
-  .contact-wrapper textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    
-    /* Menggunakan variabel native Minima */
-    background-color: var(--minima-code-background-color); 
-    border: 1px solid var(--minima-border-color-01);
-    color: var(--minima-text-color);
-    
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 1rem;
-    font-family: inherit;
-    transition: border-color 0.2s;
-  }
-
-  /* Focus state: Menggunakan warna Link utama */
-  .contact-wrapper input:focus,
-  .contact-wrapper textarea:focus {
-    outline: none;
-    border-color: var(--minima-link-base-color);
-  }
-
-  /* Tombol Submit */
-  .contact-wrapper button {
-    /* Background mengikuti warna Link */
-    background-color: var(--minima-link-base-color);
-    
-    /* Teks tombol mengikuti warna background body untuk kontras tinggi */
-    color: var(--minima-background-color); 
-    
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 500;
-    transition: opacity 0.2s;
-  }
-
-  .contact-wrapper button:hover {
-    opacity: 0.85;
-  }
-
-  .contact-wrapper button:disabled {
-    background-color: var(--minima-border-color-01);
-    color: var(--minima-brand-color-dimmed);
-    cursor: not-allowed;
-  }
-
-  /* Status message styling */
-  #form-status {
-    margin-top: 1rem;
-    padding: 10px;
-    border-radius: 4px;
-    font-size: 0.9rem;
-    display: none;
-  }
-  .status-success { 
-    background-color: #d4edda; 
-    color: #155724; 
-    border: 1px solid #c3e6cb; 
-  }
-  .status-error { 
-    background-color: #f8d7da; 
-    color: #721c24; 
-    border: 1px solid #f5c6cb; 
-  }
-
-  /* Override dark mode khusus status message */
-  @media (prefers-color-scheme: dark) {
-    .status-success { background-color: #1e4620; color: #d4edda; border-color: #155724; }
-    .status-error { background-color: #4c1d1d; color: #f8d7da; border-color: #721c24; }
-  }
-</style>
+<!-- Contact page uses default layout, so it inherits style.css automatically -->
+<!-- NO custom CSS needed - everything uses theme variables -->
 
 <p>Drop me an email :smile:</p>
 
-<!-- 2. HTML FORM -->
 <div class="contact-wrapper">
-    <!-- Action URL mengambil email dari _config.yml -->
     <form id="contact-form" action="https://formspree.io/f/{{ site.email }}" method="POST">
       
       <label>
-        Nama
+        Name
         <input type="text" name="name" placeholder="{{ site.text.contact.name | default: "Your Name" }}" required>
       </label>
 
@@ -121,7 +22,7 @@ title: Contact
       </label>
 
       <label>
-        Isi pesan
+        Message
         <textarea name="content" rows="5" placeholder="{{ site.text.contact.content | default: "What would you like to say?" }}" style="resize: vertical" required></textarea>
       </label>
 
@@ -139,14 +40,9 @@ title: Contact
 </div>
 
 {%- if jekyll.environment == 'production' and site.turnstile.site-key -%}
-<script
-  src="https://challenges.cloudflare.com/turnstile/v0/api.js"
-  async
-  defer
-></script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 {%- endif -%}
 
-<!-- 3. JAVASCRIPT AJAX -->
 <script>
   const form = document.getElementById("contact-form");
   const status = document.getElementById("form-status");
@@ -160,7 +56,6 @@ title: Contact
     submitBtn.disabled = true;
     submitBtn.innerText = "Mengirim..."; 
 
-    // Javascript akan otomatis mengambil URL dari atribut action form di atas
     fetch(event.target.action, {
       method: form.method,
       body: data,
