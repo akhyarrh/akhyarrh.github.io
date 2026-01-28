@@ -219,7 +219,7 @@
     --minima-heading-color: #ffffff;
     --minima-text-color: #ffffff;
     --minima-background-color: #000000;
-    --minima-code-background-color: #ffff00;
+    --minima-code-background-color: #ffaa00; /* Darker orange instead of bright yellow */
     --minima-link-base-color: #00ff00;
     --minima-link-visited-color: #00ffff;
     --minima-link-hover-color: #ffffff;
@@ -479,7 +479,9 @@ a:hover {
   color: var(--minima-background-color);
   background-color: var(--minima-link-base-color);
   text-decoration: none;
-  padding: 2px 4px;
+  /* Remove padding to prevent layout shift */
+  outline: 2px solid var(--minima-link-base-color);
+  outline-offset: 2px;
 }
 .social-media-list a:hover {
   text-decoration: none;
