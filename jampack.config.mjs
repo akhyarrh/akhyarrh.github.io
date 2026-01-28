@@ -2,6 +2,9 @@ const default_options = {
   html: {
     sort_attributes: true,
   },
+  css: {
+    inline_critical_css: true,
+  },
   image: {
     external: {
       process: 'download',
