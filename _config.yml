@@ -172,11 +172,11 @@ target-blank:
     rel: nofollow
 
 remark42:
-    host: 'https://comment.akhyar.id
+    host: 'https://comment.akhyar.id'
     site-id: akhyar-id
-    components: '['embed', 'counter']'
+    components: "['embed', 'counter']"
 		#max_shown_comments: 100 # default: 15
-		theme: 'dark' # default: light
+    theme: 'dark' # default: light
     #locale: 'en' # default: en
 		show_email_subscription: true # default: false
 		simple_view: false # default: true
