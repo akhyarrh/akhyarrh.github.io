@@ -171,13 +171,10 @@ target-blank:
     css_class: external-link
     rel: nofollow
 
+# https://github.com/umputun/remark42/blob/master/site/src/docs/configuration/frontend/index.md#configuration
 remark42:
     host: 'https://comment.akhyar.id'
     site-id: akhyar-id
     components: "['embed', 'counter']"
-    # max_shown_comments: 100 # default: 15
     theme: 'dark' # default: light
     # locale: 'en' # default: en
-    show_email_subscription: true # default: false
-    simple_view: false # default: true
-    # no_footer: false # default: false
