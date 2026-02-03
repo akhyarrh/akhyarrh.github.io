@@ -113,6 +113,7 @@ defaults:
       type: posts
     values:
       layout: post
+      comments: true
   # _pages
   - scope:
       path: ""
