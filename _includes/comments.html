@@ -4,7 +4,7 @@
 		  host: '{{ site.remark42.host }}',
 		  site_id: '{{ site.remark42.site-id }}',
       url: '{{ page.slug }}',
-		  components: {{ site.remark42.components }},
+		  components: {{ site.remark42.components | jsonify }},
 		  theme: '{{ site.remark42.theme }}'
 	  }
   </script>

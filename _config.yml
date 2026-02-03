@@ -175,6 +175,6 @@ target-blank:
 remark42:
     host: 'https://comment.akhyar.id'
     site-id: akhyar-id
-    components: "['embed', 'counter']"
+    components: ['embed', 'counter']
     theme: 'dark' # default: light
     # locale: 'en' # default: en
