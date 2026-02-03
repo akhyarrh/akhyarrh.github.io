@@ -1,0 +1,16 @@
+{% if site.remark42 %}
+  <script>
+	  var remark_config = {
+		  host: '{{ site.remark42.host }}',
+		  site_id: '{{ site.remark42.site-id }}',
+      url: '{{ page.slug }}',
+		  components: {{ site.remark42.components | jsonify }},
+		  theme: '{{ site.remark42.theme }}'
+	  }
+  </script>
+  <script>!function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);</script>
+  <noscript>
+    Please enable JavaScript to view the <a href="https://remark42.com">comments powered by Remark42.</a>
+  </noscript>
+  <div id="remark42"></div>
+{% endif %}
