@@ -6,7 +6,7 @@ const minify = require('@minify-html/node');
 const BUILD_DIR = '_site'; 
 
 const cfg = {
-    // https://github.com/wilsonzlin/minify-html/minify-html-nodejs/src/lib.rs#L22-L36
+    // https://github.com/wilsonzlin/minify-html/blob/697c04ac49673ec6f981e7c47e1ad878f8e4f38d/minify-html-nodejs/src/lib.rs#L22-L36
     keep_closing_tags: true,
     keep_html_and_head_opening_tags: true,
     keep_input_type_text_attr: true
