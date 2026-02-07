@@ -84,6 +84,7 @@ Last updated: 7 February 2026.
 
     display: block;
     margin: 0 auto;
+    margin-top: 1rem;
     width: 100%;
     border: none;
     padding: 10px 20px;
@@ -104,7 +105,7 @@ Last updated: 7 February 2026.
     cursor: not-allowed;
   }
 </style>
-<div>
+
 <button id="disable-liwan-btn">Disable Liwan</button>
 
 <script>
@@ -132,7 +133,6 @@ btn.addEventListener('click', function() {
   }
 });
 </script>
-</div>
 
 ## Formspree
 
