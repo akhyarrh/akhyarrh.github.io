@@ -77,6 +77,30 @@ Last updated: 7 February 2026.
 
 </details>
 
+<style>
+  #disable-liwan-btn {
+    background-color: var(--minima-link-base-color);
+    color: var(--minima-background-color); 
+    
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: opacity 0.2s;
+  }
+
+  #disable-liwan-btn:hover {
+    opacity: 0.85;
+  }
+
+  #disable-liwan-btn:disabled {
+    background-color: var(--minima-border-color-01);
+    color: var(--minima-brand-color-dimmed);
+    cursor: not-allowed;
+  }
+</style>
 <div>
 <button id="disable-liwan-btn">Disable Liwan</button>
 
