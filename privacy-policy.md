@@ -10,7 +10,7 @@ I use services on this site that may collect user data to varying degrees.
 
 ## Liwan analytics
 
-This site uses Liwan ([liwan.dev](https://liwan.dev)), a privacy-first, self‑hosted analytics tool, to collect and publish aggregated visit data publicly viewable at [https://lwn.akhyar.id]. This statement explains what data is collected, how it’s processed, what is publicly available, and your rights.
+This site uses Liwan ([liwan.dev](https://liwan.dev)), a privacy-first, self‑hosted analytics tool, to collect and publish aggregated visit data publicly viewable at https://lwn.akhyar.id. This statement explains what data is collected, how it’s processed, what is publicly available, and your rights.
 
 You may opt out by using browser privacy tools (e.g., blocking the tracking script or using tracker-blocking extensions) or using button below.
 
@@ -71,7 +71,7 @@ sha3_256(ip, user_agent, daily_salt, entity_id)[0:16]
 - To request deletion of any residual, non-anonymized data related to a specific visit (if any), contact the site administrator at the [contact page](/contact/) on this site.
 
 ### Contact
-For questions or data requests about the analytics on [https://lwn.akhyar.id], contact the site administrator via the [contact page](/contact/) provided on this website.
+For questions or data requests about the analytics on https://lwn.akhyar.id, contact the site administrator via the [contact page](/contact/) provided on this website.
 
 Last updated: 7 February 2026.
 
@@ -81,7 +81,10 @@ Last updated: 7 February 2026.
   #disable-liwan-btn {
     background-color: var(--minima-link-base-color);
     color: var(--minima-background-color); 
-    
+
+    display: block;
+    margin: 0 auto;
+    width: 100%;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
