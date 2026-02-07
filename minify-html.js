@@ -6,9 +6,10 @@ const minify = require('@minify-html/node');
 const BUILD_DIR = '_site'; 
 
 const cfg = {
+// Config options: https://docs.rs/minify-html/latest/minify_html/struct.Cfg.html
     keep_closing_tags: true,
     keep_html_and_head_opening_tags: true,
-    keep_spaces_between_attributes: true
+    keep_input_type_text_attr: true
 };
 
 function walkDir(dir, callback) {
