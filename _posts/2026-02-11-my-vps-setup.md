@@ -143,16 +143,31 @@ some public facing stuff (nginx, etc), try to contain it as much as possible.
 Some basic stuff that I usually do:
 
 ```
+https://systemd.io/TRANSIENT-SETTINGS/
+
 User
 Group
 DynamicUser
 Directory stuff:
-- State
-- Configuration
-- Logs
-- Cache
-- Runtime
+- StateDirectory (/var/lib/*)
+  - StateDirectoryMode
+
+- ConfigurationDirectory (/etc/*)
+  - ConfigurationDirectoryMode
+
+# CofigurationDirectory is confusing on my testing. It stated that systemd should mount it *read write*, but somehow there is a service that cannot write to it, maybe caused by DynamicUser=true or ProtectSystem=strict ? If DynamicUser is true, ProtectSystem is equal to strict, and even when ConfigurationDirectory exist AFTER DynamicUser and/or ProtectSystem, some service still cannot write to it (?).
+
+- LogsDirectory (/var/log/*)
+  - LogsDirectoryMode
+- CacheDirectory (/var/cache)
+  - CacheDirectoryMode
+- RuntimeDirectory(/run)
+  - RuntimeDirectoryMode
 ```
+
+Only after much iteration I found out *DirectoryMode do exist.
+
+There is also a standalone `DirectoryMode` and I dont know what it does. Probably a single directive to give same value to *DirectoryMode (note: when I write *Directory, it means one of State, Cache, Logs, Runtime, Configuration) ? Or maybe this handle WorkingDirectory ? Which is make sense and doesnt make sense at the same time due to how wide you can interpret DirectoryMode.
 
 **NOTE**: try to sandbox it as much as possible on first run or do progressive hardening,
 error will happen, `strace` and [`shh`](# TODO link to shh) is my friend.
@@ -162,11 +177,16 @@ Some shit will happen. It is expected. That is the nature of hardening.
 ## Common best practice
 
 Last thing is some common best practice:
+
 1. Adopt zero trust, dont event trust myself.
-1. DONT use API key inside script directly, save it in `vars.env` and call it key. If the script just used by `root` in cron for example, it mode should 600.
-1. Password/secret manager that encrypted, open source, audited (Bitwarden, Keepass, etc).
+1. DONT use API key inside script directly, save it in `vars.env` and call it key. If the script just used by `root` in cron for example, it mode should 600. So If wanna do hardening on cron side, I need 3 stuff if secret is involved.
+    1. `task.env` that is in root owned only dir, should only owned and with read/write by root (600).
+    2. `task.sh` which is a cron task that need to be executed by cron (duh). Naming should be what this script do (query 3rd party api, uploading backup, etc). Does this need 700 or 600 is enough ? I dont know. Need more learning.
+    3. `run-task.sh` is a wrapper to run `task.sh`, what this script does is load `task.env`, then exec `task.sh`. I dont know it should be this way, but some friend said it is safer 😕. Obviously this need to be 700.
+
+1. Password/secret manager that encrypt, open source, audited (Bitwarden, Keepass, etc).
+2. 1. Backup plan first before planning anything else (this should be in higher priority). [Restic](# TODO link to restic) for examole.
 1. Make a plan how selfhosted app/service structured BEFORE first run. Stick to FHS as much as possible.
-1. Backup plan first before planning anything else (this should be in higher priority). [Restic](# TODO link to restic) for examole.
 1. Because I dont use docker (its a cheap VPS with 1vcpu, 2gb memory, 60gb ssd), so if able only use an app/service that are lightweight, usually that written in C, C++, go, rust. If single binary not provided, write automated script to keep it updated and runable by cron.
 1. # TODO add more stuff here
 
