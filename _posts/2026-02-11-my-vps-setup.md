@@ -185,10 +185,10 @@ Last thing is some common best practice:
     3. `run-task.sh` is a wrapper to run `task.sh`, what this script does is load `task.env`, then exec `task.sh`. I dont know it should be this way, but some friend said it is safer 😕. Obviously this need to be 700.
 
 1. Password/secret manager that encrypt, open source, audited (Bitwarden, Keepass, etc).
-2. 1. Backup plan first before planning anything else (this should be in higher priority). [Restic](# TODO link to restic) for examole.
-1. Make a plan how selfhosted app/service structured BEFORE first run. Stick to FHS as much as possible.
-1. Because I dont use docker (its a cheap VPS with 1vcpu, 2gb memory, 60gb ssd), so if able only use an app/service that are lightweight, usually that written in C, C++, go, rust. If single binary not provided, write automated script to keep it updated and runable by cron.
-1. # TODO add more stuff here
+2. Backup plan first before planning anything else (this should be in higher priority). [Restic](# TODO link to restic) for examole.
+3. Make a plan how selfhosted app/service structured BEFORE first run. Stick to FHS as much as possible.
+4. Because I dont use docker (its a cheap VPS with 1vcpu, 2gb memory, 60gb ssd), so if able only use an app/service that are lightweight, usually that written in C, C++, go, rust. If single binary not provided, write automated script to keep it updated and runable by cron.
+5. # TODO add more stuff here
 
 ---
 
