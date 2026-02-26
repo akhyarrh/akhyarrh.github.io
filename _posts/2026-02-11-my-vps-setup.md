@@ -1,6 +1,25 @@
+---
+title: "My VPS Setup"
+---
+
 **Note**: not really a post. Just me dumping anything before I forget it.
 
-# My VPS Setup
+---
+
+Lots of stuff hapeened. Really. I started renting (?) a VPS.
+Deployed some stuff. Well its just some lightweight app. Without docker.
+While that sound crazy, I think docker is too overkill for single binary.
+Real challenge is when I have reproduce my current server setup.
+So I need reliable backup. Automated. Set and forget. When shit happen,
+reconfigure my backup solution, restore. Do check because I hate red.
+Redeploy again and have fun.
+
+I will write about some selfhosted stuff later. This time I will
+write about how I manage the stuff that handle my server. It just
+mostly some common stuff like systemd, nginx, fail2ban, logrotate,
+tmux, byobu, mosh, etc.
+
+---
 
 If first login, **DO THIS, ALWAYS**.
 
@@ -15,18 +34,7 @@ sudo apt upgrade
 # (debian only ? I dont know)
 ```
 
-Lots of stuff hapeened. Really. I started renting (?) a VPS.
-Deployed some stuff. Well its just some lightweight app. Without docker.
-While that sound crazy, I think docker is too overkill for single binary.
-Real challenge is when I have reproduce my current server setup.
-So I need reliable backup. Automated. Set and forget. When shit happen,
-reconfigure my backup solution, restore. Do check because I hate red.
-Redeploy again and have fun.
-
-I will write about some selfhosted stuff later. This time I will
-write about how I manage the stuff that handle my server. It just
-mostly some common stuff like systemd, nginx, fail2ban, logrotate,
-tmux, byobu, mosh, etc.
+---
 
 ## Shell
 
