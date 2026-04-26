@@ -6,7 +6,7 @@ title: "My VPS Setup"
 
 ---
 
-Lots of stuff hapeened. Really. I started renting (?) a VPS.
+Lots of stuff happened. Really. I started renting (?) a VPS.
 Deployed some stuff. Well its just some lightweight app. Without docker.
 While that sound crazy, I think docker is too overkill for single binary.
 Real challenge is when I have reproduce my current server setup.
